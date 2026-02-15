@@ -1,0 +1,16 @@
+﻿# Obsidian
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+
+# Sensitive data
+*.env
+*-CONFIDENTIAL-*
+*-PII-*
+
+# Backups
+*_backup_*
+*_OLD_*
+
+# System files
+.DS_Store
+Thumbs.db

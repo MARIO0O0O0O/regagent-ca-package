@@ -1,0 +1,32 @@
+﻿California SB 294 "Know Your Rights" Compliance Checklist (2026)
+Version: 2.0 Effective Date: January 1, 2026 Deadline: February 1, 2026 (Urgent)
+1. Statutory Deadlines
+* [ ] Feb 1, 2026: Initial distribution to ALL current employees.
+* [ ] Upon Hire: New hires (post-Feb 1).
+* [ ] Mar 30, 2026: Emergency Contact Designation system live.
+* [ ] Annually: Redistribution.
+2. Mandatory Notice Content
+Standalone document (not just in handbook).
+* [ ] Workers' Comp: Rights to care/pay.
+* [ ] Immigration: Right to 72-hr notice of ICE inspection (AB 450).
+* [ ] Union Organizing: Right to organize/discuss wages.
+* [ ] Constitutional Rights: 4th/5th Amendment in workplace.
+3. Emergency Contact Designation
+* [ ] Form: Allow employee to name contact specifically for arrest/detention notification.
+* [ ] Protocol: If employer has "actual knowledge" of arrest/detention, MUST notify contact.
+4. CROSS-REFERENCE: HOW OTHER LAWS IMPACT SB 294
+4.1 HARASSMENT PREVENTION → SB 294
+Legal Principle: Retaliation for "protected activity" (Union/Wages) is harassment. Compliance Impact:
+* [ ] Training: Supervisors must know union organizing is protected. Cross-Reference: → [Harassment Prevention Checklist]
+4.2 IMMIGRATION COMPLIANCE → SB 294
+Legal Principle: Reinforces AB 450 notice rules. Compliance Impact:
+* [ ] 72-Hour Rule: Ensure "Notice of Inspection" template is ready. Statutory Basis: Cal. Lab. Code § 90.2. Cross-Reference: → [Immigration Checklist]
+4.3 PERSONNEL RECORDS → SB 294
+Legal Principle: Sensitive data storage. Compliance Impact:
+* [ ] Container 5: Store "Arrest Emergency Contact" in restricted file/field. Cross-Reference: → [Personnel Records Checklist]
+4.4 WORKPLACE POSTINGS → SB 294
+Legal Principle: Personal notice vs. Wall poster. Compliance Impact:
+* [ ] No Substitution: A poster does NOT satisfy SB 294. Must be emailed/handed to employee. Cross-Reference: → [Posting Checklist]
+5. Penalties
+* $500 per employee: Failure to provide notice.
+* $10,000 per employee: Failure to notify emergency contact if arrest known.

@@ -1,0 +1,40 @@
+﻿Artifact 11: Strategic Immigration Compliance and Rights Notification Protocol (2026)
+Version: 6.0 (Deep Research Audit) Effective Date: January 1, 2026 Primary Mandate: AB 450, SB 294, & 8 C.F.R. § 274a.2
+1. Federal Employment Eligibility (Form I-9)
+Legal Authority: 8 C.F.R. § 274a.2; Cal. Lab. Code § 1019.1 Mandate: > "Physically examine the documentation... and must complete Section 2 of the Form I-9 within three business days of the hire."
+A. Verification Audit
+* Edition Control
+   * [ ] Use 08/01/2023 edition of Form I-9.
+* Anti-Discrimination (CA)
+   * [ ] Do NOT request specific documents (e.g., Green Card) or more docs than required.
+   * [ ] Do NOT use E-Verify to screen applicants before job offer acceptance.
+2. Immigration Enforcement and Judicial Warrants (AB 450)
+Legal Authority: Cal. Lab. Code § 90.2; Cal. Lab. Code § 1019.2 Mandate: > "Shall not provide voluntary consent to an immigration agent to enter any nonpublic areas... unless the agent provides a judicial warrant."
+A. Site Access and NOI Protocols
+* Entry Control
+   * [ ] Warrant Audit: Administrative ICE warrants do NOT grant non-consensual entry; must be signed by a judge/court.
+   * [ ] Signage: Clearly define and sign "Non-Public Areas."
+* 72-Hour Inspection Notice
+   * [ ] Employee Notice: Post in workplace within 72 hours of receiving a Notice of Inspection (NOI).
+   * [ ] Union Notice: Provide copy to union rep within the same 72-hour window.
+3. Workplace Know Your Rights Act (SB 294) Annual Notice
+Legal Authority: Cal. Lab. Code § 1553 Mandate: > "On or before February 1, 2026, and annually thereafter... provide a stand-alone written notice."
+A. Rights Hierarchy Checklist
+* Mandatory Content
+   * [ ] Workers' Comp: Info on disability pay and medical care.
+   * [ ] Immigration: Details on I-9 inspection rights and unfair practices.
+   * [ ] Constitutional: 4th Amendment (Search/Seizure) and 5th Amendment (Self-Incrimination) rights at work.
+   * [ ] Organizing: Right to unionize or engage in concerted activity.
+* Logistics
+   * [ ] Delivery: Use email/text only if receipt within 1 business day is certain.
+4. Emergency Arrest and Detention System
+Legal Authority: Cal. Lab. Code § 1555 Mandate: > "Notify the designated emergency contact if the employee is arrested or detained on their worksite."
+A. Milestones
+* Workflow
+   * [ ] March 30, 2026: Deadline to provide opt-in/designation opportunity to current staff.
+* Notification Duties
+   * [ ] Actual Knowledge: For offsite arrests during work hours, notify only if employer has actual knowledge.
+   * [ ] Penalty: $10,000 max penalty per employee for failure to notify contact.
+Statutory Reference List
+* Cal. Lab. Code § 90.2
+* Cal. Lab. Code § 1553

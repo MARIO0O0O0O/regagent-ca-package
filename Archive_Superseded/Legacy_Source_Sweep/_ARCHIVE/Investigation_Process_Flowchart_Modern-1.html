@@ -1,0 +1,1241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Investigation Process Flowchart - Sapphos Environmental Inc.</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+            color: #1a202c;
+        }
+        
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 24px;
+            box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+            overflow: hidden;
+        }
+        
+        /* Header Section */
+        .header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 60px 40px;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .header::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: url('data:image/svg+xml,<svg width="100" height="100" xmlns="http://www.w3.org/2000/svg"><defs><pattern id="grid" width="20" height="20" patternUnits="userSpaceOnUse"><path d="M 20 0 L 0 0 0 20" fill="none" stroke="rgba(255,255,255,0.1)" stroke-width="1"/></pattern></defs><rect width="100" height="100" fill="url(%23grid)"/></svg>');
+            opacity: 0.5;
+        }
+        
+        .header-content {
+            position: relative;
+            z-index: 1;
+            text-align: center;
+        }
+        
+        .header h1 {
+            font-size: 3rem;
+            font-weight: 800;
+            margin-bottom: 15px;
+            text-shadow: 0 2px 10px rgba(0,0,0,0.2);
+        }
+        
+        .header .subtitle {
+            font-size: 1.5rem;
+            opacity: 0.95;
+            margin-bottom: 10px;
+        }
+        
+        .header .company {
+            font-size: 1.1rem;
+            opacity: 0.85;
+            font-weight: 500;
+        }
+        
+        /* Key Principles Banner */
+        .principles-banner {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 0;
+            background: white;
+            margin-top: 30px;
+            border-radius: 16px;
+            overflow: hidden;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+        }
+        
+        .principle-item {
+            padding: 25px 20px;
+            text-align: center;
+            border-right: 2px solid #f0f0f0;
+            transition: all 0.3s ease;
+            position: relative;
+        }
+        
+        .principle-item:last-child {
+            border-right: none;
+        }
+        
+        .principle-item:hover {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            transform: translateY(-5px);
+        }
+        
+        .principle-icon {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+            display: block;
+        }
+        
+        .principle-label {
+            font-weight: 700;
+            font-size: 0.95rem;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+        
+        /* Controls */
+        .controls {
+            padding: 30px 40px;
+            background: #f8f9fa;
+            border-bottom: 2px solid #e9ecef;
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            flex-wrap: wrap;
+        }
+        
+        .btn {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border: none;
+            padding: 14px 28px;
+            border-radius: 12px;
+            cursor: pointer;
+            font-size: 1rem;
+            font-weight: 600;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 15px rgba(102, 126, 234, 0.3);
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        
+        .btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 25px rgba(102, 126, 234, 0.4);
+        }
+        
+        .btn:active {
+            transform: translateY(0);
+        }
+        
+        /* Timeline Container */
+        .timeline-container {
+            padding: 60px 40px;
+            position: relative;
+        }
+        
+        .timeline-header {
+            text-align: center;
+            margin-bottom: 50px;
+        }
+        
+        .timeline-header h2 {
+            font-size: 2.5rem;
+            font-weight: 800;
+            color: #1a202c;
+            margin-bottom: 10px;
+        }
+        
+        .timeline-header p {
+            font-size: 1.2rem;
+            color: #718096;
+        }
+        
+        /* Vertical Timeline */
+        .timeline {
+            position: relative;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        
+        .timeline::before {
+            content: '';
+            position: absolute;
+            left: 60px;
+            top: 0;
+            bottom: 0;
+            width: 4px;
+            background: linear-gradient(180deg, #667eea 0%, #764ba2 100%);
+            border-radius: 2px;
+        }
+        
+        /* Phase Card */
+        .phase-card {
+            position: relative;
+            margin-bottom: 50px;
+            padding-left: 140px;
+            animation: fadeInUp 0.6s ease-out;
+        }
+        
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        
+        /* Timeline Node */
+        .timeline-node {
+            position: absolute;
+            left: 44px;
+            top: 30px;
+            width: 36px;
+            height: 36px;
+            border-radius: 50%;
+            background: white;
+            border: 4px solid #667eea;
+            box-shadow: 0 0 0 8px rgba(102, 126, 234, 0.1);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 700;
+            color: #667eea;
+            z-index: 2;
+            transition: all 0.3s ease;
+        }
+        
+        .phase-card:hover .timeline-node {
+            transform: scale(1.2);
+            box-shadow: 0 0 0 12px rgba(102, 126, 234, 0.2);
+        }
+        
+        /* Phase Content */
+        .phase-content {
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.08);
+            overflow: hidden;
+            transition: all 0.3s ease;
+            border: 2px solid transparent;
+        }
+        
+        .phase-content:hover {
+            box-shadow: 0 20px 60px rgba(0,0,0,0.15);
+            transform: translateY(-5px);
+            border-color: #667eea;
+        }
+        
+        /* Phase Header */
+        .phase-header {
+            padding: 30px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            cursor: pointer;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .phase-header::before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            right: -50%;
+            width: 200%;
+            height: 200%;
+            background: radial-gradient(circle, rgba(255,255,255,0.1) 0%, transparent 70%);
+            transition: all 0.6s ease;
+        }
+        
+        .phase-header:hover::before {
+            top: -100%;
+            right: -100%;
+        }
+        
+        .phase-header-content {
+            position: relative;
+            z-index: 1;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .phase-title-section {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+        }
+        
+        .phase-icon {
+            font-size: 3rem;
+            animation: bounce 2s infinite;
+        }
+        
+        @keyframes bounce {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-10px); }
+        }
+        
+        .phase-title-text h3 {
+            font-size: 1.8rem;
+            font-weight: 700;
+            margin-bottom: 5px;
+        }
+        
+        .phase-duration {
+            display: inline-block;
+            background: rgba(255,255,255,0.2);
+            padding: 6px 16px;
+            border-radius: 20px;
+            font-size: 0.9rem;
+            font-weight: 600;
+        }
+        
+        .expand-indicator {
+            font-size: 2rem;
+            transition: transform 0.3s ease;
+        }
+        
+        .phase-card.expanded .expand-indicator {
+            transform: rotate(180deg);
+        }
+        
+        /* Phase Body */
+        .phase-body {
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.5s ease;
+        }
+        
+        .phase-card.expanded .phase-body {
+            max-height: 5000px;
+        }
+        
+        .phase-body-inner {
+            padding: 40px;
+            background: linear-gradient(to bottom, #f8f9fa 0%, white 100%);
+        }
+        
+        /* Steps Grid */
+        .steps-grid {
+            display: grid;
+            gap: 20px;
+        }
+        
+        .step-card {
+            background: white;
+            padding: 25px;
+            border-radius: 16px;
+            border-left: 5px solid #667eea;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+            transition: all 0.3s ease;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .step-card::before {
+            content: '';
+            position: absolute;
+            left: 0;
+            top: 0;
+            bottom: 0;
+            width: 5px;
+            background: linear-gradient(180deg, #667eea 0%, #764ba2 100%);
+            transition: width 0.3s ease;
+        }
+        
+        .step-card:hover {
+            transform: translateX(10px);
+            box-shadow: 0 8px 30px rgba(0,0,0,0.12);
+        }
+        
+        .step-card:hover::before {
+            width: 100%;
+            opacity: 0.05;
+        }
+        
+        .step-header {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            margin-bottom: 15px;
+        }
+        
+        .step-number {
+            width: 40px;
+            height: 40px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 700;
+            font-size: 1.1rem;
+            flex-shrink: 0;
+        }
+        
+        .step-title {
+            font-size: 1.2rem;
+            font-weight: 700;
+            color: #2d3748;
+        }
+        
+        .step-description {
+            color: #4a5568;
+            line-height: 1.8;
+            font-size: 1rem;
+        }
+        
+        .step-tags {
+            display: flex;
+            gap: 10px;
+            flex-wrap: wrap;
+            margin-top: 15px;
+        }
+        
+        .tag {
+            padding: 6px 14px;
+            border-radius: 20px;
+            font-size: 0.85rem;
+            font-weight: 600;
+        }
+        
+        .tag-critical {
+            background: #fed7d7;
+            color: #c53030;
+        }
+        
+        .tag-important {
+            background: #feebc8;
+            color: #c05621;
+        }
+        
+        .tag-best-practice {
+            background: #c6f6d5;
+            color: #276749;
+        }
+        
+        /* Contact Section */
+        .contact-section {
+            margin-top: 60px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            padding: 50px 40px;
+            border-radius: 20px;
+            color: white;
+        }
+        
+        .contact-header {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+        
+        .contact-header h3 {
+            font-size: 2rem;
+            font-weight: 700;
+            margin-bottom: 10px;
+        }
+        
+        .contact-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 30px;
+        }
+        
+        .contact-card {
+            background: rgba(255,255,255,0.15);
+            backdrop-filter: blur(10px);
+            padding: 30px;
+            border-radius: 16px;
+            border: 2px solid rgba(255,255,255,0.2);
+            transition: all 0.3s ease;
+        }
+        
+        .contact-card:hover {
+            background: rgba(255,255,255,0.25);
+            transform: translateY(-5px);
+        }
+        
+        .contact-card h4 {
+            font-size: 1.3rem;
+            font-weight: 700;
+            margin-bottom: 15px;
+        }
+        
+        .contact-card p {
+            opacity: 0.95;
+            margin-bottom: 8px;
+            font-size: 1rem;
+        }
+        
+        /* Timeline Summary */
+        .timeline-summary {
+            background: white;
+            padding: 40px;
+            border-radius: 20px;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.08);
+            margin-top: 60px;
+            text-align: center;
+        }
+        
+        .timeline-summary h3 {
+            font-size: 2rem;
+            font-weight: 700;
+            color: #2d3748;
+            margin-bottom: 20px;
+        }
+        
+        .timeline-bar {
+            background: #e2e8f0;
+            height: 40px;
+            border-radius: 20px;
+            overflow: hidden;
+            position: relative;
+            margin: 30px 0;
+        }
+        
+        .timeline-bar-fill {
+            height: 100%;
+            background: linear-gradient(90deg, #667eea 0%, #764ba2 100%);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-weight: 700;
+            font-size: 1.1rem;
+            transition: width 2s ease;
+        }
+        
+        .timeline-stats {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 30px;
+            margin-top: 30px;
+        }
+        
+        .timeline-stat {
+            text-align: center;
+        }
+        
+        .stat-value {
+            font-size: 3rem;
+            font-weight: 800;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        
+        .stat-label {
+            color: #718096;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            font-size: 0.9rem;
+        }
+        
+        /* Footer */
+        .footer {
+            padding: 40px;
+            background: #f8f9fa;
+            text-align: center;
+            color: #718096;
+        }
+        
+        .footer p {
+            margin-bottom: 10px;
+        }
+        
+        /* Responsive */
+        @media (max-width: 768px) {
+            .header h1 {
+                font-size: 2rem;
+            }
+            
+            .timeline::before {
+                left: 20px;
+            }
+            
+            .phase-card {
+                padding-left: 70px;
+            }
+            
+            .timeline-node {
+                left: 4px;
+            }
+            
+            .phase-icon {
+                font-size: 2rem;
+            }
+            
+            .phase-title-text h3 {
+                font-size: 1.3rem;
+            }
+        }
+        
+        /* Print Styles */
+        @media print {
+            body {
+                background: white;
+            }
+            
+            .controls {
+                display: none;
+            }
+            
+            .phase-body {
+                max-height: none !important;
+            }
+            
+            .expand-indicator {
+                display: none;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <div class="header">
+            <div class="header-content">
+                <h1>🔍 Investigation Process Flowchart</h1>
+                <div class="subtitle">6-Phase Investigation Framework</div>
+                <div class="company">Sapphos Environmental Inc.</div>
+                
+                <div class="principles-banner">
+                    <div class="principle-item">
+                        <span class="principle-icon">⚖️</span>
+                        <div class="principle-label">Fair & Impartial</div>
+                    </div>
+                    <div class="principle-item">
+                        <span class="principle-icon">🔒</span>
+                        <div class="principle-label">Confidential</div>
+                    </div>
+                    <div class="principle-item">
+                        <span class="principle-icon">⚡</span>
+                        <div class="principle-label">Prompt</div>
+                    </div>
+                    <div class="principle-item">
+                        <span class="principle-icon">📋</span>
+                        <div class="principle-label">Thorough</div>
+                    </div>
+                    <div class="principle-item">
+                        <span class="principle-icon">📄</span>
+                        <div class="principle-label">Documented</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Controls -->
+        <div class="controls">
+            <button class="btn" onclick="expandAll()">
+                <span>📂</span> Expand All Phases
+            </button>
+            <button class="btn" onclick="collapseAll()">
+                <span>📁</span> Collapse All
+            </button>
+            <button class="btn" onclick="window.print()">
+                <span>🖨️</span> Print Flowchart
+            </button>
+        </div>
+        
+        <div class="timeline-container">
+            <div class="timeline-header">
+                <h2>Investigation Timeline</h2>
+                <p>Click each phase to explore detailed procedures and requirements</p>
+            </div>
+            
+            <div class="timeline">
+                <!-- Phase 1 -->
+                <div class="phase-card" onclick="togglePhase(this)">
+                    <div class="timeline-node">1</div>
+                    <div class="phase-content">
+                        <div class="phase-header">
+                            <div class="phase-header-content">
+                                <div class="phase-title-section">
+                                    <span class="phase-icon">📥</span>
+                                    <div class="phase-title-text">
+                                        <h3>Phase 1: Complaint Intake & Triage</h3>
+                                        <span class="phase-duration">Day 0-1</span>
+                                    </div>
+                                </div>
+                                <span class="expand-indicator">▼</span>
+                            </div>
+                        </div>
+                        <div class="phase-body">
+                            <div class="phase-body-inner">
+                                <div class="steps-grid">
+                                    <div class="step-card">
+                                        <div class="step-header">
+                                            <div class="step-number">1</div>
+                                            <div class="step-title">Receive Complaint</div>
+                                        </div>
+                                        <div class="step-description">
+                                            Complaint received by EEO Officer, HR Director, Legal Counsel, or any supervisor/manager. May be verbal or written. Listen carefully, take detailed notes, and avoid making promises or judgments.
+                                        </div>
+                                        <div class="step-tags">
+                                            <span class="tag tag-critical">IMMEDIATE ACTION</span>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="step-card">
+                                        <div class="step-header">
+                                            <div class="step-number">2</div>
+                                            <div class="step-title">Document Complaint Details</div>
+                                        </div>
+                                        <div class="step-description">
+                                            Use standardized intake form to capture: complainant/respondent information, dates/times/locations, description of conduct, witnesses, evidence, and impact on complainant.
+                                        </div>
+                                        <div class="step-tags">
+                                            <span class="tag tag-important">SAME DAY</span>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="step-card">
+                                        <div class="step-header">
+                                            <div class="step-number">3</div>
+                                            <div class="step-title">Assess Severity & Risk</div>
+                                        </div>
+                                        <div class="step-description">
+                                            Evaluate immediate safety threats, severity of allegations (physical conduct, quid pro quo, pattern), risk to other employees, and potential for ongoing harassment.
+                                        </div>
+                                        <div class="step-tags">
+                                            <span class="tag tag-critical">RISK ASSESSMENT</span>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="step-card">
+                                        <div class="step-header">
+                                            <div class="step-number">4</div>
+                                            <div class="step-title">Implement Interim Measures</div>
+                                        </div>
+                                        <div class="step-description">
+                                            If necessary, separate parties (reassignment, schedule change), issue no-contact directive, place respondent on interim leave, or implement monitoring. Avoid burdening complainant.
+                                        </div>
+                                        <div class="step-tags">
+                                            <span class="tag tag-critical">IF WARRANTED</span>
+                                            <span class="tag tag-best-practice">PROTECT COMPLAINANT</span>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="step-card">
+                                        <div class="step-header">
+                                            <div class="step-number">5</div>
+                                            <div class="step-title">Notify Complainant</div>
+                                        </div>
+                                        <div class="step-description">
+                                            Inform complainant that investigation will proceed, explain timeline and process, assure confidentiality to extent possible, emphasize retaliation protections, and provide EEO Officer contact.
+                                        </div>
+                                        <div class="step-tags">
+                                            <span class="tag tag-important">NEXT BUSINESS DAY</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Phase 2 -->
+                <div class="phase-card" onclick="togglePhase(this)">
+                    <div class="timeline-node">2</div>
+                    <div class="phase-content">
+                        <div class="phase-header">
+                            <div class="phase-header-content">
+                                <div class="phase-title-section">
+                                    <span class="phase-icon">📋</span>
+                                    <div class="phase-title-text">
+                                        <h3>Phase 2: Investigation Planning</h3>
+                                        <span class="phase-duration">Day 1-2</span>
+                                    </div>
+                                </div>
+                                <span class="expand-indicator">▼</span>
+                            </div>
+                        </div>
+                        <div class="phase-body">
+                            <div class="phase-body-inner">
+                                <div class="steps-grid">
+                                    <div class="step-card">
+                                        <div class="step-header">
+                                            <div class="step-number">1</div>
+                                            <div class="step-title">Designate Investigator</div>
+                                        </div>
+                                        <div class="step-description">
+                                            Assign qualified investigator (external attorney or licensed PI recommended for impartiality). Ensure no conflict of interest. Document rationale for selection.
+                                        </div>
+                                        <div class="step-tags">
+                                            <span class="tag tag-critical">QUALIFIED PERSONNEL</span>
+                                            <span class="tag tag-best-practice">EXTERNAL PREFERRED</span>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="step-card">
+                                        <div class="step-header">
+                                            <div class="step-number">2</div>
+                                            <div class="step-title">Create Witness List</div>
+                                        </div>
+                                        <div class="step-description">
+                                            Identify all potential witnesses: direct witnesses, indirect witnesses (told about conduct), character witnesses, pattern witnesses, and supervisors of both parties.
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="step-card">
+                                        <div class="step-header">
+                                            <div class="step-number">3</div>
+                                            <div class="step-title">Plan Interview Sequence</div>
+                                        </div>
+                                        <div class="step-description">
+                                            Standard order: (1) Complainant, (2) Respondent, (3) Direct witnesses, (4) Indirect witnesses, (5) Follow-up as needed. Schedule in neutral locations with sufficient time.
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="step-card">
+                                        <div class="step-header">
+                                            <div class="step-number">4</div>
+                                            <div class="step-title">Identify Evidence</div>
+                                        </div>
+                                        <div class="step-description">
+                                            List all evidence to collect: emails, instant messages, texts, documents, calendar records, security footage, photos, performance reviews, prior complaints, training records.
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="step-card">
+                                        <div class="step-header">
+                                            <div class="step-number">5</div>
+                                            <div class="step-title">Preserve Evidence (IT Hold)</div>
+                                        </div>
+                                        <div class="step-description">
+                                            <strong>CRITICAL:</strong> Contact IT immediately to place litigation hold on all electronic records for complainant, respondent, and key witnesses. Prevent automatic deletion. Create forensic backups.
+                                        </div>
+                                        <div class="step-tags">
+                                            <span class="tag tag-critical">IMMEDIATE - WITHIN 24 HOURS</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Phase 3 -->
+                <div class="phase-card" onclick="togglePhase(this)">
+                    <div class="timeline-node">3</div>
+                    <div class="phase-content">
+                        <div class="phase-header">
+                            <div class="phase-header-content">
+                                <div class="phase-title-section">
+                                    <span class="phase-icon">🔍</span>
+                                    <div class="phase-title-text">
+                                        <h3>Phase 3: Investigation Execution</h3>
+                                        <span class="phase-duration">Day 2-[Timeline]</span>
+                                    </div>
+                                </div>
+                                <span class="expand-indicator">▼</span>
+                            </div>
+                        </div>
+                        <div class="phase-body">
+                            <div class="phase-body-inner">
+                                <div class="steps-grid">
+                                    <div class="step-card">
+                                        <div class="step-header">
+                                            <div class="step-number">1</div>
+                                            <div class="step-title">Interview Complainant</div>
+                                        </div>
+                                        <div class="step-description">
+                                            Obtain detailed chronological account using open-ended questions. Cover: background, each incident (dates/times/locations), witnesses, evidence, impact. Take verbatim notes. Provide opportunity for questions.
+                                        </div>
+                                        <div class="step-tags">
+                                            <span class="tag tag-important">FIRST INTERVIEW</span>
+                                            <span class="tag tag-best-practice">DETAILED DOCUMENTATION</span>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="step-card">
+                                        <div class="step-header">
+                                            <div class="step-number">2</div>
+                                            <div class="step-title">Interview Respondent</div>
+                                        </div>
+                                        <div class="step-description">
+                                            Present allegations with sufficient detail for meaningful response (due process). Allow full opportunity to respond, provide alternative account, identify witnesses/evidence. Warn against retaliation.
+                                        </div>
+                                        <div class="step-tags">
+                                            <span class="tag tag-critical">DUE PROCESS REQUIRED</span>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="step-card">
+                                        <div class="step-header">
+                                            <div class="step-number">3</div>
+                                            <div class="step-title">Interview Witnesses</div>
+                                        </div>
+                                        <div class="step-description">
+                                            Interview separately to avoid contamination. Use open-ended questions. Assess: perception ability (could they see/hear?), memory, bias, consistency. Document all testimony.
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="step-card">
+                                        <div class="step-header">
+                                            <div class="step-number">4</div>
+                                            <div class="step-title">Review Documents</div>
+                                        </div>
+                                        <div class="step-description">
+                                            Analyze all collected evidence for corroboration or contradiction. Look for patterns, timestamps alignment, tone/content of communications, gaps or inconsistencies.
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="step-card">
+                                        <div class="step-header">
+                                            <div class="step-number">5</div>
+                                            <div class="step-title">Site Visit (If Applicable)</div>
+                                        </div>
+                                        <div class="step-description">
+                                            Visit location where conduct allegedly occurred. Assess: visibility (could others see?), opportunity (is conduct plausible here?), layout. Document with photos/measurements.
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Phase 4 -->
+                <div class="phase-card" onclick="togglePhase(this)">
+                    <div class="timeline-node">4</div>
+                    <div class="phase-content">
+                        <div class="phase-header">
+                            <div class="phase-header-content">
+                                <div class="phase-title-section">
+                                    <span class="phase-icon">⚖️</span>
+                                    <div class="phase-title-text">
+                                        <h3>Phase 4: Credibility Assessment & Findings</h3>
+                                        <span class="phase-duration">Days [Timeline-2] to [Timeline]</span>
+                                    </div>
+                                </div>
+                                <span class="expand-indicator">▼</span>
+                            </div>
+                        </div>
+                        <div class="phase-body">
+                            <div class="phase-body-inner">
+                                <div class="steps-grid">
+                                    <div class="step-card">
+                                        <div class="step-header">
+                                            <div class="step-number">1</div>
+                                            <div class="step-title">Apply CRD Credibility Factors</div>
+                                        </div>
+                                        <div class="step-description">
+                                            Evaluate all testimony using 8 CRD-approved factors: (1) Inherent plausibility, (2) Motive to lie, (3) Corroboration, (4) Perception ability, (5) History of honesty, (6) Habit/pattern, (7) Consistency, (8) Demeanor (use cautiously).
+                                        </div>
+                                        <div class="step-tags">
+                                            <span class="tag tag-best-practice">CRD FRAMEWORK</span>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="step-card">
+                                        <div class="step-header">
+                                            <div class="step-number">2</div>
+                                            <div class="step-title">Apply Preponderance Standard</div>
+                                        </div>
+                                        <div class="step-description">
+                                            Determine for each allegation: Is it <strong>more likely than not</strong> (51%+ certainty) that the conduct occurred? This is workplace standard, NOT "beyond reasonable doubt."
+                                        </div>
+                                        <div class="step-tags">
+                                            <span class="tag tag-critical">LEGAL STANDARD</span>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="step-card">
+                                        <div class="step-header">
+                                            <div class="step-number">3</div>
+                                            <div class="step-title">Reach Determination</div>
+                                        </div>
+                                        <div class="step-description">
+                                            For each allegation, determine: <strong>SUSTAINED</strong> (violations found), <strong>NOT SUSTAINED</strong> (insufficient evidence/inconclusive), or <strong>UNFOUNDED</strong> (evidence shows did not occur).
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="step-card">
+                                        <div class="step-header">
+                                            <div class="step-number">4</div>
+                                            <div class="step-title">Document in Investigation Report</div>
+                                        </div>
+                                        <div class="step-description">
+                                            Prepare comprehensive written report with 9 elements: investigator details, case overview, objective, steps taken, evidence summary, credibility assessment, findings, policy violations, recommendations.
+                                        </div>
+                                        <div class="step-tags">
+                                            <span class="tag tag-critical">REQUIRED DOCUMENTATION</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Phase 5 -->
+                <div class="phase-card" onclick="togglePhase(this)">
+                    <div class="timeline-node">5</div>
+                    <div class="phase-content">
+                        <div class="phase-header">
+                            <div class="phase-header-content">
+                                <div class="phase-title-section">
+                                    <span class="phase-icon">⚠️</span>
+                                    <div class="phase-title-text">
+                                        <h3>Phase 5: Remedial Action & Notification</h3>
+                                        <span class="phase-duration">Days [Timeline] to [Timeline+2]</span>
+                                    </div>
+                                </div>
+                                <span class="expand-indicator">▼</span>
+                            </div>
+                        </div>
+                        <div class="phase-body">
+                            <div class="phase-body-inner">
+                                <div class="steps-grid">
+                                    <div class="step-card">
+                                        <div class="step-header">
+                                            <div class="step-number">1</div>
+                                            <div class="step-title">Determine Appropriate Discipline</div>
+                                        </div>
+                                        <div class="step-description">
+                                            Consider: severity of conduct, position of harasser (supervisors held to higher standard), impact on victim, prior complaints, pervasiveness. Discipline ranges from warning to termination. Consult Legal Counsel before imposing.
+                                        </div>
+                                        <div class="step-tags">
+                                            <span class="tag tag-critical">LEGAL COUNSEL REVIEW</span>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="step-card">
+                                        <div class="step-header">
+                                            <div class="step-number">2</div>
+                                            <div class="step-title">Implement Corrective Action</div>
+                                        </div>
+                                        <div class="step-description">
+                                            Execute discipline, separate parties if needed, restore denied opportunities to victim, provide mandatory training, issue no-contact directive, implement monitoring. Document all actions taken.
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="step-card">
+                                        <div class="step-header">
+                                            <div class="step-number">3</div>
+                                            <div class="step-title">Notify Complainant</div>
+                                        </div>
+                                        <div class="step-description">
+                                            Inform of general outcome (sustained/not sustained/unfounded) and that action has been taken. DO NOT disclose specific discipline of respondent (confidential). Emphasize retaliation protections. Provide follow-up contact.
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="step-card">
+                                        <div class="step-header">
+                                            <div class="step-number">4</div>
+                                            <div class="step-title">Notify Respondent</div>
+                                        </div>
+                                        <div class="step-description">
+                                            Present findings, policy violations, and specific discipline being imposed. Set behavioral expectations. Warn against retaliation. If termination, coordinate final paycheck, COBRA, property return, IT access termination.
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Phase 6 -->
+                <div class="phase-card" onclick="togglePhase(this)">
+                    <div class="timeline-node">6</div>
+                    <div class="phase-content">
+                        <div class="phase-header">
+                            <div class="phase-header-content">
+                                <div class="phase-title-section">
+                                    <span class="phase-icon">🛡️</span>
+                                    <div class="phase-title-text">
+                                        <h3>Phase 6: Post-Investigation Monitoring</h3>
+                                        <span class="phase-duration">30-60+ Days</span>
+                                    </div>
+                                </div>
+                                <span class="expand-indicator">▼</span>
+                            </div>
+                        </div>
+                        <div class="phase-body">
+                            <div class="phase-body-inner">
+                                <div class="steps-grid">
+                                    <div class="step-card">
+                                        <div class="step-header">
+                                            <div class="step-number">1</div>
+                                            <div class="step-title">Structured Follow-Up Schedule</div>
+                                        </div>
+                                        <div class="step-description">
+                                            Check in with complainant at: <strong>1 week, 2 weeks, 30 days, and 60 days</strong>. Ask about any retaliation, ongoing concerns, or effectiveness of remedies. Document all conversations.
+                                        </div>
+                                        <div class="step-tags">
+                                            <span class="tag tag-best-practice">SYSTEMATIC MONITORING</span>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="step-card">
+                                        <div class="step-header">
+                                            <div class="step-number">2</div>
+                                            <div class="step-title">Monitor for Retaliation</div>
+                                        </div>
+                                        <div class="step-description">
+                                            Watch for red flags: sudden negative performance review, undesirable reassignment, increased scrutiny, hostile treatment, exclusion from opportunities, discipline for minor issues, spreading of rumors.
+                                        </div>
+                                        <div class="step-tags">
+                                            <span class="tag tag-critical">ZERO TOLERANCE</span>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="step-card">
+                                        <div class="step-header">
+                                            <div class="step-number">3</div>
+                                            <div class="step-title">Assess Effectiveness</div>
+                                        </div>
+                                        <div class="step-description">
+                                            Evaluate whether corrective action achieved intended result. Has harassment stopped? Is respondent complying with behavioral expectations? Any new complaints against respondent?
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="step-card">
+                                        <div class="step-header">
+                                            <div class="step-number">4</div>
+                                            <div class="step-title">Document Follow-Up</div>
+                                        </div>
+                                        <div class="step-description">
+                                            Maintain detailed records of all follow-up activities, conversations with complainant, supervisor observations, and any new issues. Store in Litigation/Investigations File.
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="step-card">
+                                        <div class="step-header">
+                                            <div class="step-number">5</div>
+                                            <div class="step-title">Close Monitoring Phase</div>
+                                        </div>
+                                        <div class="step-description">
+                                            After 60+ days with no concerns, formally close monitoring phase. Document closure date and rationale. Remind complainant they can always report future concerns.
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Timeline Summary -->
+            <div class="timeline-summary">
+                <h3>⏱️ Target Investigation Timeline</h3>
+                <p style="color: #718096; font-size: 1.1rem; margin-bottom: 20px;">
+                    Investigations completed within approximately <strong style="color: #667eea;">[TIMELINE]</strong> days, absent extenuating circumstances
+                </p>
+                <div class="timeline-bar">
+                    <div class="timeline-bar-fill" style="width: 100%;">Complete Investigation</div>
+                </div>
+                <div class="timeline-stats">
+                    <div class="timeline-stat">
+                        <div class="stat-value">6</div>
+                        <div class="stat-label">Phases</div>
+                    </div>
+                    <div class="timeline-stat">
+                        <div class="stat-value">[XX]</div>
+                        <div class="stat-label">Target Days</div>
+                    </div>
+                    <div class="timeline-stat">
+                        <div class="stat-value">100%</div>
+                        <div class="stat-label">Compliance</div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Contact Section -->
+            <div class="contact-section">
+                <div class="contact-header">
+                    <h3>📞 Questions or Need to Report?</h3>
+                    <p>Multiple reporting channels available - choose the one you're most comfortable with</p>
+                </div>
+                <div class="contact-grid">
+                    <div class="contact-card">
+                        <h4>EEO Officer</h4>
+                        <p>[EEO_OFFICER_NAME]</p>
+                        <p>📞 [EEO_OFFICER_PHONE]</p>
+                        <p>📧 [EEO_OFFICER_EMAIL]</p>
+                    </div>
+                    <div class="contact-card">
+                        <h4>HR Director / Interim Manager</h4>
+                        <p>[HR_DIRECTOR_NAME]</p>
+                        <p>📞 [HR_DIRECTOR_PHONE]</p>
+                        <p>📧 [HR_DIRECTOR_EMAIL]</p>
+                    </div>
+                    <div class="contact-card">
+                        <h4>Legal Counsel</h4>
+                        <p>Mr. House</p>
+                        <p>📞 [MR_HOUSE_PHONE]</p>
+                        <p>📧 [MR_HOUSE_EMAIL]</p>
+                    </div>
+                    <div class="contact-card">
+                        <h4>California Civil Rights Dept</h4>
+                        <p>State Agency</p>
+                        <p>📞 800-884-1684</p>
+                        <p>🌐 calcivilrights.ca.gov</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Footer -->
+        <div class="footer">
+            <p><strong>Sapphos Environmental Inc.</strong> | Harassment Investigation Process</p>
+            <p>Compliance with California Fair Employment and Housing Act (FEHA) | Gov. Code §§ 12940, 12950, 12950.1</p>
+            <p style="margin-top: 15px;">Last Updated: [DATE] | For questions, contact EEO Officer or HR Director</p>
+        </div>
+    </div>
+    
+    <script>
+        function togglePhase(card) {
+            if (event.target.closest('.expand-indicator') || event.target.closest('.phase-header')) {
+                card.classList.toggle('expanded');
+            }
+        }
+        
+        function expandAll() {
+            document.querySelectorAll('.phase-card').forEach(card => {
+                card.classList.add('expanded');
+            });
+        }
+        
+        function collapseAll() {
+            document.querySelectorAll('.phase-card').forEach(card => {
+                card.classList.remove('expanded');
+            });
+        }
+        
+        // Expand all for printing
+        window.onbeforeprint = expandAll;
+    </script>
+</body>
+</html>

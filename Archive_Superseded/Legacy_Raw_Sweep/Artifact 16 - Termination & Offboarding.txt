@@ -1,0 +1,54 @@
+﻿California Termination & Offboarding Compliance Checklist (2026)
+Version: 1.0 Effective Date: January 1, 2026 Critical Risk: "Waiting Time Penalties" (up to 30 days of wages) for late final pay.
+1. Final Pay Deadlines (The "Golden Rule")
+Timing depends strictly on how the employment ends.
+* [ ] Involuntary Termination (Fired/Laid Off):
+   * [ ] Deadline: Payment is due IMMEDIATELY at the time of termination.
+   * [ ] Action: Hand them the check in the exit meeting. If remote, valid tracking must show delivery by termination date.
+* [ ] Voluntary Resignation (72+ Hours Notice):
+   * [ ] Deadline: Payment is due on the Last Day of Work.
+* [ ] Voluntary Resignation (< 72 Hours Notice):
+   * [ ] Deadline: Payment is due within 72 hours of the notice being given.
+   * [ ] Delivery: Mailed (if requested) or made available for pickup.
+What Goes in the Final Check?
+* [ ] Unpaid Wages: All hours worked up to the final minute.
+* [ ] Accrued Vacation/PTO: All unused accrued hours paid at the final rate of pay. (Sick leave is NOT required to be paid out unless your policy says otherwise).
+* [ ] Commissions: Any earned/calculable commissions.
+* [ ] Expenses: Reimbursement for outstanding expenses.
+2. Mandatory Exit Paperwork
+You must provide these documents to the employee upon termination (Labor Code & UI Code).
+* [ ] Notice to Employee as to Change in Relationship (Cal. Unemp. Ins. Code § 1089):
+   * [ ] Must state: Name of employer, employee, SSN, date of term, and reason for term (e.g., "Layoff," "Resignation," "Discharge").
+* [ ] EDD Brochure DE 2320: "For Your Benefit: California's Programs for the Unemployed."
+* [ ] HIPP Notice (DHCS 9061): Health Insurance Premium Payment program notice.
+* [ ] COBRA / Cal-COBRA Notice:
+   * [ ] Federal COBRA (20+ Employees): Notice of right to continue health coverage.
+   * [ ] Cal-COBRA (2-19 Employees): Notice of right to continue coverage (up to 36 months).
+* [ ] Warn Act Notice (If applicable): Only for mass layoffs (50+ employees / plant closure).
+3. Offboarding Logistics
+* [ ] Property Return: Laptop, keys, badges, credit cards.
+   * [ ] Caution: You CANNOT withhold the final paycheck just because they haven't returned gear. (You must pay, then sue/invoice for the gear later).
+* [ ] IT Security: Revoke access to email, Slack, servers, and cloud accounts immediately.
+* [ ] Confidentiality: Remind employee of ongoing NDA obligations (if applicable).
+4. CROSS-REFERENCE: HOW OTHER LAWS IMPACT TERMINATION
+4.1 WAGE & HOUR → TERMINATION
+Legal Principle: Waiting Time Penalties (Labor Code § 203). Compliance Impact:
+* [ ] Calculation: If you are late paying the final check, you owe 1 day of average wages for every day late (up to 30 days).
+   * Example: Employee earns $200/day. You pay 10 days late. You owe $200 x 10 = $2,000 penalty. Cross-Reference: → [Wage & Hour Checklist]
+4.2 PERSONNEL RECORDS → TERMINATION
+Legal Principle: Retention clocks start ticking. Compliance Impact:
+* [ ] File Movement: Move file to "Terminated" storage.
+* [ ] Retention:
+   * [ ] I-9: Keep for 1 year post-term (or 3 years post-hire).
+   * [ ] Personnel File: Keep for 4 years.
+   * [ ] Safety Training (SB 513): Keep for 3 years. Cross-Reference: → [Personnel Records Checklist]
+4.3 AB 692 (STAY-OR-PAY) → TERMINATION
+Legal Principle: Illegal deductions. Compliance Impact:
+* [ ] Deductions: You CANNOT deduct "training costs" or "recruiting fees" from the final check.
+* [ ] Debt: Even if they owe you money (loan), you generally cannot take it from the final check without a specific written agreement signed at the time of the loan. Cross-Reference: → [AB 692 Stay-or-Pay Checklist]
+4.4 HARASSMENT PREVENTION → TERMINATION
+Legal Principle: Retaliation defense. Compliance Impact:
+* [ ] Documentation: If firing for cause (e.g., poor performance), ensure the personnel file (Container 1) has the history of warnings. Firing a "clean record" employee looks like discrimination. Cross-Reference: → [Harassment Prevention Checklist]
+5. Penalties
+* Waiting Time Penalties: Up to 30 days of wages.
+* Paperwork Violations: Minor fines, but failure to give EDD notice can hinder their unemployment claim and anger the EDD.

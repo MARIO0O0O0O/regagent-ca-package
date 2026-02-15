@@ -1,0 +1,6 @@
+﻿Employee,Role,ChargeableHours,TotalHours,ProtectedLeave,NonProtectedLeave
+Alice,Technical,120,140,10,2
+Bob,PM,110,140,5,3
+Charlie,Technical,130,140,0,1
+David,Leadership,90,140,10,0
+Eve,Mid-Level,100,140,5,2

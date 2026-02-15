@@ -1,0 +1,43 @@
+﻿📁 Project Handover: HRBiz.org (S24 Ultra Dev)
+Date: Jan 18, 2026 Status: Architecture Locked / Development Ready Device Context: Samsung S24 Ultra (Samsung Internet / Project IDX)
+🎯 1. Mission Objectives
+Goal: Build a "Minimum Viable Compliance" platform for Los Angeles SMEs. Core Features:
+1. Compliance Blog: Free information on labor laws (SB 553, SB 294).
+2. Resource Library: Downloadable templates (PDFs) and forms.
+3. Consultancy: Booking system for 1-on-1 guidance.
+4. Monetization: Affiliate links + Consulting fees (Stripe) + Donations.
+5. Tech Constraint: Must be deployable in <2 hours using Project IDX and Firebase.
+🏗️ 2. The Chosen Architecture (Google Stack)
+We rejected "Replit" and "Nextacular" in favor of a pure Google/Firebase stack that runs natively in the browser via Project IDX.
+* IDE / Studio: Project IDX (Browser-based VS Code).
+* Repository: WHEREISDAN/NJS-Firebase-SaaS-Boilerplate (MIT License).
+* Authentication: Firebase Auth (Google / GitHub).
+* Database: Cloud Firestore (NoSQL).
+* Hosting: Firebase Hosting.
+* CMS Strategy: Use Rowy.io (optional) or direct Firestore entry for managing blog posts.
+🛠️ 3. Execution Log & Current State
+Phase A: Setup (Completed Logic)
+* Method: "Fork-First" strategy.
+   1. Fork NJS-Firebase-SaaS-Boilerplate to user's GitHub.
+   2. Import that fork into Project IDX to avoid URL errors.
+* Environment: Project IDX chosen for its integrated Android Emulator, allowing real-time mobile testing on the S24 Ultra.
+Phase B: Customization (Ready to Execute)
+A Gemini Prompt was generated to automate the refactoring code within Project IDX.
+* Scope of Prompt:
+   * Rebrands "SaaS Starter" to "HRBiz - LA Compliance Shield".
+   * Defines Firestore Schema (clients, employees, compliance_logs).
+   * Updates Navigation (Removes Pricing -> Adds Book Consultant/Donate).
+   * Scaffolds a /resources page.
+Phase C: Content (Generated)
+A Content Packet (HRBiz_Content_Packet.md) was created containing:
+* Mission Statement: "From Liability to PAGA-Protected."
+* SB 553 Template: Workplace Violence Prevention Plan.
+* SB 294 Notice: "Know Your Rights" Annual text.
+* Service Menu: Pricing for audits and retainers.
+📋 4. Immediate Next Actions (For New Chat)
+1. Initialize IDX: Open Project IDX, import the forked repo.
+2. Run the Prompt: Paste the provided architectural prompt into the IDX AI Assistant.
+3. Upload Resources:
+   * Convert sections of HRBiz_Content_Packet.md into PDFs.
+   * Upload to Firebase Storage -> resources folder.
+4. Connect Stripe: configure the "Donate" link in the Navbar to a Stripe Payment Link.

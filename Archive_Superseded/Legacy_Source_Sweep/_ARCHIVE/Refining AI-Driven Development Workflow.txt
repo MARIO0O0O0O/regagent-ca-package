@@ -1,0 +1,270 @@
+﻿Operational Blueprint: The AIMS "Owner-First" Protocol for AI-Assisted Development
+Executive Summary
+The software development landscape is currently undergoing a seismic shift, transitioning from a syntax-heavy, manual discipline to a semantic-heavy, AI-assisted workflow. This new paradigm, often referred to as the AI-Driven Development Lifecycle (AI-DLC), promises to compress weeks of engineering time into hours of "vibe coding"—a colloquialism describing the rapid, intuition-based generation of applications using natural language prompts. Platforms such as Bolt.new, Lovable.dev, and v0.dev have emerged as the vanguard of this movement, offering "prompt-to-app" capabilities that allow users to generate full-stack React applications without touching a single line of initial code.
+However, this unprecedented velocity introduces significant structural risks. In their bid to simplify the user experience, these platforms frequently abstract away critical infrastructure decisions, funneling developers into proprietary "walled gardens." Default configurations often provision managed databases (e.g., "Lovable Cloud" or "Bolt Databases") that obscure connection credentials, limit direct SQL access, and create sticky dependencies that complicate future scaling. This creates a modern form of vendor lock-in that is insidious because it is architectural rather than contractual; the developer is free to leave, but their application is structurally dependent on the generator's proprietary runtime or file organization.
+The AIMS "Owner-First" Protocol serves as a rigorous operational counter-measure to these risks. It is a comprehensive framework designed to decouple the generative power of AI tools from their infrastructure constraints, ensuring that the developer retains absolute sovereignty over the source code, database schema, authentication providers, and deployment pipelines from Day Zero. The protocol posits that AI builders should be treated as transient "interface factories"—sophisticated but disposable contractors—whose output must be immediately sanitized, exported, and integrated into a robust, user-controlled DevOps environment.
+This report provides an exhaustive analysis of the AIMS methodology:
+* A - Architecture & Autonomy: Establishing a decoupled "Sovereign Stack" where the AI operates as a client rather than a host.
+* I - Integration & Infrastructure: Techniques for forcing AI tools to interface with external, user-owned backends (specifically Supabase) and enforcing strict schema discipline.
+* M - Migration & Maintenance: The lifecycle of "ejecting" code to GitHub, Dockerizing React applications with runtime configuration injection, and establishing automated CI/CD pipelines.
+* S - Security & Scaling: Mitigating specific AI-generated vulnerabilities, implementing rigorous Row Level Security (RLS), managing secrets in production containers, and utilizing AI-driven testing frameworks.
+Part I: Architecture & Autonomy (A)
+1.1 The Strategic Context of AI-DLC
+The traditional Software Development Life Cycle (SDLC) is characterized by a linear progression of planning, coding, testing, and deploying, with heavy human involvement at every stage. The AI-DLC disrupts this model by inserting generative AI as a central collaborator, capable of handling "boring and repetitive" tasks such as boilerplate generation, test writing, and UI scaffolding. Research indicates that generative AI can accelerate coding tasks by up to 55%, allowing developers to stay in a state of "flow" and focus on higher-order problem solving.
+However, this acceleration creates a "velocity gap." While prototypes arrive faster, technical debt accumulates at an unprecedented rate. AI-generated code is often syntactically correct but structurally fragile, prone to security hallucinations, and lacking in architectural coherence. Furthermore, the platforms facilitating this speed often prioritize ease of use over architectural purity. For instance, Lovable.dev's default "Lovable Cloud" creates a Supabase instance that is managed entirely by Lovable, effectively hiding the database from the developer's direct control and making migration a manual, error-prone process.
+The "Owner-First" philosophy of the AIMS protocol addresses this by inverting the control structure. Instead of the AI platform defining the stack, the developer defines a "Sovereign Stack" into which the AI must fit. This requires a shift in mindset: the AI is not the architect; it is the laborer.
+1.2 The Sovereign Stack Paradigm
+To maintain autonomy, the AIMS protocol mandates a strict separation of concerns between the Ephemeral Frontend (the domain of the AI) and the Persistent Backend (the domain of the Owner).
+1.2.1 The Decoupled Component Model
+The architecture must be defined before the first prompt is entered. This prevents the AI from making structural decisions that lead to lock-in.
+* Frontend (The AI Domain): Tools like Bolt and Lovable excel at generating React components, managing Tailwind CSS classes, and wiring up basic state. Under the AIMS protocol, we treat this code as "regenerable." We accept that the AI may hallucinate file structures or import paths, but we impose strict boundaries on where it can write business logic.
+* Backend (The Owner Domain): The database schema, authentication logic, and API definitions must reside in a repository controlled by the human operator. We do not allow the AI to "provision" the database. We allow it only to "connect" to an existing one.
+1.2.2 Platform Capability and Risk Analysis
+Understanding the specific lock-in mechanisms of the major "prompt-to-app" platforms is critical to circumventing them. The following analysis highlights the operational differences and specific risks associated with Bolt.new, Lovable.dev, and v0.dev.
+Feature
+	Bolt.new
+	Lovable.dev
+	v0.dev
+	Primary Output
+	Full-stack Web Apps (Remix/Vite)
+	Full-stack Web Apps (React/Vite)
+	UI Components (React/shadcn)
+	Backend Default
+	"Bolt Database" (Internal)
+	"Lovable Cloud" (Managed Supabase)
+	None (Frontend Focused)
+	Export Capability
+	StackBlitz / ZIP / GitHub
+	GitHub Sync / ZIP
+	Copy/Paste / CLI / Vercel
+	Lock-In Vector
+	Legacy projects locked to Bolt DB; difficult migration for internal DBs.
+	Lovable Cloud hides API keys and direct SQL access; requires manual export to migrate.
+	Heavy reliance on Vercel ecosystem and proprietary component libraries.
+	AIMS Strategy
+	Force connection to external Supabase in "Personal Settings" before generating code.
+	Select "Existing Supabase" at project creation; verify ".env" excludes Lovable Cloud keys.
+	Use for component generation only; extract code to local IDE immediately.
+	Detailed Analysis of Bolt.new: Bolt.new has transitioned to using its own "Bolt Databases" by default for projects created with the Claude Agent. While convenient, this creates a significant barrier to exit. Projects created with the legacy agent used Supabase, but the new default prevents users from easily switching back to their own Supabase instance without starting over or manually migrating data. The AIMS protocol mitigates this by instructing the user to never accept the default database. The connection to an external Supabase instance must be established via the "Applications" menu before the first line of code is generated.
+Detailed Analysis of Lovable.dev: Lovable's "Lovable Cloud" is a wrapper around Supabase. While it offers a "no-setup" experience, it obscures the service role keys and database connection strings needed for advanced operations or self-hosting. If a user inadvertently enables Lovable Cloud, they cannot simply "switch" to their own Supabase project later; they must perform a full data export (CSV) and re-import. The AIMS protocol requires the developer to explicitly toggle "Lovable Cloud" to OFF during the project setup phase.
+1.3 The "Universal Interface" File Structure
+A major source of friction in AI-assisted development is the inconsistency of generated file structures. Without guidance, an AI might place Supabase clients in src/lib/supabase.ts in one iteration and src/utils/db.js in the next. This fragmentation breaks import paths and duplicates connection logic. The AIMS protocol mandates a standardized file structure that the developer enforces upon the AI through "Context Prompting".
+1.3.1 The Enforced Directory Tree
+The developer must feed the AI a "Knowledge Base" prompt that dictates the file structure. The standardized structure for an Owner-First React/Supabase project is designed to isolate the backend integration from the UI components.
+/src
+ /components        # UI Components (shadcn/ui, Radix primitives)
+ /hooks             # Custom React hooks (useAuth, useToast)
+ /integrations      # The "Air Gap" between AI UI and Owner Backend
+   /supabase
+     client.ts      # The Singleton Supabase Client
+     types.ts       # TypeScript definitions (Generated via CLI)
+     hooks.ts       # React Query wrappers for Supabase data
+ /pages             # Route-based views (React Router)
+ /lib               # Utility functions (cn, formatters)
+ /assets            # Static images and icons
+
+Rationale for src/integrations/supabase: Centralizing the backend logic here allows for modularity. If the backend changes (e.g., from Supabase to Firebase, or to a custom Go backend), only this directory needs refactoring. The rest of the application—the UI components and pages—remains untouched. This structure also provides a clear "boundary" for the AI. We instruct the AI: "You may generate code in /components and /pages, but you may only read from /integrations."
+The Role of types.ts: The types.ts file is the contract between the database and the frontend. It should never be generated by the AI's best guess. It must be generated via the Supabase CLI (supabase gen types typescript) based on the actual schema. This ensures that the frontend code complies with the database reality, preventing "hallucinated columns" where the AI tries to query a field that doesn't exist.
+Part II: Integration & Infrastructure (I)
+2.1 The Sovereign Backend: Supabase
+The backend of choice for the AIMS protocol is Supabase. This decision is driven by its architecture: Supabase is effectively a wrapper around standard open-source technologies (PostgreSQL, GoTrue, PostgREST). This ensures Portability. If Supabase as a company were to disappear, the core asset—the PostgreSQL database—can be dumped and restored to any standard Postgres container, AWS RDS, or DigitalOcean Managed Database. This fulfills the "Owner-First" requirement of non-proprietary data storage.
+2.2 Connection Protocols: The "Pre-Provisioning" Workflow
+The critical operational step in the Integration phase is preventing the AI tool from provisioning a database on the developer's behalf. The database must exist before the application code is written.
+2.2.1 Step-by-Step Connection Guide
+Phase 1: Manual Creation (The "Owner" Action)
+1. Dashboard Setup: The developer creates a project in the Supabase Dashboard.
+2. Schema Definition: The initial schema is defined using the SQL Editor or Table Editor in Supabase. This is crucial. We do not ask the AI to "create a user table." We create the table with proper constraints, foreign keys, and Row Level Security (RLS) policies first.
+3. Credential Retrieval: Retrieve the Project URL and anon (public) key from the API settings.
+Phase 2: Platform Injection (The "Integration" Action)
+* For Bolt.new:
+   1. Open the Bolt project.
+   2. Navigate to Personal Settings > Applications.
+   3. Locate Supabase and click Connect.
+   4. Authenticate with the Supabase account. This forces Bolt to use the external project for all subsequent database operations.
+* For Lovable.dev:
+   1. Create a new project.
+   2. When prompted for backend setup, select "Connect existing" or "Supabase" (explicitly avoiding "Lovable Cloud").
+   3. Manually enter the SUPABASE_URL and SUPABASE_ANON_KEY into the project's environment variables settings.
+2.2.2 Environment Variable Hygiene
+AI tools often attempt to simplify configuration by embedding keys directly into code or using non-standard variable names (e.g., NEXT_PUBLIC_SUPABASE_KEY). The AIMS protocol standardizes strictly on Vite-compatible naming conventions to ensure compatibility with the Docker migration path later.
+* Standard: VITE_SUPABASE_URL
+* Standard: VITE_SUPABASE_ANON_KEY
+Critical Security Warning: The SERVICE_ROLE_KEY (bypass RLS key) must never be entered into the AI platform's environment configuration. If an AI agent requests this key to "fix a permission issue," it is a hallucination or a bad practice. Permission issues must be resolved by fixing RLS policies in the Supabase dashboard, not by granting the frontend administrative privileges. Providing the service role key to a client-side application completely compromises the database security.
+2.3 The "Database-First" Development Loop
+In a standard "vibe coding" session, a user might say, "Make a blog app," and the AI guesses the schema, often creating inefficient or insecure structures. The AIMS protocol reverses this flow, prioritizing data modeling over UI generation.
+2.3.1 Schema-Driven Prompting
+1. Design: The developer designs the posts and comments tables in Supabase.
+2. Introspection: Run the type generation command locally:
+npx supabase gen types typescript --project-id <your-project-id> > src/integrations/supabase/types.ts
+
+3. Context Injection: Paste the content of types.ts (or a concise summary) into the AI chat context.
+4. Prompting: "Create a blog post component using the schema defined in types.ts. Do not hallucinate fields. Ensure you use the Database type for all Supabase client calls."
+This method drastically reduces error rates. The AI is no longer guessing; it is implementing a defined specification. It also forces the AI to respect the types, leading to TypeScript code that actually compiles without manual intervention.
+2.4 Handling Server-Side Logic: Edge Functions
+AI tools often struggle with server-side logic because they are optimized for client-side React. Complex logic (e.g., payment processing, sensitive data aggregation, specialized AI model calls) should not run in the client for security and performance reasons.
+The Gap: Bolt and Lovable often generate "API routes" (e.g., Next.js /pages/api) that attempt to run server logic. However, when these projects are exported as static Vite SPAs (Single Page Applications), these API routes fail because there is no Node.js server to execute them.
+The AIMS Solution: Supabase Edge Functions The protocol dictates that all backend logic resides in Supabase Edge Functions (Deno runtime), which are serverless and deployed independently of the frontend.
+   1. Create Locally: supabase functions new my-function.
+   2. Deploy: supabase functions deploy.
+   3. Prompting Instruction: "Do not write this logic in a React component. Assume there is an Edge Function named process-payment. Call it using supabase.functions.invoke('process-payment', { body: {... } })."
+This keeps the frontend lightweight and portable, while the backend logic remains secure, independently managed, and fully compatible with the "Owner-First" stack.
+Part III: The Migration Lifecycle (M)
+3.1 The Ejection Imperative
+"Ejection" refers to the point at which the code is moved from the AI platform's cloud editor to a local Git repository. In the AIMS protocol, ejection is not the final step; it is a continuous process.
+3.1.1 The "Continuous Ejection" Workflow
+Waiting until the application is "finished" to export is a primary failure mode. The complexity of resolving merge conflicts between AI-generated code and local fixes grows exponentially with time.
+   * Mechanism: Both Bolt and Lovable support GitHub synchronization.
+   * Policy: A "Sync-First" policy is enforced. The repository is created on GitHub first. The AI tool is connected to this repository. Every significant feature generation session is followed by a commit and a pull to the local machine.
+   * Sanitization: Upon ejection, the code must be scrubbed of platform-specific artifacts.
+   * Bolt: Check for .bolt directories or configuration files that assume the Bolt runtime environment.
+   * Lovable: Identify and refactor "glue code"—wrapper functions that Lovable inserts to facilitate its own preview environment. While some wrappers are necessary, others may obscure standard API calls.
+3.2 Dockerization Strategy
+To ensure true "Owner-First" control, the application must be deployable to any container orchestration platform (Kubernetes, AWS ECS, DigitalOcean App Platform, Coolify). This requires Dockerizing the React application. A generic Dockerfile is insufficient; we require a production-grade configuration that handles environment variables dynamically.
+3.2.1 Multi-Stage Build Architecture
+The Dockerfile must use a multi-stage build to optimize image size and security. We do not ship the Node.js runtime to production; we ship static assets served by Nginx.
+Stage 1: The Builder
+# Dockerfile
+FROM node:18-alpine AS builder
+WORKDIR /app
+COPY package.json package-lock.json./
+RUN npm ci --silent
+COPY..
+# Note: We do NOT bake in env vars here for the final image
+RUN npm run build
+
+Stage 2: The Runner (Nginx)
+FROM nginx:alpine
+# Copy built assets from Stage 1
+COPY --from=builder /app/dist /usr/share/nginx/html
+# Copy custom Nginx config for SPA routing
+COPY nginx.conf /etc/nginx/conf.d/default.conf
+# Copy the runtime environment injection script
+COPY env.sh /docker-entrypoint.d/env.sh
+RUN chmod +x /docker-entrypoint.d/env.sh
+EXPOSE 80
+CMD ["nginx", "-g", "daemon off;"]
+
+3.2.2 The "Runtime Environment" Problem
+React applications typically bake environment variables in at build time (npm run build). This contradicts the "Build Once, Deploy Anywhere" philosophy of Docker. If we build the image with the Staging API URL, we cannot promote that same image to Production; we have to rebuild it.
+The AIMS Solution: Runtime Injection We utilize a shell script (env.sh) executed by the Docker entrypoint.
+File: env.sh
+#!/bin/sh
+# This script reads environment variables starting with VITE_
+# and injects them into a window._env_ object in the browser.
+
+config_file="/usr/share/nginx/html/env-config.js"
+echo "window._env_ = {" > "$config_file"
+
+# Loop through env vars
+env | grep "^VITE_" | while read -r line; do
+ key=$(echo "$line" | cut -d '=' -f 1)
+ value=$(echo "$line" | cut -d '=' -f 2-)
+ echo "  $key: \"$value\"," >> "$config_file"
+done
+
+echo "};" >> "$config_file"
+
+Implementation in React: We abstract the access to these variables using a helper configuration file.
+// src/config.ts
+// Fallback to import.meta.env for local dev, use window._env_ for Docker
+const env = (window as any)._env_ |
+
+| import.meta.env;
+
+export const config = {
+ supabaseUrl: env.VITE_SUPABASE_URL,
+ supabaseAnonKey: env.VITE_SUPABASE_ANON_KEY,
+};
+
+This hybrid approach allows the app to work in local development (using .env files via Vite) and in Docker (using window._env_ injected by env.sh) without changing code. This is a critical DevOps pattern often missed in standard tutorials.
+3.3 CI/CD Pipelines: Automating Sovereignty
+The "Owner-First" protocol mandates that deployment is automated and deterministic. We use GitHub Actions to manage the lifecycle of both the database and the frontend.
+3.3.1 Supabase Migration Pipeline
+Database changes must be version-controlled. We cannot rely on the AI modifying the live database ad-hoc. The flow is:
+   1. Local Dev: Developer runs supabase migration new add_users_table. Writes SQL in the generated file.
+   2. Push: Commit the migration file to supabase/migrations.
+   3. Action: A GitHub Action triggers on push to main. It runs supabase db push to apply pending migrations to the production database.
+GitHub Action: deploy-db.yml
+name: Deploy Database
+on:
+ push:
+   branches: [main]
+   paths: ['supabase/migrations/**']
+jobs:
+ deploy:
+   runs-on: ubuntu-latest
+   steps:
+     - uses: actions/checkout@v3
+     - uses: supabase/setup-cli@v1
+       with:
+         version: latest
+     - run: supabase db push
+       env:
+         SUPABASE_ACCESS_TOKEN: ${{ secrets.SUPABASE_ACCESS_TOKEN }}
+         SUPABASE_DB_PASSWORD: ${{ secrets.SUPABASE_DB_PASSWORD }}
+         SUPABASE_PROJECT_ID: ${{ secrets.SUPABASE_PROJECT_ID }}
+
+This ensures that the production database schema is always in sync with the repository, preventing "schema drift" caused by AI hallucinations or manual dashboard edits.
+Part IV: Security & Quality Assurance (S)
+4.1 The Security Gap in AI Code
+AI models are trained on vast datasets of code, including insecure examples. They often prioritize "making it work" over "making it secure." Common vulnerabilities found in AI-generated code include:
+   * Overly permissive RLS policies: CREATE POLICY "public_read" ON data FOR SELECT USING (true); – this exposes the entire table to the internet.
+   * Client-side filtering: Fetching all data and filtering in JavaScript (data.filter(u => u.id === user.id)), which leaks other users' data over the network before the filter is applied.
+   * Hardcoded Secrets: Accidentally committing API keys in comments or code blocks.
+4.2 Row Level Security (RLS) as the Primary Firewall
+In a Supabase architecture, the database is the API. Therefore, the RLS policy is the firewall. The AIMS protocol requires a Default Deny posture.
+4.2.1 RLS Audit Protocol
+   1. Enable RLS: ALTER TABLE table_name ENABLE ROW LEVEL SECURITY; must be the first command for every table.
+   2. Specific Policies: Never use FOR ALL. Create distinct policies for SELECT, INSERT, UPDATE, and DELETE.
+   3. Authenticated Role: Policies should almost always target TO authenticated. Access for anon should be extremely rare and justified (e.g., public blog posts).
+   4. Verification: Use supabase-test or pgTAP to write unit tests for policies.
+The "Ouroboros" Testing Strategy: Use the AI to test itself.
+   * Prompt: "Analyze the src/integrations/supabase/client.ts file and the RLS policies provided. Write a Vitest suite that attempts to violate these policies. Specifically, try to read data as an anonymous user and assert that it returns an error.".
+4.3 Secret Management in Dockerized Production
+When deploying the "Owner-First" stack, handling asynchronous payment notifications (e.g., Stripe Webhooks) requires secure secret management.
+The Challenge: In a Docker container running in production, the STRIPE_WEBHOOK_SECRET must be kept secret. If this key is leaked, attackers can spoof checkout.session.completed events and grant themselves free access to your product.
+The AIMS Configuration:
+   1. Secret Injection: The secret is injected into the container as an environment variable (e.g., via GitHub Actions Secrets -> Docker Env).
+   2. Signature Verification: The code running in the Supabase Edge Function must verify the stripe-signature header against the secret before processing the event.
+// supabase/functions/stripe-webhook/index.ts
+// The AI often forgets to verify signatures. We must enforce this pattern.
+const signature = req.headers.get("stripe-signature");
+const endpointSecret = Deno.env.get("STRIPE_WEBHOOK_SECRET");
+
+if (!signature ||!endpointSecret) {
+ return new Response("Security Error", { status: 400 });
+}
+
+// Verification step
+const event = stripe.webhooks.constructEvent(body, signature, endpointSecret);
+
+Verification: Never trust the "vibe" that payments are working. Use the Stripe CLI to trigger mock events against your local Docker container to verify the signature logic fails when the secret is incorrect: stripe trigger payment_intent.succeeded.
+4.4 AI-Driven Automated Testing
+"Vibe coding" relies on visual confirmation ("It looks right"), but visual confirmation does not catch logic bugs or regressions. To maintain velocity without sacrificing quality, we use AI to write the tests.
+Playwright MCP Integration: Tools like the Playwright Model Context Protocol (MCP) allow an AI agent to "browse" the local application.
+   * Workflow: The developer runs the Playwright MCP server. The AI agent connects to it.
+   * Prompt: "Navigate to the signup page. Fill in the form with a test email. Click submit. Verify that the user is redirected to the dashboard and that a 'Welcome' toast appears."
+   * Result: The AI generates a robust Playwright script that uses user-facing locators (e.g., getByRole('button', { name: 'Submit' })) rather than brittle CSS selectors, ensuring the tests remain valid even if the styling changes.
+Part V: Operational Workflows & Troubleshooting
+5.1 The "Prompt Engineering" Standard
+To effectively drive the AIMS protocol, prompts must be structured to constrain the AI's creativity regarding architecture while unleashing it regarding UI.
+The "Context Initialization" Prompt:
+"You are an expert React developer. We are using a decoupled 'Owner-First' architecture.
+   1. Backend: Use the existing Supabase project. The client is initialized in src/integrations/supabase/client.ts. Do not create a new client.
+   2. Schema: Refer to src/integrations/supabase/types.ts for the exact database structure. Do not hallucinate columns.
+   3. Styling: Use Tailwind CSS and shadcn/ui components from the src/components directory.
+   4. Logic: Complex business logic must be delegated to Edge Functions, not written inline."
+5.2 Handling "Diff" Errors and Token Limits in Bolt
+Bolt.new processes the entire project context with every prompt, which can lead to hitting token limits (often around 10M-12M tokens/month for Pro plans) or generating "Diff" errors where the AI fails to correctly apply a patch to a large file.
+Mitigation Strategies:
+   1. Modularization: Break large files (e.g., a massive App.tsx) into smaller components (Header.tsx, Sidebar.tsx). This reduces the token count for edits to specific sections.
+   2. Context Pruning: If a chat session becomes too long, the AI's context window fills up with obsolete conversation history. It is often better to "Eject" (sync to GitHub), verify the code, and then start a fresh chat session by importing the repo. This resets the context window while keeping the codebase intact.
+   3. Specific Targeting: Instead of asking "Fix the bugs," ask "Fix the handleLogin function in Auth.tsx." This focuses the AI's generation on a specific locus, reducing the chance of a "diff" error wiping out unrelated code.
+Conclusion: The Path from Vibe to Vision
+The AIMS "Owner-First" Protocol is not a rejection of AI tools; it is a maturation of their usage. It acknowledges that while AI tools like Bolt and Lovable reduce the cost of code creation to near zero, they introduce a new cost of verification and integration.
+The protocol shifts the developer's effort:
+   * From: Typing syntax, managing boilerplate, and debugging CSS classes.
+   * To: Designing architectures, defining data models, auditing security policies, and managing deployment pipelines.
+In this new paradigm, the "Owner" is no longer the person who wrote the syntax, but the person who controls the infrastructure where it lives. By rigorously applying the principles of Architecture, Integration, Migration, and Security, developers can exploit the exponential velocity of AI development while maintaining the professional rigor, security, and sovereignty required for commercial software. The future of development is not code-less; it is code-supervised. The AIMS protocol is the manual for that supervision.
+Works cited
+1. AI-Driven Development Life Cycle: Reimagining Software Engineering - AWS, https://aws.amazon.com/blogs/devops/ai-driven-development-life-cycle/ 2. The Impact of AI on Software Development Lifecycle: A 2025 and Beyond Perspective, https://medium.com/@ThundersAI/the-impact-of-ai-on-software-development-lifecycle-a-2025-and-beyond-perspective-f90aa661aa1b 3. Bolt.new for Native Mobile Apps | Export to Expo & Build Native, https://natively.dev/bolt-new-for-mobile-apps 4. What is Bolt.new AI and How it Is Revolutionizing the Way We Build Apps? - Vitara.ai, https://vitara.ai/what-is-bolt-new-ai/ 5. Vercel v0.dev: A hands-on review - Reflections, https://annjose.com/post/v0-dev-firsthand/ 6. Identifying Lovable backend: Lovable Cloud or Supabase, https://supabase.com/docs/guides/troubleshooting/identify-lovable-cloud-or-supabase-backend 7. Supabase for databases - Bolt.new, https://support.bolt.new/integrations/supabase 8. No-Code Vendor Lock-In: What You Need to Know (and Avoid), https://www.nocodefinder.com/blog-posts/no-code-vendor-lock-in 9. How AI is Shaping the Future of the Software Development Lifecycle - Mendix, https://www.mendix.com/blog/how-ai-is-shaping-the-future-of-the-software-development-lifecycle/ 10. The Executive Guide to AI-Assisted Software Development | Publicis Sapient, https://www.publicissapient.com/insights/guide-to-ai-assisted-software-development 11. Steering at Speed: Rebuilding the SDLC for an AI-Accelerated World - UST, https://www.ust.com/en/insights/steering-at-speed-rebuilding-the-sdlc-for-an-ai-accelerated-world 12. Can't Access Supabase Project When Using Lovable Cloud #40145 - GitHub, https://github.com/orgs/supabase/discussions/40145 13. Bolt force to use integrated supabase, and make it very complicated to point to an existed external supabse database : r/boltnewbuilders - Reddit, https://www.reddit.com/r/boltnewbuilders/comments/1nxxp0o/bolt_force_to_use_integrated_supabase_and_make_it/ 14. Why is Supabase still an integration if you can't use it? : r/lovable - Reddit, https://www.reddit.com/r/lovable/comments/1pgoi6z/why_is_supabase_still_an_integration_if_you_cant/ 15. Self-hosting: Run your Lovable Cloud project anywhere, https://docs.lovable.dev/tips-tricks/self-hosting 16. The Lovable Prompting Bible, https://lovable.dev/blog/2025-01-16-lovable-prompting-handbook 17. Claude Code Tips & Tricks: Working with Lovable - Cloud Artisan, https://cloudartisan.com/posts/2025-09-02-claude-code-tips-working-with-lovable/ 18. A Lovable-inspired React boilerplate that brings no-code AI UI generation into clean code. Fully open, customizable, and structured to work seamlessly with GitHub Copilot, https://github.com/chihebnabil/lovable-boilerplate 19. Building AI-Powered Apps with Supabase in 2025 - ScaleupAlly, https://scaleupally.io/blog/building-ai-app-with-supabase/ 20. Simplifying back-end complexity with Supabase Data APIs, https://supabase.com/blog/simplify-backend-with-data-api 21. Use Supabase with React, https://supabase.com/docs/guides/getting-started/quickstarts/reactjs 22. Best practices for using a backend to interact with Supabase in a React Native app - Reddit, https://www.reddit.com/r/Supabase/comments/1ko1ayv/best_practices_for_using_a_backend_to_interact/ 23. Has anyone ever tried converting a React project on lovable.dev to a Next.js one? - Reddit, https://www.reddit.com/r/nextjs/comments/1jteqit/has_anyone_ever_tried_converting_a_react_project/ 24. Bolt.new's SaaS Framework Prompt Output | by Tim Sylvester | Medium, https://medium.com/@TimSylvester/bolt-news-saas-framework-prompt-output-0547c70bc461 25. Bolt.new AI – Brutally Honest Review – Prompt to Native Mobile App? - PC Build Advisor, https://www.pcbuildadvisor.com/bolt-new-ai-brutally-honest-review-prompt-to-native-mobile-app/ 26. FAQ - Lovable Documentation, https://docs.lovable.dev/introduction/faq 27. Connect your project to GitHub - Lovable Documentation, https://docs.lovable.dev/integrations/github 28. The Lovable.dev Migration Guide: Moving from personal GitHub to an organization (without breaking sync), https://dev.to/danielbetterdevelopers/the-lovabledev-migration-guide-moving-from-personal-github-to-an-organization-without-breaking-100n 29. Exported my Lovable project to GitHub. Here's the 15-minute process + 3 gotchas - Reddit, https://www.reddit.com/r/lovable/comments/1oup3ki/exported_my_lovable_project_to_github_heres_the/ 30. Dockerizing Your React App: A Comprehensive Guide - Kite Metric, https://kitemetric.com/blogs/dockerizing-your-react-app-a-comprehensive-guide 31. How to Dockerize a React App: A Step-by-Step Guide for Developers, https://www.docker.com/blog/how-to-dockerize-react-app/ 32. Dockerizing a React Application: Injecting Environment Variables at Build vs. Run Time, https://pamalsahan.medium.com/dockerizing-a-react-application-injecting-environment-variables-at-build-vs-run-time-d74b6796fe38 33. Dynamic Environment Variables for Dockerized React Apps - DEV Community, https://dev.to/sanjayttg/dynamic-environment-variables-for-dockerized-react-apps-5bc5 34. How to Handle Supabase DB Migrations from Local to Production? - Reddit, https://www.reddit.com/r/Supabase/comments/1jhhtk3/how_to_handle_supabase_db_migrations_from_local/ 35. Perform Database Migration Using Github Actions & Supabase CLI - YouTube, https://www.youtube.com/watch?v=iCkdtXSeq7A 36. Deploying Supabase Migrations with GitHub Actions - Finalist / Tech Blog, https://techblog.finalist.nl/blog/deploying-supabase-migrations-github-actions 37. Row Level Security | Supabase Docs, https://supabase.com/docs/guides/database/postgres/row-level-security 38. Build Safer Supabase Apps with supabase-test - Reddit, https://www.reddit.com/r/Supabase/comments/1p2c01d/build_safer_supabase_apps_with_supabasetest/ 39. Biggest GitHub code security threats, issues and risks, https://www.contrastsecurity.com/security-influencers/biggest-github-code-security-threats-software-supply-chain-security-contrast-security 40. Click Here to Learn About GitHub Security & Best Practices, https://www.legitsecurity.com/github-security-best-practices 41. renantrendt/supabase-ai-rls-tests-generator - GitHub, https://github.com/renantrendt/supabase-ai-rls-tests-generator 42. Supabase RLS Security Audit and Fixes with MCP - Continue Docs, https://docs.continue.dev/guides/supabase-mcp-database-workflow 43. Handle payment events with webhooks - Stripe Documentation, https://docs.stripe.com/payments/handling-payment-events?lang=node 44. Resolve webhook signature verification errors - Stripe Documentation, https://docs.stripe.com/webhooks/signature 45. Set up and deploy a webhook - Stripe Documentation, https://docs.stripe.com/webhooks/quickstart 46. How Playwright and AI Make End-to-End Testing Smarter - LambdaTest, https://www.lambdatest.com/learning-hub/playwright-ai 47. Generating Playwright Tests With AI: Let's Try the New Playwright MCP Server! - YouTube, https://www.youtube.com/watch?v=MIlcVo1x3Is 48. Bolt.new vs v0 vs Emergent: One-to-One Comparison, https://emergent.sh/learn/bolt-new-vs-v0-vs-emergent 49. Bolt.new + Supabase tutorial for beginners | Building a FULL-STACK web app! - YouTube, https://www.youtube.com/watch?v=G4sB3vdeunM

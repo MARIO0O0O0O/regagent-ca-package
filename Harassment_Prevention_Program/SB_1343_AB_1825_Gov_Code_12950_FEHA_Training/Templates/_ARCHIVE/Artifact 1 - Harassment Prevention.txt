@@ -1,0 +1,54 @@
+﻿California Harassment Prevention Compliance Checklist (2026)
+Version: 6.0 (User Provided Update) Effective Date: January 1, 2026 Primary Mandate: Cal. Gov. Code § 12950.1
+1. Statutory Harassment Prevention Training
+Legal Authority: Cal. Gov. Code § 12950.1 Mandate: > "By January 1, 2021, an employer having five or more employees shall provide at least two hours of classroom or other effective interactive training and education regarding sexual harassment to all supervisory employees and at least one hour of classroom or other effective interactive training and education to all nonsupervisory employees in California. Thereafter, each employer covered by this section shall provide sexual harassment training and education to each employee in California once every two years."
+A. Training Duration and Frequency
+* Supervisory Training Standards
+   * [ ] Mandatory Hours: Verify all supervisory personnel receive a minimum of two hours of interactive training every two years.
+   * [ ] New Supervisor Deadline: Complete training for newly hired or promoted supervisors within six months of their assumption of a supervisory position.
+* Non-Supervisory Training Standards
+   * [ ] Mandatory Hours: Provide one hour of interactive training every two years for all non-supervisory employees.
+   * [ ] Seasonal and Temporary Staff: Administer training within 30 calendar days of hire or within 100 hours worked, whichever occurs first, for employees hired for less than six months.
+B. Curriculum and Interactive Delivery
+* Content Requirements
+   * [ ] Required Topics: Ensure curriculum covers the definition of sexual harassment, examples of prohibited conduct, and legal remedies available to victims.
+   * [ ] Bystander Intervention: Include specific modules on bystander intervention techniques and the prevention of abusive conduct.
+   * [ ] Protected Categories: Integrate practical examples regarding harassment based on gender identity, gender expression, and sexual orientation.
+* Interactive Modality Standards
+   * [ ] E-Learning Trainer Access: If utilizing e-learning, provide a link to a qualified trainer who must respond to questions within two business days.
+   * [ ] Assessment Tools: Use skill-building activities and hypothetical scenarios with discussion questions that assess the employee’s understanding of the content.
+2. Training Recordkeeping and Personnel File Integration
+Legal Authority: Cal. Lab. Code § 1198.5 (as amended by SB 513) Mandate: > "Employers must ensure that such records include all of the following information: (i) the name of the employee; (ii) the name of the training provider; (iii) the duration and date of the training: (iv) the core competencies of the training, including skills in equipment or software; and (v) the resulting certification or qualification."
+A. Mandatory Personnel Record Metadata
+* SB 513 Documentation Compliance
+   * [ ] Field Verification: Log the employee name, name of the trainer/provider, exact date, and total duration of the session for every training record.
+   * [ ] Competency Mapping: Explicitly document "Core Competencies" such as sexual harassment prevention, abusive conduct, and bystander intervention in the record.
+   * [ ] Certification Status: Store copies of the resulting certification or qualification within the employee's accessible personnel file.
+B. Record Retention and Disclosure
+* Retrieval Protocols
+   * [ ] Retention Period: Maintain training records for a minimum of two years, though five years is recommended for safety-related coordination.
+   * [ ] Access Requests: Ensure training and education records are available for inspection or copying within 30 days of an employee's request.
+3. Prohibited Training Repayment and Wage Compliance
+Legal Authority: Cal. Lab. Code § 432.4 (AB 692) Mandate: > "AB 692 prohibits many 'stay-or-pay' agreements... This new law bars common arrangements that require an employee to reimburse employers for costs like... work-related training programs if the employment ends before an agreed upon time."
+A. Financial Protections for Employees
+* Elimination of "Stay-or-Pay" Clauses
+   * [ ] Contract Audit: Remove any terms in employment agreements that require workers to pay for mandatory training or initiate debt collection if employment terminates.
+   * [ ] Penalty Prohibition: Ensure no penalty, fee, or cost is imposed on a worker for training expenses related to their employment or work relationship.
+* Wage and Hour Standards
+   * [ ] Paid Participation: Classify all training time as "hours worked" and compensate at the employee’s regular rate of pay.
+   * [ ] 2026 Pay Benchmarks: Pay non-exempt employees no less than $16.90 per hour for training time, ensuring any overtime triggered is calculated accordingly.
+4. Written Policy and Distribution Requirements
+Legal Authority: 2 CCR § 11023 Mandate: > "Employers shall have a written policy that... lists all current protected categories... includes a complaint process that does not require an employee to complain directly to their immediate supervisor... [and] instructs supervisors to report any complaints of misconduct to a designated agent."
+A. Policy Content and Implementation
+* Procedural Safeguards
+   * [ ] Complaint Channels: Establish at least two reporting channels (e.g., HR and a hotline) to ensure employees can bypass their direct supervisor.
+   * [ ] Mandatory Reporting: Include a directive that all supervisors must report any observed or reported misconduct to a designated company agent.
+   * [ ] Anti-Retaliation: Explicitly state that the employer prohibits retaliation against any person for reporting harassment or participating in an investigation.
+* Distribution and Language Access
+   * [ ] New Hire Distribution: Provide each new employee with the sexual harassment information sheet (CRD-185P) at the time of hire.
+   * [ ] Language Accommodation: Provide training and policies in the language usually used to communicate with employees; the CRD offers templates in Chinese, Korean, Spanish, Tagalog, and Vietnamese.
+Statutory Reference List
+* California Government Code § 12950.1
+* California Labor Code § 1198.5
+* California Labor Code § 432.4
+* 2 CCR § 11023

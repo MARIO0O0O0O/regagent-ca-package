@@ -1,0 +1,319 @@
+﻿California Remote Work Compliance and Expense Reimbursement: 2026 Professional Standards and Compliance Framework for Small-to-Medium Enterprises
+Section 1: Mandatory Expense Reimbursement under California Labor Code Section 2802
+The legal landscape governing employment in California has long been characterized by a protective stance toward the employee’s economic interests, a principle most clearly articulated in the mandate for expense reimbursement. For small-to-medium enterprises (SMEs) operating in the Los Angeles area in 2026, compliance with these mandates is not merely a matter of administrative policy but a fundamental statutory obligation that carries significant liability if ignored. At the heart of this regulatory framework is California Labor Code Section 2802, which serves as the primary mechanism for ensuring that employees do not bear the operational costs of the businesses that employ them.
+The Statutory Mandate of Section 2802
+Labor Code Section 2802 provides a broad and non-waivable requirement for employers to indemnify their workers. The statute specifically states:
+(a) An employer shall indemnify his or her employee for all necessary expenditures or losses incurred by the employee in direct consequence of the discharge of his or her duties, or of his or her obedience to the directions of the employer, even though unlawful, unless the employee, at the time of obeying the directions, believed them to be unlawful.
+This language establishes that the duty to reimburse is a mandatory indemnity, not an optional benefit. The legislative intent is to prevent employers from shifting the costs of doing business—such as rent, equipment, and utilities—onto the workforce, thereby effectively reducing the employee's agreed-upon compensation. Any agreement by an employee to waive these rights is deemed null and void under California law.
+Defining "Necessary Expenditure" in the Remote Work Era
+The term "necessary expenditure" has been subject to extensive judicial interpretation, particularly as the workforce shifted toward remote and hybrid models. To establish a claim for reimbursement, an analysis must typically confirm three elements: the employee actually made the expenditure or incurred a loss; the expenditure was a direct consequence of the employee’s discharge of duties; and the expenditure was "necessary".
+In 2026, "necessity" is interpreted through the lens of foreseeability. If an employer requires an employee to work from a home office, expenditures related to that office—such as internet connectivity, telephone service, and basic supplies—are considered foreseeable and clearly anticipated costs of business. Importantly, the California Court of Appeal in Cochran v. Schwan’s Home Service, Inc. (2014) established that an employer cannot avoid this liability by arguing that the employee did not incur an "increased" or "marginal" cost. For example, if an employee has an unlimited home internet plan that they would have paid for regardless of work, the employer is still required to reimburse a reasonable percentage of that bill because the employer is utilizing the service for its own business purposes.
+Categories of Reimbursable Expenses for 2026
+The scope of reimbursement in 2026 encompasses a variety of technological and physical requirements essential for effective remote performance.
+Home Internet and Connectivity
+High-speed internet is the lifeline of the remote office. For SMEs in Los Angeles, this often means reimbursing a portion of broadband or fiber-optic services. Whether remote work is mandatory or strongly encouraged, the employer must cover a "reasonable percentage" of the monthly cost. Even if the employee works from home by choice, if the employer benefits from the arrangement or has closed physical office space, the reimbursement obligation typically persists.
+Personal Cell Phone and Communication
+The use of personal mobile devices for work-related calls, text messages, emails, or Multi-Factor Authentication (MFA) triggers a reimbursement requirement. This includes data usage for work apps and any secondary services required for job performance.
+Home Office Equipment and Hard Costs
+Hard costs refer to tangible assets required for the workstation. If an employer does not provide the equipment directly, they must reimburse the employee for reasonable purchases of:
+* Laptops, tablets, or desktop computers.
+* Monitors, keyboards, and mice.
+* Printers, scanners, and webcams.
+* Software licenses and subscriptions (e.g., Zoom, Adobe, Microsoft Office).
+Office Supplies
+SMEs must reimburse employees for consumable supplies such as printer paper, ink cartridges, pens, folders, and postage. While minor, these costs are considered necessary for the discharge of duties.
+Personal Vehicle Mileage
+When remote employees are required to travel—whether to a client site, the post office, or the main office for a mandatory meeting—they must be reimbursed for their mileage. For 2026, the Internal Revenue Service (IRS) has established the following standard mileage rates:
+2026 IRS Mileage Rate Category
+	Rate Per Mile
+	Business Use (Personal Vehicle)
+	72.5 cents
+	Medical Purposes
+	20.5 cents
+	Moving Purposes (Active Duty Military)
+	20.5 cents
+	Charitable Service
+	14.0 cents
+	This rate is intended to cover not only the cost of fuel but also insurance, repairs, maintenance, and depreciation.
+Methodology for Determining "Reasonable Percentage"
+California law does not prescribe a single, rigid formula for calculating the reimbursed portion of shared utilities like internet and phone. Instead, employers are expected to determine a "reasonable percentage" based on the specific facts of the employment relationship.
+Common approaches include:
+* The Usage-Based Method: Calculating the ratio of work hours to total hours in a month. For example, an employee working 160 hours in a 720-hour month uses their home resources for work approximately 22% of the time.
+* The Flat Stipend Method: Providing a fixed monthly amount (e.g., $30-$50) intended to cover the work-related portion of internet and phone bills.
+* Actual Expense Method: Reimbursing the specific, itemized work-related portion of a bill upon submission of a receipt.
+Comparison of Reimbursement Methods
+	Administrative Effort
+	Compliance Risk
+	Cost Predictability
+	Flat Monthly Stipend
+	Low
+	Moderate (requires true-up)
+	High
+	Actual Bill Review
+	High
+	Low
+	Moderate
+	Lump Sum / Wage Increase
+	Low
+	High (must be labeled)
+	High
+	Expense Reimbursement Calculation Examples
+Scenario A: Home Internet and Cell Phone Stipend
+A Los Angeles SME decides to use a stipend approach for a full-time remote graphic designer. The employee’s monthly internet bill is $85, and their cell phone bill is $100.
+* Internet Calculation: The employer determines that 25% of the internet usage is work-related. 85 \times 0.25 = \$21.25.
+* Phone Calculation: The employer determines that 30% of the phone usage is work-related. 100 \times 0.30 = \$30.00.
+* Total Monthly Stipend: $51.25.
+Scenario B: Mileage Reimbursement for a Field Visit
+A sales representative based in Long Beach travels to a client meeting in Pasadena (32 miles each way).
+* Total Miles: 64.
+* 2026 IRS Rate: $0.725.
+* Total Reimbursement: 64 \times 0.725 = \$46.40.
+Section 2: Remote Work Policy Requirements
+For SMEs, the transition to a distributed workforce necessitates a structured, written remote work policy. Without such a document, an organization faces significant ambiguity regarding its obligations and expectations, which can lead to costly disputes and litigation. A formal policy acts as a contract of expectations, defining the boundaries between personal and professional life and ensuring statutory compliance from the onset of the remote arrangement.
+The Necessity of a Written Policy
+A written remote work or telecommuting policy is an essential defensive tool for employers. It should clearly outline the qualification process, management and employee responsibilities, and training requirements. In California, where the burden of proof for compliance often rests on the employer, having a signed policy that acknowledges the employee’s understanding of expense reimbursement procedures and timekeeping rules is invaluable.
+Voluntary vs. Mandatory Remote Work Distinction
+The distinction between mandatory and voluntary remote work is a critical factor in determining an employer's liability under Section 2802.
+* Mandatory Remote Work: When the employer requires the employee to work from home—whether due to a lack of physical office space, a corporate mandate, or a public health order—the employer is unequivocally responsible for all necessary expenses.
+* Voluntary Remote Work: If the employer maintains a physical office with all necessary equipment and allows an employee to work from home as a matter of personal preference, the employer has a much stronger argument that home office expenses are "unnecessary".
+However, SMEs must be cautious: if an employer "strongly encourages" remote work or does not provide enough desks in the central office for all staff, courts may treat the arrangement as mandatory despite the policy’s labeling.
+Hybrid Schedule Considerations
+Hybrid work—where employees split their time between a central office and a remote location—requires even more precise policy language. The policy should specify which days the employee is expected to be in the office and clarify that commuting between the home and the primary office is generally not a reimbursable expense. However, travel from the home office to a secondary work site (such as a client meeting) is reimbursable.
+Equipment Provision vs. Reimbursement Strategies
+Employers have two primary methods for ensuring employees have the tools they need:
+1. Direct Provision: The company purchases and owns the equipment (laptops, monitors, etc.) and provides it to the employee. This is often the preferred method for maintaining control over hardware security and ensuring all employees have functionally equivalent tools.
+2. Reimbursement: The employee purchases their own equipment, and the company reimburses the "reasonable" cost. This can be complex, as the employer must ensure the reimbursement covers the full necessary cost without creating a taxable windfall.
+Bring Your Own Device (BYOD) Policies
+A BYOD policy allows employees to use personal smartphones or laptops for work. While this can reduce initial capital expenditures for the employer, it increases risks related to data security and privacy. A compliant BYOD policy in 2026 must:
+* Identify specifically what tasks are work-related (e.g., calls, texts, MFA).
+* Outline the reimbursement methodology (e.g., a monthly stipend).
+* Establish clear data security requirements, such as the use of encrypted apps or VPNs.
+* Clarify that the employer does not have the right to access the employee’s personal photos or messages, but does have a legitimate business interest in work-related data.
+Data Security and Privacy
+Remote work significantly expands the "attack surface" for cyber threats. SMEs must implement policies requiring:
+* The use of secure, password-protected home Wi-Fi.
+* Mandatory Multi-Factor Authentication (MFA) for all corporate logins.
+* Strict confidentiality of company data in shared home environments.
+* Prohibitions against using public Wi-Fi for work without a secure VPN.
+Device Wiping Upon Termination
+The termination of a remote employee presents unique challenges for recovering company data. Policies should explicitly state that the employer has the right to remotely "wipe" company-owned data from a personal device upon separation. To avoid privacy litigation, the policy must distinguish between "full device wipes" (which delete personal data and are generally frowned upon for BYOD) and "selective wipes" (which only remove corporate applications and data).
+Compliance Checklist: Remote Work Policy
+☐ Policy is in writing and signed by each remote/hybrid employee. ☐ Specifies whether the remote arrangement is mandatory or voluntary. ☐ Lists all company-provided equipment and its ownership status. ☐ Defines the "reasonable percentage" reimbursement for internet and cell phone. ☐ Outlines a "true-up" process for employees to request additional reimbursement. ☐ Includes a BYOD agreement covering data security and privacy expectations. ☐ Mandates the use of VPNs and MFA for all remote access. ☐ Details the procedure for returning equipment and wiping data upon termination. ☐ Prohibits off-the-clock work and requires accurate timekeeping.
+Section 3: Remote Work Timekeeping for Non-Exempt Employees
+In the absence of physical oversight, managing the work hours of non-exempt remote employees is a significant compliance risk for Los Angeles SMEs. Under California’s Wage Orders, the employer bears the absolute responsibility for maintaining accurate records of time worked. If an employee performs work "off the clock," the employer may be liable for unpaid wages, overtime, and substantial penalties even if the employer did not specifically authorize the extra time.
+The Definition of "Hours Worked"
+In the remote context, "hours worked" is defined as all time during which an employee is subject to the control of an employer, and includes all the time the employee is suffered or permitted to work, whether or not required to do so. For a remote worker, this includes:
+* Logging into the computer system or checking work emails.
+* Responding to work-related text messages or calls.
+* Attending virtual meetings or training sessions.
+* Travel during the workday between different work locations (excluding the primary commute).
+The Risk of Off-the-Clock Work
+The primary risk for SMEs is "creeping" work hours. If a manager sends an email at 8:00 PM and an employee feels compelled to respond, that time must be compensated. To mitigate this, employers should implement a clear policy prohibiting after-hours work without prior written approval and should train managers to avoid contacting staff during non-working periods.
+Digital Timekeeping Systems
+Physical time clocks are impractical for remote work; therefore, digital timekeeping systems are essential. These systems should:
+* Allow employees to log on and off from their remote workstation.
+* Record start and stop times for the overall shift and for meal periods to the nearest minute.
+* Provide a mechanism for employees to "attest" to the accuracy of their timecards at the end of each pay period.
+Meal and Rest Break Compliance
+California’s meal and rest break rules are among the strictest in the nation.
+Labor Code Section 512(a): An employer shall not employ an employee for a work period of more than five hours per day without providing the employee with a meal period of not less than 30 minutes, except that if the total work period per day of the employee is no more than six hours, the meal period may be waived by mutual consent of both the employer and employee.
+Break Type
+	Duration
+	Timing
+	Requirement
+	Rest Break
+	10 min (net)
+	Per 4 hours worked
+	Paid / "On the clock"
+	Meal Break 1
+	30 min
+	Before end of 5th hour
+	Unpaid / "Off the clock"
+	Meal Break 2
+	30 min
+	Before end of 10th hour
+	Unpaid / "Off the clock"
+	For remote workers, "providing" a meal break means the employer must relieve the employee of all duty and relinquish control over their activities. If a remote worker is "required" to remain at their computer or answer calls during their 30-minute break, the break is non-compliant, and the employer must pay a "premium" of one hour of pay at the employee’s regular rate.
+Attestation Requirements
+A best practice for 2026 is to require employees to sign a certification each pay period. This certification should state that the employee was provided the opportunity to take all required breaks and that all recorded hours are accurate. If an employee indicates they did miss a break, the system should prompt them for the reason, allowing the employer to investigate and pay the required premium immediately to avoid future litigation.
+### Split Shift Considerations for Remote Workers
+Remote work often invites "broken" schedules, where an employee might work a few hours in the morning, take a long personal break in the afternoon, and finish in the evening. This may trigger "Split Shift Pay" obligations.
+* Definition: A split shift is a work schedule interrupted by non-paid and non-working time periods established by the employer.
+* The Benefit Test: If the split is at the employee’s request (e.g., to handle childcare), no premium is due. If the employer requires the split, the employee must receive a premium of one hour's pay at the minimum wage.
+Overtime Tracking
+Remote employees are entitled to daily overtime (1.5x pay after 8 hours in a day) and weekly overtime (1.5x pay after 40 hours in a week). Employers must ensure that remote workers do not "pad" their hours or work unauthorized overtime, while also ensuring that all actual overtime worked is paid correctly.
+Section 4: Home Office as Workplace (Cal/OSHA)
+Under California law, the employer's responsibility to provide a safe and healthful work environment is not limited to the central office; it extends to the home office of every remote employee. While the California Occupational Safety and Health Administration (Cal/OSHA) generally does not conduct routine inspections of home offices, the employer remains liable for workplace injuries under the Workers' Compensation system and has a general duty to ensure employees are working in a safe environment.
+Home Office Safety Obligations
+California employers are required to have an effective Injury and Illness Prevention Program (IIPP). For remote workforces, the IIPP should include specific modules for home safety, covering:
+* Fire safety (smoke detectors and clear exit paths).
+* Electrical safety (proper use of surge protectors, avoiding overloaded outlets).
+* Environmental factors (adequate lighting, ventilation, and temperature).
+Ergonomic Considerations and RSI Prevention
+Repetitive Strain Injuries (RSI) and musculoskeletal disorders (MSDs) are the most common risks for remote office workers. Employers have an obligation to evaluate and address ergonomic factors in remote workstations.
+Workstation Component
+	Compliance Standard
+	Monitor
+	Top of screen at or just below eye level
+	Chair
+	Provides lumbar support; feet flat on the floor
+	Keyboard/Mouse
+	Wrists and hands in line with forearms; shoulders relaxed
+	Elbows
+	Supported and close to the body
+	SMEs should provide employees with ergonomic training and potentially offer stipends for the purchase of ergonomic chairs or standing desks to mitigate long-term injury risks.
+Workers' Compensation for Home Injuries
+If an employee is injured while performing their job duties at home, the injury is likely covered by workers' compensation. This applies to traumatic injuries (e.g., tripping over a work-related cord) as well as cumulative trauma (e.g., carpal tunnel syndrome). The "course and scope" of employment determines eligibility, meaning an injury sustained while doing laundry during a work break would likely not be covered, whereas an injury sustained while typing a work report would be.
+Employer Inspection Rights
+The employer's right to enter an employee's home to inspect the workplace is extremely limited by the employee's constitutional right to privacy. To balance safety obligations with privacy, SMEs should:
+* Virtual Inspections: Use video conferencing or photo submissions for the employee to demonstrate a safe setup.
+* Advance Consent: Include a provision in the remote work policy stating that the employer may, with reasonable advance notice, conduct a safety audit of the designated workspace.
+* Scope Limitation: Inspections must be limited strictly to the area designated for work and occur during business hours.
+Compliance Checklist: Home Office Setup
+☐ Employee has designated a specific, clean area for work. ☐ Work area is free of tripping hazards (cords, rugs, clutter). ☐ Desk and chair are adjusted according to ergonomic standards. ☐ Electrical outlets are not overloaded; surge protectors are used. ☐ Functional smoke and carbon monoxide detectors are present. ☐ Employee has completed ergonomic and safety training. ☐ Employee knows how to report a home workplace injury.
+Section 5: Tax Implications of Remote Work Reimbursement
+The tax treatment of remote work expenses in 2026 is governed by federal IRS rules and the specific impacts of the "One Big Beautiful Bill Act" (OBBBA), which permanently extended several tax provisions affecting employees and employers. Proper classification of reimbursements is critical to avoid unnecessary payroll tax liabilities and to ensure employees do not face surprise tax bills.
+Employer Reimbursement Tax Treatment
+Reimbursements paid to employees for necessary business expenses are generally excluded from the employee’s gross income and are not subject to federal income tax, Social Security, or Medicare taxes, provided they are paid under an "Accountable Plan".
+The Accountable Plan Requirements
+For a reimbursement plan to be considered "accountable" by the IRS, it must meet four strict criteria:
+1. Business Connection: The expense must be incurred in connection with the employee’s performance of services for the company.
+2. Substantiation: The employee must substantiate the expense with records (receipts, bills, mileage logs) within a "reasonable" time (IRS safe harbor is within 60 days).
+3. Return of Excess: The employee must return any reimbursement or advance that exceeds the actual substantiated expenses within a "reasonable" time (IRS safe harbor is within 120 days).
+4. Reasonable Time Frame: All actions must happen within defined periods.
+If a plan fails these requirements, the payments are considered "Non-Accountable" and must be treated as taxable wages on the employee’s Form W-2.
+Employee Home Office Deduction
+Under the OBBBA and the preceding Tax Cuts and Jobs Act, W-2 employees are generally prohibited from taking a home office deduction on their personal federal tax returns. This means that if an employer fails to reimburse an employee for their home office costs, the employee cannot "write them off" to lower their tax burden. This increases the importance of a robust employer reimbursement policy in California, where the employer is statutorily required to pay those costs.
+Stipend vs. Reimbursement Tax Differences
+* Reimbursement (Accountable): Tax-free to the employee, deductible for the employer, no payroll taxes.
+* Stipend (Non-Accountable): Often paid as a flat fee without requiring receipts. These are technically taxable wages unless the employer implements a substantiation process.
+* Wage-Expense Reimbursement: Increasing a salary to cover expenses is valid under Section 2802 only if the increase is clearly labeled and is sufficient to cover all actual expenses. However, this method results in higher payroll taxes for both the employer and employee compared to an accountable reimbursement plan.
+2026 Tax Summary
+	Accountable Plan
+	Non-Accountable Stipend
+	Federal Income Tax
+	Excluded
+	Taxable
+	Payroll Tax (FICA)
+	Excluded
+	Taxable
+	Employer Deduction
+	100% Deductible
+	100% Deductible (as wages)
+	W-2 Reporting
+	Not required
+	Required
+	Section 6: Notice Distribution to Remote Workers
+California law mandates that employees receive various legal notices regardless of their physical work location. In 2026, the complexity of these requirements has increased with the implementation of the Workplace Know Your Rights Act (SB 294), which specifically addresses the communication of rights in an era of distributed teams.
+SB 294: The Workplace Know Your Rights Act
+Effective February 1, 2026, every employer in California must provide each employee with a stand-alone "Know Your Rights" notice.
+* Initial Deadline: February 1, 2026.
+* Frequency: Annually thereafter.
+* Recipients: All current employees, new hires at the time of employment, and union representatives.
+* Content: The notice must cover seven categories, including workers' compensation, immigration protections, the right to organize, and constitutional rights during workplace law enforcement interactions.
+Mandatory Poster Access
+Employers must provide remote workers with access to all standard workplace posters (e.g., Minimum Wage, Sick Leave, Cal/OSHA). While physical posters must still be displayed at the company's central "hub," remote workers must be provided with digital versions.
+Electronic Distribution Methods (Labor Code § 8111)
+California law explicitly permits the electronic distribution of mandatory posters and notices.
+* Email: Employers can email required notices as attachments.
+* Intranet: Centralizing notices on a company intranet is a recognized best practice, provided all remote employees have regular and barrier-free access to the system.
+* Mobile Apps: For workforces that utilize mobile technology, pushing notices through a company app is also permissible.
+Acknowledgment Documentation
+To ensure compliance and mitigate risk in a PAGA or DLSE audit, employers must maintain records of notice distribution for at least three years. This includes digital logs of email delivery, read receipts, or electronic signature acknowledgments within an HR system.
+Compliance Checklist: Notice Distribution
+☐ SB 294 "Know Your Rights" notice distributed to all staff by Feb 1, 2026. ☐ New hires receive SB 294 notice in their onboarding packet. ☐ Emergency contact designation forms collected from all staff by March 30, 2026. ☐ 2026 California/Federal Labor Law posters available via email or intranet. ☐ Proof of notice delivery maintained in personnel files (digital or paper) for 3 years. ☐ Notices provided in the language the employer normally uses for communication (if template available).
+Section 7: Multi-State Remote Workers
+As SMEs in Los Angeles expand, they often hire remote workers who reside outside of California, or their California employees choose to relocate while keeping their jobs. This creates a complex overlap of jurisdictional laws and tax requirements.
+California Resident Working for Out-of-State Employer
+If an employee resides in California but works for a company headquartered in New York, the employer must generally comply with California’s labor laws, including Section 2802 for expense reimbursement, California meal and rest break rules, and California minimum wage. California law "follows" the resident working within its borders.
+Out-of-State Resident Working for California Employer
+If a Los Angeles company hires a remote worker in Texas, the laws of Texas generally govern the employment relationship (e.g., Texas minimum wage and lack of mandatory meal breaks). However, the company must register as a foreign employer in Texas and comply with Texas unemployment and workers' compensation requirements.
+Tax Withholding Considerations
+* California Residents: Are taxed on their worldwide income. Employers must withhold California Personal Income Tax (PIT) and contribute to SDI and UI regardless of where the company is located.
+* Non-Residents: Are only taxed by California on income earned for services performed within California. If a remote worker in Arizona never visits the Los Angeles office for work, they typically do not owe California tax.
+The "Nexus" Risk
+Hiring a remote worker in a different state can create a "tax nexus," potentially requiring the SME to pay corporate income or franchise taxes in that state. Employers should consult with a tax professional before authorizing a move or hiring in a new state.
+Section 8: Penalties and Enforcement
+The cost of non-compliance with remote work and reimbursement mandates in California can be devastating for an SME. Enforcement is carried out through the Labor Commissioner's Office and through private civil litigation.
+Labor Code § 2802 Violations
+Failure to reimburse "all necessary expenditures" triggers several financial consequences:
+* The Principal Debt: The employer must pay the full amount of the unpaid expenses.
+* 10% Interest: Interest is calculated at 10% per annum from the date the expense was incurred until paid.
+* Attorney's Fees: Under Section 2802(c), the employer is required to pay the employee's reasonable attorney's fees incurred to enforce their rights.
+PAGA Exposure for Systematic Failures
+The Private Attorneys General Act (PAGA) allows employees to sue for civil penalties on behalf of the state for any Labor Code violation.
+* Systemic Risk: If an employer has a uniform policy of not reimbursing internet or phone costs, a single employee can represent the entire workforce in a PAGA action.
+* PAGA Reform (2024/2025): The new PAGA rules allow employers to "cure" certain violations and cap penalties if they have taken "all reasonable steps" to comply (e.g., having a written policy, conducting audits) before a claim is filed.
+Enforcement Tiers for 2026
+Violation Type
+	Initial Penalty
+	Subsequent Penalty
+	Other Consequences
+	Expense Reimbursement
+	$100 per pay period
+	$250 per pay period
+	10% interest + Atty Fees
+	Notice Failure (SB 294)
+	$500 per employee
+	$500 per employee
+	Potential PAGA claim
+	Wage Statement Error
+	$25 - $100
+	$200
+	Statutory damages
+	Sample Remote Work Policy Template (2026)
+1. OVERVIEW AND ELIGIBILITY
+[Company Name] recognizes that remote work can enhance productivity and employee well-being. This policy applies to all employees designated as remote or hybrid. Remote work is a privilege and may be revoked if performance standards are not met.
+2. DESIGNATION OF STATUS
+* Mandatory Remote: For employees whose primary residence is their only workspace.
+* Voluntary Remote: For employees who choose to work from home despite a functional office space being available.
+3. REIMBURSEMENT OF EXPENSES (LABOR CODE § 2802)
+[Company Name] will reimburse all necessary business expenses.
+* Connectivity: Employees will receive a monthly stipend of $[Amount] for home internet and cell phone usage.
+* Supplies: Essential supplies must be requested via the Company portal. Personal purchases require prior approval for reimbursement.
+* Equipment: The Company will provide a laptop, monitor, and peripherals. Employees using personal devices (BYOD) must comply with Section 5.
+* True-Up: If actual work-related expenses exceed the stipend, employees must submit itemized bills within 60 days to request additional funds.
+4. TIMEKEEPING AND BREAKS
+Non-exempt employees must record all hours worked in.
+* Breaks: Employees are required to take a 30-minute unpaid meal break before their 5th hour of work.
+* Off-the-Clock: Work outside of scheduled hours is prohibited unless authorized.
+5. DATA SECURITY AND PRIVACY
+* VPN/MFA: Use of the Company VPN and Multi-Factor Authentication is mandatory.
+* Privacy: The Company monitors work-related systems for security. Personal data on BYOD devices will not be accessed.
+6. WORKPLACE SAFETY
+Employees must maintain a safe, ergonomic home office. The Company reserves the right to conduct virtual safety audits with 24-hour notice.
+Expense Reimbursement Request Form (2026)
+EMPLOYEE NAME: __________________________ DATE: __________ PAY PERIOD: __________________________
+CATEGORY
+	DESCRIPTION
+	AMOUNT
+	ATTACHMENT
+	Internet
+	Monthly Work Allocation
+	$
+	[ ]
+	Cell Phone
+	Monthly Work Allocation
+	$
+	[ ]
+	Mileage
+	Errand to: ____________ (____ miles)
+	$
+	[ ]
+	Supplies
+	Item: __________________
+	$
+	[ ]
+	Other
+	Describe: _______________
+	$
+	[ ]
+	TOTAL
+	
+
+	$
+	
+
+	ATTESTATION: I certify that these expenses were necessarily incurred in the direct consequence of my job duties for [Company Name]. SIGNATURE: __________________________ DATE: __________
+Works cited
+1. California Expense Reimbursement Attorneys | Unpaidwages.com, https://www.unpaidwages.com/practice-area/reimbursement 2. Los Angeles Expense Reimbursement Lawyers, https://www.kingsleykingsley.com/employment-lawyer/reimbursement 3. Cochran v. Schwan's Home Service, Inc. Bring Your Own Device Programs Just Got Better – For Employees - Nassiri Law, https://www.orangecounty-employment-lawyer.com/insights/articles/cochran-v-schwan-s-home-service-inc-bring-your-own-device-progra/ 4. No Exceptions: Employers Must Always Reasonably Reimburse Employees' On-the-Job Use of Personal Cell Phones (California) - SUTTON | HAGUE, https://suttonhague.com/exceptions-employers-must-always-reasonably-reimburse-employees-job-use-personal-cell-phones/ 5. California Remote Work Expenses: Are You Owed Reimbursement?, https://abramsonlaborgroup.com/california-remote-work-expenses-are-you-owed-reimbursement/ 6. Labor Code 2802 Texting: Must CA Employers Reimburse Workers ..., https://truhu.com/labor%E2%80%91code%E2%80%912802%E2%80%91texting/ 7. Employer Must Pay For Employee's Cell Phone And Internet, https://sebastianmillerlaw.com/remote-work-expenses-and-labor-code-section-2802/ 8. Challenges of Reimbursing Employees for Remote Work in California - CDF Labor Law LLP, https://www.cdflaborlaw.com/_images/content/Challenges_of_Reimbursing_Employees_for_Remote_Work_in_California_Mark_Spring_Nov._2020_.pdf 9. Employer's Bell Rung By Ruling on Employee Cell Phone Charges | Seyfarth Shaw LLP, https://www.seyfarth.com/news-insights/employer-s-bell-rung-by-ruling-on-employee-cell-phone-charges.html 10. California Employers Required to Pay Employees' Work-Related Cell Phone Expenses, https://www.fbm.com/publications/california-employers-required-to-pay-employees-work-related-cell-phone-expenses/ 11. Remote Work Reimbursement in California | Labor Code 2802 - H&A Law Office, https://halawoffice.com/remote-work-reimbursement-in-california/ 12. Expense reimbursement laws by state (2026) - Ramp, https://ramp.com/blog/remote-employee-reimbursement-laws-by-state 13. California work-from-home reimbursement law: A guide for employers - Rippling, https://www.rippling.com/blog/california-work-from-home-reimbursement-law 14. Reimbursing Remote Work Expenses - California Employers Association, https://employers.org/2020/11/12/reimbursing-remote-work-expenses/ 15. Remote Employee Reimbursement Rules by State - Paycor, https://www.paycor.com/resource-center/articles/remote-employee-reimbursement-rules-by-state/ 16. Employee Travel Reimbursement - The Law in California, https://www.shouselaw.com/ca/labor/wage-and-hour/travel-expense-reimbursement/ 17. 2026 IRS Mileage Rate Increases - HRWatchdog - California Chamber of Commerce, https://hrwatchdog.calchamber.com/2026/01/2026-irs-mileage-rate-increases/ 18. Travel Reimbursements - CalHR Benefits Website - CA.gov, https://benefits.calhr.ca.gov/state-employees/work-resources/travel-reimbursements/ 19. Recover Your Unpaid Employment Expenses - CA Labor Code Sec. 2802, https://www.employee-rights-atty.com/recover-unpaid-employment-expenses/ 20. California Remote Employee Laws (2025), https://www.novianlaw.com/california-remote-employee-laws/ 21. Keeping Remote Employees Safe - Lacounty, https://file.lacounty.gov/SDSInter/ceo/rmo/1177674_1177674_.pdf 22. Bring Your Own Device to Work (BYOD) Policy (CA) - Practical Law, https://ca.practicallaw.thomsonreuters.com/w-013-2992?transitionType=Default&contextData=(sc.Default) 23. Managing Remote Teams Under California Labor Law - CEB, https://www.ceb.com/managing-remote-teams-under-california-labor-law/ 24. A Year-End Compliance Checklist for California Employers | CDF Labor Law LLP, https://www.cdflaborlaw.com/blog/a-year-end-compliance-checklist-for-california-employers 25. How to Build an HR Compliance Checklist for Remote and Hybrid Teams (2026) - SixFifty, https://www.sixfifty.com/blog/how-to-build-an-hr-compliance-checklist/ 26. Meal Period and Rest Break Compliance for California Employers | Munck Wilson Mandala, https://www.munckwilson.com/news-insights/meal-period-and-rest-break-compliance-for-california-employers/ 27. An Update on Remote Work Reimbursements | CDF Labor Law LLP, https://callaborlaw.com/blog/an-update-on-remote-work-reimbursements 28. Wage & Hour Violation Attorneys | Recover Unpaid Wages - Employees First Labor Law, https://employeesfirstlaborlaw.com/wage-hour-violations/ 29. Both Employers and Employees Should Beware of BYOD - Boardman Clark, https://www.boardmanclark.com/publications/labor-employment-update/both-employers-and-employees-should-beware-of-byod 30. Which Privacy Law Applies to Remote Employees' Devices in Cross-Border Teams, https://www.termsfeed.com/blog/remote-cross-border-employee-devices-privacy-law/ 31. Invasion of Privacy Lawsuits Will Be On The Rise In California Where Employers Use Monitoring/Tracking Technology - CDF Labor Law LLP, https://www.callaborlaw.com/blog/invasion-of-privacy-lawsuits-will-be-on-the-rise-in-california-where-employers-use-monitoring-tracking-technology 32. How Employers Can Stay Compliant With Employee Monitoring Laws, https://www.pbw-law.com/staying-compliant-with-employee-monitoring-laws/ 33. Employee Privacy & Workplace Surveillance Laws in California - Fairchild Employment Law, https://fairchildemploymentlaw.com/employee-privacy-and-workplace-surveillance-in-california/ 34. California Meal and Rest Break Requirements for Employees Working Remotely - ADP, https://www.adp.com/spark/articles/2021/03/california-meal-and-rest-break-requirements-for-employees-working-remotely.aspx 35. 6 FAQs on California's Meal and Rest Break Rules - Ogletree, https://ogletree.com/insights-resources/blog-posts/6-faqs-on-californias-meal-and-rest-break-rules/ 36. Meal periods, https://www.dir.ca.gov/dlse/FAQ_MealPeriods.html 37. Division of Labor Standards Enforcement (DLSE) - Reporting time pay, https://www.dir.ca.gov/dlse/faq_reportingtimepay.htm 38. Remote Work in California: Can My Employer Monitor Me?, https://www.inmotionlaw.com/remote-work-in-california-can-my-employer-monitor-me/ 39. Split Shift - California Department of Industrial Relations, https://www.dir.ca.gov/dlse/split_shift.htm 40. Understanding Split-Shift Pay Requirements in California - The Myers Law Group, https://www.myerslawgroup.com/understanding-split-shift-pay-requirements-in-california/ 41. Split Shift Pay - HRCalifornia - California Chamber of Commerce, https://hrcalifornia.calchamber.com/hr-library/pay-scheduling/wages-salaries/split-shift-pay 42. What are the Split-Shift Laws in CA? - D.Law, https://d.law/blog/what-are-the-split-shift-laws-in-ca/ 43. California Employment Compliance Checklist | Fisher Phillips, https://www.fisherphillips.com/a/web/fjX9weBiv9QWJ6KvEjp7BK/ca-employment-compliance-checklist-medtech.pdf 44. Ergonomics - Standards and Enforcement FAQs | Occupational Safety and Health Administration - OSHA, https://www.osha.gov/ergonomics/faqs 45. OSHA Compliance Checklist - Updated for 2026 - The HIPAA Journal, https://www.hipaajournal.com/osha-compliance-checklist/ 46. Health and Safety Rights: facts for california workers, https://www.dir.ca.gov/dosh/documents/health-and-safety-rights-for-workers.pdf 47. eTools : Computer Workstations | Occupational Safety and Health Administration - OSHA, https://www.osha.gov/etools/computer-workstations 48. 2026 Publication 15 - IRS, https://www.irs.gov/pub/irs-pdf/p15.pdf 49. Publication 15 (2026), (Circular E), Employer's Tax Guide | Internal Revenue Service, https://www.irs.gov/publications/p15 50. Accountable Plans Reimburse Employees the Tax-Smart Way - ssb-cpa.com, https://blog.ssb-cpa.com/news/accountable-plans-reimburse-employees-the-tax-smart-way?hsLang=en 51. Part I - IRS, https://www.irs.gov/pub/irs-drop/rr-03-106.pdf 52. Create an Accountable Plan to Reimburse Employees for Business Expenses, https://hrp.net/hrp-blog/create-an-accountable-plan-to-reimburse-employees-for-business-expenses/ 53. IRS sets 2026 business standard mileage rate at 72.5 cents per mile, up 2.5 cents, https://www.irs.gov/newsroom/irs-sets-2026-business-standard-mileage-rate-at-725-cents-per-mile-up-25-cents 54. Remote Work Reimbursement: What Employers Must Cover - OnPay, https://onpay.com/insights/remote-work-reimbursement-guide/ 55. New Year, New California “Workplace Know Your Rights Act” - Vorys, https://www.vorys.com/publication-new-year-new-california-workplace-know-your-rights-act 56. California Employers Face New Employee Notice Obligations Under SB 294 (“Workplace Know Your Rights Act”) in 2026 - Hanson Bridgett LLP, https://www.hansonbridgett.com/publication/260114_60_know_your_rights_act 57. Clock is Ticking for California Employers to Distribute the “Workplace Know Your Rights” Notice by February 1, 2026, https://calemploymentlawupdate.proskauer.com/2026/01/clock-is-ticking-for-california-employers-to-distribute-the-workplace-know-your-rights-notice-by-february-1-2026/ 58. California 'Workplace Know Your Rights Act' Template Notice Now Available - Ogletree, https://ogletree.com/insights-resources/blog-posts/california-workplace-know-your-rights-act-template-notice-now-available/ 59. California Employers Required to Provide 'Know Your Rights' Notice by Feb. 1 - Barton LLP, https://www.bartonesq.com/news-article/california-employers-required-to-provide-know-your-rights-notice-by-feb-1/ 60. Your California Immigration Rights Notification is Due by February 1: Here's Your 7-Step Compliance Plan, https://www.fisherphillips.com/en/news-insights/your-california-immigration-rights-notification-is-due-by-february-1.html 61. 2026 California and Federal Labor Law Posters - California Chamber of Commerce, https://www.calchamber.com/california-labor-law/california-federal-labor-law-poster 62. Workplace Postings - California Department of Industrial Relations - CA.gov, https://www.dir.ca.gov/wpnodb.html 63. 2026 Remote Workers - Digital Labor Law Posters, https://www.laborlawcenter.com/labor-law-posters/remote-worker-labor-law-posters 64. California Electronic Labor Law Poster Requirements for 2026 - SixFifty, https://www.sixfifty.com/blog/california-electronic-labor-law-poster-requirements/ 65. Steps Employers Can Take Now to Stay Compliant in 2026 | Pearlman, Brown & Wax, https://www.pbw-law.com/steps-employers-can-take-now-to-stay-compliant-in-2026/ 66. Employer Requirements for California's Workplace Know Your Rights Act | JD Supra, https://www.jdsupra.com/legalnews/employer-requirements-for-california-s-6605018/ 67. Workplace Know Your Rights Act Notices, Effective February 1, 2026 | CDF Labor Law LLP, https://www.cdflaborlaw.com/blog/workplace-know-your-rights-act-notices-effective-february-1-2026 68. Part-year resident and nonresident | FTB.ca.gov, https://www.ftb.ca.gov/file/personal/residency-status/part-year-and-nonresident.html 69. California Companies and Remote Employees - Law Office of Pietro Canestrelli, https://ietaxattorney.com/california-companies-and-remote-employees/ 70. 2026 California Employer's Guide (DE 44) Rev. 52 (1-26) - EDD, https://edd.ca.gov/siteassets/files/pdf_pub_ctr/de44.pdf 71. The tail wagging the dog: five rules of when attorney's fees can be awarded in wage and hour cases | California Employment Law Report, https://www.californiaemploymentlawreport.com/2017/02/tail-wagging-dog-five-rules-attorneys-fees-can-awarded-wage-hour-cases/ 72. Significant PAGA Reform on the Horizon: What Employers Need to Know (and Do) to Protect Themselves, https://www.callaborlaw.com/blog/significant-paga-reform-on-the-horizon-what-employers-need-to-know-and-do-to-protect-themselves 73. PAGA Reform: Everything You Need To Know - Fox Rothschild LLP, https://www.foxrothschild.com/publications/paga-reform-everything-you-need-to-know

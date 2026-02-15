@@ -1,0 +1,61 @@
+﻿California Recruitment & Hiring Compliance Checklist (2026)
+Version: 5.0 (Toolkit Upgrade) Effective Date: January 1, 2026 Primary Mandate: Cal. Lab. Code § 432.3 & Gov. Code § 12952
+1. Pay Transparency and Compensation Disclosure
+Legal Authority: Cal. Lab. Code § 432.3 Mandate: > "An employer with 15 or more employees shall include the pay scale for a position in any job posting. (m)(1) 'Pay scale' means a good faith estimate... employer reasonably expects to pay."
+A. Point-of-Hire Posting
+* Good Faith Estimates
+   * Range
+      * [ ] Reflect starting salary expected on Day 1 (exclude long-term ceilings).
+      * [ ] Provide compliant scale to third-party recruiters/boards (LinkedIn).
+   * Disclosure Scope
+      * [ ] Provide pay scale to current employees upon request.
+      * [ ] Prohibition: Do NOT ask for "prior salary" or "pay history."
+B. Equal Pay Standards (SB 642)
+* Auditing
+   * Comparators
+      * [ ] Audit using 2026 "wages" definition (bonuses, stock, profit sharing).
+      * [ ] Update analysis to compare across "another sex" (non-binary inclusion).
+2. Restrictions on "Stay-or-Pay" Contracts
+Legal Authority: Cal. Lab. Code § 926 & BPC § 16608 Mandate: > "Unlawful... to include... a contract term that... requires a worker to pay... for a debt if a worker’s employment... terminates."
+A. Offer Letter Scrubbing
+* Clawbacks
+   * Prohibited
+      * [ ] Remove repayment clauses for training, relocation, or "quit fees."
+* Sign-on Bonuses
+   * Exceptions
+      * [ ] Place repayment terms in Separate Agreement.
+      * [ ] Include 5-day attorney consultation notice.
+      * [ ] Prorate over max 2 years; No interest.
+3. Fair Chance Sequencing (Ban the Box)
+Legal Authority: Cal. Gov. Code § 12952 Mandate: > "Unlawful... To include on any application... before the employer makes a conditional offer... any question that seeks the disclosure of an applicant's conviction history."
+A. Pre-Check Controls
+* Sequencing
+   * Offer First
+      * [ ] Prohibit criminal history inquiries until Conditional Offer is made.
+      * [ ] Use standalone ICRAA/FCRA disclosure forms.
+* Assessment
+   * Individualized
+      * [ ] Document link between conviction and job duties (Nature/Time/Job).
+      * [ ] Provide 5 business days for Pre-Adverse Action response (plus 5 more if disputed).
+4. Cannabis Protections
+Legal Authority: Cal. Gov. Code § 12954 Mandate: > "Unlawful... to discriminate... based upon... use of cannabis off the job... [or] request information... relating to the applicant’s prior use."
+A. Screening Standards
+* Testing
+   * Methodology
+      * [ ] Replace urine/hair tests with Oral Fluid (Saliva) tests detecting active THC.
+      * [ ] Inquiry Ban: Remove questions about "prior marijuana use."
+* Exemptions
+   * Safety-Sensitive
+      * [ ] Identify Building Trades or Federal Clearance roles (Exempt from ban).
+5. Personnel Records (Data Segregation)
+Legal Authority: SB 464 & SB 513 Mandate: > "Store any demographic information... separate from employees' personnel records."
+A. Recordkeeping
+* Segregation
+   * Demographics
+      * [ ] Move Race/Ethnicity/Sex data to secure database inaccessible to hiring managers.
+   * Training Logs
+      * [ ] Ensure training records include: Name, Trainer, Date, Duration, Competencies, Certification.
+Statutory Reference List
+* Cal. Lab. Code § 432.3
+* Cal. Gov. Code § 12952
+* Cal. Gov. Code § 12954

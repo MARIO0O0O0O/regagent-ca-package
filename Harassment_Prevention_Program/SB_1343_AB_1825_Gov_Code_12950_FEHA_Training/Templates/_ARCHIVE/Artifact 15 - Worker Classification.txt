@@ -1,0 +1,51 @@
+﻿California Independent Contractor Analysis Checklist (AB 5)
+Version: 1.0 Effective Date: January 1, 2026 Primary Mandate: AB 5 (Codified in Lab. Code § 2775 et seq.) Presumption: Every worker is an EMPLOYEE unless proven otherwise.
+1. The "ABC Test" (The General Rule)
+To classify a worker as an Independent Contractor (1099), you must satisfy ALL THREE conditions. If you fail one, they are an employee.
+* [ ] A. Control: The worker is free from the control and direction of the hiring entity in connection with the performance of the work, both under the contract and in fact.
+   * Red Flag: You set their hours, provide equipment, or dictate "how" to do the work.
+* [ ] B. Course of Business: The worker performs work that is outside the usual course of the hiring entity's business.
+   * Red Flag: A clothing store hiring a seamstress (Integral).
+   * Green Light: A clothing store hiring a plumber (Not integral).
+* [ ] C. Customarily Engaged: The worker is customarily engaged in an independently established trade, occupation, or business of the same nature as that involved in the work performed.
+   * Proof: Do they have a business license? Other clients? A website?
+2. The B2B Contracting Exception (Lab. Code § 2776)
+If the ABC test fails (e.g., Part B), you may still use a contractor if a legitimate "Business-to-Business" relationship exists. Must meet ALL criteria:
+* [ ] 1. Control: The business service provider is free from the control and direction of the contracting business.
+* [ ] 2. Services: Provides services directly to the contracting business rather than to customers of the contracting business.
+* [ ] 3. Written Contract: The contract is in writing.
+* [ ] 4. Licenses: Provider has all required business licenses or tax registration.
+* [ ] 5. Rates: Provider maintains a business location separate from the hiring entity (can be their home) and sets their own rates.
+* [ ] 6. Tools: Provider supplies their own tools and equipment.
+* [ ] 7. Other Clients: Provider customarily engages in the same type of work for other clients.
+3. Professional Services Exemptions (Lab. Code § 2778)
+Specific occupations may use the looser "Borello" test instead of ABC. Examples include:
+* [ ] Marketing / HR Administrators.
+* [ ] Graphic Designers / Grant Writers.
+* [ ] Fine Artists / Photographers / Freelance Writers.
+* [ ] Accountants / Lawyers / Architects / Engineers.
+* [ ] Note: Still requires they have a business license and set their own hours.
+4. Documentation Defense File
+If you hire a 1099 contractor, keep these in a vendor file (NOT a personnel file):
+* [ ] W-9 Form: Completed and signed.
+* [ ] Written Contract: Clearly stating "Independent Contractor" status and scope.
+* [ ] Proof of Business: Copy of their Business License, Insurance Certificate, or Website printout.
+* [ ] Invoices: Do not pay via payroll. Pay via Accounts Payable upon receipt of invoice.
+5. CROSS-REFERENCE: HOW OTHER LAWS IMPACT CLASSIFICATION
+5.1 WAGE & HOUR → CLASSIFICATION
+Legal Principle: Misclassified workers are owed missed meal/rest breaks and overtime. Compliance Impact:
+* [ ] Retroactive Pay: If reclassified by audit, you will owe 4 years of back taxes, overtime, and break penalties. Statutory Basis: Lab. Code § 226.7. Cross-Reference: → [Wage & Hour Checklist]
+5.2 WORKERS' COMPENSATION → CLASSIFICATION
+Legal Principle: You must cover employees. Compliance Impact:
+* [ ] Audit Risk: Workers' Comp carriers audit payroll annually. If they see payments to uninsured contractors, they will charge you the premium as if they were employees.
+* [ ] Requirement: Require contractors to provide a "Certificate of Insurance" for their own Workers' Comp policy. Cross-Reference: → [Workers' Comp/Leave Checklist]
+5.3 PERSONNEL RECORDS → CLASSIFICATION
+Legal Principle: Separation of entities. Compliance Impact:
+* [ ] Storage: Do NOT keep 1099 files in the "Personnel" filing cabinets. Keep them in "Vendor/Accounts Payable" files to distinguish them legally. Cross-Reference: → [Personnel Records Checklist]
+5.4 AB 692 (STAY-OR-PAY) → CLASSIFICATION
+Legal Principle: Contracts. Compliance Impact:
+* [ ] Freedom: You generally cannot bind a true contractor with "Stay-or-Pay" or non-competes. They must be free to leave and take other work. Cross-Reference: → [AB 692 Stay-or-Pay Checklist]
+6. Penalties
+* Willful Misclassification: $5,000 to $25,000 per violation.
+* Taxes: Payment of all back taxes (employer and employee share) + interest.
+* PAGA: Civil penalties for every pay period the contractor was treated as an employee.

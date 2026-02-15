@@ -1,0 +1,531 @@
+# PERSONNEL FILE POLICY CHECKLIST
+## Required Policy Documentation by Category
+
+**Purpose:** This checklist defines each policy document that should be present in employee personnel files or readily accessible for compliance verification. Each policy is explained with its legal requirement, retention period, and audit verification method.
+
+---
+
+## CATEGORY 1: FOUNDATIONAL EMPLOYMENT POLICIES
+
+### 1.1 At-Will Employment Policy
+**Definition:** Written acknowledgment that employment relationship can be terminated by either party at any time, with or without cause or notice, except as limited by law or written agreement.
+
+**Legal Requirement:** 
+- Not statutorily mandated but critical for litigation defense
+- Defeats implied contract claims in wrongful termination suits
+- Must be clear, unambiguous, and signed by employee
+
+**Required Elements:**
+- Statement: "Employment is at-will and can be terminated at any time by either party"
+- Disclaimer that no supervisor or manager can modify at-will status except CEO/Board
+- Employee signature and date acknowledging understanding
+- No contradictory language in offer letter or handbook
+
+**Location:** Personnel file (32a_Personnel_Files)  
+**Retention:** 4 years post-termination (SB 807)  
+**Audit Verification:** ✅ Signed acknowledgment on file | ❌ Missing or unsigned
+
+---
+
+### 1.2 Employee Handbook Acknowledgment
+**Definition:** Signed receipt confirming employee received, read, and understood company employee handbook containing workplace policies, procedures, and conduct expectations.
+
+**Legal Requirement:**
+- Not legally required but essential for policy enforcement
+- Necessary to discipline/terminate employees for policy violations
+- Establishes employee awareness of expectations
+
+**Required Elements:**
+- Statement: "I received the [Company] Employee Handbook dated [version date]"
+- Acknowledgment: "I have read and understood the policies contained in the handbook"
+- Agreement to comply with policies
+- Understanding that handbook does not create employment contract
+- Employee signature and date
+
+**Location:** Personnel file (32a_Personnel_Files)  
+**Retention:** 4 years post-termination  
+**Audit Verification:** ✅ Signed acknowledgment with version date | ❌ Missing, undated, or wrong version
+
+---
+
+### 1.3 Code of Conduct / Ethics Policy
+**Definition:** Standards of professional behavior, ethical expectations, conflicts of interest disclosure, and consequences for violations.
+
+**Legal Requirement:**
+- Not statutorily required but best practice
+- Critical for publicly traded companies (SOX requirements)
+- Supports termination for misconduct
+
+**Required Elements:**
+- Professional conduct expectations
+- Conflicts of interest disclosure and management
+- Confidentiality and proprietary information protection
+- Reporting mechanisms for ethics violations
+- Consequences for violations
+- Annual re-acknowledgment (best practice)
+
+**Location:** Personnel file (32a_Personnel_Files)  
+**Retention:** 4 years post-termination  
+**Audit Verification:** ✅ Signed acknowledgment | ❌ Missing
+
+---
+
+## CATEGORY 2: ANTI-HARASSMENT & DISCRIMINATION POLICIES
+
+### 2.1 Sexual Harassment Prevention Policy
+**Definition:** Written policy prohibiting sexual harassment, defining prohibited conduct, outlining complaint procedures, and committing to prompt investigation.
+
+**Legal Requirement:**
+- **MANDATORY** under California Gov. Code § 12950.1
+- Must be provided to all employees
+- Must describe prohibited conduct and complaint/investigation process
+- Must prohibit retaliation
+
+**Required Elements:**
+- Definition of sexual harassment (quid pro quo and hostile environment)
+- Statement that harassment is prohibited and will not be tolerated
+- Complaint procedure with multiple reporting options (bypass supervisor if harasser)
+- Investigation process and timeline commitments
+- Anti-retaliation protections
+- Contact information for DFEH (now CRD - Civil Rights Department)
+
+**Location:** Personnel file (32a_Personnel_Files)  
+**Retention:** 4 years post-termination  
+**Audit Verification:** ✅ Policy acknowledgment on file | ❌ Missing - **CALIFORNIA VIOLATION**
+
+---
+
+### 2.2 Anti-Discrimination Policy (Protected Classes)
+**Definition:** Policy prohibiting discrimination based on protected characteristics under federal (Title VII, ADA, ADEA) and California (FEHA) law.
+
+**Legal Requirement:**
+- Best practice (not explicitly required as standalone policy if covered in handbook)
+- Demonstrates commitment to EEO principles
+- Supports defense in discrimination claims
+
+**Required Elements:**
+- List of protected classes: race, color, religion, sex, national origin, age (40+), disability, genetic information, pregnancy, sexual orientation, gender identity, gender expression, marital status, military/veteran status
+- Statement prohibiting discrimination in all employment decisions
+- Complaint procedure
+- Anti-retaliation statement
+
+**Location:** Personnel file (32a_Personnel_Files)  
+**Retention:** 4 years post-termination  
+**Audit Verification:** ✅ Policy acknowledgment on file | ❌ Missing
+
+---
+
+### 2.3 Anti-Retaliation Policy
+**Definition:** Policy prohibiting retaliation against employees who report harassment, discrimination, safety violations, or other protected activities.
+
+**Legal Requirement:**
+- Implied by federal/state anti-retaliation statutes
+- Explicit policy strengthens legal defense
+
+**Required Elements:**
+- Definition of protected activities (complaints, investigations, testimony, whistleblowing)
+- Statement that retaliation is prohibited
+- Examples of retaliatory conduct (termination, demotion, adverse schedule changes)
+- Reporting mechanism for retaliation claims
+- Consequences for retaliators
+
+**Location:** Personnel file (32a_Personnel_Files)  
+**Retention:** 4 years post-termination  
+**Audit Verification:** ✅ Policy acknowledgment on file | ❌ Missing
+
+---
+
+## CATEGORY 3: WORKPLACE SAFETY & VIOLENCE PREVENTION
+
+### 3.1 Workplace Violence Prevention Policy (SB 553)
+**Definition:** Written policy establishing procedures to prevent and respond to workplace violence, including threats, assaults, and intimidation.
+
+**Legal Requirement:**
+- **MANDATORY** under California Labor Code § 6401.9 (effective July 1, 2024)
+- Must be written and accessible to employees at all times
+- Must include employee training component
+
+**Required Elements:**
+- Definition of workplace violence (threats, assaults, intimidation)
+- Reporting procedures for violent incidents or threats
+- Incident response protocols
+- Investigation procedures
+- Coordination with law enforcement when appropriate
+- Anti-retaliation protections for reporters
+- Annual training requirements
+- Violent Incident Log maintenance (5-year retention)
+
+**Location:** Personnel file (32a_Personnel_Files) - acknowledgment only; full plan in HR repository  
+**Retention:** Duration of employment + 5 years (incident logs)  
+**Audit Verification:** ✅ Training completion documented | ❌ Missing - **CALIFORNIA VIOLATION (SB 553)**
+
+---
+
+### 3.2 Injury and Illness Prevention Program (IIPP)
+**Definition:** Written safety program identifying workplace hazards and establishing procedures to prevent injuries and illnesses.
+
+**Legal Requirement:**
+- **MANDATORY** under California Labor Code § 6401.7 (Cal/OSHA)
+- All California employers must have written IIPP
+- Must be available to employees and Cal/OSHA inspectors
+
+**Required Elements:**
+- Management commitment and assignment of safety responsibilities
+- Hazard identification and evaluation system
+- Accident/exposure investigation procedures
+- Hazard correction methods
+- Safety training programs
+- Communication system for safety issues
+- Annual review and updates
+
+**Location:** HR repository (not required in individual personnel files, but training documentation is)  
+**Retention:** Duration of employment + 5 years (training records)  
+**Audit Verification:** ✅ IIPP exists and employee training documented | ❌ No IIPP or training records missing
+
+---
+
+## CATEGORY 4: WAGE & HOUR POLICIES
+
+### 4.1 Timekeeping and Overtime Policy
+**Definition:** Policy explaining how employees record work hours, meal/rest break requirements, and overtime compensation rules.
+
+**Legal Requirement:**
+- Not statutorily required as standalone policy
+- Essential for FLSA and California Labor Code compliance
+- Demonstrates good-faith compliance efforts
+
+**Required Elements:**
+- Timekeeping procedures (clock in/out, time sheet submission)
+- Definition of "hours worked" (including travel, training, on-call)
+- Meal break requirements: 30 min unpaid before 5th hour (California)
+- Rest break requirements: 10 min paid per 4 hours worked (California)
+- Overtime calculation methods (1.5× after 8 hrs/day or 40 hrs/week; 2× after 12 hrs/day)
+- Prohibition on off-the-clock work
+- Reporting time pay (minimum 2-4 hours if sent home early)
+
+**Location:** Personnel file (32a_Personnel_Files)  
+**Retention:** 4 years post-termination  
+**Audit Verification:** ✅ Policy acknowledgment on file | ❌ Missing
+
+---
+
+### 4.2 Expense Reimbursement Policy
+**Definition:** Policy outlining employer's obligation to reimburse employees for necessary business expenses incurred in performance of duties.
+
+**Legal Requirement:**
+- **MANDATORY** under California Labor Code § 2802
+- Employer must reimburse all necessary expenditures or losses
+
+**Required Elements:**
+- Types of reimbursable expenses (mileage, meals, lodging, supplies, phone/internet if required for work)
+- IRS mileage rate or company rate (must equal or exceed IRS rate)
+- Submission procedures and deadlines
+- Receipt requirements
+- Approval process
+- Reimbursement timeline (typically within 30 days)
+
+**Location:** Personnel file (32a_Personnel_Files)  
+**Retention:** 4 years post-termination  
+**Audit Verification:** ✅ Policy acknowledgment on file | ❌ Missing - **CALIFORNIA VIOLATION (Labor Code § 2802)**
+
+---
+
+## CATEGORY 5: LEAVE & TIME OFF POLICIES
+
+### 5.1 Paid Sick Leave Policy (California)
+**Definition:** Policy providing minimum 5 days (40 hours) paid sick leave per year, accrual rates, usage rules, and carryover provisions per SB 616.
+
+**Legal Requirement:**
+- **MANDATORY** under California Labor Code § 246 (as amended by SB 616, effective January 1, 2024)
+- Must provide at least 40 hours (5 days) per year
+- Must allow accrual or front-loading
+
+**Required Elements:**
+- Accrual method: 1 hour per 30 hours worked (or front-load 40 hours)
+- Usage: Minimum 40 hours (5 days) per year must be available for use
+- Carryover: Unused hours carry to next year (cap at 80 hours accrual)
+- Permissible uses: Employee illness/injury, preventive care, family care, safe leave (domestic violence victim)
+- Notice: Employer may require advance notice (where foreseeable)
+- No retaliation for using sick leave
+- Balance tracking on wage statements or semi-monthly
+
+**Location:** Personnel file (32a_Personnel_Files)  
+**Retention:** 4 years post-termination  
+**Audit Verification:** ✅ Policy acknowledgment + current accrual balance documented | ❌ Missing - **CALIFORNIA VIOLATION (SB 616)**
+
+---
+
+### 5.2 Family and Medical Leave Policy (FMLA/CFRA)
+**Definition:** Policy providing eligible employees up to 12 weeks unpaid leave for serious health conditions, childbirth, or family care.
+
+**Legal Requirement:**
+- **MANDATORY** for employers with 50+ employees (FMLA) or 5+ employees (CFRA)
+- Must post FMLA notice and provide written notice to employees
+- Must be included in handbook or separate policy
+
+**Required Elements:**
+- Eligibility: 12 months employed, 1,250 hours worked (FMLA) or 1,250 hours in 12 months (CFRA)
+- Covered reasons: Serious health condition, childbirth/adoption, military caregiver, military exigency
+- Duration: 12 weeks per 12-month period (26 weeks for military caregiver)
+- Job protection and benefits continuation
+- Certification requirements (medical documentation)
+- Intermittent/reduced schedule leave options
+- Interaction with other leaves (disability, workers' comp, PTO)
+
+**Location:** Personnel file (32a_Personnel_Files)  
+**Retention:** 3 years (FMLA) | 4 years (California best practice)  
+**Audit Verification:** ✅ Policy acknowledgment on file | ❌ Missing - **FEDERAL/STATE VIOLATION**
+
+---
+
+### 5.3 Pregnancy Disability Leave Policy (PDL)
+**Definition:** Policy providing up to 4 months leave for disability related to pregnancy, childbirth, or related medical conditions (California-specific).
+
+**Legal Requirement:**
+- **MANDATORY** under California Gov. Code § 12945 (FEHA)
+- Applies to employers with 5+ employees
+- Separate from and in addition to CFRA leave
+
+**Required Elements:**
+- Eligibility: Any employee disabled by pregnancy
+- Duration: Up to 4 months (17.33 weeks)
+- Reasonable accommodation: Transfer to less strenuous position, modified duties
+- Job protection and benefits continuation
+- Certification requirements
+- Interaction with CFRA (PDL first, then CFRA for bonding)
+
+**Location:** Personnel file (32a_Personnel_Files)  
+**Retention:** 4 years post-termination  
+**Audit Verification:** ✅ Policy acknowledgment on file | ❌ Missing - **CALIFORNIA VIOLATION**
+
+---
+
+## CATEGORY 6: CONFIDENTIALITY & DATA SECURITY
+
+### 6.1 Confidentiality and Proprietary Information Policy
+**Definition:** Policy protecting company trade secrets, confidential information, and client data from unauthorized disclosure.
+
+**Legal Requirement:**
+- Not statutorily required but essential for trade secret protection
+- Necessary to enforce non-disclosure obligations
+- Required for certain government contracts (DFARS, ITAR)
+
+**Required Elements:**
+- Definition of confidential information (trade secrets, client lists, financial data, technical processes)
+- Employee obligations during and after employment
+- Prohibition on unauthorized disclosure or use
+- Return of materials upon termination
+- Acknowledgment that breach may result in legal action
+- Exceptions for protected disclosures (whistleblowing)
+
+**Location:** Personnel file (32a_Personnel_Files)  
+**Retention:** 4 years post-termination (or longer if trade secret litigation potential)  
+**Audit Verification:** ✅ Signed confidentiality agreement on file | ❌ Missing
+
+---
+
+### 6.2 Data Security and Privacy Policy
+**Definition:** Policy governing handling of sensitive data, including employee PII, client information, and cybersecurity protocols.
+
+**Legal Requirement:**
+- Required for compliance with CMIA (California Civil Code §§ 56-56.37) for medical information
+- Best practice for CCPA compliance (employee personal information)
+- May be required by client contracts or industry standards (HIPAA, PCI-DSS)
+
+**Required Elements:**
+- Types of protected data (PII, PHI, financial, proprietary)
+- Access controls and authorization procedures
+- Encryption and secure transmission requirements
+- Incident response procedures (data breach notification)
+- Employee training requirements
+- Consequences for violations
+
+**Location:** Personnel file (32a_Personnel_Files)  
+**Retention:** 4 years post-termination  
+**Audit Verification:** ✅ Training completion documented | ❌ Missing
+
+---
+
+## CATEGORY 7: TECHNOLOGY & COMMUNICATIONS
+
+### 7.1 Acceptable Use Policy (Technology)
+**Definition:** Policy governing employee use of company computers, email, internet, phone, and other technology resources.
+
+**Legal Requirement:**
+- Not legally required but essential for monitoring and enforcement
+- Establishes employer's right to monitor communications
+- Reduces expectation of privacy claims
+
+**Required Elements:**
+- Permitted uses (business purposes, limited personal use)
+- Prohibited uses (illegal activities, harassment, excessive personal use)
+- No expectation of privacy for company systems
+- Monitoring and inspection rights
+- Social media guidelines
+- BYOD (Bring Your Own Device) policies if applicable
+- Consequences for violations
+
+**Location:** Personnel file (32a_Personnel_Files)  
+**Retention:** 4 years post-termination  
+**Audit Verification:** ✅ Policy acknowledgment on file | ❌ Missing
+
+---
+
+### 7.2 Social Media Policy
+**Definition:** Policy addressing employee social media use, personal vs. professional accounts, and protection of company reputation.
+
+**Legal Requirement:**
+- Not legally required but recommended
+- Must not violate NLRA Section 7 (protected concerted activity)
+- Cannot prohibit employees from discussing wages or working conditions
+
+**Required Elements:**
+- Distinction between personal and professional social media use
+- Prohibition on disclosing confidential information
+- Respectful communication expectations (no harassment or defamation)
+- Disclaimer requirements when posting about company
+- Company social media account management
+- Compliance with NLRA (employees may discuss terms/conditions of employment)
+
+**Location:** Personnel file (32a_Personnel_Files)  
+**Retention:** 4 years post-termination  
+**Audit Verification:** ✅ Policy acknowledgment on file | ❌ Missing
+
+---
+
+## CATEGORY 8: COMPLIANCE-SPECIFIC POLICIES
+
+### 8.1 Arbitration Agreement
+**Definition:** Written agreement requiring binding arbitration for employment disputes rather than litigation in court.
+
+**Legal Requirement:**
+- **NOT REQUIRED** - voluntary employer practice
+- **NEW RESTRICTIONS** under California AB 51 (prohibits mandatory arbitration for discrimination/harassment claims as condition of employment)
+- **Stay-or-Pay PROHIBITION** under California AB 692 (cannot require repayment of training costs)
+- Must be voluntary, separate agreement (cannot be buried in handbook)
+
+**Required Elements:**
+- Mutual agreement to arbitrate (employer and employee)
+- Scope of covered disputes (wage/hour, wrongful termination, etc.)
+- Explicit carve-outs: Discrimination, harassment, FEHA claims (AB 51 compliance)
+- Arbitration rules and procedures (AAA, JAMS)
+- Cost allocation (employer typically pays arbitrator fees)
+- Acknowledgment that agreement is voluntary
+- **WET SIGNATURE REQUIRED** (digital signature may not be enforceable per Garcia v. Stoneledge)
+
+**Location:** Personnel file (32a_Personnel_Files) - scan of wet-signed original  
+**Retention:** 4 years post-termination (or longer if dispute pending)  
+**Audit Verification:** ✅ Wet-signed agreement on file | ❌ Missing or digital-only signature - **ENFORCEABILITY RISK**
+
+---
+
+### 8.2 Background Check Authorization (FCRA)
+**Definition:** Written disclosure and authorization for employer to conduct background checks per Fair Credit Reporting Act.
+
+**Legal Requirement:**
+- **MANDATORY** under 15 U.S.C. § 1681b(b)(2)(A) if conducting background checks
+- Must be standalone document (cannot be part of employment application)
+- Must provide clear and conspicuous disclosure
+
+**Required Elements:**
+- Disclosure that background check will be conducted
+- Authorization for employer to obtain consumer report
+- Statement of candidate rights under FCRA
+- Candidate signature and date
+- If adverse action taken: Pre-adverse action notice, copy of report, summary of rights
+
+**Location:** Personnel file (32a_Personnel_Files)  
+**Retention:** 4 years post-termination  
+**Audit Verification:** ✅ Signed authorization on file | ❌ Missing - **FEDERAL VIOLATION if check conducted**
+
+---
+
+### 8.3 "Know Your Rights" Notice (SB 294)
+**Definition:** Annual notice informing employees of right to inspect and copy personnel records per California Labor Code § 1198.5.
+
+**Legal Requirement:**
+- **MANDATORY** under California SB 294 (effective February 1, 2026)
+- Must be provided annually to all employees
+- Separate, stand-alone written notice required (cannot be buried in handbook)
+
+**Required Elements:**
+- Statement of employee right to inspect and request copies of personnel records
+- Timeline: Employer must provide within 30 calendar days (extendable to 35 days by mutual written agreement)
+- Fee disclosure: Employer may charge reasonable copying costs
+- Contact information for requesting records
+- Emergency contact designation option (SB 294 requirement)
+- Employee acknowledgment of receipt
+
+**Location:** Personnel file (32a_Personnel_Files)  
+**Retention:** 4 years post-termination  
+**Audit Verification:** ✅ 2025 and 2026 notices with employee acknowledgment | ❌ Missing - **$750 PENALTY per employee per year (SB 294)**
+
+---
+
+## CATEGORY 9: TRAINING CERTIFICATIONS (SB 513 Compliance)
+
+### 9.1 Sexual Harassment Prevention Training Certificate
+**Definition:** Documentation of completed mandatory sexual harassment prevention training with specific metadata.
+
+**Legal Requirement:**
+- **MANDATORY** under California Gov. Code § 12950.1
+- Supervisors: 2 hours every 2 years
+- Non-supervisors: 1 hour every 2 years
+- New employees: Within 6 months of hire (supervisors) or hire (non-supervisors)
+- **SB 513 METADATA REQUIRED** (effective January 1, 2026)
+
+**Required Elements (SB 513 Five Metadata Fields):**
+1. **Training Provider Name**: "CalChamber," "SHRM," "Internal HR Dept," etc.
+2. **Duration and Date**: "2.0 hours on March 15, 2025"
+3. **Core Competencies**: "FEHA harassment law, bystander intervention, complaint procedures"
+4. **Resulting Certification**: "Certificate of Completion issued" or "Passed exam with 85%"
+5. **Employee Name**: (Standard practice)
+
+**Location:** Personnel file (32a_Personnel_Files)  
+**Retention:** 4 years post-termination  
+**Audit Verification:** ✅ Certificate with all 5 SB 513 metadata fields | ❌ Missing or incomplete metadata - **$750 PENALTY (SB 513)**
+
+---
+
+### 9.2 Workplace Violence Prevention Training Certificate (SB 553)
+**Definition:** Documentation of completed workplace violence prevention training per SB 553 requirements.
+
+**Legal Requirement:**
+- **MANDATORY** under California Labor Code § 6401.9 (effective July 1, 2024)
+- Annual training for all employees
+- Must cover WVPP plan contents, reporting procedures, response protocols
+- **SB 513 METADATA REQUIRED** (effective January 1, 2026)
+
+**Required Elements (SB 513 Five Metadata Fields):**
+1. **Training Provider Name**: "Safety Services Company," "Internal Safety Officer," etc.
+2. **Duration and Date**: "1.0 hour on August 10, 2025"
+3. **Core Competencies**: "Threat recognition, de-escalation techniques, incident reporting, emergency response"
+4. **Resulting Certification**: "Certificate of Completion issued"
+5. **Employee Name**: (Standard practice)
+
+**Location:** Personnel file (32a_Personnel_Files)  
+**Retention:** 5 years (incident logs); 4 years post-term (training records)  
+**Audit Verification:** ✅ Certificate with all 5 SB 513 metadata fields | ❌ Missing or incomplete metadata - **$750 PENALTY (SB 513)**
+
+---
+
+## AUDIT SUMMARY TABLE
+
+| Policy Category | Total Policies | Mandatory | Best Practice |
+|----------------|---------------|-----------|---------------|
+| **Foundational Employment** | 3 | 0 | 3 |
+| **Anti-Harassment/Discrimination** | 3 | 1 (Sexual Harassment) | 2 |
+| **Workplace Safety** | 2 | 2 (WVPP, IIPP) | 0 |
+| **Wage & Hour** | 2 | 1 (Expense Reimbursement) | 1 |
+| **Leave & Time Off** | 3 | 3 (Sick Leave, FMLA/CFRA, PDL) | 0 |
+| **Confidentiality & Data** | 2 | 1 (Data Security - CMIA) | 1 |
+| **Technology/Communications** | 2 | 0 | 2 |
+| **Compliance-Specific** | 3 | 2 (Background Check, Know Your Rights) | 1 |
+| **Training Certifications** | 2 | 2 (Harassment, Violence) | 0 |
+| **TOTAL** | **22** | **12** | **10** |
+
+---
+
+**END OF POLICY CHECKLIST**
+
+*This checklist should be used in conjunction with the 47-Point Compliance Checklist to verify policy acknowledgments are present in employee personnel files. Missing mandatory policies represent critical compliance gaps requiring immediate remediation.*

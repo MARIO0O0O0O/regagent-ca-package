@@ -1,0 +1,69 @@
+﻿Artifact 1: Master Compliance & Record Lifecycle Guide (2026 Standards)
+This document serves as the primary reference for auditing 47–60 employee records in El Monte, CA. It defines the relationship between legal mandates, organizational policies, and the resulting data assets.
+1. The Mandate-to-Policy-to-Record Matrix
+Parent (Mandate)
+	Child (Policy)
+	Grandchildren (Records)
+	Retention Period
+	Housing (Location)
+	Responsible Party
+	Labor Code § 1198.5 / SB 513
+	Personnel File Access & Training Policy
+	Education/Training records (Name, Provider, Duration, Competencies, Cert) [1, 2]
+	4 years [3]
+	Main Personnel File
+	HR
+	SB 294
+	Workplace Know Your Rights Act
+	Annual Notice Proof of Delivery; Emergency Contact designation [4, 5, 6]
+	3 years [7]
+	Main Personnel File
+	HR
+	Lab. Code § 6401.9 / SB 553
+	Workplace Violence Prevention Plan (WVPP)
+	Violent Incident Logs (redacted of PII); Investigation reports [4, 8]
+	5 years [8]
+	Separate Safety/Investigation Log
+	HR / Legal
+	29 CFR § 1630.14 (ADA)
+	Medical Privacy & Accommodation Policy
+	Interactive process notes; Medical certifications; Fitness-for-duty [2, 9]
+	4 years (CA) [2]
+	Confidential Medical File
+	HR Manager
+	8 CFR § 274a.2
+	Employment Eligibility Verification
+	Form I-9; copies of ID documents (if standard practice) [10, 2, 11]
+	Later of 3 yrs from hire or 1 yr post-term [2]
+	Separate I-9 Binder/Folder
+	HR
+	Lab. Code § 226 / FLSA
+	Itemized Wage Statement Policy
+	Pay stubs; Gross/net wages; Total hours; All deductions [8, 12]
+	3–4 years [8, 13]
+	Payroll System/Audit Vault
+	Finance
+	ERISA § 107 & 209
+	Health & Retirement Benefit Admin
+	Enrollment forms; SPDs; SMMs; Vesting/Eligibility data [3, 14]
+	6 years to Indefinite [4, 14]
+	Benefits File
+	HR / Finance
+	2. Guarding Standards & Gatekeeping Protocols
+Technical Standards (Digital)
+* Encryption: All electronic records containing PII, PHI, or financial data must utilize AES-256 encryption at rest and in transit.[15, 16, 17]
+* FIPS Validation: Cryptographic modules used by HRIS and Payroll vendors must be FIPS 140-2 or 140-3 validated.[18, 19, 20]
+* Access Control: Access must follow the "Principle of Least Privilege" via Role-Based Access Control (RBAC). Finance is strictly prohibited from viewing medical or performance records.[21, 22, 17]
+Physical Standards (Vault)
+* Vault Rating: Vital paper records should be stored in fire-resistive enclosures rated UL 72 Class 350 for paper (maintaining <350°F internally).[23, 24, 25]
+* Environmental Control: Vaults must maintain a stable environment (~70°F and 30-50% humidity) to prevent the degradation of paper assets.[26]
+3. Statutory Snippets & Requirements for Compliance
+A. Personnel File Definition (SB 513)
+"Existing law grants... the right to inspect... personnel records... SB 513 clarifies that personnel records relating to the employee's performance now also include education and training records... [including] skills in equipment or software." [27, 2]
+B. Workplace Know Your Rights (SB 294)
+"On or before February 1, 2026, and annually thereafter, [employers must] provide a stand-alone written notice to each current employee of specified workers' rights... [and] offer all current employees... an opportunity to designate an emergency contact." [4, 28, 29]
+C. Medical Privacy (CMIA)
+"Each employer who receives medical information shall establish appropriate procedures to ensure the confidentiality and protection from unauthorized use and disclosure of that information." [30, 31]
+4. Analytical Placeholders
+(Placeholder for conducting analysis on upcoming California Supreme Court rulings regarding "shadow files" maintained by managers outside of central HR systems and the definition of "actual knowledge" in arrest notifications under SB 294.)
+(Placeholder for determining organizational risk appetite regarding document scanning. Analysis will seek to balance the ease of digital retrieval with the high overhead of maintaining a physical UL-rated vault room.)

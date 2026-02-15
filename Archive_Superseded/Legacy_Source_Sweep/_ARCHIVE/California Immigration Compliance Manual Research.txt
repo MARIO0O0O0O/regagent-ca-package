@@ -1,0 +1,309 @@
+﻿Artifact 11: Immigration Compliance, I-9 Administration, and SB 294 Rights Notification Protocol (2026)
+Executive Summary and Regulatory Framework
+The operational landscape for California employers in 2026 represents a convergence of intensified federal enforcement and robust state-level worker protections. For small-to-medium enterprises (SMEs) in the Los Angeles area, this environment necessitates a sophisticated compliance architecture that balances the requirements of the Immigration Reform and Control Act of 1986 (IRCA) with California’s aggressive legislative safeguards, specifically Assembly Bill 450 (The Immigrant Worker Protection Act) and the newly implemented Senate Bill 294 (The Workplace Know Your Rights Act).
+This report serves as the comprehensive "Artifact 11" compliance manual. It is designed not merely as a summary of obligations, but as an exhaustive operational protocol for navigating the contradictions between federal mandates to verify employment eligibility and state mandates to prevent unfair immigration-related practices. The analysis indicates that the margin for error has narrowed significantly; federal penalties for paperwork violations continue to rise, while state civil penalties for privacy violations or retaliation can reach $10,000 per occurrence.
+The following sections detail the statutory obligations effective January 1, 2026, providing procedural depth, penalty analysis, and strategic risk management frameworks.
+SECTION 1: Form I-9 Employment Eligibility Verification
+The Form I-9 (Employment Eligibility Verification) is the foundational document of U.S. immigration compliance. While the requirement is federal, the execution of this duty is heavily scrutinized under California’s anti-discrimination statutes. The complexity of the I-9 process lies in its deceptive simplicity; it requires employers to act as document verifiers without overstepping into discriminatory investigation.
+1.1 Federal Statutory Requirement: 8 U.S.C. § 1324a
+The statutory authority for the I-9 requirement is derived from the Immigration Reform and Control Act (IRCA), codified at 8 U.S.C. § 1324a. This statute creates a dual prohibition: it is unlawful to hire an unauthorized alien, and it is unlawful to hire any individual without verifying their identity and employment authorization.
+8 U.S.C. § 1324a(a)(1)(B): "It is unlawful for a person or other entity to hire for employment in the United States an individual without complying with the requirements of subsection (b)."
+The affirmative defense to an allegation of knowingly hiring an unauthorized worker is the "good faith" compliance with the verification system.
+8 U.S.C. § 1324a(b)(1)(A): "The person or entity must attest, under penalty of perjury and on a form designated or established by the Attorney General by regulation, that it has verified that the individual is not an unauthorized alien by examining—(i) a document described in subparagraph (B), or (ii) a document described in subparagraph (C) and a document described in subparagraph (D)."
+For the 2026 fiscal year, employers must utilize the correct edition of Form I-9. As of January 2026, the current version is the 01/20/25 edition. Employers may continue to use the 08/01/23 edition until July 31, 2026, but best practice dictates immediate migration to the 2025 edition to minimize administrative friction.
+1.2 Section 1: Employee Information and Attestation
+Section 1 of Form I-9 is the exclusive domain of the employee. The employer's role is limited to providing the form and instructions; however, the employer retains liability for reviewing the section to ensure it is fully completed.
+Timing Requirement: Section 1 must be completed and signed by the employee no later than the first day of employment for pay. It may be completed as soon as an unconditional offer of employment is accepted, but never before an offer is extended to avoid claims of pre-employment screening discrimination.
+Detailed Field Analysis and Common Pitfalls:
+* Name Fields: The employee must use their legal name. If they have two last names (common in Hispanic naming conventions), both must be entered.
+* Social Security Number (SSN): Providing an SSN is voluntary for the employee unless the employer participates in E-Verify. In California, where many SMEs are restricted from using E-Verify (see Section 2), employers cannot mandate the production of an SSN for I-9 purposes if the employee provides other valid documentation (e.g., a Passport).
+* Attestation of Status: The employee must select one of four categories:
+   1. Citizen of the United States.
+   2. Noncitizen National of the United States.
+   3. Lawful Permanent Resident (LPR): Must provide an Alien Registration Number (A-Number) or USCIS Number.
+   4. Noncitizen Authorized to Work: Must provide the expiration date of authorization (if applicable) and either an A-Number, USCIS Number, or Form I-94 Admission Number.
+Critical Compliance Insight: A frequent substantive error occurs when employees in the fourth category (Noncitizen Authorized to Work) fail to provide the expiration date of their authorization or provide a date that has already passed. The employer must review this field. If the employee attests to being authorized only until a specific date, the employer creates a "tickler" system to reverify status before that date (see Section 1.5). However, if an employee presents a Permanent Resident Card (Green Card), they may check the "Lawful Permanent Resident" box; even if their card expires, their status does not, and reverification is generally prohibited.
+1.3 Section 2: Employer Review and Verification
+Section 2 is the employer's attestation that they have examined the employee's documents. This section is the primary source of liability for technical violations.
+Timing Requirement: Section 2 must be completed within three business days of the employee's first day of work.
+* Example: If the employee starts on Monday, Section 2 must be signed by Thursday.
+* Exceptions: If the employee is hired for fewer than three business days, Section 2 must be completed no later than the first day of employment.
+The Physical Examination Standard vs. Remote Verification
+Historically, the employer was required to physically examine original documents in the presence of the employee to determine if they "reasonably appear to be genuine and to relate to the person presenting them."
+Post-COVID Remote Rules (The "Alternative Procedure"): Following the end of COVID-19 flexibilities, DHS established a permanent "Alternative Procedure" for remote examination. However, this is restricted.
+* Eligibility: Only employers who are enrolled in and in good standing with E-Verify may use the remote video verification option.
+* Process for E-Verify Users:
+   1. Employee transmits copies of documents (front and back) to the employer.
+   2. Employer conducts a live video interaction (e.g., Zoom, Teams).
+   3. Employee presents the same physical documents on camera.
+   4. Employer compares the video feed to the transmitted copies and the employee's face.
+   5. Employer checks the "Alternative Procedure" box on Form I-9.
+Non-E-Verify Users (Most California SMEs): For California SMEs not enrolled in E-Verify (due to Lab. Code § 2814 restrictions or choice), video verification is prohibited. If an employee is remote (e.g., working from home in San Francisco while the HQ is in LA), the employer must utilize an Authorized Representative.
+* The Authorized Representative: This can be any person designated by the employer (e.g., a notary public, a personnel agency, or even a friend/neighbor of the employee) to physically examine the documents and sign Section 2 on the employer's behalf.
+* Liability: The employer remains liable for any errors committed by the authorized representative.
+Acceptable Documents Analysis (Lists A, B, and C)
+The employer must accept either one document from List A (Identity + Authorization) OR a combination of one from List B (Identity) and one from List C (Authorization).
+Table 1: 2026 Acceptable Documents Reference
+Category
+	Purpose
+	Examples (Non-Exhaustive)
+	Critical Notes
+	List A
+	Establishes Identity AND Employment Authorization
+	• U.S. Passport or Passport Card • Perm. Resident Card (I-551) • Employment Auth. Document (I-766) • Foreign Passport with I-551 Stamp • Foreign Passport with Form I-94 (for H-1B, etc.)
+	Documents must be unexpired. An I-94 must be accompanied by the foreign passport to qualify as List A.
+	List B
+	Establishes Identity ONLY
+	• Driver’s License (State/Territory) • ID Card (Fed/State/Local Govt) • School ID with photo • Voter Registration Card • Military ID
+	Must contain a photograph OR identifying info (Name, DOB, Gender, Height, Eye Color, Address).
+	List C
+	Establishes Employment Authorization ONLY
+	• Social Security Card (Unrestricted) • Birth Certificate (Original/Certified) • Consular Report of Birth Abroad (FS-240) • Native American Tribal Document
+	SSN cards with "VALID FOR WORK ONLY WITH DHS AUTHORIZATION" are NOT List C documents.
+	Anti-Discrimination Rules (Document Abuse): Under 8 U.S.C. § 1324b and California Labor Code § 1019.1, employers cannot specify which documents an employee must present.
+* Violation Scenario: An employer asks a lawful permanent resident to "show your Green Card." The employee instead offers a Driver's License (List B) and an Unrestricted Social Security Card (List C).
+* Compliance: The employer must accept the List B+C combination. Rejecting valid documents or demanding specific ones constitutes "document abuse" and is subject to state penalties of up to $10,000 per violation.
+1.4 Section 3: Reverification and Rehires
+Supplement B (formerly Section 3) is used for reverification and rehires.
+When to Reverify:
+* When an employee’s employment authorization or documentation of authorization (List A or List C) has expired.
+* Crucial Exception: Employers must never reverify:
+   1. U.S. Citizens.
+   2. Lawful Permanent Residents (even if their Green Card expires).
+   3. List B identity documents (e.g., expired driver's licenses do not trigger reverification requirements).
+Protocol: The employer must notify the employee at least 90 days before the expiration date. Upon expiration, the employee must present a document from List A or List C showing continued eligibility. The employer records the document title, number, and expiration date in Supplement B.
+Rehires: If an employee is rehired within three years of the original I-9 execution date, the employer may complete Supplement B rather than a new I-9. They must confirm the original work authorization is still valid. If it has expired, new documents must be presented.
+1.5 Retention Requirements and Self-Audit
+Retention Rule: The I-9 must be retained for the later of:
+1. Three years from the date of hire.
+2. One year from the date of termination.
+Chart 1: I-9 Retention Timeline Calculation
+Employee Scenario
+	Hire Date
+	Termination Date
+	3 Years from Hire
+	1 Year from Term
+	Retention Requirement
+	Short-Term Employee
+	Jan 1, 2024
+	Feb 1, 2024
+	Jan 1, 2027
+	Feb 1, 2025
+	Jan 1, 2027
+	Long-Term Employee
+	Jan 1, 2020
+	Jan 1, 2026
+	Jan 1, 2023
+	Jan 1, 2027
+	Jan 1, 2027
+	Current Employee
+	Jan 1, 2022
+	N/A
+	Jan 1, 2025
+	N/A
+	Indefinite (Employment Duration)
+	Self-Audit Best Practices: Employers should conduct annual self-audits.
+1. Preparation: Print a list of current employees.
+2. Review: Locate I-9s for all current employees.
+3. Correction:
+   * Employer Errors (Section 2/3): Draw a single line through incorrect info, enter correct info, initial, and date (current date). Do not backdate.
+   * Employee Errors (Section 1): The employee must make the correction. If the employee is no longer with the company, the error generally cannot be corrected; attach a memo explaining the discrepancy.
+4. Missing Forms: If an I-9 is missing, complete a new one immediately. Do not backdate Section 2; use the current date and attach a memo stating "Form missing from files; completed on to rectify."
+SECTION 2: E-Verify Compliance
+E-Verify represents the intersection of federal efficiency and California privacy protection. While the federal government encourages its use, California law strictly limits it to prevent it from becoming a tool for pre-employment screening or harassment.
+2.1 Federal Requirements vs. California Restrictions
+Federal Context: E-Verify is a web-based system comparing I-9 data against DHS and SSA databases. It is mandatory for federal contractors with the FAR E-Verify clause and in certain other states, but voluntary for most private employers.
+California Restriction: Labor Code § 2814 California Labor Code § 2814 explicitly regulates E-Verify use to protect applicants.
+Cal. Lab. Code § 2814(a): "Except as required by federal law or as a condition of receiving federal funds, an employer cannot use E-Verify to check the work authorization status of a current employee or applicant for employment who has not been offered employment."
+Operational Boundary:
+* Prohibited: Running an E-Verify check on a candidate before making a job offer. This is considered a "pre-screening" tactic that can lead to discrimination based on national origin or perceived citizenship status.
+* Permitted: Running E-Verify after the offer has been accepted and the Form I-9 has been completed (within 3 business days of start).
+* Prohibited: Running E-Verify on existing employees (those hired before the employer signed the E-Verify MOU), unless the employer is a federal contractor with a specific rule requiring it.
+Penalty for Misuse: Violation of Section 2814 is a civil penalty of up to $10,000 for each violation. Each pre-screened applicant constitutes a separate violation.
+2.2 Tentative Nonconfirmation (TNC) Procedures
+A "Mismatch" or Tentative Nonconfirmation (TNC) means the data entered does not match government records. This is not a finding of illegality; it is often a clerical error or name change issue.
+The TNC Workflow (2026 Protocol):
+1. Notification: The E-Verify system generates a "Further Action Notice." The employer must download and print this notice.
+2. Private Meeting: The employer must review the notice with the employee in a private setting.
+3. Employee Choice: The employee indicates on the notice whether they will Contest (appeal) or Not Contest the finding.
+4. Referral:
+   * If Contesting: The employer clicks "Refer Case" in E-Verify. The system generates a "Referral Date Confirmation." The employee has 8 federal government workdays to contact the appropriate agency (DHS or SSA).
+   * If Not Contesting: The employer may close the case. The result becomes "Final Nonconfirmation," and the employer may terminate employment.
+5. Adverse Action Prohibition: During the TNC resolution process (while the case status is "Tentative Nonconfirmation," "Referral," or "Case in Continuance"), the employer cannot take any adverse action.
+   * No suspension.
+   * No withholding of pay.
+   * No reduction in hours.
+   * No training restrictions.
+Taking adverse action during a TNC contest period is a violation of the E-Verify MOU and California Labor Code § 1019.1 (unfair immigration practices).
+2.3 Employee Rights and Employer Checklist
+Checklist for E-Verify Compliance:
+* ☐ Posters: Display "E-Verify Participation" and "Right to Work" posters in English and Spanish (and other languages as appropriate).
+* ☐ Timing: Create the case no later than the third business day after the employee starts work for pay.
+* ☐ Photo Matching: If the employee presents a List A card (Green Card, EAD, Passport), the employer must verify the photo on the screen matches the physical document.
+* ☐ Closure: Always close the case in the system once a final result is received. Leaving cases "open" is a compliance red flag.
+SECTION 3: California AB 450 - Immigration Worksite Enforcement
+Assembly Bill 450, codified in the Labor and Government Codes, fundamentally alters how California employers must respond to federal immigration enforcement actions (ICE raids, I-9 audits, or site visits). It transforms the employer from a passive participant into a mandatory gatekeeper of employee rights.
+3.1 The 72-Hour Notice Requirement (Lab. Code § 90.2)
+If an employer receives a "Notice of Inspection" (NOI) from a federal immigration agency (typically requesting to audit I-9 forms), the employer has an affirmative duty to warn the workforce.
+Cal. Lab. Code § 90.2(a)(1): "An employer shall provide... a notice to each current employee of any inspection of I-9 Employment Eligibility Verification forms or other employment records conducted by an immigration agency within 72 hours of receiving notice of the inspection."
+Required Content of the Notice:
+1. Agency Name: Name of the agency conducting the inspection (e.g., ICE, DHS).
+2. Date Received: The date the employer received the Notice of Inspection.
+3. Nature of Inspection: (e.g., "Audit of I-9 Employment Eligibility Verification forms").
+4. Copy of Notice: A copy of the actual NOI received from the agency must be attached.
+Distribution Logistics:
+* Language: Must be in the language the employer normally uses to communicate employment information.
+* Method: Posted in the workplace and given to the collective bargaining representative (if applicable).
+* Timing: Strict 72-hour window.
+Penalties for Failure to Notify:
+* First Violation: Civil penalty of $2,000 to $5,000.
+* Subsequent Violations: Civil penalty of $5,000 to $10,000.
+3.2 Prohibitions on Voluntary Consent (The "Warrant Rule")
+California law prohibits employers from voluntarily assisting federal immigration enforcement in the absence of judicial compulsion. This places the employer in a position where they must demand a warrant.
+Access to Non-Public Areas (Gov. Code § 7285.1): Employers are prohibited from providing "voluntary consent" to an immigration enforcement agent to access any non-public area of the workplace.
+* Definition of Non-Public: Areas not open to the general public (e.g., the kitchen in a restaurant, the warehouse floor, the break room).
+* Requirement: The agent must present a judicial warrant (signed by a judge). An administrative warrant (signed by an immigration official) is not sufficient for entry into non-public areas.
+* Exception: Employers may take the agent to a non-public area solely for the purpose of verifying if the agent has a warrant, provided no search is allowed during that transit.
+Access to Employee Records (Gov. Code § 7285.2): Employers are prohibited from providing voluntary consent to an agent to access, review, or obtain employee records (personnel files, payroll) without a subpoena or judicial warrant.
+* Note: This does not apply to the I-9 forms themselves if a Notice of Inspection has been properly served (which requires 3 days' notice), but it applies to all other files.
+Penalties: Violation of the consent prohibitions carries civil penalties:
+* First Violation: $2,000 to $5,000.
+* Subsequent Violations: $5,000 to $10,000 per violation.
+3.3 Post-Audit Notification (Lab. Code § 90.2(b))
+If the I-9 audit results in the agency identifying specific employees who may lack authorization (a "Notice of Suspect Documents" or "Notice of Discrepancies"), the employer must provide a targeted notice to the affected employee within 72 hours of receiving the results.
+Required Content:
+1. Description of deficiencies identified by the agency.
+2. Time period provided by the agency for correcting deficiencies.
+3. Time and date of any meeting with the employer to correct them.
+4. Right to Representation: Specific notice that the employee has the right to representation (e.g., a union rep or lawyer) during any meeting scheduled with the employer regarding these results.
+### 3.4 Unfair Immigration-Related Practices (Lab. Code § 1019)
+Labor Code § 1019 broadly prohibits "unfair immigration-related practices" used as retaliation.
+Prohibited Actions:
+* Requesting more or different documents than required by federal law.
+* Refusing to honor documents that reasonably appear genuine.
+* Using E-Verify in a manner not authorized by law.
+* Threatening to file a false police report or contact immigration authorities.
+* Threatening to report the immigration status of the employee or their family members.
+Context: These actions are illegal if taken in retaliation for an employee exercising a right under the Labor Code (e.g., filing a wage claim, complaining about safety, or organizing).
+Penalty: Civil penalty of up to $10,000 per violation, plus potential liability for lost wages and damages.
+SECTION 4: SB 294 Annual "Know Your Rights" Notice
+Effective January 1, 2026, Senate Bill 294 (The Workplace Know Your Rights Act) establishes a new compliance cadence for California employers. It mandates proactive education regarding workplace and constitutional rights.
+4.1 Statutory Requirement: Labor Code § 1553
+Cal. Lab. Code § 1553(a): "An employer shall annually provide a stand-alone written notice to each current employee, and to each new employee upon hire, of workers' rights under state and federal law."
+Deadlines and Frequency:
+* Initial Deadline: February 1, 2026.
+* Recurring: Annually thereafter (by February 1st of each year).
+* New Hires: Must be provided "upon hire" (integrated into the onboarding packet) starting Jan 1, 2026.
+4.2 Mandatory Content Categories
+The notice is comprehensive, aggregating various rights into a single document. According to the statute and the Labor Commissioner’s template, it must cover :
+1. Workers' Compensation Rights: Entitlement to medical care and compensation for work-related injuries.
+2. I-9 Inspection Rights: The right to receive 72-hour notice of immigration inspections (per Lab. Code § 90.2).
+3. Immigration Protections: Rights against unfair immigration-related practices (Lab. Code § 1019) and document abuse.
+4. Right to Organize: The right to form a union, join a union, or engage in protected concerted activity (discussing wages/conditions).
+5. Constitutional Rights (4th Amendment): The right to be free from unreasonable searches and seizures of person or property.
+6. Constitutional Rights (5th Amendment): The right to remain silent and not incriminate oneself during encounters with law enforcement.
+7. Emergency Contact Right: The right to designate a contact for arrest notification (Lab. Code § 1554).
+4.3 Distribution, Language, and Format
+Format: The statute specifies a "stand-alone written notice." This is a critical formatting requirement. It implies that the notice cannot be simply a page within a 50-page handbook; it must be a separate document (physical or digital file) that draws the employee's attention.
+Language Requirements: The notice must be provided in the employee's primary language if the Labor Commissioner has made a template available in that language. The Labor Commissioner is mandated to provide templates in: English, Spanish, Chinese, Tagalog, Vietnamese, Korean, Hindi, Urdu, and Punjabi.
+Delivery Methods:
+* Personal Service: Hand delivery with a signature of receipt (best practice).
+* Email: Sent to the employee's work or personal email address.
+* Text Message: Allowable if the employer can verify receipt within one business day.
+Recordkeeping: Employers must maintain records of compliance (proof of distribution, such as signed acknowledgments or email logs) for three years.
+4.4 Sample SB 294 Notice Content
+The following text is a compliant model based on Labor Commissioner guidelines.
+CALIFORNIA WORKPLACE KNOW YOUR RIGHTS NOTICE (SB 294)
+To All Employees: As a worker in California, you are entitled to know and exercise your workplace and constitutional rights regardless of your immigration status.
+1. IMMIGRATION ENFORCEMENT RIGHTS
+* Notice of Inspection: Your employer must notify you within 72 hours if a federal immigration agency (such as ICE) inspects your I-9 employment records. (Labor Code § 90.2)
+* Unfair Practices: It is illegal for your employer to retaliate against you, request different documents than required by law, or misuse E-Verify because you exercised your labor rights. (Labor Code § 1019)
+2. CONSTITUTIONAL RIGHTS AT WORK
+* Right to Remain Silent: You have the right to remain silent if questioned by law enforcement or immigration agents. (U.S. Constitution, 5th Amendment)
+* Search and Seizure: You have the right to be free from unreasonable searches of your person or private property (such as lockers or bags) without a judicial warrant. (U.S. Constitution, 4th Amendment)
+3. RIGHT TO ORGANIZE
+* You have the right to join a union, form a union, or talk with your coworkers about wages and working conditions.
+4. EMERGENCY CONTACT
+* You have the right to designate an emergency contact who will be notified if you are arrested or detained at the worksite.
+5. WORKERS' COMPENSATION
+* If you are injured on the job, you have the right to medical treatment and compensation.
+Penalty: Failure to provide this notice subjects the employer to a penalty of $500 per employee.
+SECTION 5: SB 294 Emergency Contact System
+SB 294 introduces a pragmatic requirement designed to assist families during workplace enforcement actions. It recognizes that when workers are detained during a raid, families are often left uninformed.
+5.1 The Requirement: Labor Code § 1554
+Cal. Lab. Code § 1554: "The employer shall allow the employee to indicate whether the emergency contact should be notified if the employee is arrested or detained on their worksite, or during work hours... if the employer has actual knowledge of the arrest or detention."
+Implementation Timeline:
+* Existing Employees: Employers must offer this opportunity by March 30, 2026.
+* New Hires: Must be offered at the time of hire.
+5.2 Operational Protocol
+1. Solicitation of Information: The employer must affirmatively offer the employee the chance to provide this information. This is distinct from the standard "In Case of Emergency" (medical) contact, although the same person can be designated for both. The form should explicitly state: "Do you authorize the employer to contact this person in the event of your arrest or detention at the workplace?"
+2. The Notification Trigger: The employer's duty to notify arises in two scenarios:
+* Scenario A: The employee is arrested or detained at the worksite.
+* Scenario B: The employee is arrested or detained during work hours (e.g., a delivery driver detained on route) AND the employer has actual knowledge of the detention.
+3. Opt-In/Opt-Out: Participation is voluntary for the employee. They may choose not to provide a contact or to opt-out of arrest notification.
+4. Privacy and Storage (Container 5): This information is highly sensitive. Under the California Privacy Rights Act (CPRA) and Artifact 9 protocols (Personnel Record Privacy), this data should be stored in "Container 5" (Confidential/Sensitive Employee Data), segregated from the general personnel file. Access should be restricted to HR administrators and the specific manager responsible for crisis response.
+Penalty: Failure to notify the emergency contact when required can result in civil penalties. While the statutory text links to the general $500 notice penalty, failure to act during a raid that results in harm to the employee or family could be litigated as negligence or an unfair immigration practice, invoking the $10,000 penalty tier under Lab. Code § 1019.
+SECTION 6: Immigration-Related Document Fraud
+Employers navigate a narrow channel: they must reject fraudulent documents to comply with IRCA but must accept documents that appear genuine to comply with California law.
+6.1 Employer Liability and "Knowing" Hire
+Liability under 8 U.S.C. § 1324a attaches when an employer "knowingly" hires or continues to employ an unauthorized alien. "Knowledge" generally includes:
+1. Actual Knowledge: The employer is told directly, or observes unambiguous evidence (e.g., the employee admits "I bought these papers").
+2. Constructive Knowledge: Knowledge that may fairly be inferred through notice of certain facts and circumstances.
+6.2 The "Constructive Knowledge" Standard
+Constructive knowledge is the legal danger zone. It exists when an employer should have known about the unauthorized status through the exercise of reasonable care.
+Indicators of Constructive Knowledge :
+* Expiration Tracking: Failing to reverify an employee whose I-9 shows a work authorization expiration date has passed.
+* "No-Match" Letters: While a Social Security No-Match letter alone is not constructive knowledge, ignoring the letter and failing to take reasonable steps (checking clerical errors, asking the employee to check with SSA) constitutes constructive knowledge.
+* Obvious Forgeries: Accepting a document that is blatantly irregular (e.g., a "Green Card" typed on cardboard, or with a photo of a different gender/age).
+* Incredible Claims: An employee claiming to be a U.S. Citizen but presenting a "Green Card" (List A). This is a contradiction that requires inquiry.
+###ed an affirmative defense that the person or entity has not violated paragraph (1)(A)."
+The "Good Faith" Defense: If an employer completes the I-9, physically examines documents that reasonably appear genuine, and retains the form, they have a rebuttable presumption of compliance.
+* Scope: This protects the employer if they are fooled by a high-quality forgery.
+* Limitation: It does not apply if the employer failed to complete the I-9 (substantive violation) or if the employer had actual knowledge of the fraud.
+Suspicious Document Protocol: If a document appears suspicious:
+1. Do not immediately accuse.
+2. Inquire: "This document does not appear to relate to you/appear genuine because [specific reason, e.g., the photo does not look like you]. Do you have any other document from the List of Acceptable Documents?"
+3. Refusal: If the employee cannot provide valid documentation, the employer may rescind the offer or terminate employment based on the failure to prove eligibility, not on a determination of immigration status.
+SECTION 7: Visa Sponsorship Compliance and AB 692
+For the 2026 fiscal year, the compliance landscape for H-1B visas and other sponsored employment is complicated by Assembly Bill 692, which dramatically restricts "stay-or-pay" repayment agreements.
+7.1 H-1B Visa Basics (2026 Landscape)
+The H-1B visa allows U.S. employers to employ foreign workers in specialty occupations.
+* The Cap: The annual limit remains 65,000 regular visas plus 20,000 for those with U.S. master's degrees.
+* LCA (Labor Condition Application): Employers must attest to the Department of Labor (DOL) that they will pay the "higher of the actual or prevailing wage" and offer benefits on the same basis as U.S. workers.
+* Notification: Employers must notify U.S. workers of the H-1B hiring intent, usually by posting the LCA at the worksite for 10 days.
+7.2 AB 692: Prohibition on "Stay-or-Pay" Provisions
+Effective January 1, 2026, Assembly Bill 692 (codified at Labor Code § 926) bans employment contract provisions that require employees to repay "debts" or "costs" upon termination. This law directly targets the common practice of requiring H-1B employees to repay visa sponsorship costs if they resign early.
+Cal. Lab. Code § 926 (added by AB 692): "An employer shall not include in any employment contract... a provision that does any of the following: (1) Requires the worker to pay an employer... for a debt if the worker's employment... terminates... (3) Imposes any penalty, fee, or cost on a worker if the worker's employment... terminates."
+"Penalty, Fee, or Cost": The statute explicitly defines this to include "reimbursement for immigration or visa-related costs".
+Impact on Compliance:
+* Void Contracts: Any agreement entered into on or after Jan 1, 2026, requiring an employee to repay premium processing fees, legal fees, or petition fees upon resignation is void and unenforceable.
+* Penalties: Employers violating this section are liable for actual damages or $5,000 per worker, whichever is greater, plus attorney's fees.
+7.3 Exceptions and Strategy
+AB 692 provides narrow exceptions, specifically for "transferable credentials" (like tuition) and "discretionary unearned payments" (like sign-on bonuses), but strictly regulates them.
+Table 2: AB 692 Permissibility for Repayment Clauses
+Cost Category
+	Repayment Clause Status (2026)
+	Requirements for Exception
+	Visa/Immigration Fees
+	PROHIBITED
+	None. Cannot be recovered.
+	Training Costs (Company Specific)
+	PROHIBITED
+	Considered a cost of doing business.
+	Tuition (Transferable Credential)
+	PERMITTED (Conditional)
+	Must be separate agreement; amount specified upfront; prorated; cannot trigger if fired without cause.
+	Sign-On Bonus
+	PERMITTED (Conditional)
+	Separate agreement; upfront payment; prorated; no interest; voluntary termination only.
+	Compliance Strategy: Employers must treat H-1B sponsorship costs as sunk business expenses. Attempting to claw these back through "liquidated damages" or "training repayment" clauses will trigger the AB 692 penalties and potential unfair competition lawsuits.
+Summary of 2026 Compliance Deliverables
+To achieve compliance with the protocols outlined in Artifact 11, the SME must execute the following deliverables:
+1. I-9 Transition: Ensure all new hires use Form I-9 (Edition 01/20/25).
+2. AB 450 Protocol: Train receptionists and managers to demand warrants for non-public area access.
+3. SB 294 Notice: Distribute the "Know Your Rights" notice by February 1, 2026.
+4. Emergency Contacts: Collect designations from existing staff by March 30, 2026.
+5. Contract Revision: Audit all employment agreements to remove visa repayment clauses pursuant to AB 692.
+Disclaimer: This report is for informational purposes only and does not constitute legal advice. Penalty amounts and statutory citations are current as of the research date (January 2026).
+Works cited
+1. Form I-9, Employment Eligibility Verification - USCIS, https://www.uscis.gov/sites/default/files/document/forms/i-9.pdf 2. I-9, Employment Eligibility Verification - USCIS, https://www.uscis.gov/i-9 3. 4.5 Remote Document Examination (Optional Alternative Procedure to Physical Document Examination) | USCIS, https://www.uscis.gov/i-9-central/form-i-9-resources/handbook-for-employers-m-274/40-completing-section-2-employer-review-and-verification/45-remote-document-examination-optional-alternative-procedure-to-physical-document-examination 4. NEW: E-Verify Employers May Use Alternative Procedure for Form I-9 Documents Examined Remotely During COVID-19 Temporary Flexibilities | USCIS, https://www.uscis.gov/i-9-central/form-i-9-related-news/new-e-verify-employers-may-use-alternative-procedure-for-form-i-9-documents-examined-remotely-during 5. California Laws that Prohibit Retaliation and Discrimination - Potter Handy, LLP, https://potterhandy.com/california-laws-that-prohibit-retaliation-and-discrimination/ 6. California Code, Labor Code - LAB § 1019.2 - Codes - FindLaw, https://codes.findlaw.com/ca/labor-code/lab-sect-1019-2/ 7. California Restricts Employers' Use of E-Verify - BackgroundChecks.com, https://www.backgroundchecks.com/blog/california-restricts-employers-use-of-e-verify 8. E-Verify Resumes Operations, https://www.e-verify.gov/about-e-verify/whats-new/e-verify-resumes-operations 9. Verification Process | E-Verify, https://www.e-verify.gov/employers/verification-process 10. California Code, Labor Code - LAB § 90.2 - Codes - FindLaw, https://codes.findlaw.com/ca/labor-code/lab-sect-90-2/ 11. Immigrant Worker Protection Act (Assembly Bill 450) Frequently Asked Questions The California Labor Commissioner and California, https://oag.ca.gov/sites/all/files/agweb/pdfs/immigrants/immigration-ab450.pdf 12. California Workplace - Know Your Rights, https://www.dir.ca.gov/dlse/Know-Your-Rights-Notice/Know-Your-Rights-Notice-English.pdf 13. Bill Text: CA SB294 | 2025-2026 | Regular Session | Amended - LegiScan, https://legiscan.com/CA/text/SB294/id/3178709 14. California Workplace Know Your Rights Act Effective January 1, 2026, https://vensure.com/employment-law-updates/california-workplace-know-your-rights-act-effective-january-1-2026/ 15. Work Authorization for Employers - Public Counsel, https://publiccounsel.org/wp-content/uploads/2025/08/LACounsel_QA_DACA_August21_2025-1.pdf 16. ABCs of Immigration: Knowledge of Unlawful Status - - Siskind Susser, https://www.visalaw.com/abcs-of-immigration-knowledge-of-unlawful-status/ 17. Safe-Harbor Procedures for Employers Who Receive a No-Match Letter - Federal Register, https://www.federalregister.gov/documents/2006/06/14/E6-9303/safe-harbor-procedures-for-employers-who-receive-a-no-match-letter 18. 8 USC 1324a: Unlawful employment of aliens - OLRC Home, https://uscode.house.gov/view.xhtml?req=(title:8%20section:1324a 19. What are Employer Obligations in the H-1B Process? - FordMurray Law, https://fordmurraylaw.com/understanding-h-1b-employer-obligations/ 20. Fact Sheet #62M: What are an H-1B employer's notification requirements?, https://www.dol.gov/agencies/whd/fact-sheets/62m-h1b-notice 21. Bill Text: CA AB692 | 2025-2026 | Regular Session | Chaptered - LegiScan, https://legiscan.com/CA/text/AB692/id/3273317 22. AB 692 and Its Possible Impact on California Public Employers, https://www.calpublicagencylaboremploymentblog.com/employment/ab-692-and-its-possible-impact-on-california-public-employers/ 23. California's AB 692 – Immediate action required for employee repayment agreements, https://www.reedsmith.com/our-insights/blogs/employment-law-watch/102lxo8/californias-ab-692-immediate-action-required-for-employee-repayment-agreements/

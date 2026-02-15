@@ -1,0 +1,13 @@
+﻿{
+    "showFrontmatter":  true,
+    "useMarkdownLinks":  false,
+    "livePreview":  true,
+    "alwaysUpdateLinks":  true,
+    "showLineNumber":  false,
+    "legacyEditor":  false,
+    "showUnsupportedFiles":  true,
+    "readableLineLength":  true,
+    "strictLineBreaks":  false,
+    "newLinkFormat":  "shortest",
+    "attachmentFolderPath":  "13-EXTERNAL-RESOURCES"
+}

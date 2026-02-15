@@ -1,0 +1,18 @@
+﻿Modern Principles for Cover Letters and Interviews
+Cover Letter Best Practices
+1. Personalize Aggressively: Address the hiring manager by name whenever possible. Never use "To Whom It May Concern."
+2. Structure for Impact:
+   * Opening: Start with a strong hook. Mention the specific role you're applying for and a key accomplishment or qualification that makes you a perfect fit.
+   * Body Paragraphs (1-2): Connect your specific experiences directly to the requirements listed in the job description. Use the STAR method to tell a brief story. This is your "why you" section.
+   * Closing Paragraph: Reiterate your enthusiasm for the role and the company. State your confidence in your ability to contribute. Include a clear call to action, such as "I am eager to discuss how my experience in cloud infrastructure management can benefit your team."
+3. Keep it Concise: A cover letter should be 3-4 paragraphs and never exceed one page.
+4. Mirror Language: Use some of the same keywords and phrasing from the job description to show you've done your research and are a good fit.
+Interview Preparation Essentials
+1. Research: Understand the company's mission, products/services, recent news, and culture. Research your interviewers on LinkedIn.
+2. Prepare STAR Stories: Prepare 5-7 detailed stories about your key accomplishments using the STAR method. These will be the foundation for answering most behavioral questions (e.g., "Tell me about a time you faced a conflict," "Describe a challenging project").
+3. Know Your Resume: Be prepared to speak in detail about every single point on your resume.
+4. Prepare Your Questions: Prepare 3-5 insightful questions to ask the interviewer about the role, the team, the challenges, or the company culture. This demonstrates genuine interest. Examples:
+   * "What does success look like in this role in the first 90 days?"
+   * "What is the biggest challenge the team is currently facing?"
+   * "Can you describe the team's communication and collaboration style?"
+5. Follow-Up: Send a brief, personalized thank-you email to each interviewer within 24 hours.

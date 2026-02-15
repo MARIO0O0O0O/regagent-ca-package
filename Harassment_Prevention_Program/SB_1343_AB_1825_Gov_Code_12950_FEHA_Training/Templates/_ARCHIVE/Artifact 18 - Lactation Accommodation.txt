@@ -1,0 +1,41 @@
+﻿California Lactation Accommodation Checklist (2026)
+Version: 1.0 Effective Date: January 1, 2026 Primary Mandate: SB 142 (Lab. Code § 1030-1034)
+1. Facility Requirements (The "Clean Room" Rule)
+You cannot tell an employee to use a toilet stall. The space must be:
+* [ ] Private: Shielded from view and free from intrusion.
+* [ ] Functional:
+   * [ ] Surface to place a breast pump and personal items.
+   * [ ] Place to sit (chair).
+   * [ ] Access to electricity (or extension cords).
+* [ ] Proximity: In close proximity to the employee's work area.
+* [ ] Water Source: Access to a sink with running water (clean/safe).
+* [ ] Storage: Access to a refrigerator (or cooler provided by employer) suitable for storing milk.
+* [ ] Availability: Can be a temporary space (e.g., conference room), but only if it is available when needed and meets all criteria above.
+2. Policy & Break Time
+* [ ] Break Time:
+   * [ ] Must provide "reasonable break time" each time the employee needs to express milk.
+   * [ ] If possible, break time should run concurrently with mandatory Rest Breaks (Paid).
+   * [ ] Additional time needed beyond standard breaks may be unpaid, but cannot be denied.
+* [ ] Written Policy:
+   * [ ] Must include the right to request lactation accommodation.
+   * [ ] Process for requesting usage of the room.
+   * [ ] Employer's obligation to respond (within 5 business days).
+   * [ ] Right to file a complaint with the Labor Commissioner for non-compliance.
+* [ ] Distribution: Must be in the Employee Handbook and given to any employee inquiring about parental leave.
+3. CROSS-REFERENCE: HOW OTHER LAWS IMPACT LACTATION
+3.1 HARASSMENT PREVENTION → LACTATION
+Legal Principle: Discrimination based on "medical conditions related to pregnancy" is harassment. Compliance Impact:
+* [ ] Jokes: Comments about breast pumping, milk storage, or time taken are actionable harassment.
+* [ ] Privacy: Breaching the privacy of the lactation room is a violation. Cross-Reference: → [Harassment Prevention Checklist]
+3.2 WAGE & HOUR → LACTATION
+Legal Principle: "Hours Worked" vs. Breaks. Compliance Impact:
+* [ ] Paid vs. Unpaid:
+   * [ ] 10-minute rest break used for pumping = PAID.
+   * [ ] Extra 15 minutes needed = UNPAID (Clock out).
+* [ ] No Penalty: You cannot discipline an employee for "productivity loss" due to lactation breaks. Cross-Reference: → [Wage & Hour Checklist]
+3.3 LEAVE LAWS → LACTATION
+Legal Principle: Transition back to work. Compliance Impact:
+* [ ] Integration: The Lactation Policy should be provided immediately upon return from PDL/CFRA leave. Cross-Reference: → [Leave Checklist 1-49]
+4. Penalties
+* $100 per day: Civil penalty for each day an employee is denied reasonable break time or adequate space.
+* Retaliation: Damages for discharging/discriminating against an employee for exercising these rights.

@@ -1,0 +1,12 @@
+﻿California Benefits Administration Matrix (2026)
+Version: 1.0
+1. Mandatory Benefits
+* [ ] Sick Leave: 40 hrs/5 days (SB 616).
+* [ ] CalSavers: Mandatory retirement auto-enroll if no 401k (1+ emp).
+* [ ] Workers' Comp: 100% Employer paid.
+* [ ] Reimbursement: Mileage/Cell/Internet (if required).
+2. Statutory Leaves (Unpaid but Protected)
+* PDL, CFRA, Jury Duty, Voting (2hr paid), Bereavement.
+3. CROSS-REFERENCE
+* Wage & Hour: No illegal deductions for benefits.
+* Harassment: Equal access to benefits.

@@ -1,0 +1,12 @@
+﻿California Pay Transparency & Data Reporting (2026)
+Version: 1.0
+1. Pay Scale Disclosure (15+ Employees)
+* [ ] Job Postings: Must include salary range in ALL postings.
+* [ ] 3rd Party: Must provide range to recruiters/Indeed.
+2. Pay Data Reporting (100+ Employees)
+* [ ] Filing: Annual by May 2nd Wednesday (SB 1162).
+* [ ] Content: Race/Sex/Ethnicity by Job Category + Mean/Median rates.
+* [ ] SB 464: Segregate demographic data in Container 6.
+3. CROSS-REFERENCE
+* Harassment: Pay inequity is risk factor.
+* Wage & Hour: Accurate hours tracking essential for reporting.

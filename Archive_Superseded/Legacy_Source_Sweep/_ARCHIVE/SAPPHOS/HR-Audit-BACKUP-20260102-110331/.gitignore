@@ -1,0 +1,3 @@
+Scripts/.env
+__pycache__/
+*.py[cod]

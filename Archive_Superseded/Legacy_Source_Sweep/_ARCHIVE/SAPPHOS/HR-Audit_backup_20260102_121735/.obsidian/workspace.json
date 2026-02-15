@@ -1,0 +1,292 @@
+{
+  "main": {
+    "id": "e8ea50844a68242a",
+    "type": "split",
+    "children": [
+      {
+        "id": "c5ffba358d235ce9",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a312aa7f6909dd50",
+            "type": "leaf",
+            "state": {
+              "type": "planner-release-notes",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Day Planner Release 0.28.0"
+            }
+          },
+          {
+            "id": "c2e21f68f9cca11c",
+            "type": "leaf",
+            "state": {
+              "type": "mk-space",
+              "state": {
+                "path": "03-POLICY-FRAMEWORK"
+              },
+              "icon": "lucide-file",
+              "title": "03-POLICY-FRAMEWORK"
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "5b2f9e00bcc52d0d",
+    "type": "split",
+    "children": [
+      {
+        "id": "804b8cb057ab611d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1ccd8fb3978a2fc0",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "3566af22bf0a3ccd",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "89fb3e7f1e30e84b",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          },
+          {
+            "id": "a1f7aad5b7431e6b",
+            "type": "leaf",
+            "state": {
+              "type": "mk-path-view",
+              "state": {},
+              "icon": "layout-grid",
+              "title": "Navigator"
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "fa81a0a76adf8887",
+    "type": "split",
+    "children": [
+      {
+        "id": "8c0b0d5c92096b40",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f56f8d8e049e4bb2",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "00-DASHBOARD/Status-Reports/251230 STATUS REPORT.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for 251230 STATUS REPORT"
+            }
+          },
+          {
+            "id": "b625fed8dae3c877",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "00-DASHBOARD/Status-Reports/251230 STATUS REPORT.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from 251230 STATUS REPORT"
+            }
+          },
+          {
+            "id": "cde3bfe2e8dc43c7",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "2ab421cee7affbf3",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "f988adc7c71d9f6f",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "00-DASHBOARD/Status-Reports/251230 STATUS REPORT.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of 251230 STATUS REPORT"
+            }
+          },
+          {
+            "id": "dcbd63f7edb95c32",
+            "type": "leaf",
+            "state": {
+              "type": "footnotes",
+              "state": {
+                "file": "00-DASHBOARD/Status-Reports/251230 STATUS REPORT.md"
+              },
+              "icon": "lucide-file-signature",
+              "title": "Footnotes"
+            }
+          },
+          {
+            "id": "39f6e1b6538bacab",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
+            }
+          },
+          {
+            "id": "f6a2c8808cfadce5",
+            "type": "leaf",
+            "state": {
+              "type": "planner-timeline",
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Timeline"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false,
+      "markdown-importer:Open format converter": false,
+      "publish:Publish changes...": false,
+      "random-note:Open random note": false,
+      "zk-prefixer:Create new unique note": false,
+      "workspaces:Manage workspace layouts": false,
+      "obsidian-excalidraw-plugin:New drawing": false,
+      "templater-obsidian:Templater": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "obsidian-kanban:Create new board": false,
+      "obsidian-git:Open Git source control": false,
+      "obsidian-importer:Open Importer": false,
+      "copilot:Open Copilot Chat": false,
+      "homepage:Open homepage": false,
+      "obsidian-day-planner:Open Timeline": false,
+      "obsidian-day-planner:Open Multi-Day View": false
+    }
+  },
+  "active": "c2e21f68f9cca11c",
+  "lastOpenFiles": [
+    "ARCHIVE/Deprecated-Scripts",
+    "ARCHIVE",
+    "Templates/Report-Templates",
+    "Templates/Email-Templates",
+    "SECURE-DATA/Confidential-Files",
+    "12-REFERENCE-MATERIALS/Legal-Research",
+    "12-REFERENCE-MATERIALS",
+    "11-SCRIPTS-AND-AUTOMATION/PowerShell-Scripts",
+    "11-SCRIPTS-AND-AUTOMATION",
+    "09-TRAINING-MATERIALS/Tina-HR-101-Program",
+    "09-TRAINING-MATERIALS/Confidentiality-Training",
+    "00-PROJECT-OVERVIEW/README.md",
+    "Home.md",
+    "00-DASHBOARD/Status-Reports/251230 STATUS REPORT.md",
+    "copilot/copilot-custom-prompts/Rewrite as tweet thread.md",
+    "copilot/copilot-custom-prompts/Rewrite as tweet.md",
+    "copilot/copilot-custom-prompts/Remove URLs.md",
+    "copilot/copilot-custom-prompts/Generate glossary.md",
+    "copilot/copilot-custom-prompts/Generate table of contents.md",
+    "copilot/copilot-custom-prompts/Make longer.md",
+    "copilot/copilot-custom-prompts/Make shorter.md",
+    "copilot/copilot-custom-prompts/Emojify.md",
+    "copilot/copilot-custom-prompts/Explain like I am 5.md",
+    "copilot/copilot-custom-prompts/Simplify.md",
+    "copilot/copilot-custom-prompts/Summarize.md",
+    "copilot/copilot-custom-prompts/Translate to Chinese.md",
+    "copilot/copilot-custom-prompts/Fix grammar and spelling.md",
+    "10-ADMINISTRATIVE-SUPPORT/HR-101-Training/HR-101-Syllabus.md",
+    "10-ADMINISTRATIVE-SUPPORT/HR-101-Training/Complete-23-Day-Syllabus.md",
+    "10-ADMINISTRATIVE-SUPPORT/HR-101-Training/Forms-and-Certificates/Blind-Audit-Checklist-Template.md",
+    "10-ADMINISTRATIVE-SUPPORT/HR-101-Training/Day-1-Confidentiality-Training/Day-1-Trainer-Guide-MARIO.md",
+    "10-ADMINISTRATIVE-SUPPORT/HR-101-Training/Day-1-Confidentiality-Training/Day-1-Student-Workbook-TINA.md",
+    "10-ADMINISTRATIVE-SUPPORT/HR-101-Training/README-START-HERE.md",
+    "10-ADMINISTRATIVE-SUPPORT/HR-101-Training/Forms-and-Certificates/Training-Log-Tina-Ho.md",
+    "10-ADMINISTRATIVE-SUPPORT/HR-101-Training/Visual-Aids/Visual-Aid-2-Consequences.md",
+    "10-ADMINISTRATIVE-SUPPORT/HR-101-Training/Visual-Aids/Visual-Aid-1-Tiered-Access.md"
+  ]
+}

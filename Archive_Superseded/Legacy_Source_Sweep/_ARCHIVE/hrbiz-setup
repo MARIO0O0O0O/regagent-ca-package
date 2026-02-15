@@ -1,0 +1,150 @@
+#!/data/data/com.termux/files/usr/bin/bash
+set -e
+
+GITLAB_USERNAME="marioo00"
+GITLAB_TOKEN="glpat-pEXhtWvJIHG7m1oFrX-tK286MQp1OmlsaGM1Cw.01.120yoaurz"
+GITLAB_REPO="hrbiz-vault"
+VAULT_NAME="HRBiz_Vault"
+GIT_NAME="Mario"
+GIT_EMAIL="emails2mario@gmail.com"
+
+ZIP_FILENAME="HRBiz_Vault.zip"
+DOWNLOADS_DIR="$HOME/storage/downloads"
+TARGET_DIR="$HOME/storage/shared/Documents"
+VAULT_PATH="$TARGET_DIR/$VAULT_NAME"
+
+echo "═══════════════════════════════════════════════════════════"
+echo "🚀 HRBiz Vault - Mario's GitLab Setup"
+echo "═══════════════════════════════════════════════════════════"
+
+# Prerequisites
+echo "📋 Checking prerequisites..."
+[ ! -d "$HOME/storage/shared" ] && {
+    echo "❌ Run: termux-setup-storage"
+    exit 1
+}
+pkg install -y git unzip > /dev/null 2>&1
+echo "✅ Ready"
+echo ""
+
+# Locate ZIP
+ZIP_PATH=""
+[ -f "$DOWNLOADS_DIR/$ZIP_FILENAME" ] && ZIP_PATH="$DOWNLOADS_DIR/$ZIP_FILENAME" && echo "✅ ZIP in Downloads"
+[ -z "$ZIP_PATH" ] && [ -f "$ZIP_FILENAME" ] && ZIP_PATH="$ZIP_FILENAME" && echo "✅ ZIP here"
+[ -z "$ZIP_PATH" ] && [ -f "$TARGET_DIR/$ZIP_FILENAME" ] && ZIP_PATH="$TARGET_DIR/$ZIP_FILENAME" && echo "✅ ZIP in Documents"
+[ -z "$ZIP_PATH" ] && {
+    echo "❌ Find HRBiz_Vault.zip in Downloads/Documents"
+    exit 1
+}
+echo ""
+
+# Extract (Fixed)
+echo "📂 Extracting..."
+[ -d "$VAULT_PATH" ] && {
+    mv "$VAULT_PATH" "${VAULT_PATH}.backup.$(date +%Y%m%d_%H%M%S)"
+    echo "✅ Backed up existing"
+}
+
+TEMP_DIR="${TMPDIR:-$HOME/tmp}/hrbiz_extract_$$"
+cleanup() { [ -d "$TEMP_DIR" ] && rm -rf "$TEMP_DIR"; }
+trap cleanup EXIT
+
+mkdir -p "$TEMP_DIR" || exit 1
+unzip -q "$ZIP_PATH" -d "$TEMP_DIR" || exit 1
+
+EXTRACTED_PATH=""
+[ -d "$TEMP_DIR/$VAULT_NAME" ] && EXTRACTED_PATH="$TEMP_DIR/$VAULT_NAME"
+[ -d "$TEMP_DIR/HRBiz_Vault" ] && EXTRACTED_PATH="$TEMP_DIR/HRBiz_Vault"
+[ -z "$EXTRACTED_PATH" ] && {
+    CNT=$(find "$TEMP_DIR" -mindepth 1 -maxdepth 1 | wc -l)
+    [ "$CNT" -eq 1 ] && EXTRACTED_PATH=$(find "$TEMP_DIR" -mindepth 1 -maxdepth 1 -type d)
+    [ -z "$EXTRACTED_PATH" ] && EXTRACTED_PATH="$TEMP_DIR"
+}
+
+mkdir -p "$TARGET_DIR"
+mv "$EXTRACTED_PATH" "$VAULT_PATH"
+
+echo "✅ Extracted: $VAULT_PATH"
+echo "   $(find "$VAULT_PATH" -type d | wc -l) folders"
+echo ""
+
+# Git setup
+echo "⚙️  Git setup..."
+cd "$VAULT_PATH"
+git init
+git config user.name "$GIT_NAME"
+git config user.email "$GIT_EMAIL"
+echo "✅ Configured: $GIT_NAME <$GIT_EMAIL>"
+echo ""
+
+# .gitignore
+cat > .gitignore << GITIGNORE
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/cache/
+.trash/
+.DS_Store
+Thumbs.db
+*.tmp
+~*
+*.key *.secret .env
+GITIGNORE
+echo "✅ .gitignore"
+echo ""
+
+# Remote
+GITLAB_URL="https://oauth2:${GITLAB_TOKEN}@gitlab.com/${GITLAB_USERNAME}/${GITLAB_REPO}.git"
+git remote add origin "$GITLAB_URL"
+echo "✅ GitLab connected"
+echo ""
+
+# Commit
+git add .
+git commit -m "Initial: HRBiz Vault v1.0 by Mario
+
+Dashboard, 28 folders, compliance docs, Button Nose ($7K)
+2026: $192k target
+S24 Ultra/Termux"
+echo "✅ Committed"
+echo ""
+
+# Push
+echo "🚀 Pushing..."
+git branch -M main
+if git push -u origin main; then
+    echo "✅ GitLab PUSHED!"
+    PUSH_SUCCESS=true
+else
+    echo "⚠️  Local ready (retry: cd $VAULT_PATH && git push)"
+fi
+echo ""
+
+# Shortcuts
+ln -sf "$VAULT_PATH" "$HOME/HRBiz_Vault" 2>/dev/null || true
+mkdir -p "$HOME/.shortcuts"
+cat > "$HOME/.shortcuts/hrbiz" << HRBIZ
+#!/data/data/com.termux/files/usr/bin/bash
+cd "$HOME/storage/shared/Documents/HRBiz_Vault" || exit
+case "${1:-help}" in
+help|"") echo "hrbiz [dashboard|tasks|sync|push|status]";;
+dashboard) nano 00_DASHBOARD/00_START_HERE.md;;
+tasks) nano 00_DASHBOARD/Task_Board.md;;
+sync) git pull;;
+push) git add . && git commit -m "S24 $(date +%Y-%m-%d)" && git push;;
+status) git status;;
+*) echo "?? $1";;
+esac
+HRBIZ
+chmod +x "$HOME/.shortcuts/hrbiz"
+echo "✅ hrbiz ready!"
+echo ""
+
+# Verify
+cd "$VAULT_PATH"
+echo "📊 Stats:"
+echo "   $(find . -type d | wc -l) folders"
+echo "   $(find . -type f | wc -l) files"
+echo "   $(du -sh . | cut -f1)"
+echo "🔗 https://gitlab.com/${GITLAB_USERNAME}/${GITLAB_REPO}"
+
+echo "🎉 COMPLETE! Close/reopen Termux for hrbiz"

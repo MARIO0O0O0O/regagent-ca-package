@@ -1,0 +1,16 @@
+﻿The STAR Method for Impactful Resume Bullet Points
+The STAR method is a framework for structuring your accomplishments to demonstrate clear impact. It answers the implicit questions a recruiter has about your experience.
+S - Situation
+* Briefly describe the context or challenge you faced. Set the scene.
+* Example: "The company's manual data entry process was inefficient, leading to a 20% error rate and significant delays in reporting."
+T - Task
+* Explain your specific responsibility or goal in that situation. What were you tasked with achieving?
+* Example: "I was tasked with developing an automated solution to streamline data collection and improve accuracy."
+A - Action
+* Detail the specific actions you took to address the task. Use strong, specific action verbs. This is the "how."
+* Example: "I designed and implemented a Python script using the Pandas library to parse incoming CSV files, validate data against established rules, and automatically load the cleaned data into the central SQL database."
+R - Result
+* Quantify the outcome of your actions. What was the positive impact? Use numbers, percentages, and metrics.
+* Example: "This solution eliminated manual data entry, reduced the error rate to less than 1%, and decreased report generation time by 90%, saving an estimated 20 hours of manual labor per week."
+Putting It All Together for a Resume Bullet Point:
+* Streamlined data processing by developing a Python script that automated data validation and ingestion, reducing data errors by over 95% and saving 20+ hours of manual work weekly.

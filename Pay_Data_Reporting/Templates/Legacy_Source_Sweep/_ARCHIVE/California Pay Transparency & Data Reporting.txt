@@ -1,0 +1,378 @@
+﻿Artifact 12: Pay Transparency, Pay Scale Disclosure, and CRD Pay Data Reporting (2026)
+Executive Summary
+The regulatory landscape regarding compensation transparency and data reporting in California has undergone a seismic shift, culminating in the stringent enforcement environment of 2026. For small-to-medium enterprises (SMEs) operating in the Los Angeles area, the era of opacity regarding wage setting and demographic data management has definitively ended. The convergence of Senate Bill 1162 (SB 1162) and the newly enacted Senate Bill 464 (SB 464) has created a compliance framework that demands precision, transparency, and rigid data governance.
+This report serves as the comprehensive "Artifact 12" for the 2026 Compliance Manual. It is designed to guide SMEs through the intricacies of California Labor Code § 432.3 and Government Code § 12999. While many of these regulations specifically target larger employers (100+ employees), the "15-employee" threshold for pay scale disclosure ensnares the vast majority of established small businesses. Furthermore, the aggregation rules for "integrated enterprises" mean that seemingly distinct small entities may be treated as a single large employer for reporting purposes.
+The 2026 reporting cycle is characterized by three critical developments: the mandatory imposition of civil penalties for non-filing (removing judicial discretion), the requirement to segregate demographic data into a protected "Container 6" environment, and the transition toward the Standard Occupational Classification (SOC) system for job categorization. This document provides the statutory analysis, implementation methodologies, and audit frameworks necessary to navigate this high-risk environment.
+SECTION 1: SB 1162 Pay Scale Disclosure Requirements
+1.1 The Statutory Framework: California Labor Code § 432.3
+The cornerstone of California's pay transparency architecture is found in Labor Code § 432.3. While originally enacted to prohibit salary history inquiries, the amendments introduced by SB 1162 transformed this statute into an affirmative disclosure mandate. As of 2026, the law requires a level of openness regarding compensation that fundamentally alters the recruitment dynamic in the state.
+1.1.1 The Applicability Threshold: 15 Employees
+The requirement to include pay scales in job postings applies to an employer with 15 or more employees. For SMEs in Los Angeles, determining whether this threshold is met is the first and most critical compliance step.
+"(c)(1) An employer with 15 or more employees shall include the pay scale for a position in any job posting."
+Methodology for Calculating Employee Count: The Labor Commissioner’s Office has clarified that the calculation of "15 employees" is broad and inclusive. It is not limited to full-time employees, nor is it limited to employees physically residing in California.
+1. Headcount, Not FTE: The threshold is based on headcount, not Full-Time Equivalents (FTE). Four part-time employees count as four employees, not two.
+2. Geographic Scope: The count includes employees nationwide. A company with 5 employees in Los Angeles and 12 in Nevada has a total headcount of 17. Therefore, it falls within the scope of the law and must include pay scales for any position that could be filled by a California resident.
+3. Snapshot Timing: While the statute does not specify a "snapshot period" for the 15-employee count, best practices dictate that if an employer has reached 15 employees at any point during the current pay period or the preceding 20 calendar weeks, they should consider themselves covered to avoid enforcement actions.
+1.1.2 Defining "Pay Scale"
+The statute provides a rigid definition of what constitutes a "pay scale," limiting the scope to base compensation while excluding variable pay from the mandatory disclosure definition, though nuance is required for compliance.
+"Pay scale means the salary or hourly wage range that the employer reasonably expects to pay for the position."
+Inclusions:
+* Hourly Wages: For non-exempt roles, the hourly rate range (e.g., "$22.00 - $28.00 per hour").
+* Salary: For exempt roles, the annual salary range (e.g., "$85,000 - $115,000 per year").
+Exclusions: The definition strictly refers to the "salary or hourly wage." Consequently, employers are not legally mandated to quantify the value of:
+* Bonuses or profit-sharing.
+* Stock options or equity grants.
+* Tips or gratuities.
+* Commission (unless commission is the entirety of the wage, which requires careful handling under minimum wage laws).
+* Benefits packages (health insurance, 401k).
+However, while not required, omitting these elements can place an employer at a competitive disadvantage. Section 2 of this report outlines how to reference these elements without creating binding legal commitments.
+1.1.3 The "Reasonably Expects" Standard
+The most litigated aspect of § 432.3 is the requirement that the posted scale be one the employer "reasonably expects" to pay. This creates a "good faith" obligation.
+* Prohibition on Placeholder Ranges: Posting a range of "$50,000 to $200,000" for a mid-level administrative role is widely interpreted by the Labor Commissioner as a violation of the good faith requirement, as it provides no meaningful information to the applicant.
+* Budgetary Alignment: The posted range must align with the internal budget allocated for the position. If the Finance Department has only authorized a maximum salary of $90,000, posting a range up to $110,000 is a statutory violation.
+1.2 Job Posting Requirements
+1.2.1 External and Internal Postings
+The disclosure requirement is platform-agnostic. It applies to:
+* Third-Party Job Boards: LinkedIn, Indeed, Monster, ZipRecruiter.
+* Company Careers Pages: The employer's own website.
+* Internal Boards: Intranet postings, Slack channels, or physical bulletin boards where internal promotion opportunities are announced.
+The "Click-Through" Prohibition: Employers cannot force an applicant to click a link (e.g., "Click here for salary info") or scan a QR code to access the pay scale. The pay scale must be included within the job posting itself. This ensures that the information is presented immediately alongside the job duties, preventing "bait and switch" tactics where a candidate invests time reading a description only to find the pay inadequate.
+1.2.2 Third-Party Recruiters and Liability
+SMEs often utilize external recruiting agencies or headhunters to manage hiring. Section 432.3(c)(2) creates a bifurcated liability structure to ensure compliance throughout the supply chain.
+"(2) An employer with 15 or more employees that engages a third party to announce, post, publish, or otherwise make known a job posting shall provide the pay scale to the third party. The third party shall include the pay scale in the job posting."
+* Employer Responsibility: The employer must provide the compliant pay scale to the recruiter.
+* Recruiter Responsibility: The recruiter must reproduce that pay scale in any posting they create.
+* Liability Shield: If the employer provides the pay scale, but the recruiter fails to include it, the statute implies that the recruiter bears the liability for that specific violation. However, the employer must maintain written evidence (email or contract) proving they supplied the data.
+1.3 Employee Rights to Disclosure
+Beyond job applicants, the law significantly expands the rights of the existing workforce. Under Labor Code § 432.3(c)(4), all employers (regardless of the 15-employee threshold) must provide the pay scale for a current employee's position upon request.
+"(4) An employer shall, upon request, provide to an employee the pay scale for the position in which the employee is currently employed."
+This provision creates a mechanism for internal wage transparency. An employee who suspects they are underpaid relative to the market or their peers can demand the official pay scale. If their current salary falls below the minimum of the provided scale, it creates an immediate presumption of underpayment or wage theft, often triggering PAGA claims.
+1.4 Penalties for Non-Compliance
+The enforcement mechanisms for SB 1162 are aggressive, designed to deter non-compliance through significant financial exposure.
+1.4.1 Civil Penalties
+The Labor Commissioner is authorized to investigate complaints and issue citations.
+* Penalty Range: $100 to $10,000 per violation.
+* Defining a "Violation": A violation typically occurs per job posting. If an employer posts five non-compliant job descriptions on three different websites, they could theoretically face 15 separate violations.
+* First Violation Cure Period: For a first violation, no penalty shall be assessed if the employer demonstrates that all job postings for open positions have been updated to include the pay scale to the satisfaction of the Labor Commissioner. This "safe harbor" is a critical tool for SMEs who may have inadvertently erred.
+1.4.2 Civil Actions and Injunctive Relief
+Any person who claims to be aggrieved by a violation—whether an applicant or a current employee—may file a civil action for injunctive relief and any other relief the court deems appropriate.
+* PAGA Implications: Violations of § 432.3 are "Labor Code violations," meaning they can be included in Private Attorneys General Act (PAGA) lawsuits. In a PAGA action, "aggrieved employees" sue on behalf of the state. The penalties stack rapidly, as the "cure" provision for the Labor Commissioner may not necessarily shield an employer from PAGA litigation costs and attorney fees.
+SECTION 2: Pay Scale Disclosure Best Practices
+2.1 Establishing Defensible Pay Ranges
+The requirement to publish "good faith" pay scales compels employers to formalize their compensation philosophies. A defensible pay range is one that can be justified by objective data and internal logic, rather than arbitrary estimation.
+2.1.1 The Budget-Market-Equity Triad
+To calculate a compliant ranges, employers should synthesize three data points:
+1. Budgetary Reality: The absolute ceiling the business can afford.
+2. Market Rate: The prevailing wage for the role in the specific geographic area (Los Angeles).
+3. Internal Equity: The salaries of current employees performing substantially similar work.
+Scenario: An SME is hiring a "Customer Success Manager."
+* Budget: Finance approves up to $90,000.
+* Market: Data suggests the role pays $75k-$95k in LA.
+* Internal Equity: Current managers make $82k and $85k.
+* Defensible Scale: Posting $75,000 - $90,000 is defensible. It respects the budget, overlaps with the market, and brackets the internal incumbents without suggesting new hires will automatically out-earn them.
+2.2 Market Data and Salary Surveys
+Reliance on unverified, self-reported data sources (e.g., generic internet searches or crowdsourced sites) is risky.
+* Recommended Sources: Use credible salary surveys from compensation consulting firms (e.g., Mercer, Radford, or industry-specific associations). The Bureau of Labor Statistics (BLS) Occupational Employment and Wage Statistics (OEWS) for the "Los Angeles-Long Beach-Anaheim" metropolitan area provides a free, defensible baseline.
+* Geographic Specificity: Ensure data is localized. A "national average" is often 15-20% lower than the Los Angeles market, leading to failed recruitments and potentially artificially low posted ranges that could be challenged as not "good faith."
+2.3 Internal Equity Analysis
+Before publishing a range, conduct a regression analysis or a simple cohort comparison to identify "wage compression" or "inversion" risks.
+* Compression: New hires are brought in at salaries close to experienced incumbents.
+* Inversion: New hires are brought in at salaries higher than experienced incumbents.
+* Remediation: If the market rate demands a range of $90k-$110k, but incumbents are paid $85k, the employer faces a legal risk under the California Equal Pay Act and a morale risk. The best practice is to adjust incumbent salaries before posting the external role to ensure they fall comfortably within the new advertised range.
+2.4 Documentation of Methodology
+Create a written "Compensation Protocol" document. This serves as evidence of "good faith" in the event of a regulatory audit.
+* Content: The protocol should state: "Pay scales are determined by analyzing Level 2 salary survey data for the Los Angeles Metro area, adjusted for the company's size and sector."
+* Retention: Keep the calculation sheets for each job posting for at least three years, linking the posted range to the data source used at that time.
+2.5 Training Hiring Managers
+Hiring managers are the primary source of compliance failure. They often view ranges as flexible or "negotiable suggestions."
+* The Constraint: Managers must be trained that they cannot offer a salary outside the posted range.
+   * Offering Lower: Is a "bait and switch" violation.
+   * Offering Higher: Suggests the posted range was not the "reasonable expectation," potentially constituting a violation unless the candidate's qualifications significantly exceeded the job description (which then suggests the job description was inaccurate).
+* Scripts: Provide managers with scripts to answer questions like, "Why is the top of the range $100k?"
+   * Response: "This range reflects our current budget and maintains fairness with our existing team members who perform similar work."
+2.6 Handling Candidate Questions
+Candidates will inevitably ask where they will fall within the range.
+* Transparency: Be honest about the "hiring zone." Often, the "reasonable expectation" for a new hire is between the minimum and the midpoint (the 50th percentile), with the upper half reserved for future growth.
+* Disclosure: State clearly: "We typically hire between $70k and $85k, with the potential to grow to $100k over time based on performance." This manages expectations while remaining compliant with the posted scale.
+2.7 Sample Pay Scale Disclosure Language
+Job Title: Operations Coordinator Location: Los Angeles, CA (On-Site)
+Compensation:
+Pay Scale: $68,000 — $78,000 per year.
+Compensation Statement:
+The pay scale listed above represents the estimated salary range for this position at the time of posting. Actual compensation packages are based on a variety of factors, including but not limited to recognized skill sets, relevant experience, qualifications, and internal equity.
+Additional Benefits (Non-Mandatory Disclosure):
+In addition to the base salary, this position is eligible for our comprehensive benefits package, including:
+* Medical, Dental, and Vision Insurance (100% employer-paid premiums).
+* 401(k) Retirement Plan with 4% company match.
+* 15 days accrued Paid Time Off (PTO).
+* Annual performance-based bonus eligibility (Target: 5-10%).
+SECTION 3: CRD Pay Data Reporting (100+ Employees)
+While many SMEs fall below the 100-employee threshold, growth or affiliation with larger corporate structures can trigger the reporting requirements of Government Code § 12999. In 2026, the California Civil Rights Department (CRD) has intensified these requirements, adding new data fields and mandatory penalties.
+3.1 Statutory Requirement: Gov. Code § 12999
+The statute mandates that private employers with 100 or more employees must file an annual Pay Data Report. This is distinct from, and in addition to, federal EEO-1 reporting.
+"(a)(1) On or before the second Wednesday of May... a private employer that has 100 or more employees shall submit a pay data report to the department covering the prior calendar year."
+Coverage Triggers:
+1. Payroll Employee Report: Employers with 100+ employees on their payroll during the "Snapshot Period."
+2. Labor Contractor Employee Report: Employers with 100+ workers hired through labor contractors in the prior calendar year.
+* Note: The 100-employee count includes employees inside and outside of California. If a company has 100 employees total, with only one in California, they must report on that one California employee.
+3.2 Reporting Deadline and Snapshot Period
+* Deadline: For the 2025 Reporting Year, the report is due May 13, 2026 (The second Wednesday of May).
+* Snapshot Period: Employers must choose a single pay period between October 1, 2025, and December 31, 2025. The data reported (employee count, pay bands) is based on the workforce present during this specific snapshot.
+3.3 Required Data Elements (2026 Reporting Cycle)
+The 2026 report (covering 2025 data) requires highly granular data, aggregated by establishment and employee groups.
+3.3.1 Standard Demographic and Pay Data
+For each combination of Job Category, Race/Ethnicity, and Sex, the employer must report:
+1. Number of Employees: The count of individuals in that specific demographic/job group.
+2. Pay Band Distribution: The number of employees whose annual W-2 Box 5 earnings fall into each of the 12 CRD-specified pay bands.
+3. Hours Worked: Total hours worked by all employees in the group.
+4. Mean and Median Hourly Rate: The arithmetic average and the median hourly rate for each group. This requires converting salaried employees to an hourly equivalent.
+3.3.2 New Mandatory Fields for 2026
+Effective for the May 2026 filing, the CRD has introduced three new mandatory data columns :
+1. Exemption Status: Classification as "Exempt" or "Non-Exempt" under FLSA/California Wage Orders. This field creates a direct map for auditors to identify potential misclassification of employees.
+2. Employment Type: Classification as Full-Time, Part-Time, or Intermittent.
+3. Weeks Worked: The total number of weeks worked during the reporting year. This data point helps the CRD normalize pay data for partial-year employees to better assess pay equity.
+3.4 Remote Worker Reporting Rules
+Remote work complicates the assignment of employees to "Establishments." The CRD rules for 2026 are explicit :
+* Assignment Rule: Employees must be reported under the establishment to which they are formally assigned, regardless of their physical residence.
+* Remote Status Columns: For each employee group, the report must breakdown the count into three categories:
+   1. Remote employees located within California.
+   2. Remote employees located outside California.
+   3. Non-remote (on-site) employees.
+3.5 The 12 Pay Bands
+The CRD utilizes a set of 12 pay bands derived from the Bureau of Labor Statistics (BLS) Occupational Employment and Wage Statistics (OEWS). While the specific dollar values are adjusted annually, the structure generally follows the EEO-1 Component 2 legacy bands. Employers must categorize each employee's W-2 Box 5 income into one of these bands.
+Table 1: CRD Pay Bands (Illustrative Structure)
+Band
+	Label
+	Annual W-2 Box 5 Earnings Range
+	1
+	A
+	$19,239 and under
+	2
+	B
+	$19,240 - $24,439
+	3
+	C
+	$24,440 - $30,679
+	4
+	D
+	$30,680 - $38,999
+	5
+	E
+	$39,000 - $49,919
+	6
+	F
+	$49,920 - $62,919
+	7
+	G
+	$62,920 - $80,079
+	8
+	H
+	$80,080 - $101,919
+	9
+	I
+	$101,920 - $128,959
+	10
+	J
+	$128,960 - $163,799
+	11
+	K
+	$163,800 - $207,999
+	12
+	L
+	$208,000 and over
+	SECTION 4: SB 464 Demographic Data Segregation
+Senate Bill 464, effective January 1, 2026, introduces a critical data privacy requirement that fundamentally changes how HR departments must store demographic information. This is a direct response to concerns that demographic data collected for reporting purposes could be misused for discriminatory decision-making.
+4.1 The Segregation Mandate: Gov. Code § 12999(a)(3)
+The amended statute creates a legal firewall between compliance data and personnel records.
+"Any demographic information gathered by an employer or labor contractor for the purpose of submitting the report... shall be stored separately from the employee's personnel records."
+Implication: It is no longer lawful to keep a voluntary self-identification form (listing race, ethnicity, or gender) stapled to an employee's performance review or general personnel file. The legislature presumes that if this data is accessible to a hiring manager or supervisor, it could bias employment decisions.
+4.2 The "Container 6" Approach
+The "Container 6" methodology is the industry-standard compliance framework for meeting this requirement. It conceptualizes employee data into distinct "containers" with varying levels of access sensitivity.
+* Container 1: General Personnel File (Resume, Offer Letter, Handbook acknowledgment). Access: Managers & HR.
+* Container 2: Performance (Reviews, Disciplinary Actions). Access: Managers & HR.
+* Container 3: Payroll (Tax forms, Direct Deposit). Access: Payroll & HR.
+* Container 4: Medical (ADA accommodations, Doctors notes). Access: Strictly HR (HIPAA/CMIA rules).
+* Container 5: I-9 Forms (Immigration status). Access: Compliance Officer.
+* Container 6: Demographic Data (EEO-1/CRD Race & Gender Data). Access: Compliance Officer ONLY.
+Implementation Steps for SMEs:
+1. Digital Segregation: In HRIS platforms (e.g., BambooHR, Gusto, Rippling), the administrator must enable "Role-Based Access Control" (RBAC). The fields for "Race" and "Ethnicity" must be set to "Hidden" for all users except the designated Report Administrator. Managers view of the employee profile should show these fields as null or non-existent.
+2. Physical Segregation: If paper forms are used for onboarding, the demographic self-id form must be immediately separated from the application and stored in a distinct, locked binder labeled "Confidential Demographic Data – Container 6."
+4.3 Prohibited Uses and Access Controls
+The statute implies that this data is collected solely for the purpose of submitting the pay data report.
+* Prohibited Use: Using Container 6 data to determine eligibility for a promotion, training program, or termination.
+* Audit Trail: Best practices require enabling an "Access Log" for Container 6 data. If a manager accesses this data shortly before terminating an employee, that access log becomes discoverable evidence in a potential discrimination lawsuit.
+SECTION 5: Standard Occupational Classification (SOC) System
+While the 2026 reporting cycle (for 2025 data) permits the continued use of the legacy EEO-1 Job Categories, the CRD has mandated a transition to the Standard Occupational Classification (SOC) system for future reports (mandatory for the 2027 filing covering 2026 data). Employers must begin the transition process now to ensure data integrity.
+5.1 The Transition: EEO-1 to SOC
+The EEO-1 system uses 10 broad categories (e.g., "Professionals," "Sales Workers"). The SOC system, maintained by the BLS, uses a hierarchical structure that is far more granular, breaking jobs down into 23 Major Groups.
+Why the Change? The CRD determined that the EEO-1 categories were too broad to identify meaningful pay disparities. A "Professional" category that groups a neurosurgeon with a graphic designer obscures wage gaps. The SOC codes allow for "apples-to-apples" comparisons.
+5.2 The 23 SOC Major Groups
+Employers must map every job title in their organization to one of the following 23 Major Groups.
+Table 2: SOC Major Groups for Reporting
+SOC Code
+	Major Group Title
+	Examples of Roles
+	11-0000
+	Management Occupations
+	Chief Executives, General Managers, Marketing Managers
+	13-0000
+	Business & Financial Operations
+	Accountants, HR Specialists, Compliance Officers
+	15-0000
+	Computer & Mathematical
+	Software Developers, Data Scientists, Actuaries
+	17-0000
+	Architecture & Engineering
+	Civil Engineers, Drafters
+	19-0000
+	Life, Physical, & Social Science
+	Biologists, Chemists, Market Research Analysts
+	21-0000
+	Community & Social Service
+	Social Workers, Counselors
+	23-0000
+	Legal Occupations
+	Lawyers, Paralegals, Arbitrators
+	25-0000
+	Educational Instruction & Library
+	Teachers, Librarians, Tutors
+	27-0000
+	Arts, Design, Entertainment, Sports, Media
+	Graphic Designers, Producers, Editors
+	29-0000
+	Healthcare Practitioners & Technical
+	Doctors, Nurses, Pharmacists
+	31-0000
+	Healthcare Support
+	Nursing Assistants, Home Health Aides
+	33-0000
+	Protective Service
+	Security Guards, Firefighters
+	35-0000
+	Food Preparation & Serving Related
+	Chefs, Waiters, Bartenders
+	37-0000
+	Building & Grounds Cleaning/Maint.
+	Janitors, Landscapers
+	39-0000
+	Personal Care and Service
+	Childcare Workers, Personal Trainers
+	41-0000
+	Sales and Related Occupations
+	Retail Salespersons, Real Estate Agents, Cashiers
+	43-0000
+	Office and Administrative Support
+	Customer Service Reps, Secretaries, Dispatchers
+	45-0000
+	Farming, Fishing, and Forestry
+	Farmworkers, Foresters
+	47-0000
+	Construction and Extraction
+	Carpenters, Electricians, Plumbers
+	49-0000
+	Installation, Maintenance, and Repair
+	Auto Mechanics, HVAC Technicians
+	51-0000
+	Production Occupations
+	Machinists, Bakers, Assemblers
+	53-0000
+	Transportation and Material Moving
+	Truck Drivers, Flight Attendants, Stockers
+	55-0000
+	Military Specific Occupations
+	(Rarely used for private employers)
+	5.3 Crosswalk Methodology
+Employers must create a "Crosswalk Table" linking their internal job codes to the correct SOC group.
+* The "Manager" Trap: In the EEO-1 system, "First/Mid-Level Officials and Managers" was a catch-all. In the SOC system, "Management Occupations" (11-0000) is reserved for those who plan, direct, or coordinate operations.
+   * Correction: A "Retail Store Supervisor" is often not 11-0000. They are likely 41-1011 (First-Line Supervisors of Retail Sales Workers), which falls under the 41-0000 Sales major group. Misclassifying supervisors as "Management" is a common error that distorts pay data.
+* Resources: Use the O*NET OnLine tool (sponsored by the U.S. Department of Labor) or the BLS SOC user guide to look up specific job titles and find the corresponding 6-digit SOC code, then truncate to the first two digits to find the Major Group.
+SECTION 6: Labor Contractor Reporting
+California creates a unique "joint reporting" obligation for companies that use staffing agencies. This "Labor Contractor Employee Report" is designed to capture the "shadow workforce" often used to bypass headcount triggers or reduce payroll costs.
+6.1 Definitions and Applicability
+* Client Employer: The entity that utilizes the workers.
+* Labor Contractor: An individual or entity that supplies, with or without a contract, a client employer with workers to perform labor within the client employer's usual course of business.
+* Threshold: A separate report is required if the client employer utilized 100 or more workers hired through labor contractors in the prior calendar year.
+6.2 The "Ownership Name" Disclosure Requirement
+SB 1162 added a specific transparency requirement: The report must disclose the ownership names of all labor contractors used to supply employees.
+* Purpose: This prevents labor contractors from hiding behind DBA (Doing Business As) names to obscure their identity or link to other entities.
+* Data Collection: Client employers must request the official legal ownership name of every staffing agency they utilize as part of the data collection process.
+6.3 Liability and Coordination
+The law mandates a data exchange:
+1. Contractor Duty: The labor contractor must supply all necessary pay, hours, and demographic data to the client employer.
+2. Client Duty: The client employer aggregates this data and submits the report.
+3. Safe Harbor: If a labor contractor refuses to provide the data, the client employer is not automatically liable. They may petition the court, and the court is authorized to apportion penalties directly to the non-compliant labor contractor.
+* Staffing Agency Coordination: Best practice is to include a clause in all staffing services agreements requiring the agency to "provide all data required for compliance with California Government Code § 12999 by March 1st of each year."
+SECTION 7: Compliance Calendar and Audit Procedures
+To manage the overlapping deadlines of pay transparency (ongoing) and pay data reporting (annual), SMEs should adopt the following 2026 Compliance Calendar.
+7.1 2026 Compliance Calendar
+Table 3: 2026 Key Dates
+Month
+	Action Item
+	Regulatory Basis
+	January
+	SB 464 Enforcement: Verify "Container 6" segregation is active.
+	Gov. Code 12999(a)(3)
+	February
+	Portal Opens: CRD Pay Data Portal opens for 2025 Reporting Year.
+	CRD Guidance
+	March
+	Data Collection: Request data from Labor Contractors (Staffing Agencies).
+	SB 1162
+	April
+	Data Validation: Validate "Snapshot" data (Oct-Dec 2025) against payroll records.
+	Internal Audit
+	May 13
+	FILING DEADLINE: CRD Pay Data Reports due (Payroll & Contractor).
+	Gov. Code 12999
+	June
+	Pay Scale Audit: Review all active external job postings for § 432.3 compliance.
+	Lab. Code 432.3
+	October
+	Snapshot Planning: Begin planning "Snapshot Period" for next year's filing.
+	Best Practice
+	December
+	SOC Mapping: Complete mapping of all new job titles to SOC codes.
+	Future Compliance
+	7.2 Audit Checklists
+Pay Scale Disclosure Checklist (Labor Code § 432.3)
+* ☐ Is a pay scale included in the body of every external job posting?
+* ☐ Is a pay scale included in every internal promotion announcement?
+* ☐ Do third-party recruiters have written instructions to include scales?
+* ☐ Is there a documented "Compensation Methodology" file justifying the "good faith" nature of the ranges?
+* ☐ Have all "Commission-Only" roles been reviewed for base wage disclosure requirements?
+Pay Data Reporting Checklist (Gov. Code § 12999)
+* ☐ Have "Exemption Status," "Employment Type," and "Weeks Worked" been audited in the HRIS?
+* ☐ Is demographic data (Race/Sex) stored in "Container 6" with restricted access?
+* ☐ Have all remote workers been assigned to the correct establishment based on reporting structure?
+* ☐ Has the legal ownership name of all Labor Contractors been verified?
+7.3 Recordkeeping
+* Wage History: Maintain job title and wage rate history for each employee for the duration of employment plus three years after termination.
+* Pay Data Reports: Retain copies of the filed CRD reports for at least three years to demonstrate compliance during an audit.
+SECTION 8: Penalties and Enforcement
+The 2026 regulatory environment is defined by a shift from "education" to "mandatory enforcement." SB 464 significantly reduced judicial discretion regarding penalties for reporting failures.
+8.1 Civil Penalties for Reporting Violations (Gov. Code § 12999)
+Prior to 2026, courts "could" impose penalties. Under SB 464, courts must impose penalties if the CRD requests them and a violation is found.
+* Initial Failure to File: Civil penalty of up to $100 per employee.
+* Subsequent Failure: Civil penalty of up to $200 per employee.
+Scenario A: The 105-Employee SME An SME with 105 employees misses the May 13, 2026 deadline. The CRD issues a notice. The employer fails to respond.
+* Calculation: 105 employees × $100 = $10,500.
+* Mandatory Nature: The court has limited discretion to waive this if the CRD pursues the penalty.
+Scenario B: The Labor Contractor Failure A client employer has 150 contractors. The staffing agency refuses to provide data. The client employer petitions the court.
+* Apportionment: The court may assess the $100/employee penalty ($15,000) against the labor contractor directly for causing the failure.
+8.2 Pay Scale Disclosure Penalties (Labor Code § 432.3)
+The Labor Commissioner enforces job posting violations.
+* Civil Penalty: $100 to $10,000 per violation.
+* Scenario C: An employer posts 10 job openings on LinkedIn, none of which have pay scales.
+   * Potential Exposure: 10 violations × $10,000 (max) = $100,000.
+   * First Violation Safe Harbor: If this is the first offense, the employer may cure it by updating all postings immediately, potentially avoiding the penalty.
+8.3 Intersection with EEOC EEO-1 Reporting
+A critical misconception among SMEs is that filing the federal EEO-1 report satisfies California's requirement.
+* No Reciprocity: SB 1162 explicitly deleted the provision that allowed employers to submit an EEO-1 in lieu of a California pay data report.
+* Double Filing: Covered employers must file both the federal EEO-1 (to the EEOC) and the California Pay Data Report (to the CRD). Failure to file the state report triggers the specific California penalties outlined above, regardless of federal compliance.
+8.4 Private Right of Action
+Beyond state penalties, employers face the risk of private lawsuits.
+* Injunctive Relief: Employees can sue to force the employer to post pay scales.
+* PAGA: Violations can serve as the basis for a Private Attorneys General Act (PAGA) claim, where the "aggrieved employee" sues on behalf of the state. PAGA penalties allow for the "stacking" of violations per pay period, potentially resulting in liability far exceeding the statutory civil penalties.
+Disclaimer: This research report is for informational purposes only and does not constitute legal advice. Employment laws are subject to change and interpretation. Employers should consult with qualified legal counsel regarding specific compliance questions.
+Works cited
+1. California Pay Transparency Laws: Employer Best Practices - Conn Maciel Carey LLP, https://www.connmaciel.com/california-pay-transparency-laws 2. California Pay Scale Rules in 2026 - Shaw Law Group, https://shawlawgroup.com/2026/01/california-pay-scale-rules-in-2026/ 3. Bill Text: CA SB1162 | 2021-2022 | Regular Session | Amended - LegiScan, https://legiscan.com/CA/text/SB1162/id/2587757 4. What We Know About California Pay Data Reporting - Berkshire Associates, https://www.berkshireassociates.com/blog/what-we-know-about-california-pay-data-reporting 5. SB 1162: California Pay Transparency – Job Postings - UCI Academic Personnel - UC Irvine, https://ap.uci.edu/policies-procedures/app/2-10/sb1162/ 6. SB 1162 California Pay Transparency Law – Here's How It Works for Recruiting and Hiring, https://californiapayroll.com/blog/sb-1162-california-pay-transparency-law/ 7. California Pay Transparency Law 2026 (SB 642 Explained) - Compport, https://www.compport.com/blog/californias-pay-transparency-laws 8. SB 1162 Approved: Prepare for Greater Pay Transparency Requirements - Seyfarth Shaw, https://www.seyfarth.com/news-insights/sb-1162-approved-prepare-for-greater-pay-transparency-requirements.html 9. California Passes SB 1162 to Advance Pay Transparency and Pay Data Reporting Requirements - OutSolve, https://www.outsolve.com/blog/california-passes-sb-1162-to-advance-pay-transparency-and-pay-data-reporting-requirements 10. What the California Pay Transparency Law 2023 means for you - Factorial, https://factorialhr.com/blog/california-pay-transparency-law/ 11. Don't Play with How You Pay: New California Laws Require Employers to Get Serious with Pay Transparency, Equality, and Reporting - Vorys, https://www.vorys.com/publication-dont-play-with-how-you-pay-new-california-laws-require-employers-to-get-serious-with-pay-transparency-equality-and-reporting 12. Understanding California's New Pay Transparency Requirements, https://www.hr.law/blog/understanding-californias-new-pay-transparency-requirements/ 13. Bill Text: CA SB464 | 2025-2026 | Regular Session | Amended - LegiScan, https://legiscan.com/CA/text/SB464/id/3267109 14. Understanding California Pay Data Reporting - OutSolve, https://www.outsolve.com/what-is-california-pay-data-reporting 15. California Tightens Pay Transparency: What Employers Need to Know About SB 642 and SB 464 | ArentFox Schiff, https://www.afslaw.com/perspectives/alerts/california-tightens-pay-transparency-what-employers-need-know-about-sb-642-and 16. 2025 California Pay Data Reporting FAQ - Civil Rights Department, https://calcivilrights.ca.gov/paydatareporting/faqs/ 17. California CRD Publishes Preliminary Templates & FAQ for Pay Data Reporting for Upcoming Reporting Year 2025 | California Workplace Law Blog, https://www.californiaworkplacelawblog.com/2026/01/articles/wage-and-hour/california-crd-publishes-preliminary-templates-faq-for-pay-data-reporting-for-upcoming-reporting-year-2025/ 18. 2026 California Employment Law Update - Gibson Dunn, https://www.gibsondunn.com/2026-california-employment-law-update/ 19. New California law requires pay range in job postings, pay data reporting, and other changes - Dentons, https://www.dentons.com/en/insights/articles/2022/october/6/new-california-law-requires-pay-range-in-job-postings-pay-data-reporting-and-other-changes 20. Important Update: Preliminary Guidance for California's 2025 Pay Data Reporting Presents Broader, More Complex Compliance Requirements - Seyfarth Shaw, https://www.seyfarth.com/news-insights/important-update-preliminary-guidance-for-californias-2025-pay-data-reporting-presents-broader-more-complex-compliance-requirements.html 21. California Pay Data Reporting Portal – User Guide - Civil Rights Department, https://calcivilrights.ca.gov/wp-content/uploads/sites/32/2021/01/CA-Pay-Data-Reporting-User-Guide.pdf 22. California Civil Rights Department Releases 2025 Pay Data Reporting Guidance—Adding New Race/Ethnicity Category - Ogletree, https://ogletree.com/insights-resources/blog-posts/california-civil-rights-department-releases-2025-pay-data-reporting-guidance-adding-new-race-ethnicity-category/ 23. California Pay Data Reporting Reporting Year 2024 - Civil Rights Department, https://calcivilrights.ca.gov/wp-content/uploads/sites/32/2025/01/PDR_Labor_Contractor_Employee_Report_Excel_Template_Instructions.pdf 24. California Updates Pay Data Reporting Requirements - New Tab, https://cwc.org/CWC/CWC/Updates/2025/California-Updates-Pay-Data-Reporting-Requirements.aspx 25. List of SOC Occupations - Bureau of Labor Statistics, https://www.bls.gov/oes/2023/may/oes_stru.htm 26. 2018 Standard Occupational Classification System - Bureau of Labor Statistics, https://www.bls.gov/soc/2018/major_groups.htm 27. California Amends Its Pay Data Reporting Requirements | Seyfarth Shaw LLP, https://www.seyfarth.com/news-insights/california-amends-its-pay-data-reporting-requirements.html 28. O*NET-SOC Taxonomy at O*NET Resource Center, https://www.onetcenter.org/taxonomy.html 29. California Publishes Updated FAQs on Pay Data Reporting - DCI Consulting Blog, https://blog.dciconsult.com/ca-updates-faqs-pay-reporting 30. Updated Guidance Released for SB 1162 – California's New 2023 Pay Data Reporting Requirement for Workers Provided by Third Parties - Laborsphere, https://laborsphere.com/updated-guidance-released-for-sb-1162-californias-new-2023-pay-data-reporting-requirement-for-workers-provided-by-third-parties/

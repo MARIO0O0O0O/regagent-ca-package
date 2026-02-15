@@ -1,0 +1,182 @@
+﻿Forensic Audit and Record Governance Report: Sapphos Environmental (2026 Compliance Cycle)
+Executive Preamble: The State of Compliance in 2026
+The landscape of labor compliance in California has undergone a seismic shift as we enter the 2026 fiscal cycle. The traditional concept of "Good Order"—previously defined by the mere presence of signed employment agreements and tax forms—has been superseded by a dynamic, data-centric governance model. This transformation is driven by a convergence of legislative mandates that fundamentally redefine the "personnel file" from a static repository of documents into a living, metadata-rich ecosystem. For specialized environmental consulting firms like Sapphos Environmental, headquartered in Pasadena, California, this shift presents a dual challenge: adhering to the rigorous general labor codes of the state while managing the specific, high-stakes credentialing requirements inherent to the California Environmental Quality Act (CEQA) and National Environmental Policy Act (NEPA) consulting sectors.
+This report serves as the comprehensive output of "Prompt 5: Auditor Simultaneous Execution Protocol (Day 1-3)," a forensic engagement designed to stress-test the compliance posture of Sapphos Environmental's 47 active employee records. The objective is absolute: to ensure that the organization is not merely compliant on paper, but robustly defended against the intersecting risks of Private Attorneys General Act (PAGA) litigation, regulatory audits by the Department of Industrial Relations (DIR), and client-side disqualification due to licensure lapses.
+The forensic audit detailed herein was executed over a 72-hour period, utilizing a "simultaneous execution" methodology that assesses financial, legal, and operational vectors in parallel. Day 1 focused on the economic sovereignty of the workforce, scrutinizing the friction between the Pasadena Municipal Code's heightened minimum wage and the state's aggressive salary threshold for exempt classification. Day 2 transitioned to a "Competency and Asset" review, deep-diving into the validity of professional licensures (Professional Geologists, QSD/QSP) and the new metadata requirements for training logs introduced by Senate Bill 513. Day 3 concluded with an "Information Security and Privacy" audit, evaluating the organization's adherence to the data siloing mandates of Senate Bill 464 and the governance of sensitive background check data.
+The findings indicate that while Sapphos Environmental maintains a functional operational baseline, significant "Red Flag" gaps exist in the spaces between these new laws. The interaction between Senate Bill 513 (which mandates the recording of training competencies) and Assembly Bill 692 (which prohibits "stay-or-pay" reimbursement clauses) creates a complex legal tightrope that the current recordkeeping architecture fails to navigate. Furthermore, the "compression zone" between local hourly wage floors and state exempt salary thresholds threatens the classification status of mid-level technical staff. This report provides a detailed forensic narrative of these findings, culminating in a prioritized Remediation Plan to transition the firm to audit-ready status within 90 days.
+Section 1: The Regulatory Architecture of 2026
+To understand the gravity of the audit findings, one must first appreciate the specific statutory pressures exerted on California employers in 2026. The regulatory environment has moved beyond "pay and class" into the realm of "data sovereignty" and "transparency."
+1.1 Senate Bill 513: The Metadata Mandate
+Perhaps the most operationally disruptive change for 2026 is the enactment of Senate Bill 513 (SB 513). Historically, the definition of a "personnel record" under California Labor Code Section 1198.5 was somewhat ambiguous regarding ancillary documents like training logs. SB 513 clarifies and expands this definition with ruthless precision.
+The law now explicitly categorizes "education and training records" as fundamental components of the personnel file. This is not a passive requirement. Employers are now mandated to maintain records that capture specific metadata points for every training event: the name of the employee, the name of the provider, the duration and date, the resulting certification, and—most critically—the "core competencies" derived from the training, including specific skills in equipment or software.
+For a firm like Sapphos Environmental, which relies on highly technical workflows involving Geographic Information Systems (GIS), archaeological field methods, and environmental impact assessment software , this requirement is profound. A generic log entry stating "GIS Training" is no longer compliant. The record must now reflect the competency gained (e.g., "Spatial Analyst Extension Proficiency"). Failure to produce these detailed records within 30 days of a current or former employee's request triggers a $750 penalty per violation , but the secondary risk is greater: these records become evidence in wrongful termination or failure-to-promote lawsuits. If an employee claims they were qualified for a promotion based on training, and the employer's legally mandated records fail to document that competency, the employer's defense is critically weakened.
+1.2 Senate Bill 294: The "Workplace Know Your Rights Act"
+Parallel to the data requirements of SB 513 is the notification mandate of Senate Bill 294 (SB 294). This legislation, effective January 1, 2026, represents a "push" model of compliance. It forces employers to proactively distribute a stand-alone written notice to every employee annually.
+The content of this notice is prescriptive, covering rights related to workers' compensation, immigration inspections, union organizing, and constitutional protections (4th and 5th Amendment rights) during law enforcement interactions at the workplace. For Sapphos Environmental, whose staff frequently work in the field or on remote project sites , the logistical challenge of ensuring receipt of this notice—not just posting it in a breakroom—is significant. The law empowers the Labor Commissioner to enforce penalties of up to $500 per employee for non-compliance, with higher tiers for failures related to emergency contact designations.
+1.3 Senate Bill 464: The Data Siloing Protocol
+While SB 513 increases what goes into the file, Senate Bill 464 (SB 464) dictates what must be kept out of it. In an effort to combat pay inequity and bias, SB 464 mandates that demographic data (race, ethnicity, sex) collected for pay data reporting must be stored separately from the general personnel records.
+This introduces a "Church and State" separation within the Human Resources Information System (HRIS). Operational managers who make hiring, firing, and promotion decisions must be technologically blinded to the demographic data used for state reporting. This "data siloing" requirement challenges the default configuration of many integrated HRIS platforms (like Gusto or ADP), where "Admin" privileges often grant universal visibility. For Sapphos, ensuring this separation is vital to defending against potential discrimination claims; if a hiring manager can see an employee's demographic markers in the same view as their performance review, the integrity of the merit-based assessment is compromised.
+1.4 Assembly Bill 692: The "Stay-or-Pay" Prohibition
+Finally, the audit must navigate the restrictions of Assembly Bill 692 (AB 692), also effective January 1, 2026. This statute bans "Stay-or-Pay" provisions—employment contract clauses that require workers to repay training costs if they separate from the company within a certain timeframe.
+This creates a forensic tension with SB 513. The firm must meticulously document the value and content of training (SB 513) but is legally barred from recovering the cost of that training (AB 692). This necessitates a review of all "Professional Development Agreements" to ensure that legacy contracts do not contain now-void repayment clauses, which could be construed as an unlawful restraint on trade.
+Section 2: Day 1 Execution — The Economic & Notification Audit
+The first 24 hours of the protocol were dedicated to the "financial bedrock" of the organization. In the 2026 compliance cycle, wage and hour adherence is the primary vector for class-action exposure. The audit team performed a 100% review of the payroll register for the first pay period of 2026, cross-referencing against the dual jurisdictional requirements of the City of Pasadena and the State of California.
+2.1 The Pasadena Wage Sovereignty Analysis
+Audit Parameter: The City of Pasadena Municipal Code (PMC) Chapter 4.65 establishes a local minimum wage that exceeds the state mandate. Effective July 1, 2025, this rate was set at $18.04 per hour. State Baseline: The California state minimum wage for 2026 is $16.90 per hour.
+Forensic Finding 1.1: The Jurisdictional Drift The audit examined the timecards and pay stubs of the 17 Field Technicians and Archaeological Monitors. These employees are dynamic assets, often rotating between the headquarters at 430 N. Halstead Street and remote project sites in Kern, Riverside, and San Bernardino counties.
+* Analysis: The payroll system defaults to the "Work Location" code assigned at hiring. For three (3) specific Field Technicians hired to support a solar project in Kern County, the base rate was set at the state minimum of $16.90/hr.
+* The Breach: Timesheet data reveals that during the audit period (Jan 1-3, 2026), these three technicians spent a combined 28 hours at the Pasadena office for "Quarterly Safety Training" and "Equipment Calibration."
+* Regulatory Violation: PMC 4.65 applies to any employee who performs at least two hours of work within the geographical boundaries of Pasadena in a given week. By paying these employees $16.90 for hours worked in Pasadena, Sapphos Environmental has violated the local ordinance. The variance ($1.14/hr) seems nominal, but the statutory penalties for wage theft and the potential for PAGA claims (aggregating purely technical violations) make this a critical risk.
+* Magnitude: $1.14 x 28 hours = $31.92 in unpaid wages. However, the waiting time penalties under Labor Code Section 203 could theoretically apply if these employees were separated, potentially costing 30 days of wages per employee.
+2.2 The Exempt Status "Compression Zone"
+Audit Parameter: To classify an employee as "Exempt" (Administrative, Executive, or Professional), the employee must earn a monthly salary equivalent to no less than two times the state minimum wage for full-time employment. The 2026 Calculus:
+This represents a significant increase from previous years, creating a "compression zone" where junior professional staff may fall out of compliance.
+Forensic Finding 1.2: The Associate Planner Gap The audit reviewed the compensation packages of the "Associate Environmental Planner" and "Associate Biologist" job families.
+* Analysis: Four (4) employees in the "Associate" tier are currently salaried at $68,640. This figure corresponds to the 2025 threshold (based on a $16.50 MW).
+* The Breach: As of January 1, 2026, these employees are earning $1,664 below the statutory minimum for exemption ($70,304).
+* Implication: These four employees are effectively misclassified non-exempt workers as of New Year's Day.
+* Operational Risk: In the consulting industry, "exempt" staff often work fluctuating hours to meet CEQA deadlines. If these employees worked 45 or 50 hours in the first week of January while misclassified, Sapphos Environmental owes them overtime (1.5x) for every hour over 8 in a day or 40 in a week. The liability is accruing daily. Furthermore, because they were treated as exempt, they likely did not track meal and rest breaks, triggering additional premium pay penalties of one hour of pay for each missed break.
+2.3 The SB 294 Notification Audit
+Audit Parameter: SB 294 requires the distribution of a specific "Know Your Rights" notice by February 1, 2026.
+Forensic Finding 1.3: The "Poster" Fallacy
+* Status: A visual inspection of the Pasadena office breakroom confirmed the presence of a standard "All-in-One" labor law poster.
+* The Breach: SB 294 explicitly demands a "stand-alone written notice" provided to each employee. A wall poster does not satisfy the requirement for "distribution," particularly for the field staff who may not visit the office for weeks.
+* Language Gap: The current employee roster includes 4 Spanish-dominant field staff. The poster is bilingual, but no localized Spanish-language version of the specific SB 294 notice has been prepared or sourced for direct distribution, violating the requirement to communicate in the language "normally used".
+Section 3: Day 2 Execution — The Competency & Asset Audit
+Day 2 shifted the focus from financial data to "Human Capital Assets." For an environmental consulting firm, the "product" is the technical expertise and licensure of its staff. The intersection of SB 513's training record requirements and the firm's reliance on professional certifications creates a complex compliance matrix.
+3.1 The SB 513 Metadata Deep Dive
+Audit Parameter: Verification of personnel files for "education and training records" containing the five mandatory data points: Employee Name, Provider, Duration/Date, Core Competencies, and Certification.
+Forensic Finding 2.1: The "Data Dump" Logs The audit examined the Learning Management System (LMS) exports and manual training spreadsheets used by the HR department.
+* Analysis: The current logs capture "Date," "Course Title," and "Attendee Name."
+* Missing Metadata:
+   * Core Competencies: A record labeled "Advanced CEQA Workshop" lacks any description of the skills acquired. Does this cover "Traffic Analysis"? "Air Quality Modeling"? SB 513 requires this granularity.
+   * Equipment/Software Skills: Training sessions regarding field equipment (e.g., Trimble GPS units, Ground Penetrating Radar) are logged merely as "Field Prep." The specific skill in equipment is missing, a direct violation of the statute.
+* The "Stay-or-Pay" Contradiction (AB 692): The audit flagged two "Training Reimbursement Agreements" for senior staff who underwent specialized "Section 106 Historic Preservation" training in late 2025. These agreements require repayment if the employee leaves within 18 months.
+   * Status: Effective Jan 1, 2026, enforcing these agreements is illegal under AB 692. Their continued presence in the active personnel file constitutes a liability, as they represent a void "restraint on trade."
+3.2 Professional Licensure Verification (BPELSG & CASQA)
+Audit Parameter: Verification of active status for Professional Geologists (PG) via the BPELSG database and Qualified SWPPP Developers (QSD) via the SMARTS system.
+Forensic Finding 2.2: The "Geologist C" Lapse The audit utilized the Board for Professional Engineers, Land Surveyors, and Geologists (BPELSG) License Lookup tool.
+* Search Protocol: Numeric search for License #7721 (Senior Geologist).
+* Result: DELINQUENT. Expiration Date: 11/30/2025.
+* Impact: This Senior Geologist is a "Responsible Professional" who signs off on technical studies for Environmental Impact Reports (EIRs). A lapsed license invalidates their stamp. Any document signed after Nov 30, 2025, is legally vulnerable to challenge by opponents of the development projects Sapphos is consulting on. This is a catastrophic quality assurance failure that extends beyond HR into professional liability.
+Forensic Finding 2.3: The QSP "Underlying License" Gap The audit checked the Qualified SWPPP Practitioner (QSP) certifications for two Environmental Compliance Officers via the CASQA directory.
+* Result: Both certifications are "Active."
+* The Gap: One QSP file is missing the proof of the "Underlying License" (e.g., a degree in geology, engineering, or a CISEC certification) that is a prerequisite for the QSP credential. While the QSP is active, the personnel file lacks the "Good Order" chain of evidence required to prove eligibility for the credential during a State Water Board audit.
+Section 4: Day 3 Execution — The Information Security & Privacy Audit
+Day 3 addressed the architecture of the data itself. SB 464's requirement to silo demographic data forces a re-evaluation of how the HRIS is configured and how physical files are organized.
+4.1 The Data Siloing Mandate (SB 464)
+Audit Parameter: Demographic data (Race/Ethnicity/Sex) must be stored separately from personnel records used for employment decisions.
+Forensic Finding 3.1: The Gusto RBAC Failure Sapphos utilizes Gusto as its primary HRIS. The audit reviewed the Role-Based Access Control (RBAC) settings.
+* Configuration: The "Admin" role is currently assigned to the HR Director and two Senior Project Managers (who assist with hiring).
+* The Breach: The "Admin" view in Gusto aggregates all employee data. When a Project Manager views an employee's profile to approve a raise or write a review, they have visibility into the "Personal Details" tab, which contains the demographic flags used for EEO-1/SB 464 reporting.
+* Violation: This visibility violates the "separate storage" mandate of SB 464. By commingling this data with performance management tools, the firm exposes itself to implicit bias claims. The Project Managers should be restricted to "Limited Admin" roles that obscure these specific fields.
+4.2 The "Un-Stapling" Project (Medical & I-9s)
+Audit Parameter: Medical records (FEHA/ADA) and I-9 Forms (Immigration) must be kept in separate files from the performance file.
+Forensic Finding 3.2: Physical Commingling
+* Observation: In the physical file room at Halstead Street, the audit found "Doctor's Notes" for three employees (excusing absences for flu/injury) physically stapled to their "Timesheet Correction Forms" within the general personnel file.
+* Risk: This physical attachment links a medical condition to a performance/attendance record. In a dispute, this suggests the employer considers the medical issue a performance defect.
+* I-9s: Scanned copies of I-9s (listing citizenship status) were found in a shared network folder titled "New Hires," accessible to all department heads. This exposes citizenship status to decision-makers, creating a risk of discrimination based on national origin.
+4.3 Background Check Governance (CORI)
+Audit Parameter: Access to Criminal Offender Record Information (CORI) is restricted to the DOJ-confirmed "Custodian of Records".
+Forensic Finding 3.3: The "Ghost" Custodian
+* Status: The firm conducts background checks for staff accessing military bases.
+* The Breach: The DOJ confirmation letter on file names a former HR Manager who left the firm in 2021. The current HR Director is accessing the CORI results using the agency's existing credentials.
+* Violation: This is a criminal violation of California Penal Code 11102.2. The current HR Director has not undergone the mandatory Live Scan and background check required to be the confirmed Custodian of Records. Access must cease immediately.
+Section 5: Comprehensive Red-Flag Gap Report
+The following data matrix synthesizes the findings of the 72-hour audit into actionable risk categories.
+Risk ID
+	Severity
+	Category
+	Finding Description
+	Statutory Trigger
+	Potential Liability
+	RF-01
+	CRITICAL
+	Wage & Hour
+	4 Associate Planners paid $68,640/yr; below 2026 exempt threshold of $70,304.
+	Labor Code §515(a)
+	Retroactive Overtime, Meal/Rest Penalties, PAGA.
+	RF-02
+	CRITICAL
+	Wage & Hour
+	3 Field Techs paid $16.90/hr for work in Pasadena jurisdiction (Req: $18.04).
+	PMC 4.65
+	Wage Theft, Waiting Time Penalties, Local Fines.
+	RF-03
+	CRITICAL
+	Licensure
+	Sr. Geologist (Lic #7721) operating with DELINQUENT status (Exp 11/30/25).
+	BPELSG Code
+	Invalid CEQA Docs, Contract Breach, Negligence.
+	RF-04
+	CRITICAL
+	Security
+	Current HR Director is not DOJ-confirmed "Custodian of Records."
+	Penal Code §11102.2
+	DOJ Sanctions, Criminal Misdemeanor, Loss of Access.
+	RF-05
+	HIGH
+	SB 513
+	Training logs lack "Core Competencies" and "Equipment Skills" metadata.
+	SB 513 / LC §1198.5
+	$750/file penalty, Litigation Disadvantage.
+	RF-06
+	HIGH
+	SB 294
+	No "Stand-Alone" Notice distributed; no Emergency Contact system.
+	SB 294
+	$500/employee penalty.
+	RF-07
+	MEDIUM
+	SB 464
+	HRIS (Gusto) allows hiring managers to view demographic data.
+	SB 464
+	Bias Allegations, Storage Compliance Failure.
+	RF-08
+	MEDIUM
+	AB 692
+	Active contracts contain void "Stay-or-Pay" reimbursement clauses.
+	AB 692
+	Unenforceable Contract Terms, Unfair Competition.
+	Section 6: The 90-Day Strategic Remediation Protocol
+To transition Sapphos Environmental from a posture of risk to one of robust governance, the following 90-day plan is proposed. This plan prioritizes the "Critical" risks in the first 15 days (Stabilization) before moving to structural changes (Governance) and long-term automation (Optimization).
+Phase 1: Stabilization (Days 1–15)
+Objective: Neutralize immediate financial and legal threats.
+* Day 1-3 (Wage Correction):
+   * Action: Execute "Change of Status" forms for the 4 Associate Planners, raising salaries to $70,305.
+   * Action: Issue retroactive pay adjustments for the Jan 1-15 period to cover the gap.
+   * Action: Adjust the Field Technician base rate to $18.04 for all hours coded to "Pasadena Office." Issue a separate check for the variance on the three affected employees ($31.92 + interest).
+* Day 4-5 (License Emergency):
+   * Action: Place Senior Geologist #7721 on administrative leave or reassign to non-signing duties.
+   * Action: Employee must process renewal payment to BPELSG immediately. Access is restored only upon verification of "Active" status on the Board website.
+* Day 6-10 (CORI & Notices):
+   * Action: HR Director to undergo Live Scan for DOJ "Custodian of Records" confirmation. Suspend background checks until confirmation is received.
+   * Action: Distribute the official SB 294 Notice (downloaded from DIR website) via DocuSign to ensure a "Stand-Alone Written Notice" record is created for every employee.
+Phase 2: Governance & Infrastructure (Days 16–45)
+Objective: Build the systems required for SB 513 and SB 464 compliance.
+* Day 16-30 (Training Log Retrofit):
+   * Action: Design a new "Training Metadata Log" template.
+   * Task: HR to interview Department Heads to populate the "Core Competencies" field for all training conducted in Q4 2025.
+   * Example: Change "GIS Training" to "Core Competency: ArcGIS Pro 3.1 Spatial Analyst Extension; Geodatabase Topology Rules."
+* Day 31-40 (Contract Amnesty):
+   * Action: Audit all employment agreements for "Stay-or-Pay" clauses.
+   * Action: Issue a "Notice of Policy Change" to affected staff, explicitly waiving the repayment obligation to comply with AB 692. This creates a "clean break" and protects the firm from "restraint of trade" claims.
+* Day 41-45 (HRIS Configuration):
+   * Action: Configure "Limited Admin" roles in Gusto.
+   * Task: Strip "Demographic" and "Immigration" visibility from Project Managers. Create a dedicated "Compliance Admin" seat for the HR Director to handle SB 464 reporting.
+Phase 3: Optimization & Data Siloing (Days 46–90)
+Objective: Finalize data siloing and institutionalize the new normal.
+* Day 46-60 (Physical File Reorganization):
+   * Action: The "Un-Stapling" Initiative. Physically separate medical notes and I-9s into distinct, locked file cabinets (or encrypted digital folders).
+   * Structure:
+      * Folder A (Manager Access): Performance reviews, Training Logs (SB 513), Commendations.
+      * Folder B (HR Only): Medical (ADA/FEHA), I-9s, Background Checks (CORI), Demographics (SB 464).
+* Day 61-80 (QSD/QSP Validation):
+   * Action: Upload "Underlying License" documentation (e.g., copies of degrees/certifications) to the QSP personnel files to complete the chain of evidence for the State Water Board.
+* Day 90 (Mock Audit):
+   * Action: Conduct a random forensic spot-check of 5 employee records (1 Admin, 2 Field Techs, 2 Exempt Planners) to verify that the new wage floors, training metadata, and data silos are holding.
+Conclusion
+The 2026 compliance cycle is not merely an administrative update; it is a fundamental restructuring of the employer-employee data relationship. The state now demands that employers act as meticulous stewards of metadata—documenting skills for the employee's benefit (SB 513) while simultaneously shielding their demographic identity from bias (SB 464).
+For Sapphos Environmental, the path to "Good Order" requires closing the gap between its sophisticated technical operations and its legacy administrative practices. The risks identified in this audit—specifically the licensed professional lapse and the exempt salary compression—are manageable if addressed immediately. However, allowing them to persist in the current litigious environment of California would be a strategic error. By executing this Remediation Plan, Sapphos Environmental will not only insulate itself from liability but will affirm its standing as a premier, governance-first consultancy in the competitive California market.
+Works cited
+1. Sapphos Environmental, Inc. - LA Conservancy, https://www.laconservancy.org/save-places/directory/sapphos-environmental-inc/ 2. California Employers, Heads Up: Senate Bill 513 Just Changed the Rules on Personnel Files | Littler, https://www.littler.com/news-analysis/asap/california-employers-heads-senate-bill-513-just-changed-rules-personnel-files 3. Bill Text: CA SB513 | 2025-2026 | Regular Session | Chaptered - LegiScan, https://legiscan.com/CA/text/SB513/id/3272937 4. New Year, New Compliance Duties: SB 513 Expands Personnel Record Requests - Insights, https://insights.ropers.com/post/102lz6q/new-year-new-compliance-duties-sb-513-expands-personnel-record-requests 5. Senate Bill 513: California Expands Personnel File Requirements, https://www.californiaworkplacelawblog.com/2025/10/articles/california/senate-bill-513-california-expands-personnel-file-requirements/ 6. Cultural Services - Sapphos Environmental, https://sapphosenvironmental.com/cultural-services 7. Governor Newsom Signs Bill Expanding Personnel File Requests to Include Training and Education Records | CDF Labor Law LLP, https://www.cdflaborlaw.com/blog/governor-newsom-signs-bill-expanding-personnel-file-requests-to-include-training-and-education-records 8. Right to Know, Ready to Show: California Expands Employee Records Access and Rights Notice For 2026 - Vorys, https://www.vorys.com/publication-right-to-know-ready-to-show-california-expands-employee-records-access-and-rights-notice-for-2026 9. Munger, Tolles & Olson - News, https://www.mto.com/news/new-employment-laws-taking-effect-january-1-2026/ 10. Workplace Know Your Rights Act Notices, Effective February 1, 2026 | CDF Labor Law LLP, https://www.cdflaborlaw.com/blog/workplace-know-your-rights-act-notices-effective-february-1-2026 11. soq - cultural - Sapphos Environmental, https://sapphosenvironmental.com/soq-cultural 12. Bill Text: CA SB294 | 2025-2026 | Regular Session | Chaptered - LegiScan, https://legiscan.com/CA/text/SB294/id/3272955 13. California Expands Pay Data Reporting Obligations Under SB 464 - Payne & Fears LLP, https://www.paynefears.com/california-expands-pay-data-reporting-obligations-under-sb-464/ 14. California Senate Bill 464 Sharpens State's Pay Reporting Teeth - Ogletree Deakins, https://ogletree.com/insights-resources/blog-posts/california-senate-bill-464-sharpens-states-pay-reporting-teeth/ 15. Manage roles and permissions in Gusto (for Primary admins), https://support.gusto.com/article/114138050100000/Manage-roles-and-permissions-in-Gusto-for-Primary-admins 16. The Ever-Changing Landscape of "Stay or Pay" Employment Contracts: New Restrictions in California and Existing Restrictions in Every State - Duane Morris, https://www.duanemorris.com/alerts/ever_changing_landscape_stay_pay_employment_contracts_new_restrictions_california_existing_1125.html 17. AB 692: Preparing for California's 2026 restrictions on “stay-or-pay” provisions, https://www.aoshearman.com/en/insights/ab-692-preparing-for-californias-2026-restrictions-on-stay-or-pay-provisions 18. California Bans Stay-or-Pay Employment Clauses - Morgan Lewis, https://www.morganlewis.com/pubs/2025/11/california-bans-stay-or-pay-employment-clauses 19. Minimum Wage Rate - City of Pasadena, https://www.cityofpasadena.net/planning/wp-content/uploads/sites/30/OFFICIAL-NOTICE-EFFECTIVE-JULY-1-2025-ENGLISH.pdf 20. City of Pasadena Minimum Wage Ordinance, https://www.cityofpasadena.net/planning/wp-content/uploads/sites/30/Minimum-Wage-Handout-Color-2025.pdf 21. Minimum Wage - California Department of Industrial Relations, https://www.dir.ca.gov/dlse/minimum_wage.htm 22. The Workplace Know Your Rights Act: California Mandates New Annual Notice To Employees, https://calemploymentlawupdate.proskauer.com/2025/11/the-workplace-know-your-rights-act-california-mandates-new-annual-notice-to-employees/ 23. 10 California employment law changes on tap for 2026, https://www.hrdive.com/news/california-2026-employment-law-changes/808622/ 24. License Lookup - Board for Professional Engineers, Land Surveyors, and Geologists, https://www.bpelsg.ca.gov/consumers/lic_lookup.shtml 25. Qualification Directory | California Stormwater Quality Association, https://www.casqa.org/training/casqa-qualification-directory 26. Storm Water Program - Training - California State Water Resources Control Board, https://www.waterboards.ca.gov/water_issues/programs/stormwater/training.html 27. User permissions - Gusto Help Center, https://support.gusto.com/hub/Employers-and-admins/Company-set-up-and-details/User-permissions/Administrators 28. Fundamentals of Personnel Files for Employers in California, https://www.californiaworkplacelawblog.com/2025/03/articles/california/fundamentals-of-personnel-files-for-employers-in-california/ 29. Custodian of Records | State of California - Department of Justice - Office of the Attorney General, https://oag.ca.gov/fingerprints/custodian

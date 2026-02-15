@@ -1,0 +1,58 @@
+﻿California Posting Requirements Checklist (2026)
+Version: 6.0 (User Provided Update) Effective Date: January 1, 2026 Primary Mandate: Cal. Lab. Code § 1182.12 & IWC Wage Orders
+1. Mandatory Wage and Hour Postings
+Legal Authority: Cal. Lab. Code § 1182.12 Mandate: > "Effective January 1, 2026, the minimum wage is $16.90 per hour for all employers, not otherwise covered by a higher minimum wage specific to an industry or a locality."
+A. State and Local Minimum Wage Rates
+* Universal Rate Compliance
+   * [ ] State Minimum Wage Poster (MW-2026): Display the official 2026 notice reflecting the $16.90 per hour rate for all employers regardless of size.
+   * [ ] Exempt Salary Adjustment: Verify that employees classified as exempt are paid the 2026 minimum salary of $70,304 annually.
+* Special Industry and Local Rates
+   * [ ] Fast Food Restaurant Supplement: If applicable, post the supplement for fast food employees receiving at least $20.00 per hour.
+   * [ ] Healthcare Worker Minimum Wage: Post the specific industry rate for healthcare facilities which may exceed the state minimum.
+   * [ ] Local Ordinance Postings: In jurisdictions with higher local rates, display municipal posters alongside the state notice as the stricter standard prevails.
+B. IWC Wage Orders and Administrative Notices
+* Industry-Specific Orders
+   * [ ] Applicable IWC Wage Order: Post the full text of the Wage Order relevant to the business industry (e.g., Order 4 for Professional/Clerical); summary versions are insufficient.
+* Payday and Gratuity Protection
+   * [ ] Payday Notice (DLSE 8): Post a completed notice specifying the regular paydays and the time/place of payment.
+   * [ ] Tip Protection Compliance: Post notices clarifying that employers are prohibited from collecting or taking any portion of tips left for employees.
+2. Health, Safety, and Protection Postings
+Legal Authority: Cal. Lab. Code § 1102.8 & § 6328 Mandate: > "Must be prominently displayed in lettering larger than size 14 type and include a list of employee rights and responsibilities under the whistleblower laws, including the telephone number of the whistleblower hotline maintained by the office of the California Attorney General."
+A. Whistleblower and Rights Education
+* Transparency and Hotline Access
+   * [ ] Whistleblower Protection Notice: Ensure the notice is printed in lettering larger than size 14 type and includes the Attorney General’s whistleblower hotline.
+B. Cal/OSHA Safety Standards
+* Workplace Safety Notifications
+   * [ ] Safety & Health Protection on the Job: Display the mandatory Cal/OSHA notice (available in English and Spanish).
+   * [ ] Emergency Phone Number List (S-500): Post a list of emergency responders, including local fire, police, and hospital contacts.
+   * [ ] Annual Summary of Injuries (Form 300A): Post the summary of occupational injuries/illnesses from February 1 through April 30 each year.
+* Hazardous Substances and Access
+   * [ ] Access to Medical and Exposure Records: Provide information regarding rights to access safety data sheets and exposure records for hazardous substances.
+3. Civil Rights, Leave, and Insurance Benefits
+Legal Authority: Cal. Gov. Code § 12950 & Unemp. Ins. Code § 1089 Mandate: > "California law prohibits workplace discrimination and harassment... and the latest information can be obtained from the California Civil Rights Department (CRD)."
+A. Anti-Discrimination and Inclusion
+* FEHA Mandatory Disclosures
+   * [ ] Workplace Discrimination and Harassment (CRD-E07P): Post the updated version of the discrimination prohibition notice (e.g., CRD-E07P-ENG).
+   * [ ] Transgender Rights in the Workplace (CRD-E04P): Display the mandatory notice regarding transgender rights in a prominent location.
+B. Leave Entitlements and Insurance
+* Paid Leave and Victim Rights
+   * [ ] Paid Sick Leave (Healthy Workplaces/Healthy Families Act): Display the 2026 notice, which includes expanded usage for crime-related absences.
+   * [ ] Family Care & Medical Leave (CRD-100-21): For employers with 5 or more employees, post rights under CFRA and Pregnancy Disability Leave (PDL).
+* Insurance and Workers' Compensation
+   * [ ] Notice to Employees: UI/DI/PFL (DE 1857A): Advise employees of benefits for Unemployment, Disability, and Paid Family Leave insurance.
+   * [ ] Workers' Compensation Poster: Post the notice including the claims administrator's contact information and insurer details.
+4. Federal Mandatory Postings
+Legal Authority: 29 CFR § 516.4 Mandate: > "Every employer of employees subject to the Act's minimum wage provisions... shall post and keep posted a notice explaining the Act..."
+A. Consolidated Federal Standards
+* Wage and Equal Opportunity
+   * [ ] FLSA Minimum Wage (WHD-1088): Display the federal minimum wage notice.
+   * [ ] Know Your Rights (EEOC-P/E-1): Post the consolidated federal notice regarding non-discrimination.
+   * [ ] Employee Polygraph Protection Act (EPPA): Post the mandatory federal notice regarding polygraph testing.
+* Family and Medical Leave (Federal)
+   * [ ] FMLA Notice (WH 1420): Mandatory for employers with 50 or more employees; post the federal FMLA rights summary.
+Statutory Reference List
+* California Labor Code § 1182.12
+* California Labor Code § 1102.8
+* California Labor Code § 6328
+* California Government Code § 12950
+* California Unemployment Insurance Code § 1089

@@ -1,0 +1,63 @@
+﻿California Independent Contractor Analysis Audit (2026)
+Version: 5.0 (Deep Research Audit) Effective Date: January 1, 2026 Primary Mandate: Cal. Lab. Code § 2775 (AB 5)
+1. The ABC Test (The Presumptive Standard)
+Legal Authority: Cal. Lab. Code § 2775 Mandate: > "Person providing labor... shall be considered an employee rather than an independent contractor unless the hiring entity demonstrates... (A) Free from control... (B) Outside usual course of business... (C) Customarily engaged in independent trade."
+A. Behavioral Control (Prong A)
+* Independence
+   * Operational
+      * [ ] Verify worker is free from control in contract AND practice.
+      * [ ] Ensure entity does not set hours, provide equipment, or dictate "manner and means".
+B. Core Business Integration (Prong B)
+* Integral Function
+   * Audit
+      * [ ] Verify work is outside the usual course of business (e.g., Software firm hiring plumber = OK; Hiring coder = Red Flag).
+   * Branding
+      * [ ] Ensure services are performed under contractor's brand, not company's.
+C. Independent Economic Standing (Prong C)
+* Entity Evidence
+   * Clientele
+      * [ ] Verify worker has other unrelated clients/markets to public.
+   * Credentials
+      * [ ] Collect Business License, Professional Certs, and Tax Registration.
+2. Business-to-Business (B2B) Exemption
+Legal Authority: Cal. Lab. Code § 2776 Mandate: > "Section 2775... do not apply to a bona fide business-to-business contracting relationship... if... provider is free from control... [and] provides services directly to the contracting business."
+A. Entity and Licensure
+* Structure
+   * Formation
+      * [ ] Confirm provider is Sole Prop, LLC, LLP, or Corp.
+   * Location
+      * [ ] Ensure provider maintains separate business location (can be residence).
+B. Negotiation
+* Autonomy
+   * Rates
+      * [ ] Contractor must negotiate their own rates/hours in written contract.
+   * Floor
+      * [ ] For data aggregators, ensure prorated hourly consideration >= $16.90.
+3. Worker Mobility and Debt Prohibition (AB 692)
+Legal Authority: BPC § 16608 & Lab Code § 926 Mandate: > "Unlawful to include... a contract term that... Requires the worker to pay an employer... for a debt if the worker's employment... terminates."
+A. Repayment Restrictions
+* Prohibitions
+   * Debt
+      * [ ] Remove clauses requiring repayment of training, recruitment, or relocation costs.
+   * Fees
+      * [ ] Remove "quit fees" or liquidated damages for termination.
+B. Sign-On Bonus Safe Harbor
+* Safeguards
+   * Agreement
+      * [ ] Bonus repayment terms must be in Separate Agreement.
+   * Process
+      * [ ] Allow 5-day attorney review period.
+   * Terms
+      * [ ] Prorate over max 2 years; 0% interest.
+4. Personnel Record Audit (SB 513)
+Legal Authority: Cal. Lab. Code § 1198.5 Mandate: > "Right to inspect... personnel records... including education or training records... [which] shall include... core competencies."
+A. Metadata Standards
+* Tracking
+   * Fields
+      * [ ] Record Competencies, Provider Name, and Duration.
+   * Production
+      * [ ] Ensure production capability within 30 days.
+      * [ ] Retain records for 3 years post-separation.
+Statutory Reference List
+* Cal. Lab. Code § 2775
+* Cal. Lab. Code § 926

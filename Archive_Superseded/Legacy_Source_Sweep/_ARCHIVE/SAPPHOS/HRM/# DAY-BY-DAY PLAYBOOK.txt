@@ -1,0 +1,361 @@
+# DAY-BY-DAY PLAYBOOK
+## Strategic HR Compliance Audit | 23 Working Days
+
+**Project Period:** December 17, 2025 - January 28, 2026  
+**Total Working Days:** 23 (excluding Dec 24-26, 31; Jan 1, 20)  
+**Auditor:** Mario Espindola | **Support:** Tina Ho
+
+---
+
+## WEEK 1: FOUNDATION & SETUP
+**December 17-23, 2025 | Days 1-5**
+
+### Day 1 - Tuesday, December 17 [8 hours]
+**System Setup & Data Migration**
+- Configure knowledge management platform with security hardening
+- Export 50 employee records from Gusto HRIS (CSV format)
+- Run automated employee profile generation script
+- Deploy four mandatory file silos (Personnel, Medical, I-9, Investigation)
+- Initialize compliance dashboard with traffic light status indicators
+- Configure access controls: Mario (full), Tina (pending training)
+- Enable audit trail logging (tamper-evident, user/timestamp/action)
+
+**Deliverable:** Operational vault with 50 indexed employee profiles
+
+---
+
+### Day 2 - Wednesday, December 18 [Mario: 7 hrs | Tina: 1 hr]
+**Tina Ho Training Begins**
+- **Tina [30 min]:** Confidentiality training (CMIA/HIPAA personal liability)
+  - Execute legal waiver acknowledging $1,000-$25,000 penalty exposure
+  - Review medical information definition and segregation requirements
+- **Tina [30 min]:** File classification training (four mandatory silos)
+  - Personnel vs. Medical vs. I-9 vs. Investigation: contents and access rules
+  - Complete classification quiz (80% pass required)
+- **Mario [7 hrs]:** Test audit of 3 sample employee files
+  - Validate 47-point checklist completeness
+  - Calibrate audit timing (target: 45-60 min per file)
+  - Identify common gaps for proactive remediation
+
+**Deliverable:** Tina certified on confidentiality; Mario validates audit methodology
+
+---
+
+### Day 3 - Thursday, December 19 [Mario: 7.5 hrs | Tina: 0.5 hr]
+**Audit Launch**
+- **Tina [30 min]:** File classification practice (20 sample documents)
+- **Mario [7.5 hrs]:** Begin systematic file audit
+  - Complete 3 employee files (employees #001-003)
+  - Update compliance dashboard with real-time status
+  - Flag first critical gaps (I-9 three-day rule, training metadata)
+
+**Cumulative Progress:** 3/50 files (6%)
+
+---
+
+### Day 4 - Friday, December 20 [Mario: 7.25 hrs | Tina: 0.75 hr]
+**Momentum Build**
+- **Tina [45 min]:** I-9 processing deep dive
+  - Three-day rule requirements (8 CFR 274a.2)
+  - Section 1 vs. 2 completion timing
+  - List A/B/C document verification
+- **Mario [7.25 hrs]:** File audit execution
+  - Complete 3 employee files (employees #004-006)
+  - Generate first weekly progress report for Controller
+  - Document critical violations requiring immediate remediation
+
+**Cumulative Progress:** 6/50 files (12%)
+
+---
+
+### Day 5 - Monday, December 23 [Mario: 7.25 hrs | Tina: 0.75 hr]
+**Pre-Holiday Push**
+- **Tina [45 min]:** I-9 reverification training
+  - Work authorization expiration tracking
+  - Section 3 completion procedures
+- **Mario [7.25 hrs]:** File audit execution
+  - Complete 4 employee files (employees #007-010)
+  - Mid-week compliance dashboard review with Controller (if requested)
+
+**Cumulative Progress:** 10/50 files (20%)
+
+**HOLIDAY BREAK:** December 24-26 (Christmas), December 31 (New Year's Eve), January 1 (New Year's Day)
+
+---
+
+## WEEK 2: INTENSIVE AUDIT PHASE
+**December 27, 30; January 2-3, 2026 | Days 6-9**
+
+### Day 6 - Friday, December 27 [Mario: 7.5 hrs | Tina: 0.5 hr]
+**Post-Holiday Restart**
+- **Tina [30 min]:** I-9 case studies (common ICE audit triggers)
+- **Mario [7.5 hrs]:** File audit execution
+  - Complete 4 employee files (employees #011-014)
+  - Update critical issues log with penalty exposure estimates
+
+**Cumulative Progress:** 14/50 files (28%)
+
+---
+
+### Day 7 - Monday, December 30 [Mario: 7.25 hrs | Tina: 0.75 hr]
+**SB 513 Focus**
+- **Tina [45 min]:** SB 513 training metadata requirements
+  - Five mandatory fields: Provider, Date/Duration, Competencies, Certification
+  - Retroactive reconstruction techniques (supervisor interviews)
+- **Mario [7.25 hrs]:** File audit execution
+  - Complete 4 employee files (employees #015-018)
+  - Begin remediation cost estimation for training records
+
+**Cumulative Progress:** 18/50 files (36%)
+
+---
+
+### Day 8 - Thursday, January 2 [Mario: 7.5 hrs | Tina: 0.5 hr]
+**New Year Momentum**
+- **Tina [30 min]:** Training record templates and standardization
+- **Mario [7.5 hrs]:** File audit execution
+  - Complete 4 employee files (employees #019-022)
+  - Escalate critical gaps to Controller (if thresholds exceeded)
+
+**Cumulative Progress:** 22/50 files (44%)
+
+---
+
+### Day 9 - Friday, January 3 [Mario: 7.5 hrs | Tina: 0.5 hr]
+**Week 2 Close**
+- **Tina [30 min]:** SB 513 quality assurance techniques
+- **Mario [7.5 hrs]:** File audit execution
+  - Complete 4 employee files (employees #023-026)
+  - Generate Week 2 progress report
+
+**Cumulative Progress:** 26/50 files (52%)
+
+---
+
+## WEEK 3: ACCELERATION & TRAINING ELEVATION
+**January 6-10, 2026 | Days 10-14**
+
+### Day 10 - Monday, January 6 [Mario: 7.25 hrs | Tina: 0.75 hr]
+**Tina Elevated to Level 2 Access**
+- **Tina [45 min]:** Retention schedules training
+  - Federal vs. California timelines (I-9: 3 years/1 year; personnel: 4 years)
+  - Automated retention date calculation
+- **Tina [Access Change]:** Elevated from Level 1 (supervised) to Level 2 (personnel files only)
+- **Mario [7.25 hrs]:** File audit execution
+  - Complete 4 employee files (employees #027-030)
+
+**Cumulative Progress:** 30/50 files (60%)
+
+---
+
+### Day 11 - Tuesday, January 7 [Mario: 7.25 hrs | Tina: 0.75 hr]
+**Parallel Work Begins**
+- **Tina [45 min]:** Automated retention training (system-generated dates)
+- **Tina [Independent Work]:** Update personnel file checklists for employees #001-010
+- **Mario [7.25 hrs]:** File audit execution
+  - Complete 4 employee files (employees #031-034)
+
+**Cumulative Progress:** 34/50 files (68%)
+
+---
+
+### Day 12 - Wednesday, January 8 [Mario: 7.5 hrs | Tina: 0.5 hr]
+**System Mastery**
+- **Tina [30 min]:** Retention edge cases (Cal/OSHA 30-year, ERISA indefinite)
+- **Tina [Independent Work]:** Scan and upload 10 missing documents
+- **Mario [7.5 hrs]:** File audit execution
+  - Complete 4 employee files (employees #035-038)
+
+**Cumulative Progress:** 38/50 files (76%)
+
+---
+
+### Day 13 - Thursday, January 9 [Mario: 7.25 hrs | Tina: 0.75 hr]
+**Dashboard Analysis**
+- **Tina [45 min]:** System navigation training (search, filters, reports)
+- **Tina [Independent Work]:** Generate compliance status report for employees #001-020
+- **Mario [7.25 hrs]:** File audit execution
+  - Complete 4 employee files (employees #039-042)
+
+**Cumulative Progress:** 42/50 files (84%)
+
+---
+
+### Day 14 - Friday, January 10 [Mario: 7.25 hrs | Tina: 0.75 hr]
+**Week 3 Close**
+- **Tina [45 min]:** System data entry training
+- **Tina [Independent Work]:** Quality control checks on 15 completed audits
+- **Mario [7.25 hrs]:** File audit execution
+  - Complete 4 employee files (employees #043-046)
+  - Week 3 progress report
+
+**Cumulative Progress:** 46/50 files (92%)
+
+---
+
+## WEEK 4: COMPLETION & ANALYSIS
+**January 13-17, 21-24, 27-28, 2026 | Days 15-23**
+
+### Day 15 - Monday, January 13 [Mario: 7.5 hrs | Tina: 0.5 hr]
+**Audit Completion**
+- **Tina [30 min]:** Quality control final training
+- **Mario [7.5 hrs]:** File audit execution
+  - Complete 4 employee files (employees #047-050) ✅ **ALL FILES AUDITED**
+  - Begin comprehensive compliance analysis
+
+**Cumulative Progress:** 50/50 files (100%) ✅
+
+---
+
+### Day 16 - Tuesday, January 14 [Mario: 6.5 hrs | Tina: 1.5 hrs]
+**Tina Elevated to Level 3 Access**
+- **Tina [30 min]:** Supervised audit practice (shadow Mario on spot-check)
+- **Tina [Access Change]:** Elevated to Level 3 (full system access except medical files)
+- **Tina [1 hr]:** Conduct independent audit of 1 low-risk employee (quality check)
+- **Mario [6.5 hrs]:** Risk stratification and prioritization
+  - Aggregate critical/warning/action/safe counts
+  - Generate penalty exposure estimates by violation type
+
+---
+
+### Day 17 - Wednesday, January 15 [Mario: 6.5 hrs | Tina: 1.5 hrs]
+**Remediation Planning**
+- **Tina [1 hr]:** Supervised audit practice (1 employee file with Mario review)
+- **Tina [30 min]:** Document gaps and remediation recommendations
+- **Mario [6.5 hrs]:** Remediation timeline development
+  - Critical items (0-30 days): I-9 violations, medical file segregation
+  - High priority (30-60 days): Training metadata, performance reviews
+  - Ongoing (60+ days): System maintenance procedures
+
+---
+
+### Day 18 - Thursday, January 16 [Mario: 6.5 hrs | Tina: 1.5 hrs]
+**Report Generation**
+- **Tina [1 hr]:** Supervised audit practice (1 employee file with Mario review)
+- **Tina [30 min]:** Cost estimation for remediation activities
+- **Mario [6.5 hrs]:** Executive summary drafting
+  - Compliance status dashboard (traffic light visualization)
+  - Risk matrix (likelihood × impact)
+  - ROI calculation and efficiency gains
+
+---
+
+### Day 19 - Friday, January 17 [Mario: 7 hrs | Tina: 1 hr]
+**Final Report Draft**
+- **Tina [1 hr]:** Independent audit practice (1 low-risk employee, no supervision)
+- **Mario [7 hrs]:** Final report refinement
+  - Integrate visual aids (charts, diagrams, dashboards)
+  - Legal citation verification for all flagged violations
+  - Week 4 interim report to Controller
+
+---
+
+**HOLIDAY:** January 20 (Martin Luther King Jr. Day)
+
+---
+
+### Day 20 - Tuesday, January 21 [Mario: 7 hrs | Tina: 1 hr]
+**Controller Presentation Prep**
+- **Tina [1 hr]:** Independent audit (1 employee, quality assurance role)
+- **Mario [7 hrs]:** Presentation materials development
+  - 30-minute slide deck with key findings
+  - Live dashboard demonstration preparation
+  - Q&A anticipation and response preparation
+
+---
+
+### Day 21 - Wednesday, January 22 [Mario: 6.5 hrs | Tina: 1.5 hrs]
+**Analysis & Training**
+- **Tina [1 hr]:** Remediation planning assistance
+- **Tina [30 min]:** Gap analysis report generation
+- **Mario [6.5 hrs]:** Aggregate compliance analysis
+  - Thematic patterns across 50 files
+  - Systemic gaps requiring policy changes
+  - Technology recommendations for ongoing automation
+
+---
+
+### Day 22 - Thursday, January 23 [Mario: 6.5 hrs | Tina: 1.5 hrs]
+**Quality Assurance**
+- **Tina [1 hr]:** Assist with remediation cost documentation
+- **Tina [30 min]:** Gap analysis cross-check
+- **Mario [6.5 hrs]:** Final report compilation
+  - Compliance matrix (50 employees × 47 checklist items)
+  - Risk stratification summary
+  - Phase 2 remediation roadmap with milestones
+
+---
+
+### Day 23 - Friday, January 24 [Mario: 7.5 hrs | Tina: 0.5 hr]
+**Project Closeout**
+- **Tina [30 min]:** Ongoing maintenance training (monthly procedures <5 hours)
+- **Mario [7.5 hrs]:** Controller presentation delivery
+  - Executive summary walkthrough
+  - Live compliance dashboard demonstration
+  - Phase 2 remediation plan review
+  - Q&A session
+  - Formal project sign-off
+
+**Final Deliverables Submitted:**
+1. ✅ Comprehensive compliance status report
+2. ✅ Operational knowledge management system (50 employees indexed)
+3. ✅ Trained administrative staff (Tina Ho Level 3 certified)
+4. ✅ Standard operating procedures for ongoing maintenance
+5. ✅ Phase 2 remediation roadmap with cost estimates
+
+---
+
+## POST-AUDIT MILESTONES
+
+### January 27 - Monday
+**Legal Counsel Review**
+- Provide flagged critical violations to legal counsel
+- Request interpretation of ambiguous compliance questions
+- Obtain attorney work product privilege documentation
+
+### January 28 - Tuesday
+**Phase 2 Remediation Kickoff**
+- Launch 30-day critical remediation plan (I-9 violations, file segregation)
+- Assign remediation tasks to responsible parties
+- Establish weekly progress tracking meetings
+
+---
+
+## KEY PERFORMANCE INDICATORS
+
+| Metric | Target | Tracking Method |
+|--------|--------|-----------------|
+| **Files Audited per Day** | 3-4 (Days 5-15) | Daily log |
+| **Audit Completion** | 100% by Day 15 | Progress dashboard |
+| **Tina Training Hours** | 40 hours over 23 days | Training log |
+| **Critical Violations** | Document 100% | Compliance matrix |
+| **Controller Presentation** | Day 23 delivery | Calendar milestone |
+| **System Uptime** | 99%+ (max 2 hrs downtime) | System monitoring |
+
+---
+
+## CONTINGENCY PROTOCOLS
+
+**If Audit Pace Falls Behind Target:**
+1. Extend work hours (Mario: +2 hrs/day capacity available)
+2. Accelerate Tina to Level 3 access earlier (parallel audit support)
+3. Prioritize high-risk employees (terminated, recent hires, positions requiring licensure)
+4. Request timeline extension with Controller approval
+
+**If Critical Violations Require Immediate Action:**
+1. Pause systematic audit to remediate (e.g., I-9 >10 days overdue)
+2. Engage legal counsel for interpretation
+3. Document remediation actions in audit trail
+4. Resume systematic audit once critical risk mitigated
+
+**If System Technical Failure:**
+1. Activate daily backup (encrypted external drive)
+2. Restore from last known good state (48-hour recovery target)
+3. Document incident in audit log
+4. Implement additional redundancy measures
+
+---
+
+**END OF PLAYBOOK**
+
+*This day-by-day guide provides operational execution detail for the 23-working-day Strategic HR Compliance Audit. Refer to Project Charter for strategic context, legal framework, and governance structure.*

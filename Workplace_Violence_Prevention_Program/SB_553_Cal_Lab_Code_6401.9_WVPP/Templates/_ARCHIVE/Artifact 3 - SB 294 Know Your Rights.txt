@@ -1,0 +1,59 @@
+﻿California SB 294 "Know Your Rights" Checklist (2026)
+Version: 6.0 (User Provided Update) Effective Date: January 1, 2026 Primary Mandate: Cal. Lab. Code § 1553-1554
+1. Annual "Know Your Rights" Stand-alone Notice
+Legal Authority: Cal. Lab. Code § 1553(a) Mandate: > "On or before February 1, 2026, and annually thereafter, an employer shall provide a stand-alone written notice to each current employee... in a manner the employer normally uses to communicate employment-related information. The notice may include, but is not limited to, personal service, email, or text message, if it can reasonably be anticipated to be received by the employee within one business day of sending."
+A. Distribution Deadlines and Recurrence
+* Immediate Compliance Deadlines
+   * [ ] Initial Distribution: Deliver the stand-alone notice to all current employees on or before February 1, 2026.
+   * [ ] New Hire Protocol: Provide the written notice to every new employee at the time of hire starting February 1, 2026.
+   * [ ] Union Notification: Provide the notice annually to the employee’s authorized collective bargaining representative by electronic or regular mail.
+* Frequency Standards
+   * [ ] Annual Redistribution: Automate the delivery of the notice once every 12 months following the initial 2026 distribution.
+B. Mandatory Notice Content (Statutory Categories)
+* Employment and Immigration Rights
+   * [ ] Workers’ Compensation: Include a description of the right to medical care and disability pay for work-related injuries, including contact details for the Division of Workers’ Compensation.
+   * [ ] I-9 Inspection Rights: Detail the right to receive 72-hour notice before a federal agency inspects employment records pursuant to Labor Code Section 90.2.
+   * [ ] Immigration Protections: List protections against unfair immigration-related practices targeting persons exercising protected rights.
+* Organizing and Constitutional Protections
+   * [ ] Concerted Activity: State the right of employees to organize a union or engage in concerted activity for mutual aid in the workplace.
+   * [ ] 4th Amendment Rights: Summarize the right to be free from unreasonable searches and seizures by law enforcement at the worksite.
+   * [ ] 5th Amendment Rights: Summarize the rights to due process and the protection against self-incrimination during interactions with authorities at work.
+   * [ ] Legal Developments and Agencies: Include a Labor Commissioner-developed list of material new legal developments and the state agencies responsible for enforcement.
+C. Delivery Modality and Format
+* Stand-alone Document Integrity
+   * [ ] Document Separation: Ensure the notice is a "stand-alone" document; it cannot be buried within an employee handbook or merged with other notices.
+   * [ ] Poster Distinction: Confirm that physical workplace posters do NOT satisfy this requirement; the notice must be personally provided via hand, email, or text.
+* Language Accessibility
+   * [ ] Translation Requirements: Provide the notice in the language the employer normally uses to communicate with the employee if a template exists on the Labor Commissioner’s website (e.g., Spanish, Chinese, Korean, Tagalog, Vietnamese).
+2. Emergency Contact System (Arrest and Detention)
+Legal Authority: Cal. Lab. Code § 1554 Mandate: > "An employer shall provide an employee the opportunity to name an emergency contact no later than March 30, 2026, for an existing employee, and at the time of hiring for a new employee hired after March 30, 2026... The employer shall allow the employee to indicate whether the emergency contact should be notified if the employee is arrested or detained..."
+A. The Designation and Opt-In Process
+* Implementation Deadlines
+   * [ ] System Launch: Provide all existing employees the opportunity to designate an emergency contact for arrest scenarios by March 30, 2026.
+   * [ ] Onboarding Integration: Update new hire paperwork to collect emergency contact designations at the time of hire.
+* Authorization Toggles
+   * [ ] Notification Consent: Ensure the form allows employees to specifically opt-in or opt-out of notification if they are arrested or detained.
+   * [ ] Ongoing Updates: Establish a procedure allowing employees to update this information at any time during their employment.
+B. Employer Notification Obligations
+* Worksite Arrest Scenarios
+   * [ ] Immediate Notification: Notify the designated contact immediately if an employee is arrested or detained on the company worksite.
+* Off-Site/Work-Hours Arrests
+   * [ ] Actual Knowledge Trigger: Notify the designated contact if an arrest occurs off-site but during work hours or while performing job duties, only if the employer has actual knowledge of the event.
+3. Recordkeeping and Enforcement Readiness
+Legal Authority: Cal. Lab. Code § 1553(e) Mandate: > "An employer shall keep records of compliance with the requirements of this section for three years, including the date that each written notice is provided or sent."
+A. Administrative Documentation
+* Distribution and Receipt Logs
+   * [ ] Retention Period: Maintain all records showing the date the SB 294 notice was provided to each employee for a minimum of three years.
+   * [ ] Delivery Verification: Store read-receipts or signed acknowledgment forms as proof that the notice was received within one business day of sending.
+* Sensitive Data Segregation
+   * [ ] Privacy Controls: Store "Arrest Emergency Contact" designations in a restricted-access field or a separate file within the personnel record to maintain privacy.
+B. Penalty Mitigation and Anti-Retaliation
+* Penalty Awareness
+   * [ ] Notice Violations: Note that failure to provide the annual notice carries penalties of up to $500 per employee.
+   * [ ] Emergency Contact Violations: Note that failure to notify a designated contact when required carries penalties of up to $500 per day, capped at $10,000 per employee.
+* Protected Activity Safeguards
+   * [ ] Retaliation Prohibition: Prohibit discharge or discrimination against any employee for exercising their rights under the Workplace Know Your Rights Act.
+Statutory Reference List
+* California Labor Code § 1553
+* California Labor Code § 1554
+* California Labor Code § 90.2

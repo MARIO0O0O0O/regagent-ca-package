@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LACannabiz Secure Solutions - Interactive Prototype</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --dark-bg: #111827;
+            --card-bg: #1F2937;
+            --brand-green-light: #4ADE80;
+            --brand-green-dark: #16A34A;
+            --text-primary: #F9FAFB;
+            --text-secondary: #D1D5DB;
+            --border-color: rgba(74, 222, 128, 0.2);
+        }
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: var(--dark-bg);
+            color: var(--text-primary);
+        }
+        .text-gradient-green {
+            background: linear-gradient(90deg, var(--brand-green-light), var(--brand-green-dark));
+            -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;
+        }
+        .bg-gradient-green { background: linear-gradient(90deg, var(--brand-green-dark), var(--brand-green-light)); }
+        .card {
+            background-color: var(--card-bg); border: 1px solid var(--border-color);
+            transition: all 0.3s ease-in-out;
+        }
+        .card:hover {
+            transform: translateY(-5px); border-color: var(--brand-green-light);
+            box-shadow: 0 10px 15px -3px rgba(74, 222, 128, 0.1), 0 4px 6px -2px rgba(74, 222, 128, 0.05);
+        }
+        .nav-link { transition: all 0.3s ease; }
+        .nav-link:hover, .nav-link.active {
+            color: var(--brand-green-light); border-bottom-color: var(--brand-green-light);
+        }
+        .btn { transition: all 0.3s ease; }
+        .btn:hover { transform: scale(1.05); box-shadow: 0 0 20px rgba(74, 222, 128, 0.4); }
+        .page-section { display: none; }
+        .page-section.active { display: block; animation: fadeIn 0.5s ease-in-out; }
+        @keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
+        .icon { width: 2.5rem; height: 2.5rem; color: var(--brand-green-light); }
+    </style>
+</head>
+<body class="antialiased">
+
+    <!-- Header -->
+    <header class="fixed top-0 left-0 right-0 z-50 bg-gray-900 bg-opacity-80 backdrop-blur-md border-b border-gray-800">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex items-center justify-between h-20">
+                <div class="flex items-center cursor-pointer" onclick="showPage('home')">
+                    <span class="text-2xl font-bold text-gradient-green">LACannabiz Secure</span>
+                </div>
+                <nav class="hidden md:flex space-x-8">
+                    <a href="#home" id="nav-home" class="nav-link text-gray-300 border-b-2 border-transparent pb-1" onclick="showPage('home')">Home</a>
+                    <a href="#services" id="nav-services" class="nav-link text-gray-300 border-b-2 border-transparent pb-1" onclick="showPage('services')">Services</a>
+                    <a href="#about" id="nav-about" class="nav-link text-gray-300 border-b-2 border-transparent pb-1" onclick="showPage('about')">About</a>
+                    <a href="#contact" id="nav-contact" class="nav-link text-gray-300 border-b-2 border-transparent pb-1" onclick="showPage('contact')">Contact</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <main id="main-content" class="pt-20">
+
+        <!-- Home Page Section -->
+        <section id="page-home" class="page-section">
+            <div class="relative min-h-[calc(100vh-5rem)] flex items-center justify-center text-center overflow-hidden">
+                <div class="absolute inset-0 bg-cover bg-center" style="background-image: url('https://placehold.co/1920x1080/111827/4ADE80?text=Cannabis+Facility'); filter: blur(4px) brightness(0.4);"></div>
+                <div class="relative z-10 max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+                    <h1 class="text-4xl md:text-6xl font-extrabold tracking-tight text-white">From Compliance Chaos to Sovereign Profit.</h1>
+                    <p class="mt-6 text-lg md:text-xl text-gray-300 max-w-2xl mx-auto">We provide the Digital Armor for California's cannabis industry. We turn regulatory burdens into operational efficiencies with AI and secure your assets with sovereign treasury solutions.</p>
+                    <div class="mt-10">
+                        <a href="#services" class="px-8 py-4 text-lg font-semibold text-white rounded-lg bg-gradient-green btn" onclick="showPage('services')">Explore Our Services</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services Page Section -->
+        <section id="page-services" class="page-section">
+            <div class="py-24 bg-gray-900">
+                <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                    <div class="text-center">
+                        <h2 class="text-3xl sm:text-4xl font-bold text-gradient-green">Our Service Portfolio</h2>
+                        <p class="mt-4 text-lg text-gray-400 max-w-3xl mx-auto">A vertically integrated suite of solutions to protect and grow your cannabis business.</p>
+                    </div>
+                    <!-- Service Categories -->
+                    <div class="mt-16 space-y-16">
+                        <!-- Cultivation -->
+                        <div>
+                            <h3 class="text-2xl font-bold text-white border-l-4 border-green-500 pl-4">Cultivation & Grow Operations</h3>
+                            <div class="mt-8 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                                <div class="card p-6 rounded-xl">
+                                    <h4 class="font-bold text-lg">AI Pest & Disease Identifier</h4>
+                                    <p class="text-sm text-gray-400 mt-2">Upload a leaf photo and get instant identification of common issues to protect your yield.</p>
+                                    <span class="inline-block mt-4 text-xs font-semibold text-green-400 bg-green-900/50 px-2 py-1 rounded-full">Freemium Tool</span>
+                                </div>
+                                <div class="card p-6 rounded-xl">
+                                    <h4 class="font-bold text-lg">AI Yield Forecaster</h4>
+                                    <p class="text-sm text-gray-400 mt-2">Use predictive analytics on historical data to accurately forecast harvest yields for better financial planning.</p>
+                                    <span class="inline-block mt-4 text-xs font-semibold text-blue-400 bg-blue-900/50 px-2 py-1 rounded-full">Paid Subscription</span>
+                                </div>
+                                 <div class="card p-6 rounded-xl">
+                                    <h4 class="font-bold text-lg">Resource Optimization Plan</h4>
+                                    <p class="text-sm text-gray-400 mt-2">An AI model analyzes sensor and utility data to create a plan that minimizes water and electricity usage.</p>
+                                    <span class="inline-block mt-4 text-xs font-semibold text-purple-400 bg-purple-900/50 px-2 py-1 rounded-full">Consulting</span>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Compliance -->
+                        <div>
+                            <h3 class="text-2xl font-bold text-white border-l-4 border-green-500 pl-4">Regulatory Compliance & Governance</h3>
+                            <div class="mt-8 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                                <div class="card p-6 rounded-xl">
+                                    <h4 class="font-bold text-lg">AI Manifest Verifier</h4>
+                                    <p class="text-sm text-gray-400 mt-2">Cross-reference transport manifests against DCC regulations to flag common, costly errors before vehicles leave.</p>
+                                    <span class="inline-block mt-4 text-xs font-semibold text-green-400 bg-green-900/50 px-2 py-1 rounded-full">Freemium Tool</span>
+                                </div>
+                                <div class="card p-6 rounded-xl">
+                                    <h4 class="font-bold text-lg">Compliance Guardian AI</h4>
+                                    <p class="text-sm text-gray-400 mt-2">Our AI scrapes government sites for regulatory updates and sends you plain-English weekly digests and real-time alerts.</p>
+                                     <span class="inline-block mt-4 text-xs font-semibold text-blue-400 bg-blue-900/50 px-2 py-1 rounded-full">Paid Subscription</span>
+                                </div>
+                                <div class="card p-6 rounded-xl">
+                                    <h4 class="font-bold text-lg">280E Tax Strategy AI</h4>
+                                    <p class="text-sm text-gray-400 mt-2">A high-value service where an AI, guided by a tax professional, identifies all possible strategies to legally minimize 280E's impact.</p>
+                                    <span class="inline-block mt-4 text-xs font-semibold text-purple-400 bg-purple-900/50 px-2 py-1 rounded-full">Consulting</span>
+                                </div>
+                            </div>
+                        </div>
+                         <!-- Treasury / Security -->
+                        <div>
+                            <h3 class="text-2xl font-bold text-white border-l-4 border-green-500 pl-4">Treasury & Asset Security</h3>
+                            <div class="mt-8 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                                <div class="card p-6 rounded-xl">
+                                    <h4 class="font-bold text-lg">Free Security Guide</h4>
+                                    <p class="text-sm text-gray-400 mt-2">Our comprehensive, open-source guide to cryptocurrency security serves as the foundation of our methodology.</p>
+                                    <span class="inline-block mt-4 text-xs font-semibold text-green-400 bg-green-900/50 px-2 py-1 rounded-full">Freemium Resource</span>
+                                </div>
+                                <div class="card p-6 rounded-xl">
+                                    <h4 class="font-bold text-lg">Sovereign Treasury Design</h4>
+                                    <p class="text-sm text-gray-400 mt-2">We design and guide you through the setup of a true air-gapped cold storage system for your business's digital assets.</p>
+                                     <span class="inline-block mt-4 text-xs font-semibold text-purple-400 bg-purple-900/50 px-2 py-1 rounded-full">Consulting</span>
+                                </div>
+                                <div class="card p-6 rounded-xl">
+                                    <h4 class="font-bold text-lg">Staff Security Training</h4>
+                                    <p class="text-sm text-gray-400 mt-2">An intensive workshop for you and your key personnel on the operational procedures required to manage the Deep Vault securely.</p>
+                                    <span class="inline-block mt-4 text-xs font-semibold text-purple-400 bg-purple-900/50 px-2 py-1 rounded-full">Consulting</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Page Section -->
+        <section id="page-about" class="page-section">
+             <div class="py-24">
+                <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                    <div class="lg:grid lg:grid-cols-2 lg:gap-24 lg:items-center">
+                        <div>
+                            <span class="text-sm font-bold uppercase tracking-wider text-green-400">The Unfair Advantage</span>
+                            <h2 class="mt-2 text-3xl font-bold tracking-tight text-white sm:text-4xl">An unparalleled insider's perspective.</h2>
+                            <p class="mt-6 text-lg text-gray-400">Our founder, Kortex, isn't just a tech consultant. He is a former municipal **Management Analyst** who processed cannabis dispensary permits and enforced code. With an **MPA in Public Finance**, experience managing **$80M budgets**, and a record as a successful **Union President** in high-stakes negotiations, he brings a unique, non-replicable understanding of your exact challenges.</p>
+                        </div>
+                        <div class="mt-10 lg:mt-0">
+                            <div class="card rounded-2xl p-8 text-center">
+                                <img class="rounded-full h-48 w-48 object-cover mx-auto" src="https://placehold.co/400x400/111827/F9FAFB?text=Kortex" alt="Founder Kortex">
+                                <h3 class="text-2xl font-bold text-white mt-6">Kortex</h3>
+                                <p class="text-gradient-green font-semibold">Founder & Chief Architect</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Page Section -->
+        <section id="page-contact" class="page-section">
+            <div class="py-24 bg-gray-900">
+                <div class="max-w-3xl mx-auto text-center px-4">
+                     <h2 class="text-3xl sm:text-4xl font-bold text-gradient-green">Armor Your Business</h2>
+                    <p class="mt-4 text-lg text-gray-400">Ready to transform your operations and secure your future? Contact us for a free, confidential consultation to assess your needs.</p>
+                    <form class="mt-12 text-left space-y-6">
+                        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                            <div>
+                                <label for="name" class="block text-sm font-medium text-gray-300">Full Name</label>
+                                <input type="text" id="name" class="mt-1 block w-full bg-gray-800 border-gray-700 rounded-md shadow-sm py-2 px-3 text-white focus:outline-none focus:ring-green-500 focus:border-green-500">
+                            </div>
+                            <div>
+                                <label for="company" class="block text-sm font-medium text-gray-300">Company Name</label>
+                                <input type="text" id="company" class="mt-1 block w-full bg-gray-800 border-gray-700 rounded-md shadow-sm py-2 px-3 text-white focus:outline-none focus:ring-green-500 focus:border-green-500">
+                            </div>
+                        </div>
+                        <div>
+                            <label for="email" class="block text-sm font-medium text-gray-300">Email Address</label>
+                            <input type="email" id="email" class="mt-1 block w-full bg-gray-800 border-gray-700 rounded-md shadow-sm py-2 px-3 text-white focus:outline-none focus:ring-green-500 focus:border-green-500">
+                        </div>
+                        <div>
+                            <label for="message" class="block text-sm font-medium text-gray-300">How can we help?</label>
+                            <textarea id="message" rows="4" class="mt-1 block w-full bg-gray-800 border-gray-700 rounded-md shadow-sm py-2 px-3 text-white focus:outline-none focus:ring-green-500 focus:border-green-500"></textarea>
+                        </div>
+                        <div class="text-center">
+                             <button type="submit" class="px-8 py-3 text-lg font-semibold text-white rounded-lg bg-gradient-green btn">
+                                Request Consultation
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-black">
+        <div class="max-w-7xl mx-auto py-8 px-4 sm:px-6 lg:px-8 text-center">
+            <p class="text-base text-gray-500">&copy; 2025 LACannabiz Secure Solutions. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        const pages = document.querySelectorAll('.page-section');
+        const navLinks = document.querySelectorAll('.nav-link');
+
+        function showPage(pageId, isInitialLoad = false) {
+            // Prevent default anchor link behavior
+            if (event && !isInitialLoad) event.preventDefault();
+            
+            // Hide all pages
+            pages.forEach(page => {
+                page.classList.remove('active');
+            });
+            
+            // Show the target page
+            const targetPage = document.getElementById('page-' + pageId);
+            if(targetPage) {
+                targetPage.classList.add('active');
+            }
+
+            // Update nav link styles
+            navLinks.forEach(link => {
+                link.classList.remove('active');
+                if(link.id === 'nav-' + pageId) {
+                    link.classList.add('active');
+                }
+            });
+
+            // Scroll to top of the new page
+            if(!isInitialLoad) {
+                window.scrollTo(0, 0);
+            }
+        }
+
+        // Show home page on initial load
+        document.addEventListener('DOMContentLoaded', () => {
+            showPage('home', true);
+        });
+    </script>
+</body>
+</html>
+
+

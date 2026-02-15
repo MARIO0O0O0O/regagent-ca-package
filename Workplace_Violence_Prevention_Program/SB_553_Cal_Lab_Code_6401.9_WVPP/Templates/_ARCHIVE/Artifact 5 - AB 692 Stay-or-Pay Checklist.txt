@@ -1,0 +1,29 @@
+﻿California AB 692 "Stay-or-Pay" Prohibition Checklist (2026)
+Version: 2.0 Effective Date: January 1, 2026
+1. Prohibited Clauses
+Void as of Jan 1, 2026.
+* [ ] Training Repayment: Clauses requiring repayment for training generally void.
+* [ ] Recruiting Fees: Hiring costs.
+* [ ] "Quit Fees": Liquidated damages for early resignation.
+2. Narrow Exception (Advanced Tuition/Bonuses)
+Valid ONLY if ALL 7 met:
+1. [ ] Separate Agreement.
+2. [ ] 5-day Attorney Consult period.
+3. [ ] Actual Cost Only.
+4. [ ] Proration (Max 2 years).
+5. [ ] No Interest.
+6. [ ] Voluntary Resignation Only.
+7. [ ] Deferral Option.
+3. CROSS-REFERENCE: HOW OTHER LAWS IMPACT AB 692
+3.1 HARASSMENT PREVENTION → AB 692
+Compliance Impact:
+* [ ] Prohibited: Cannot charge/claw back costs for mandatory harassment training. Cross-Reference: → [Harassment Prevention Checklist]
+3.2 SB 513 → AB 692
+Compliance Impact:
+* [ ] Audit: Use training records to identify which trainings are mandatory (non-repayable) vs. optional advanced tuition. Cross-Reference: → [Personnel Records Checklist]
+3.3 IMMIGRATION → AB 692
+Compliance Impact:
+* [ ] Visa Fees: Repayment of H-1B fees is generally illegal/void. Cross-Reference: → [Immigration Checklist]
+4. Penalties
+* $5,000 per employee: Statutory penalty.
+* Attorney's Fees: Recoverable by employee.

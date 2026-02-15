@@ -1,0 +1,299 @@
+{
+  "course": {
+    "id": "harassment-prevention-1hr",
+    "title": "Harassment Prevention Training (1 Hour)",
+    "description": "California-compliant harassment prevention training for employees. Meets AB 1825 and SB 1343 requirements.",
+    "duration": 60,
+    "requiredFor": ["all_employees"],
+    "statute": "Cal. Gov. Code §12950.1",
+    "expiresAfter": 730,
+    "modules": [
+      "hp-mod-01",
+      "hp-mod-02",
+      "hp-mod-03",
+      "hp-mod-04",
+      "hp-mod-05",
+      "hp-mod-06",
+      "hp-mod-07",
+      "hp-mod-08",
+      "hp-mod-09",
+      "hp-mod-10",
+      "hp-mod-11",
+      "hp-mod-12"
+    ]
+  },
+  "modules": [
+    {
+      "id": "hp-mod-01",
+      "courseId": "harassment-prevention-1hr",
+      "orderIndex": 1,
+      "title": "Welcome & Legal Context",
+      "duration": 3,
+      "content": "<div class='module'><h2>Welcome to Harassment Prevention Training</h2><p>This training is required by California law (AB 1825 and SB 1343) for all employees.</p><h3>Why This Matters</h3><ul><li>Creates a safer, more respectful workplace</li><li>Protects you and your coworkers</li><li>Required by law - failure to complete may affect employment</li><li>Must be completed every 2 years</li></ul><h3>What You'll Learn</h3><ul><li>What harassment is (and isn't)</li><li>How to recognize it</li><li>How to report it</li><li>What happens after you report</li><li>Your rights and protections</li></ul><p><strong>Time Required:</strong> 60 minutes<br><strong>Passing Score:</strong> 80% on final quiz</p></div>",
+      "quiz": null
+    },
+    {
+      "id": "hp-mod-02",
+      "courseId": "harassment-prevention-1hr",
+      "orderIndex": 2,
+      "title": "What is Harassment?",
+      "duration": 5,
+      "content": "<div class='module'><h2>Definition of Harassment</h2><p><strong>Harassment</strong> is unwelcome conduct based on a protected characteristic that is severe or pervasive enough to create a hostile work environment.</p><h3>Protected Characteristics in California (18+)</h3><ul><li>Race, color, ancestry, national origin</li><li>Religion, creed</li><li>Age (40 and over)</li><li>Disability (mental and physical)</li><li>Sex, gender, gender identity, gender expression</li><li>Sexual orientation</li><li>Marital status</li><li>Military/veteran status</li><li>Genetic information</li><li>Medical condition</li><li>Pregnancy, childbirth, breastfeeding</li><li>And more...</li></ul><h3>Key Terms</h3><p><strong>Severe:</strong> A single serious incident (like physical assault or extreme verbal abuse)</p><p><strong>Pervasive:</strong> Repeated incidents that create an intimidating, hostile, or offensive environment</p><p><strong>Hostile Environment:</strong> Conduct that unreasonably interferes with work performance or creates an intimidating, hostile, or offensive workplace</p></div>",
+      "quiz": null
+    },
+    {
+      "id": "hp-mod-03",
+      "courseId": "harassment-prevention-1hr",
+      "orderIndex": 3,
+      "title": "Types of Harassment",
+      "duration": 5,
+      "content": "<div class='module'><h2>Forms of Harassment</h2><h3>1. Verbal Harassment</h3><ul><li>Offensive jokes or comments</li><li>Slurs or epithets</li><li>Derogatory remarks about appearance, accent, or background</li><li>Unwanted sexual comments or propositions</li><li>Threats or intimidation</li></ul><h3>2. Physical Harassment</h3><ul><li>Unwanted touching or physical contact</li><li>Assault or battery</li><li>Physical blocking or impeding movement</li><li>Unwanted sexual advances</li></ul><h3>3. Visual Harassment</h3><ul><li>Offensive posters, cartoons, or drawings</li><li>Inappropriate emails or texts with offensive content</li><li>Lewd gestures</li><li>Displaying sexually suggestive objects or pictures</li></ul><h3>4. Digital Harassment (NEW 2026)</h3><ul><li>Offensive emails, texts, or social media messages</li><li>Cyberbullying</li><li>Sharing explicit images without consent</li><li>Online stalking or monitoring</li></ul><p class='callout'><strong>Important:</strong> Harassment doesn't have to be intentional. Impact matters more than intent.</p></div>",
+      "quiz": {
+        "questions": [
+          {
+            "id": "q1",
+            "text": "Which of the following is a protected characteristic under California law?",
+            "options": [
+              "Political affiliation",
+              "Gender identity",
+              "Job performance",
+              "Education level"
+            ],
+            "correctAnswer": 1,
+            "explanation": "Gender identity is one of 18+ protected characteristics under FEHA. Political affiliation, job performance, and education level are not protected."
+          },
+          {
+            "id": "q2",
+            "text": "Harassment must be intentional to be illegal.",
+            "options": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": 1,
+            "explanation": "False. The impact of the conduct matters more than the intent. Even if someone didn't mean to offend, their actions can still constitute harassment."
+          }
+        ],
+        "passingScore": 80
+      }
+    },
+    {
+      "id": "hp-mod-04",
+      "courseId": "harassment-prevention-1hr",
+      "orderIndex": 4,
+      "title": "Real-World Examples",
+      "duration": 6,
+      "content": "<div class='module'><h2>What Harassment Looks Like</h2><h3>Scenario 1: Racial Harassment</h3><p><strong>Situation:</strong> Maria, a Latina employee, hears coworkers making jokes about immigrants during lunch breaks. The jokes continue despite her visible discomfort.</p><p><strong>This IS harassment:</strong> Offensive comments about national origin, repeated behavior, creating a hostile environment.</p><h3>Scenario 2: Sexual Harassment</h3><p><strong>Situation:</strong> A supervisor repeatedly comments on an employee's appearance, makes suggestive remarks, and sends flirtatious texts after work hours.</p><p><strong>This IS harassment:</strong> Unwelcome sexual conduct, abuse of power, pervasive behavior.</p><h3>Scenario 3: Disability Harassment</h3><p><strong>Situation:</strong> Coworkers mock an employee with a speech impediment, imitating their voice and laughing.</p><p><strong>This IS harassment:</strong> Conduct based on disability, creating hostile environment.</p><h3>Scenario 4: Not Harassment</h3><p><strong>Situation:</strong> A manager gives constructive criticism about work quality and sets performance expectations.</p><p><strong>This is NOT harassment:</strong> Legitimate job-related feedback, even if uncomfortable, is not harassment.</p><h3>Scenario 5: Age Harassment</h3><p><strong>Situation:</strong> Younger employees repeatedly call older coworkers 'grandpa' or make jokes about retirement.</p><p><strong>This IS harassment:</strong> Age-based comments creating hostile environment.</p></div>",
+      "quiz": {
+        "questions": [
+          {
+            "id": "q3",
+            "text": "A supervisor gives an employee a negative performance review. Is this harassment?",
+            "options": [
+              "Yes, because it makes the employee uncomfortable",
+              "No, legitimate job feedback is not harassment",
+              "Only if the employee is in a protected class",
+              "Yes, if it happens more than once"
+            ],
+            "correctAnswer": 1,
+            "explanation": "Legitimate job-related feedback and discipline are not harassment, even if uncomfortable. Harassment must be based on a protected characteristic."
+          }
+        ],
+        "passingScore": 80
+      }
+    },
+    {
+      "id": "hp-mod-05",
+      "courseId": "harassment-prevention-1hr",
+      "orderIndex": 5,
+      "title": "Abusive Conduct",
+      "duration": 4,
+      "content": "<div class='module'><h2>Understanding Abusive Conduct (Workplace Bullying)</h2><p>California law (SB 1343) requires training on <strong>abusive conduct</strong> - malicious behavior that a reasonable person would find hostile or offensive, and that is not related to legitimate business interests.</p><h3>Examples of Abusive Conduct</h3><ul><li>Repeated verbal abuse</li><li>Threats, humiliation, or intimidation</li><li>Sabotage of work performance</li><li>Exploitation of known psychological or physical vulnerabilities</li></ul><h3>Key Difference from Harassment</h3><p><strong>Harassment:</strong> Based on a protected characteristic (race, gender, etc.)</p><p><strong>Abusive Conduct:</strong> May not be based on protected status, but is still malicious and hostile</p><p class='example'><strong>Example:</strong> A manager consistently yells at, belittles, and publicly humiliates an employee for minor mistakes. Even if not based on a protected characteristic, this is abusive conduct.</p><h3>Both Are Prohibited</h3><p>Your employer must prevent and address both harassment AND abusive conduct.</p></div>",
+      "quiz": null
+    },
+    {
+      "id": "hp-mod-06",
+      "courseId": "harassment-prevention-1hr",
+      "orderIndex": 6,
+      "title": "Your Right to Report",
+      "duration": 5,
+      "content": "<div class='module'><h2>How to Report Harassment</h2><p>You have the <strong>right</strong> and <strong>responsibility</strong> to report harassment or abusive conduct.</p><h3>Multiple Reporting Channels</h3><ol><li><strong>Your Direct Supervisor</strong><br>Tell your immediate manager</li><li><strong>Any Manager</strong><br>If uncomfortable with your supervisor, talk to any management employee</li><li><strong>HR Department</strong><br>Contact: hr@[company].com or (XXX) XXX-XXXX</li><li><strong>Anonymous Hotline</strong><br>Call: 1-800-XXX-XXXX</li><li><strong>Written Complaint</strong><br>Submit complaint form (available on HR portal)</li></ol><h3>What to Include in Your Report</h3><ul><li>What happened (be specific)</li><li>When it happened (dates, times)</li><li>Where it happened</li><li>Who was involved</li><li>Witnesses (if any)</li><li>Any evidence (emails, texts, photos)</li></ul><p class='callout'><strong>Important:</strong> You do NOT need proof to report. If you experienced or witnessed harassment, report it.</p><h3>You Don't Have to Use the Word 'Harassment'</h3><p>Simply describe what happened. HR will determine if it constitutes harassment.</p></div>",
+      "quiz": {
+        "questions": [
+          {
+            "id": "q4",
+            "text": "If you experience harassment, you must report it to your direct supervisor first.",
+            "options": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": 1,
+            "explanation": "False. You can report to ANY manager, HR, or use an anonymous hotline. You have multiple reporting options."
+          },
+          {
+            "id": "q5",
+            "text": "You need proof before you can report harassment.",
+            "options": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": 1,
+            "explanation": "False. You do NOT need proof to report. If you experienced or witnessed something concerning, report it. The investigation will gather evidence."
+          }
+        ],
+        "passingScore": 80
+      }
+    },
+    {
+      "id": "hp-mod-07",
+      "courseId": "harassment-prevention-1hr",
+      "orderIndex": 7,
+      "title": "The Investigation Process",
+      "duration": 5,
+      "content": "<div class='module'><h2>What Happens After You Report</h2><h3>Investigation Timeline</h3><ol><li><strong>Immediate Response (24-48 hours)</strong><br>HR acknowledges your complaint and may separate parties if needed</li><li><strong>Investigation Begins (Within 1 week)</strong><br>A trained investigator is assigned</li><li><strong>Interviews Conducted (1-3 weeks)</strong><br>Investigator interviews: complainant, accused, witnesses</li><li><strong>Evidence Review</strong><br>Review emails, documents, any physical evidence</li><li><strong>Findings Determined (3-4 weeks total)</strong><br>Investigation concludes with findings</li><li><strong>Action Taken</strong><br>If harassment occurred, corrective action is implemented</li><li><strong>Follow-Up</strong><br>HR checks in to ensure no retaliation</li></ol><h3>Investigation Standards</h3><p><strong>Fair:</strong> Both parties have opportunity to present their side</p><p><strong>Thorough:</strong> All relevant evidence is reviewed</p><p><strong>Timely:</strong> Completed as quickly as possible (usually 2-4 weeks)</p><p><strong>Confidential:</strong> Information shared only on need-to-know basis</p><h3>What You Can Expect</h3><ul><li>Your report will be taken seriously</li><li>You will be interviewed (possibly multiple times)</li><li>You may need to provide evidence</li><li>You will be informed of the general outcome</li><li>Your identity will be kept confidential to extent possible</li></ul></div>",
+      "quiz": null
+    },
+    {
+      "id": "hp-mod-08",
+      "courseId": "harassment-prevention-1hr",
+      "orderIndex": 8,
+      "title": "Anti-Retaliation Protections",
+      "duration": 4,
+      "content": "<div class='module'><h2>You Are Protected from Retaliation</h2><p class='callout'><strong>It is ILLEGAL to retaliate against someone for:</strong></p><ul><li>Reporting harassment or discrimination</li><li>Participating in an investigation</li><li>Opposing discriminatory practices</li><li>Filing a complaint with the Civil Rights Department or EEOC</li></ul><h3>What Is Retaliation?</h3><p>Retaliation is any adverse action taken against you because you engaged in protected activity.</p><h3>Examples of Retaliation</h3><ul><li>Termination or demotion</li><li>Pay reduction or denial of promotion</li><li>Negative performance reviews</li><li>Exclusion from meetings or opportunities</li><li>Hostile treatment by coworkers</li><li>Increased scrutiny or unfair discipline</li><li>Schedule changes that disadvantage you</li></ul><h3>Retaliation Doesn't Have to Be Direct</h3><p><strong>Example:</strong> After Maria reports harassment, her supervisor starts excluding her from important meetings and giving her less desirable assignments.</p><p><strong>This is retaliation</strong> - even though she wasn't fired.</p><h3>If You Experience Retaliation</h3><ol><li>Document everything (dates, incidents, witnesses)</li><li>Report it immediately to HR or management</li><li>The company must investigate and stop retaliation</li></ol><p class='warning'><strong>Retaliation is often easier to prove than the original harassment and can result in significant legal penalties.</strong></p></div>",
+      "quiz": {
+        "questions": [
+          {
+            "id": "q6",
+            "text": "Which of the following could be retaliation?",
+            "options": [
+              "Being excluded from meetings after filing a complaint",
+              "Receiving a poor performance review after reporting harassment",
+              "Being terminated shortly after participating in an investigation",
+              "All of the above"
+            ],
+            "correctAnswer": 3,
+            "explanation": "All of these could be retaliation. Any adverse action following protected activity (reporting, participating in investigation) may constitute illegal retaliation."
+          }
+        ],
+        "passingScore": 80
+      }
+    },
+    {
+      "id": "hp-mod-09",
+      "courseId": "harassment-prevention-1hr",
+      "orderIndex": 9,
+      "title": "Bystander Intervention",
+      "duration": 4,
+      "content": "<div class='module'><h2>What To Do If You Witness Harassment</h2><p>You have a responsibility to act if you witness harassment.</p><h3>The 5 D's of Bystander Intervention</h3><h4>1. DIRECT</h4><p>Intervene directly if safe to do so: 'That's not appropriate' or 'We don't talk like that here.'</p><h4>2. DISTRACT</h4><p>Interrupt the situation: Change the subject, ask a question, create a distraction.</p><h4>3. DELEGATE</h4><p>Get help from someone with more authority: supervisor, HR, security.</p><h4>4. DELAY</h4><p>Check on the target after the incident: 'Are you okay?' 'That wasn't right.'</p><h4>5. DOCUMENT</h4><p>Write down what you saw (date, time, what happened, who was involved) and report it.</p><h3>Example Scenarios</h3><p><strong>Scenario:</strong> You overhear coworkers making racist jokes in the break room.</p><p><strong>Action:</strong> 'Hey, that's not cool. Let's change the subject.' (DIRECT) or Report to HR (DELEGATE)</p><p><strong>Scenario:</strong> You see a manager touching an employee's shoulder repeatedly despite their discomfort.</p><p><strong>Action:</strong> Interrupt: 'Hey Sarah, can I borrow you for a minute?' (DISTRACT) then check in later (DELAY) and report (DOCUMENT)</p><h3>Why Bystander Intervention Matters</h3><ul><li>Shows support for the target</li><li>Signals that harassment is not acceptable</li><li>Can stop escalation</li><li>Creates a culture of accountability</li></ul></div>",
+      "quiz": {
+        "questions": [
+          {
+            "id": "q7",
+            "text": "If you witness harassment but the target doesn't seem bothered, you should:",
+            "options": [
+              "Do nothing - it's not your business",
+              "Still report it - impact matters more than reaction",
+              "Only intervene if the person asks for help",
+              "Wait to see if it happens again"
+            ],
+            "correctAnswer": 1,
+            "explanation": "You should still report it. Some people don't react visibly due to shock, fear, or workplace dynamics. Harassment is judged by a 'reasonable person' standard, not the target's immediate reaction."
+          }
+        ],
+        "passingScore": 80
+      }
+    },
+    {
+      "id": "hp-mod-10",
+      "courseId": "harassment-prevention-1hr",
+      "orderIndex": 10,
+      "title": "Special Topics: 2026 Updates",
+      "duration": 4,
+      "content": "<div class='module'><h2>New Protections (2026 Updates)</h2><h3>1. Reproductive Health Protection (SB 523)</h3><p>You CANNOT be harassed or discriminated against based on:</p><ul><li>Use of contraception</li><li>Fertility treatments</li><li>Pregnancy decisions</li><li>Pregnancy loss</li><li>Abortion</li></ul><p class='example'><strong>Example:</strong> Asking 'When are you planning to have kids?' in an interview or making comments about an employee's IVF treatments is prohibited.</p><h3>2. Cannabis Use Protection (AB 2188)</h3><p>Employers generally cannot discriminate based on off-duty cannabis use (except for certain positions).</p><p><strong>Note:</strong> On-duty impairment is still prohibited.</p><h3>3. LGBTQ+ Protections</h3><p>California law explicitly protects:</p><ul><li>Sexual orientation</li><li>Gender identity</li><li>Gender expression</li></ul><p>This includes using correct pronouns, respecting chosen names, and access to appropriate facilities.</p><h3>4. Remote Work Harassment</h3><p>Harassment in virtual settings (Zoom, Teams, email, Slack) is covered under the same protections.</p><p><strong>Examples:</strong> Inappropriate comments in video meetings, offensive messages in chat, excluding someone from virtual meetings based on protected characteristic.</p></div>",
+      "quiz": {
+        "questions": [
+          {
+            "id": "q8",
+            "text": "Which of the following is protected under 2026 California law?",
+            "options": [
+              "Off-duty cannabis use",
+              "Reproductive health decisions",
+              "Gender identity and expression",
+              "All of the above"
+            ],
+            "correctAnswer": 3,
+            "explanation": "All of the above are protected under 2026 California law. SB 523 protects reproductive health, AB 2188 protects off-duty cannabis use, and FEHA protects gender identity/expression."
+          }
+        ],
+        "passingScore": 80
+      }
+    },
+    {
+      "id": "hp-mod-11",
+      "courseId": "harassment-prevention-1hr",
+      "orderIndex": 11,
+      "title": "Creating a Respectful Workplace",
+      "duration": 3,
+      "content": "<div class='module'><h2>We All Have a Role</h2><h3>Beyond Legal Compliance</h3><p>Preventing harassment isn't just about following the law - it's about creating a workplace where everyone feels safe, valued, and respected.</p><h3>What You Can Do</h3><ul><li><strong>Treat everyone with respect</strong> regardless of differences</li><li><strong>Speak up</strong> when you see or hear something inappropriate</li><li><strong>Be an ally</strong> to coworkers who may be vulnerable</li><li><strong>Think before you speak</strong> - consider how your words might impact others</li><li><strong>Listen</strong> when someone expresses discomfort</li><li><strong>Apologize</strong> if you make a mistake</li><li><strong>Report</strong> concerns promptly</li></ul><h3>Building an Inclusive Culture</h3><p>An inclusive workplace is one where:</p><ul><li>Everyone feels they belong</li><li>Diverse perspectives are valued</li><li>People can bring their authentic selves to work</li><li>Differences are celebrated, not tolerated</li><li>Everyone has equal opportunities</li></ul><h3>The Impact of Your Actions</h3><p>Every interaction matters. Your words and actions shape workplace culture.</p><p class='callout'>Choose to be part of creating a positive, respectful environment for all.</p></div>",
+      "quiz": null
+    },
+    {
+      "id": "hp-mod-12",
+      "courseId": "harassment-prevention-1hr",
+      "orderIndex": 12,
+      "title": "Resources & Final Assessment",
+      "duration": 12,
+      "content": "<div class='module'><h2>External Resources</h2><h3>California Civil Rights Department (CRD)</h3><p>Website: <a href='https://calcivilrights.ca.gov'>calcivilrights.ca.gov</a><br>Phone: 1-800-884-1684<br>File a complaint: Online at CRD website</p><h3>Equal Employment Opportunity Commission (EEOC)</h3><p>Website: <a href='https://www.eeoc.gov'>eeoc.gov</a><br>Phone: 1-800-669-4000<br>File a complaint: Within 300 days of incident</p><h3>Company Resources</h3><ul><li>HR Department: hr@[company].com</li><li>Anonymous Hotline: 1-800-XXX-XXXX</li><li>Employee Handbook: [Link]</li><li>Anti-Harassment Policy: [Link]</li><li>Complaint Form: [Link]</li></ul><h2>Review Key Points</h2><ul><li>Harassment is unwelcome conduct based on protected characteristics</li><li>18+ protected classes in California</li><li>Report to supervisor, any manager, HR, or anonymous hotline</li><li>Multiple forms: verbal, physical, visual, digital</li><li>Retaliation is illegal - you are protected</li><li>Bystanders have a responsibility to intervene</li><li>Company will investigate promptly and thoroughly</li><li>Everyone has a role in creating respectful culture</li></ul><p class='callout'><strong>Ready for your final assessment?</strong><br>You must score 80% to pass. You have unlimited attempts.</p></div>",
+      "quiz": {
+        "questions": [
+          {
+            "id": "q9",
+            "text": "How many protected characteristics does California law recognize?",
+            "options": [
+              "7",
+              "10",
+              "18+",
+              "25"
+            ],
+            "correctAnswer": 2,
+            "explanation": "California law protects 18+ characteristics including race, religion, sex, gender identity, sexual orientation, age, disability, and many more."
+          },
+          {
+            "id": "q10",
+            "text": "True or False: You must experience harassment personally to report it.",
+            "options": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": 1,
+            "explanation": "False. If you witness harassment, you should report it. Bystanders have a responsibility to intervene and report."
+          },
+          {
+            "id": "q11",
+            "text": "What is the first thing you should do if you experience harassment?",
+            "options": [
+              "Quit your job",
+              "Report it through available channels",
+              "Confront the harasser alone",
+              "Tell your friends but not HR"
+            ],
+            "correctAnswer": 1,
+            "explanation": "Report it through available channels (supervisor, HR, hotline). The company must investigate and take action."
+          },
+          {
+            "id": "q12",
+            "text": "How often must California employees complete harassment prevention training?",
+            "options": [
+              "Every year",
+              "Every 2 years",
+              "Every 5 years",
+              "Only once"
+            ],
+            "correctAnswer": 1,
+            "explanation": "Every 2 years. California law requires harassment prevention training every two years."
+          }
+        ],
+        "passingScore": 80
+      }
+    }
+  ]
+}

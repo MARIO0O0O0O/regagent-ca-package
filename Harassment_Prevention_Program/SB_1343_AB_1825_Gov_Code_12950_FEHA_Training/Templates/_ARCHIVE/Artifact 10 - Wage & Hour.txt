@@ -1,0 +1,44 @@
+﻿Artifact 10: Wage & Hour Compliance and Tiered Minimum Wage Architecture (2026)
+Version: 6.0 (Deep Research Audit) Effective Date: January 1, 2026 Primary Mandate: Cal. Lab. Code § 1182.12; § 1182.14; § 515(a)
+1. Tiered Minimum Wage Standards (2026)
+Legal Authority: Cal. Lab. Code § 1182.12; Cal. Lab. Code § 1182.14 Mandate: > "The minimum wage for all industries shall be not less than... sixteen dollars and ninety cents ($16.90) per hour... effective January 1, 2026."
+A. Hourly Rate Tiers
+* State Baseline
+   * [ ] General: $16.90 per hour (All employers).
+* Industry Specifics
+   * [ ] Fast Food: $20.00 per hour (Chains with 60+ locations).
+   * [ ] Healthcare Tier 1: $25.00 per hour (Accelerated/Large systems) effective July 1, 2026.
+   * [ ] Healthcare Tier 2: $23.00 per hour (General acute care hospitals) effective July 1, 2026.
+   * [ ] Healthcare Tier 3: $22.00 per hour (Clinics) effective July 1, 2026.
+* Local Premium Rates
+   * [ ] West Hollywood: $20.25 per hour (Effective Jan 1, 2026).
+   * [ ] Unincorporated LA: $18.47 per hour (Effective July 1, 2026).
+2. White-Collar Exempt Salary Thresholds
+Legal Authority: Cal. Lab. Code § 515(a) Mandate: > "A salary as specified... shall be no less than two times the state minimum wage for full-time employment."
+A. Exemption Thresholds
+* White Collar (Exec/Admin/Prof)
+   * [ ] Annual: Minimum $70,304 ($16.90 x 2 x 2080).
+   * [ ] Monthly: Minimum $5,858.67.
+* Specialized Software
+   * [ ] Rates: $58.85 per hour OR $122,573.13 annual salary.
+3. Meal and Rest Period Compliance
+Legal Authority: Cal. Lab. Code § 512; Cal. Lab. Code § 226.7 Mandate: > "Failure to provide... pay the employee one additional hour of pay at the employee's regular rate of compensation."
+A. Break Administration
+* Meal Periods
+   * [ ] Provide 30-minute unpaid period before end of 5th hour.
+   * [ ] Waivers: Permitted for shifts <=6 hours (written).
+* Rest Periods
+   * [ ] Permit one 10-minute paid period for every 4 hours worked.
+4. Itemized Wage Statement Governance (LC 226)
+Legal Authority: Cal. Lab. Code § 226(a) Mandate: > "Furnish... accurate itemized statement... showing (1) gross wages, (2) total hours... (9) all applicable hourly rates."
+A. The 9-Point Audit
+* Earnings Data
+   * [ ] Hourly Breakdown: List each rate and hours worked at that rate.
+   * [ ] Deductions: Record in ink or indelible form.
+   * [ ] SSN Safeguard: Last 4 digits only or unique Employee ID.
+* Leave Disclosure
+   * [ ] Sick Leave: Show available balance on paystub or separate doc on payday.
+   * [ ] 2026 Accrual: Reflect minimum 40 hours / 5 days.
+Statutory Reference List
+* Cal. Lab. Code § 1182.12
+* Cal. Lab. Code § 226

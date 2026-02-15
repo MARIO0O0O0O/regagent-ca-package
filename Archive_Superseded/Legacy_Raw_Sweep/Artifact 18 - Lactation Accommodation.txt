@@ -1,0 +1,64 @@
+﻿California Lactation Accommodation Checklist (2026)
+Version: 5.0 (Toolkit Upgrade) Effective Date: January 1, 2026 Primary Mandate: Cal. Lab. Code § 1030-1034
+1. Mandatory Lactation Facility Standards
+Legal Authority: Cal. Lab. Code § 1031 Mandate: > "A lactation room or location shall not be a bathroom and shall be in close proximity to the employee's work area... [and] contain a surface to place a breast pump and personal items... [and] a place to sit."
+A. Location and Privacy Requirements
+* Physical Space
+   * Bathroom Prohibition
+      * [ ] Ensure space is entirely separate from any bathroom, toilet stall, or locker room with toilets.
+   * Privacy
+      * [ ] Equip room with functional lock or "In Use" signage to prevent intrusion/view.
+   * Proximity
+      * [ ] Audit travel distance to ensure "close proximity" to workspace.
+   * Priority
+      * [ ] If multi-purpose, implement policy giving lactation absolute precedence.
+B. Functional Amenities and Sanitation
+* Equipment Access
+   * Power/Surface
+      * [ ] Provide electrical outlets or stable alternative power (cords/charging stations).
+      * [ ] Ensure clean, flat surface for pump/supplies.
+      * [ ] Provide at least one functional, clean chair.
+   * Sanitation
+      * [ ] Provide sink with clean running water (not a restroom sink) in close proximity.
+      * [ ] Provide refrigerator or employer-provided cooling device (high-quality cooler) for milk storage.
+      * [ ] Verify room is free of hazardous materials (Lab Code § 6382).
+2. Break Time and Operational Policies
+Legal Authority: Cal. Lab. Code § 1030 Mandate: > "Provide a reasonable amount of break time... each time the employee has need to express milk."
+A. Break Administration
+* Scheduling
+   * Frequency
+      * [ ] Allow breaks "each time" needed without daily caps.
+   * Compensation
+      * [ ] Run concurrently with paid rest breaks where possible (paid); extra time is unpaid but protected.
+   * Documentation
+      * [ ] Prohibit managers from requesting doctor's notes to justify lactation frequency.
+B. Request Process
+* Employer Duty
+   * Interactive Dialogue
+      * [ ] Provide formal written response if a specific space/time request cannot be met.
+      * [ ] If <50 employees and claiming "undue hardship," document specific difficulty but provide non-bathroom alternative regardless.
+3. Mandatory Policy Distribution
+Legal Authority: Cal. Lab. Code § 1034 Mandate: > "Distribute the policy... to new employees upon hiring and when an employee... requests parental leave."
+A. Distribution Channels
+* Triggers
+   * Onboarding
+      * [ ] Include full policy in 2026 orientation materials for all new hires.
+   * Leave
+      * [ ] Deliver policy upon any inquiry regarding PDL or CFRA.
+   * Handbook
+      * [ ] Integrate permanently into Employee Handbook.
+4. Enforcement and Anti-Retaliation
+Legal Authority: Cal. Lab. Code § 1033 Mandate: > "Denial... shall be deemed a failure to comply for purposes of Section 226.7... [and] employer shall not... retaliate."
+A. Penalty Mitigation
+* Consequences
+   * Premium Pay
+      * [ ] Pay 1 hour regular wage for each day a compliant break/space is denied.
+   * Civil Fines
+      * [ ] Avoid $100 daily civil penalty for non-compliance.
+* Training
+   * Anti-Retaliation
+      * [ ] Explicitly prohibit "productivity" discipline related to lactation breaks.
+      * [ ] Include lactation status as protected category in harassment training.
+Statutory Reference List
+* Cal. Lab. Code § 1030
+* Cal. Lab. Code § 1031

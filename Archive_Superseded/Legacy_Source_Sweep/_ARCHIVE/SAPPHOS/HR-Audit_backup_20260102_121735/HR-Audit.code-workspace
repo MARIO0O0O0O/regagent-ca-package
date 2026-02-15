@@ -1,0 +1,14 @@
+{
+  "settings": {
+    "python.defaultInterpreterPath": "C:\\Users\\mespindola\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+    "files.exclude": {
+      "**/*.pyc": true,
+      "**/__pycache__": true
+    }
+  },
+  "folders": [
+    {
+      "path": "."
+    }
+  ]
+}

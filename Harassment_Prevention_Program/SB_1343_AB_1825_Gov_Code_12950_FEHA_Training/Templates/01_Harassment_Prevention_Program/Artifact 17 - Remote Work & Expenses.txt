@@ -1,0 +1,49 @@
+﻿California Remote Work & Expense Reimbursement Checklist (2026)
+Version: 1.0 Effective Date: January 1, 2026 Primary Mandate: Cal. Lab. Code § 2802 (Indemnification for Expenditures)
+1. Mandatory Reimbursements (Lab. Code § 2802)
+If an employee must incur an expense to do their job, you must reimburse it.
+* [ ] Personal Cell Phone:
+   * [ ] Requirement: If employee uses personal phone for work calls, texts, or 2FA (Two-Factor Auth), you MUST reimburse a "reasonable percentage" of their bill.
+   * [ ] Method: Flat stipend (e.g., $10-$20/month) is acceptable if it reasonably covers costs.
+   * [ ] Trap: "Unlimited Data" plans do NOT exempt you from paying. You are paying for the availability of the device.
+* [ ] Home Internet:
+   * [ ] Requirement: If remote work is mandatory (or hybrid required), you must reimburse a portion of the internet bill.
+   * [ ] Voluntary: If remote work is strictly voluntary (office is open, but employee prefers home), reimbursement may not be required, but policy must be clear.
+* [ ] Personal Vehicle (Mileage):
+   * [ ] Rate: IRS Standard Rate (approx. 67¢/mile).
+   * [ ] Scope: Travel between worksites or to clients. Commute from home to main office is NOT reimbursable.
+* [ ] Uniforms:
+   * [ ] If you require a specific uniform (logo, specific color/design), you must provide it or pay for it.
+2. Remote Work Infrastructure
+* [ ] Equipment Provision:
+   * [ ] Employer should provide laptop, monitor, and peripherals.
+   * [ ] If employee buys their own required equipment, you must reimburse.
+* [ ] BYOD Policy (Bring Your Own Device):
+   * [ ] If allowing personal devices, implement a written policy regarding privacy, security, and reimbursement.
+   * [ ] Wiping Data: Policy must state if/how you can wipe business data from a personal phone upon termination.
+3. Remote Timekeeping (Non-Exempt Staff)
+The biggest risk with remote workers is "off-the-clock" work and missed breaks.
+* [ ] Strict Tracking: Use digital timekeeping software (e.g., ADP, Gusto, TSheets).
+* [ ] Off-the-Clock: Train managers NOT to text/Slack non-exempt staff after hours. If they answer, you owe them pay (and potentially OT).
+* [ ] Meal/Rest Breaks:
+   * [ ] Remote employees must still take uninterrupted 30m meal / 10m rest breaks.
+   * [ ] Attestation: Have employees attest on timecards: "I took all compliant meal and rest periods this pay period."
+4. CROSS-REFERENCE: HOW OTHER LAWS IMPACT REMOTE WORK
+4.1 WAGE & HOUR → REMOTE WORK
+Legal Principle: "Hours Worked" control. Compliance Impact:
+* [ ] Overtime: Remote workers often log on late/early. Unapproved OT must still be paid (though you can discipline for the policy violation).
+* [ ] Split Shifts: Be careful of "split shifts" (working morning, huge gap, working night) which might trigger premium pay in some Wage Orders. Cross-Reference: → [Wage & Hour Checklist]
+4.2 CAL/OSHA SAFETY → REMOTE WORK
+Legal Principle: The "Home Office" is a workplace. Compliance Impact:
+* [ ] Ergonomics: You are technically liable for RSI (Repetitive Strain Injury) in the home office.
+   * [ ] Action: Provide an ergonomics checklist for home setups (chair height, monitor distance).
+* [ ] Workers' Comp: An injury occurring in the home office during work hours is compensable. Cross-Reference: → [Cal/OSHA Safety Checklist]
+4.3 PERSONNEL RECORDS → REMOTE WORK
+Legal Principle: Privacy and data security. Compliance Impact:
+* [ ] Home Storage: Remote HR managers must NOT store physical personnel files at home unless in a locked, fire-safe cabinet. Digital access is preferred. Cross-Reference: → [Personnel Records Checklist]
+4.4 SB 294 (NOTICES) → REMOTE WORK
+Legal Principle: Distribution. Compliance Impact:
+* [ ] Email Delivery: Since remote workers can't see the breakroom wall, all mandatory posters (Artifact 4) and notices (Artifact 3) must be emailed or accessible on a company intranet. Cross-Reference: → [Posting & Notice Checklist]
+5. Penalties
+* Labor Code 2802: Payment of the expense + 10% interest + Attorney's Fees.
+* PAGA: Civil penalties for systematic failure to reimburse.

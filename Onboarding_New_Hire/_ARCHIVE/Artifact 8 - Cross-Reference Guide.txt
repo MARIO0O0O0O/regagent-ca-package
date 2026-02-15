@@ -1,0 +1,44 @@
+﻿Legal Interaction & Cross-Reference Guide (2026)
+Version: 5.0 (Deep Research Audit) Effective Date: January 1, 2026 Purpose: Map legal collisions between mandates.
+1. Interaction: Protected Leave & Anti-Retaliation
+Legal Authority: Cal. Gov. Code § 12940(h) Mandate: > "Unlawful... to discharge, expel, or otherwise discriminate against any person because the person has opposed any practices... or filed a complaint."
+A. Operational Prevention
+* Policy
+   * Protection Clause
+      * [ ] Explicitly state PDL/CFRA/Sick Leave are protected activities in Handbook.
+* Deadlines
+   * Suspension
+      * [ ] Suspend training deadlines (Harassment/Safety) during leave.
+   * Grace Period
+      * [ ] Grant 30-day grace period for training upon return.
+2. Interaction: Leave & Wage Statements
+Legal Authority: Cal. Lab. Code § 246 Mandate: > "Furnish... an accurate itemized statement... showing... all applicable hourly rates."
+A. Visibility
+* Sick Leave
+   * Balance
+      * [ ] Display available Sick Leave balance on every pay stub.
+   * Rate
+      * [ ] Calculate sick pay at 2026 minimum ($16.90) or regular rate.
+* Termination
+   * Payouts
+      * [ ] Pay all accrued Vacation/PTO.
+      * [ ] Note: Sick leave is NOT paid out (unless rehired within 1 year).
+3. Interaction: Stay-or-Pay & Immigration
+Legal Authority: Cal. Bus. & Prof. Code § 16608 Mandate: > "‘Penalty, fee, or cost’ includes... reimbursement for immigration or visa-related costs."
+A. Visa Fees
+* Prohibitions
+   * Clauses
+      * [ ] Strike H-1B/Visa reimbursement clauses from contracts.
+   * Expenses
+      * [ ] Categorize visa fees as non-reimbursable employer business expenses (Lab Code 2802).
+4. Interaction: New Hire Notices & Workers' Comp
+Legal Authority: Cal. Lab. Code § 3550 Mandate: > "Post... notice which shall state the name of the current workers’ compensation insurance carrier... [and] include attorney consultation provisions."
+A. Disclosure
+* Notices
+   * SB 294
+      * [ ] Include Workers' Comp rights in the Feb 1 Standalone Notice.
+   * Attorney Clause
+      * [ ] Ensure poster includes "Right to Consult Attorney" provision.
+Statutory Reference List
+* Cal. Gov. Code § 12940
+* Cal. Lab. Code § 3550

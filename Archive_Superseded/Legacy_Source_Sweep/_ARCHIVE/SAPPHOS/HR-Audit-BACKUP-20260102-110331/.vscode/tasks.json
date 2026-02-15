@@ -1,0 +1,43 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "HR Audit: Research",
+            "type": "shell",
+            "command": "python",
+            "args": ["${workspaceFolder}\\Scripts\\hr_audit.py", "research", "${input:researchQuery}"],
+            "problemMatcher": []
+        },
+        {
+            "label": "HR Audit: Generate Report",
+            "type": "shell",
+            "command": "python",
+            "args": ["${workspaceFolder}\\Scripts\\hr_audit.py", "report", "${input:reportContext}"],
+            "problemMatcher": []
+        },
+        {
+            "label": "HR Audit: Compliance Summary",
+            "type": "shell",
+            "command": "python",
+            "args": ["${workspaceFolder}\\Scripts\\hr_audit.py", "summary", "${input:summaryTopic}"],
+            "problemMatcher": []
+        }
+    ],
+    "inputs": [
+        {
+            "id": "researchQuery",
+            "type": "promptString",
+            "description": "Enter compliance requirement to research:"
+        },
+        {
+            "id": "reportContext",
+            "type": "promptString",
+            "description": "Enter audit report context:"
+        },
+        {
+            "id": "summaryTopic",
+            "type": "promptString",
+            "description": "Enter compliance topic:"
+        }
+    ]
+}

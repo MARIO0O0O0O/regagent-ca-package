@@ -1,0 +1,24 @@
+﻿Code,Description,KPI Denominator Inclusion,Category,Notes / Guidance
+FMLA,Family Medical Leave Act (Federal),Exclude,Protected Leave,Job-protected; mandatory exclusion for chargeability.
+CFRA,California Family Rights Act,Exclude,Protected Leave,CA state protected; automatically exclude from KPI denominator.
+PDL,Pregnancy Disability Leave,Exclude,Protected Leave,"Up to 4 months; legal leave, adjust chargeability accordingly."
+ADA,ADA/FEHA Accommodation,Exclude,Protected Leave,Approved accommodation leave; exempt from KPI denominator.
+PWFA,Pregnant Workers Fairness Act,Exclude,Protected Leave,CA law; leave protected from penalty in KPI.
+Jury,Jury Duty,Exclude,Protected Leave,Mandatory legal leave; excludes from chargeable hours.
+Bereavement,Bereavement / Funeral Leave,Exclude,Protected / Company Leave,Typically short-term; exclude to maintain fairness.
+Voting,Voting Leave,Exclude,Protected Leave,Statutory protected; exclude from denominator.
+Military,Military / National Guard,Exclude,Protected Leave,Job-protected leave; adjust KPI denominator.
+PTO,Paid Time Off / Vacation,Exclude,Company Leave,Standard company leave; not penalized.
+HOL,Company Holidays,Exclude,Company Leave,Statutory or floating holidays; exclude.
+TRAIN,Training / Professional Development,Exclude,Company Leave,Strategic non-billable; exclude from denominator.
+Sick-P,Paid Sick Leave / PSL (Protected),Exclude,Protected / Statutory Leave,Exclude statutory sick leave hours if legally protected.
+Sick-NP,Non-Protected Sick Leave,Include,Non-Protected Leave,PTO-type or discretionary sick leave; included in denominator.
+UNPD,Unpaid Discretionary Leave,Include,Non-Protected Leave,Employee-initiated leave not tied to legal protection.
+TARDY,Partial-Day Tardiness,Include,Non-Protected Leave,Applies when employee is late without protected reason.
+OVERTIME,Extra Billable Hours,Include,Billable Hours,Adds to numerator of chargeability.
+CLIENT,Client-Billable Work,Include,Billable Hours,Directly contributes to KPI numerator.
+NONBILL,Non-Billable Hours,Exclude,Non-Billable Overhead,"Internal meetings, admin, non-strategic overhead."
+INTBD,Internal Business Development,Exclude,Strategic Non-Billable,Tracked but not penalized; may be qualitative.
+MEET,Internal Meetings / Coordination,Exclude,Overhead,Standard non-billable activity; exclude.
+VOL,Voluntary / Corporate Programs,Exclude,Overhead,"E.g., volunteer hours; tracked but excluded."
+WD,Work From Home / Non-Billable,Exclude,Overhead,Non-billable hours; tracked for HR purposes only.

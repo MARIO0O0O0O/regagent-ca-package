@@ -1,0 +1,418 @@
+================================================================================
+DIRECTORY TREE ANALYSIS
+Generated: 2026-01-02 10:57:12
+Path: C:\Users\mespindola
+================================================================================
+
+mespindola/ [4.84 GB]
+  |-- ai-assistant/ [0 bytes]
+  |-- apps/ [0 bytes]
+    |__ wezterm/ [0 bytes]
+  |-- Checklists/ [0 bytes]
+  |-- Compliance-Summaries/ [0 bytes]
+  |-- Contacts/ [0 bytes]
+  |-- Desktop/ [133.10 KB]
+    |-- overtime_policy_redline.md [12.17 KB]
+    |__ Sapphos_Personnel_Audit_Plan_10Day.md [105.91 KB]
+    |__ ... and 7 other files
+  |-- Documents/ [107.67 MB]
+    |-- Checklists/ [0 bytes]
+    |-- Compliance-Summaries/ [0 bytes]
+    |-- Custom Office Templates/ [0 bytes]
+    |-- HR-Audit/ [165.53 KB]
+      |-- 00-DASHBOARD/ [21.92 KB]
+        |-- Daily/ [0 bytes]
+        |-- Status-Reports/ [14.91 KB]
+          |__ 251230 STATUS REPORT.md [14.91 KB]
+        |-- Weekly/ [0 bytes]
+        |-- 00-MASTER-DASHBOARD.md [1.56 KB]
+        |-- Health-Score-Tracker.md [1.86 KB]
+        |__ PROJECT-CHARTER.md [3.60 KB]
+      |-- 00-EXECUTIVE-SUMMARY/ [6.23 KB]
+        |-- Board-Materials/ [0 bytes]
+        |-- One-Pagers/ [0 bytes]
+        |-- Slide-Decks/ [0 bytes]
+        |__ Board-Presentation-TEMPLATE.md [6.23 KB]
+      |-- 01-AUDIT-PLANNING/ [4.27 KB]
+        |-- Checklists/ [0 bytes]
+        |-- Risk-Assessment/ [0 bytes]
+        |-- Scope-Documents/ [0 bytes]
+        |-- Timeline/ [0 bytes]
+        |__ Auditors-Toolkit.md [4.27 KB]
+      |-- 01-DASHBOARDS/ [3.02 KB]
+        |-- Daily/ [0 bytes]
+        |-- Executive/ [3.02 KB]
+          |__ 00-EXECUTIVE-DASHBOARD.md [3.02 KB]
+        |__ Weekly/ [0 bytes]
+      |-- 02-CASE-LAW-RESEARCH/ [0 bytes]
+        |-- ADA-Cases/ [0 bytes]
+        |-- California-FEHA/ [0 bytes]
+        |-- Citations-Library/ [0 bytes]
+        |-- Federal-Title-VII/ [0 bytes]
+        |-- FMLA-Cases/ [0 bytes]
+        |__ Wage-Hour/ [0 bytes]
+      |-- 02-EMPLOYEE-FILES/ [0 bytes]
+        |-- Confidential-Medical/ [0 bytes]
+        |-- I-9-Files/ [0 bytes]
+        |-- Investigation-Files/ [0 bytes]
+        |-- Personnel-Jackets/ [0 bytes]
+        |__ Scanned-Documents/ [0 bytes]
+      |-- 03-POLICY-FRAMEWORK/ [4.19 KB]
+        |-- Calibration-Analysis/ [0 bytes]
+        |-- Culture-Fit-Assessment/ [0 bytes]
+        |-- Draft-Policies/ [0 bytes]
+        |-- Industry-Benchmarks/ [0 bytes]
+        |-- Rigidity-Spectrum/ [0 bytes]
+        |__ 00-CALIBRATION-FRAMEWORK.md [4.19 KB]
+      |-- 03-POLICY-LIBRARY/ [5.35 KB]
+        |-- Policy-Tracking/ [2.73 KB]
+          |__ California-Required-Policies-Checklist.md [2.73 KB]
+        |-- Recommended-Policies/ [0 bytes]
+        |-- Required-Policies/ [2.62 KB]
+          |__ Leave-Management-Policy-TEMPLATE.md [2.62 KB]
+        |__ Training-Materials/ [0 bytes]
+      |-- 04-COMPLIANCE-RESEARCH/ [0 bytes]
+        |-- California-State/ [0 bytes]
+        |-- Case-Law/ [0 bytes]
+        |-- Federal-Law/ [0 bytes]
+        |__ Local-Ordinances/ [0 bytes]
+      |-- 04-EMPLOYEE-FILES/ [0 bytes]
+        |-- Confidential-Medical/ [0 bytes]
+        |-- I-9-Files/ [0 bytes]
+        |-- Investigation-Files/ [0 bytes]
+        |-- Personnel-Jackets/ [0 bytes]
+        |__ Scanned-Documents/ [0 bytes]
+      |-- 05-COMPLIANCE-RESEARCH/ [0 bytes]
+        |-- Best-Practices/ [0 bytes]
+        |-- California-State/ [0 bytes]
+        |-- Federal-Law/ [0 bytes]
+        |__ Local-Ordinances/ [0 bytes]
+      |-- 05-FINDINGS-REPORTS/ [0 bytes]
+        |-- Executive-Summaries/ [0 bytes]
+        |-- Individual-Reports/ [0 bytes]
+        |__ Summary-Reports/ [0 bytes]
+      |-- 06-REMEDIATION-TRACKING/ [0 bytes]
+        |-- Action-Plans/ [0 bytes]
+        |-- Completion-Verification/ [0 bytes]
+        |__ Follow-Up/ [0 bytes]
+      |-- 06-VISUAL-ANALYTICS/ [0 bytes]
+        |-- Charts/ [0 bytes]
+        |-- Gantt-Charts/ [0 bytes]
+        |-- Heat-Maps/ [0 bytes]
+        |-- Org-Charts/ [0 bytes]
+        |__ Risk-Matrix/ [0 bytes]
+      |-- 07-CITATIONS-BIBLIOGRAPHY/ [3.04 KB]
+        |-- Bibliography/ [0 bytes]
+        |-- Legal-Citations/ [0 bytes]
+        |-- Research-Sources/ [0 bytes]
+        |__ Citation-Library.md [3.04 KB]
+      |-- 07-FINDINGS-REPORTS/ [0 bytes]
+        |-- Department-Summaries/ [0 bytes]
+        |-- Gap-Analysis/ [0 bytes]
+        |-- Individual-Employee/ [0 bytes]
+        |__ Risk-Analysis/ [0 bytes]
+      |-- 08-REMEDIATION/ [0 bytes]
+        |-- Action-Plans/ [0 bytes]
+        |-- Budget-Analysis/ [0 bytes]
+        |-- Priority-Matrix/ [0 bytes]
+        |__ Timeline-Planning/ [0 bytes]
+      |-- 08-VISUAL-ASSETS/ [0 bytes]
+        |-- Charts/ [0 bytes]
+        |-- Diagrams/ [0 bytes]
+        |-- Flowcharts/ [0 bytes]
+        |__ Org-Charts/ [0 bytes]
+      |-- 09-TEMPLATES/ [2.04 KB]
+        |-- TEMPLATE-Case-Law-Analysis.md [1.43 KB]
+        |__ TEMPLATE-Daily-Standup.md [627 bytes]
+      |-- 10-ADMINISTRATIVE-SUPPORT/ [89.84 KB]
+        |-- Completed-Work/ [0 bytes]
+        |-- Daily-Assignments/ [446 bytes]
+          |__ Daily-Task-List.md [446 bytes]
+        |-- HR-101-Training/ [79.51 KB]
+          |-- Complete-23-Day-Syllabus.md [11.25 KB]
+          |-- HR-101-Syllabus.md [15.99 KB]
+          |__ README-START-HERE.md [2.73 KB]
+        |-- Progress-Tracking/ [397 bytes]
+          |__ Progress-Tracker.md [397 bytes]
+        |-- Questions-For-Mario/ [0 bytes]
+        |-- 00-TINA-DASHBOARD.md [3.17 KB]
+        |__ Communication-Protocol.md [6.33 KB]
+      |-- 10-CITATIONS-BIBLIOGRAPHY/ [0 bytes]
+      |-- Checklists/ [0 bytes]
+      |-- Compliance-Summaries/ [0 bytes]
+      |-- copilot/ [4.82 KB]
+        |__ copilot-custom-prompts/ [4.82 KB]
+          |-- Emojify.md [470 bytes]
+          |-- Explain like I am 5.md [388 bytes]
+          |-- Fix grammar and spelling.md [350 bytes]
+          |-- Generate glossary.md [353 bytes]
+          |-- Generate table of contents.md [357 bytes]
+          |-- Make longer.md [379 bytes]
+          |-- Make shorter.md [373 bytes]
+          |-- Remove URLs.md [347 bytes]
+          |-- Rewrite as tweet thread.md [500 bytes]
+          |-- Rewrite as tweet.md [376 bytes]
+          |-- Simplify.md [370 bytes]
+          |-- Summarize.md [307 bytes]
+          |__ Translate to Chinese.md [369 bytes]
+      |-- Reports/ [4.05 KB]
+        |__ Test_Audit_Report_20251229_100758.md [4.05 KB]
+      |-- Scripts/ [11.36 KB]
+        |__ .env [376 bytes]
+        |__ ... and 1 other files
+      |-- SECURE-DATA/ [363 bytes]
+        |__ ... and 1 other files
+      |-- Tags/ [0 bytes]
+      |-- Templates/ [0 bytes]
+      |-- Home.md [0 bytes]
+      |-- Master-File-Index.md [1.30 KB]
+      |-- Plugin-Installation-Guide.md [1.41 KB]
+      |__ README.md [2.00 KB]
+      |__ ... and 2 other files
+    |-- HRM/ [14.32 MB]
+      |-- copilot/ [4.82 KB]
+        |__ copilot-custom-prompts/ [4.82 KB]
+          |-- Emojify.md [470 bytes]
+          |-- Explain like I am 5.md [388 bytes]
+          |-- Fix grammar and spelling.md [350 bytes]
+          |-- Generate glossary.md [353 bytes]
+          |-- Generate table of contents.md [357 bytes]
+          |-- Make longer.md [379 bytes]
+          |-- Make shorter.md [373 bytes]
+          |-- Remove URLs.md [347 bytes]
+          |-- Rewrite as tweet thread.md [500 bytes]
+          |-- Rewrite as tweet.md [376 bytes]
+          |-- Simplify.md [370 bytes]
+          |-- Summarize.md [307 bytes]
+          |__ Translate to Chinese.md [369 bytes]
+      |-- PERSONNEL RECORD AUDIT PROJECT/ [49.19 KB]
+        |-- 00-CONFIGURATION/ [9.96 KB]
+          |__ README.md [963 bytes]
+        |-- 01-Employees/ [0 bytes]
+        |-- 01-PROJECT-MANAGEMENT/ [7.35 KB]
+          |-- Project-Dashboard.md [6.41 KB]
+          |__ README.md [964 bytes]
+        |-- 02-AUDIT-CHECKLISTS/ [963 bytes]
+          |__ README.md [963 bytes]
+        |-- 02-Compliance-Framework/ [0 bytes]
+        |-- 03-Gap-Analysis/ [0 bytes]
+        |-- 03-TRACKING-DASHBOARDS/ [968 bytes]
+          |__ README.md [968 bytes]
+        |-- 04-EMPLOYEE-FILES/ [951 bytes]
+          |__ README.md [951 bytes]
+        |-- 04-Information-Silos/ [0 bytes]
+        |-- 05-Daily-Progress/ [0 bytes]
+        |-- 05-REFERENCE-LIBRARY/ [956 bytes]
+          |__ README.md [956 bytes]
+        |-- 06-Final-Report/ [0 bytes]
+        |-- 06-GAP-ANALYSIS/ [957 bytes]
+          |__ README.md [957 bytes]
+        |-- 07-AI-Assistant/ [0 bytes]
+        |-- 07-REMEDIATION-PLANS/ [953 bytes]
+          |__ README.md [953 bytes]
+        |-- 08-Knowledge-Base/ [0 bytes]
+        |-- 08-LEGAL-COMPLIANCE/ [958 bytes]
+          |__ README.md [958 bytes]
+        |-- 09-Templates/ [8.47 KB]
+          |-- Employee-Audit-Template.md [5.25 KB]
+          |-- Gap-Finding-Template.md [1.31 KB]
+          |-- Meeting-Notes-Template.md [1007 bytes]
+          |__ README.md [951 bytes]
+        |-- 10-Assets/ [0 bytes]
+        |-- 10-FINAL-DELIVERABLES/ [965 bytes]
+          |__ README.md [965 bytes]
+        |-- 11-AI-PROMPTS/ [952 bytes]
+          |__ README.md [952 bytes]
+        |-- 12-TRAINING-MATERIALS/ [963 bytes]
+          |__ README.md [963 bytes]
+        |-- 13-EXTERNAL-RESOURCES/ [958 bytes]
+          |__ README.md [958 bytes]
+        |-- 14-MEETING-NOTES/ [952 bytes]
+          |__ README.md [952 bytes]
+        |-- 15-ARCHIVE/ [937 bytes]
+          |__ README.md [937 bytes]
+        |-- 16-TECHNICAL-DOCS/ [963 bytes]
+          |__ README.md [963 bytes]
+        |-- 17-VISUALIZATIONS/ [952 bytes]
+          |__ README.md [952 bytes]
+        |-- 18-INCIDENT-RESPONSE/ [962 bytes]
+          |__ README.md [962 bytes]
+        |-- 19-RETENTION-SCHEDULES/ [965 bytes]
+          |__ README.md [965 bytes]
+        |-- .module-tracker.json [310 bytes]
+        |-- 00-MASTER-AUDIT-PLAN.md [329 bytes]
+        |-- MODULE1-COMPLETION-LOG.txt [1.05 KB]
+        |__ README.md [5.84 KB]
+      |-- AuditLab.ps1 [4.39 KB]
+      |-- AuditLab0.ps1 [3.27 KB]
+      |-- PERSONNEL RECORD AUDIT PROJECT.md [105.86 KB]
+      |-- PERSONNEL RECORD AUDIT PROJECT.pdf [672.34 KB]
+      |-- Untitled.md [12.83 KB]
+      |-- VERSION B Personnel Audit Project - 20-Day Quality-Focused Proposal.md [23.83 KB]
+      |__ Welcome.md [203 bytes]
+    |-- PowerShell/ [117.70 KB]
+      |-- Modules/ [117.65 KB]
+        |__ Microsoft.PowerToys.Configure/ [117.65 KB]
+      |__ powershell.config.json [55 bytes]
+    |-- Reports/ [0 bytes]
+    |-- SCRIPTS/ [468.25 KB]
+      |-- .env [574 bytes]
+      |-- Add-Tina-To-Project.ps1 [32.55 KB]
+      |-- Analyze-Directory-Tree.ps1 [11.02 KB]
+      |-- Deploy-EnhancedVault.ps1 [12.53 KB]
+      |-- Deploy-HR-Audit-Complete.ps1 [43.34 KB]
+      |-- Deploy-Strategic-Audit-System.ps1 [23.17 KB]
+      |-- Directory-Tree-Analysis.txt [0 bytes]
+      |-- Generate-Tina-Traiing-Materials.ps1 [75.22 KB]
+      |-- Generate-Tina-Training-Materials.ps1 [75.22 KB]
+      |-- install-open-interpreter.ps1 [4.05 KB]
+      |-- Module1_VaultFoundationSetup.ps1 [32.38 KB]
+      |-- Module2_PluginConfiguration.ps1 [21.38 KB]
+      |-- Module3_AIIntergrationSetup.ps1 [15.04 KB]
+      |-- Module4_AuditTrackingSystem.ps1 [18.84 KB]
+      |-- Module5_InformationResourcesTrainingHub.ps1 [36.98 KB]
+      |-- oi.ps1 [3.44 KB]
+      |-- Reorganize-Vault.ps1 [14.81 KB]
+      |__ SIMPLE-RUNNER.ps1 [2.46 KB]
+      |__ ... and 2 other files
+    |-- AuditLab.ps1 [20.18 KB]
+    |-- OT Policy for Exempt and Non Exempt Employees.docx [19.18 KB]
+    |-- Revised version.docx [14.53 KB]
+    |__ setup_hr_audit.ps1 [6.65 KB]
+  |-- Downloads/ [4.74 GB]
+    |-- Analyze-Directory-Tree.ps1 [10.08 KB]
+    |-- Archiologist Resources Specialist III Memorandum .docx [28.84 KB]
+    |-- compass_artifact_wf-19d29c69-b4fb-4a82-b1d9-f1802a2f71b8_text_markdown.md [10.90 KB]
+    |-- compliance_summary (1).md [6.11 KB]
+    |-- compliance_summary.md [6.11 KB]
+    |-- OT-Policy-for-Exempt-and-Non-Exempt-Employees (1).docx [19.18 KB]
+    |-- overtime_policy_active.docx [19.18 KB]
+    |-- overtime_policy_final.md [6.18 KB]
+    |-- overtime_policy_proposed.docx [6.18 KB]
+    |-- overtime_policy_redline.docx [12.17 KB]
+    |-- overtime_policy_redline.md [12.17 KB]
+    |-- Perplexity Deep Research Prompt_ Personnel Records.md [146.70 KB]
+    |-- readme_modules_guide.md [7.45 KB]
+    |-- Reorganize-Vault.ps1 [14.81 KB]
+    |-- SIMPLE-RUNNER.ps1 [2.46 KB]
+    |-- Summary of Legal References and Rationale.docx [20.51 KB]
+    |-- version_b_quality_plan.md [21.62 KB]
+    |__ Your follow up research is to seek and return usef.md [13.03 KB]
+    |__ ... and 16 other files
+  |-- Favorites/ [208 bytes]
+    |-- Links/ [0 bytes]
+    |__ ... and 1 other files
+  |-- Links/ [1.42 KB]
+    |__ ... and 2 other files
+  |-- Music/ [0 bytes]
+  |-- OneDrive/ [0 bytes]
+  |-- Pictures/ [965.92 KB]
+    |__ Screenshots/ [965.92 KB]
+      |__ ... and 15 other files
+  |-- Reports/ [0 bytes]
+  |-- Saved Games/ [0 bytes]
+  |-- Scripts/ [0 bytes]
+  |-- Searches/ [859 bytes]
+    |__ ... and 1 other files
+  |-- Videos/ [0 bytes]
+    |__ Captures/ [0 bytes]
+  |-- Analyze-Directory-Tree.ps1 [0 bytes]
+  |-- oi.ps1 [3.44 KB]
+  |__ setup_hr_audit.ps1 [0 bytes]
+  |__ ... and 2 other files
+
+================================================================================
+OBSIDIAN VAULT DETAILED ANALYSIS
+================================================================================
+
+Vault Statistics:
+- Total .md files: 46
+- Total .ps1 files: 0
+- Total .json files: 40
+
+Potential Fragmentation Issues:
+
+  - HR-Audit\.makemd (2 files)
+  - HR-Audit\.space (1 files)
+  - HR-Audit\.vscode (1 files)
+  - HR-Audit\00-EXECUTIVE-SUMMARY (1 files)
+  - HR-Audit\01-AUDIT-PLANNING (1 files)
+  - HR-Audit\03-POLICY-FRAMEWORK (1 files)
+  - HR-Audit\07-CITATIONS-BIBLIOGRAPHY (1 files)
+  - HR-Audit\09-TEMPLATES (2 files)
+  - HR-Audit\10-ADMINISTRATIVE-SUPPORT (2 files)
+  - HR-Audit\Reports (1 files)
+
+Duplicate/Similar Folder Names:
+  - 'Checklists' appears 2 times
+    * HR-Audit\Checklists
+    * HR-Audit\01-AUDIT-PLANNING\Checklists
+  - 'copilot' appears 2 times
+    * HR-Audit\copilot
+    * HR-Audit\.obsidian\plugins\copilot
+  - 'Daily' appears 2 times
+    * HR-Audit\00-DASHBOARD\Daily
+    * HR-Audit\01-DASHBOARDS\Daily
+  - 'Weekly' appears 2 times
+    * HR-Audit\00-DASHBOARD\Weekly
+    * HR-Audit\01-DASHBOARDS\Weekly
+  - 'Confidential-Medical' appears 2 times
+    * HR-Audit\02-EMPLOYEE-FILES\Confidential-Medical
+    * HR-Audit\04-EMPLOYEE-FILES\Confidential-Medical
+  - 'I-9-Files' appears 2 times
+    * HR-Audit\02-EMPLOYEE-FILES\I-9-Files
+    * HR-Audit\04-EMPLOYEE-FILES\I-9-Files
+  - 'Investigation-Files' appears 2 times
+    * HR-Audit\02-EMPLOYEE-FILES\Investigation-Files
+    * HR-Audit\04-EMPLOYEE-FILES\Investigation-Files
+  - 'Personnel-Jackets' appears 2 times
+    * HR-Audit\02-EMPLOYEE-FILES\Personnel-Jackets
+    * HR-Audit\04-EMPLOYEE-FILES\Personnel-Jackets
+  - 'Scanned-Documents' appears 2 times
+    * HR-Audit\02-EMPLOYEE-FILES\Scanned-Documents
+    * HR-Audit\04-EMPLOYEE-FILES\Scanned-Documents
+  - 'California-State' appears 2 times
+    * HR-Audit\04-COMPLIANCE-RESEARCH\California-State
+    * HR-Audit\05-COMPLIANCE-RESEARCH\California-State
+  - 'Federal-Law' appears 2 times
+    * HR-Audit\04-COMPLIANCE-RESEARCH\Federal-Law
+    * HR-Audit\05-COMPLIANCE-RESEARCH\Federal-Law
+  - 'Local-Ordinances' appears 2 times
+    * HR-Audit\04-COMPLIANCE-RESEARCH\Local-Ordinances
+    * HR-Audit\05-COMPLIANCE-RESEARCH\Local-Ordinances
+  - 'Action-Plans' appears 2 times
+    * HR-Audit\06-REMEDIATION-TRACKING\Action-Plans
+    * HR-Audit\08-REMEDIATION\Action-Plans
+  - 'Charts' appears 2 times
+    * HR-Audit\06-VISUAL-ANALYTICS\Charts
+    * HR-Audit\08-VISUAL-ASSETS\Charts
+  - 'Org-Charts' appears 2 times
+    * HR-Audit\06-VISUAL-ANALYTICS\Org-Charts
+    * HR-Audit\08-VISUAL-ASSETS\Org-Charts
+
+================================================================================
+DOCUMENTS FOLDER ANALYSIS
+================================================================================
+
+Project-related files found OUTSIDE vault:
+
+  - Documents\AuditLab.ps1
+  - Documents\OT Policy for Exempt and Non Exempt Employees.docx
+  - Documents\setup_hr_audit.ps1
+  - Documents\HRM\AuditLab.ps1
+  - Documents\HRM\AuditLab0.ps1
+  - Documents\HRM\PERSONNEL RECORD AUDIT PROJECT.md
+  - Documents\HRM\PERSONNEL RECORD AUDIT PROJECT.pdf
+  - Documents\HRM\VERSION B Personnel Audit Project - 20-Day Quality-Focused Proposal.md
+  - Documents\HRM\.smart-env\multi\PERSONNEL_RECORD_AUDIT_PROJECT_00-CONFIGURATION_AI-Integration_AI-Dashboard_md.ajson
+  - Documents\HRM\.smart-env\multi\PERSONNEL_RECORD_AUDIT_PROJECT_00-CONFIGURATION_AI-Integration_AI-Routing-Protocol_md.ajson
+  - Documents\HRM\.smart-env\multi\PERSONNEL_RECORD_AUDIT_PROJECT_00-CONFIGURATION_AI-Integration_Local-AI-Prompt-Library_md.ajson
+  - Documents\HRM\.smart-env\multi\PERSONNEL_RECORD_AUDIT_PROJECT_00-CONFIGURATION_README_md.ajson
+  - Documents\HRM\.smart-env\multi\PERSONNEL_RECORD_AUDIT_PROJECT_00-MASTER-AUDIT-PLAN_md.ajson
+  - Documents\HRM\.smart-env\multi\PERSONNEL_RECORD_AUDIT_PROJECT_01-PROJECT-MANAGEMENT_Project-Dashboard_md.ajson
+  - Documents\HRM\.smart-env\multi\PERSONNEL_RECORD_AUDIT_PROJECT_01-PROJECT-MANAGEMENT_README_md.ajson
+  - Documents\HRM\.smart-env\multi\PERSONNEL_RECORD_AUDIT_PROJECT_02-AUDIT-CHECKLISTS_README_md.ajson
+  - Documents\HRM\.smart-env\multi\PERSONNEL_RECORD_AUDIT_PROJECT_03-TRACKING-DASHBOARDS_README_md.ajson
+  - Documents\HRM\.smart-env\multi\PERSONNEL_RECORD_AUDIT_PROJECT_04-EMPLOYEE-FILES_README_md.ajson
+  - Documents\HRM\.smart-env\multi\PERSONNEL_RECORD_AUDIT_PROJECT_05-REFERENCE-LIBRARY_README_md.ajson
+  - Documents\HRM\.smart-env\multi\PERSONNEL_RECORD_AUDIT_PROJECT_06-GAP-ANALYSIS_README_md.ajson

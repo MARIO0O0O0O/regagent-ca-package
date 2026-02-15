@@ -1,0 +1,43 @@
+﻿Artifact 2: Legal Relationship & Chaining Blueprint (40–60 Employees)
+This artifact identifies how mandates stack upon one another to create "chains" of compliance, specifically for mid-sized organizations hitting the 50-employee threshold.
+1. The Leave Administration Chain (FMLA / CFRA / PDL)
+In California, leave laws do not simply exist; they sequence and stack based on specific triggers.
+The Stacking Logic (Pregnancy & Bonding)
+1. Mandate 1: PDL (5+ Employees): Provides up to 4 months of disability leave. This is the Primary Trigger for pregnancy.[32, 27, 33]
+2. Mandate 2: FMLA (50+ Employees): Runs concurrently with PDL. If your organization is at 47 employees and hits 50, this now applies. It draws from the same 12-week bank as medical leave.[32, 33, 34]
+3. Mandate 3: CFRA (5+ Employees): Runs consecutively to PDL. CFRA bonding leave (12 weeks) only begins after the pregnancy disability ends.[32, 27]
+4. Nature of the Record: This creates a "Protected Leave Packet" containing two distinct record types:
+   * Medical: Certifications (kept in Confidential Medical File).[35, 33]
+   * Status: Tracking logs/dates (kept in General Personnel File).[33, 36]
+The Paid Interaction Chain (PSL / PFL / SDI)
+* Trigger: SB 616 mandates 40 hours/5 days of Paid Sick Leave (PSL).[5, 37]
+* Relationship: PSL may be used to cover the "unpaid" portion of CFRA or FMLA. However, employers cannot require the use of sick leave for family care under CFRA unless receiving state benefits.[33, 38]
+* 2026 Update (AB 406): PSL is now explicitly linked to "Safe Time" for crime victims to attend judicial proceedings.[39, 40, 41]
+2. The Compensation Chain (Wage Floors & Exempt Status)
+* Relationship Identification: The statewide minimum wage increase ($16.90/hr in 2026) is the Parent Mandate that controls the Exempt Threshold.[42, 43, 44]
+* Nature of the Record:
+   * Non-Exempt: Timecards showing meal/rest breaks must be generated weekly.[45, 11, 46]
+   * Exempt: An "Exempt Duties Worksheet" must be generated to prove the California 50% Duties Test (Supervisor spent >50% of time on management).[47]
+* Nature of the Record: Failure to align these creates a "Misclassification Chain Reaction," leading to overtime penalties and inaccurate wage statements (Labor Code 226).[8, 48]
+3. The Custodial Prohibition Relationship
+There is a legal firewall between people data (HR) and financial math (Finance).
+Area
+	HR Must Control (Gatekeeper)
+	Finance Must Control (Operational)
+	Prohibition (Legal Barrier)
+	Leave
+	Approving the reason for absence based on medical docs.[27, 3]
+	Calculating the payout or unpaid dock hours.[27, 13]
+	Finance is Prohibited from seeing the medical diagnosis/PDL notes.[27, 49]
+	I-9
+	Verifying identity and authorization to work.[4, 1]
+	N/A
+	Finance is Prohibited from accessing the I-9 folder to avoid disparate treatment claims.[8, 5, 13]
+	Demographics
+	Managing SB 464 data for CRD pay data reporting.[50]
+	Exporting total compensation data by job category.[50]
+	SB 464 Mandates that demographic data be stored separately from the personnel file.[50, 51]
+	4. NATURE OF THE RECORD: Encompassing high-level research
+* Personnel File: Now an "Omnibus Performance Record" including all training (SB 513) and annual rights notifications (SB 294).[52, 2]
+* Medical File: A "Privacy Vault" protected by CMIA and ADA, accessible only to the HR Manager.[3, 2, 30]
+* Payroll Record: A "Tax/Wage Substantiation Log" that must be kept for 3-4 years and be available for employee inspection within 21 days.[8, 53]

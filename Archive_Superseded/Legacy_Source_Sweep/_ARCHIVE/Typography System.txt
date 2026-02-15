@@ -1,0 +1,22 @@
+﻿HRbiz.org Typography System
+Primary Typeface: Montserrat
+Usage: Headings, Navigation, Buttons Why: Montserrat is geometric and highly legible, conveying modern authority and clarity suited for municipal and compliance contexts.
+* H1 (Main Titles): Montserrat Bold (700), 32px / 40px line-height
+* H2 (Section Titles): Montserrat SemiBold (600), 24px / 32px line-height
+* H3 (Subsections): Montserrat Medium (500), 20px / 28px line-height
+* H4-H6: Montserrat Medium (500), 16px / 24px line-height
+Secondary Typeface: Open Sans
+Usage: Body Copy, Long-form Reports, Email Correspondence Why: Open Sans is neutral, friendly, and optimized for print and web reading. It balances the "academic" background with small business accessibility.
+* Body Text: Open Sans Regular (400), 16px / 1.6 line-height
+* Bold Text: Open Sans Bold (700)
+* Captions/Small: Open Sans Regular, 14px / 1.5 line-height
+Accent Typeface: Merriweather
+Usage: Pull quotes, "Fact-Finding" summaries, Formal Letterhead details Why: A serif font adds a touch of academic rigor and legal professionalism.
+Web-Safe Fallbacks
+* Headings: Verdana, Geneva, sans-serif
+* Body: Helvetica, Arial, sans-serif
+* Accent: Georgia, serif
+Hierarchy Example
+H1: Employee Misconduct Investigation Protocol
+H2: Fact-Finding Phase
+During the initial assessment (Body text in Open Sans), the investigator must remain impartial. As stated in the Employee Handbook (Accent in Merriweather), all parties have a right to be heard.

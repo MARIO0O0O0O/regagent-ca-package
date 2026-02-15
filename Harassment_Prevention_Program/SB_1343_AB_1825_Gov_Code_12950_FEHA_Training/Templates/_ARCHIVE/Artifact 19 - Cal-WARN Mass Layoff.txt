@@ -1,0 +1,41 @@
+﻿California Mass Layoff (Cal-WARN) Compliance Checklist (2026)
+Version: 1.0 Effective Date: January 1, 2026 Primary Mandate: Cal. Lab. Code § 1400-1408 Applicability: "Covered Establishments" (Generally 75+ employees, but triggers at 50 layoffs).
+1. Trigger Events (When Notice is Required)
+If any of these occur, you must give 60 days' notice.
+* [ ] Mass Layoff: A layoff of 50 or more employees during any 30-day period.
+* [ ] Relocation: Moving substantial operations to a new location 100+ miles away.
+* [ ] Termination: The closing of an industrial or commercial facility (even if fewer than 50 employees, if it's the whole facility).
+* [ ] Difference from Federal: Federal WARN requires 100+ employees and 33% of workforce. California requires only 50 employees laid off, regardless of percentage.
+2. Notification Requirements (The "60-Day Rule")
+Notice must be given at least 60 days before the separation.
+Who Must Be Notified?
+1. [ ] The Employees: Affected employees (or their union rep).
+2. [ ] EDD: The Employment Development Department (State).
+3. [ ] Local Workforce Development Board: The specific board for your county (e.g., LA County WDACS).
+4. [ ] Chief Elected Official: The Mayor (if in city) or Chair of Board of Supervisors (if in unincorporated county).
+Content of Notice
+* [ ] Name and address of employment site.
+* [ ] Name/Phone of company official to contact.
+* [ ] Statement that the action is permanent or temporary.
+* [ ] Expected date of first separation and schedule of separations.
+* [ ] Job titles and number of employees affected.
+3. Exceptions (Rare & Strict)
+Use with extreme caution and legal counsel.
+* [ ] Faltering Company: You were actively seeking capital that would have avoided the layoff, and notice would have ruined the deal. (Very hard to prove).
+* [ ] Unforeseeable Business Circumstances: "Act of God" or sudden contract cancellation that could not be predicted 60 days ago.
+* [ ] Physical Calamity: Earthquake, fire, flood.
+4. CROSS-REFERENCE: HOW OTHER LAWS IMPACT CAL-WARN
+4.1 TERMINATION CHECKLIST → CAL-WARN
+Legal Principle: Final pay and paperwork. Compliance Impact:
+* [ ] Mass Processing: Even in a mass layoff, every single employee needs the individual "Change in Relationship" notice and final paycheck on the final day. Cross-Reference: → [Termination & Offboarding Checklist]
+4.2 LEAVE LAWS → CAL-WARN
+Legal Principle: Employees on leave. Compliance Impact:
+* [ ] Notification: Employees out on PDL/CFRA/FMLA/Workers' Comp MUST still receive the Cal-WARN notice. You cannot skip them because they aren't in the office. Cross-Reference: → [Leave Checklist 50-100]
+4.3 AB 692 (STAY-OR-PAY) → CAL-WARN
+Legal Principle: Severance agreements. Compliance Impact:
+* [ ] Waivers: If offering severance in exchange for a waiver of Cal-WARN rights, the waiver must be knowing, voluntary, and valuable (more than standard final pay).
+* [ ] Repayment: You cannot deduct training costs from severance. Cross-Reference: → [AB 692 Stay-or-Pay Checklist]
+5. Penalties
+* Back Pay: You owe pay and benefits for every day the notice was late (up to 60 days).
+   * Example: You give 10 days notice. You owe 50 days of back pay to every employee.
+* Civil Penalty: $500 per day for failure to notify the local government.

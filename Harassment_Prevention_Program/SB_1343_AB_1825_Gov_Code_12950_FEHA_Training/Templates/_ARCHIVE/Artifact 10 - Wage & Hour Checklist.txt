@@ -1,0 +1,19 @@
+﻿California Wage & Hour Compliance Checklist (2026)
+Version: 1.0
+1. Minimum Wage (2026)
+* [ ] State: $16.50/hr (Verify final).
+* [ ] Fast Food: $20.00/hr.
+* [ ] Healthcare: SB 525 rates.
+* [ ] Local (LA): Check LA City/County rates.
+* [ ] Exempt Salary: 2x State Min Wage (~$68,640).
+2. Breaks
+* [ ] Meal: Unpaid 30m before 5th hour.
+* [ ] Rest: Paid 10m every 4 hours.
+* [ ] Penalty: 1 hr pay for violations.
+3. Wage Statements (Lab Code 226)
+* [ ] 9 Mandatory Items: Gross, Hours, Rates, Deductions, Net, Dates, Name/ID, Employer Name/Addr, Rates/Hours breakdown.
+* [ ] Sick Balance: Must be visible.
+4. CROSS-REFERENCE
+* Harassment: Training time is paid time.
+* Leave: PTO payout rules apply at termination.
+* Personnel Records: Keep time records 4 years in Container 4.

@@ -1,0 +1,13 @@
+﻿California I-9 & Immigration Compliance Checklist (2026)
+Version: 1.0
+1. Form I-9
+* [ ] Deadline: Section 1 by Day 1; Section 2 by Day 3.
+* [ ] Form: Use 08/01/23 edition.
+* [ ] Inspection: Physically inspect docs (unless E-Verify alt procedure).
+2. AB 450 (CA Specific)
+* [ ] Warrant: Do not allow ICE entry to non-public areas without judicial warrant.
+* [ ] Notice: Post notice of inspection within 72 hours of receiving NOI.
+3. CROSS-REFERENCE
+* SB 294: Notice of rights regarding audits required.
+* Personnel Records: Keep I-9s in Container 3 (Separate).
+* AB 692: H-1B fees not repayable.

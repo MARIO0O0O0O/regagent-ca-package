@@ -1,0 +1,41 @@
+﻿California Workplace Violence Prevention Plan (WVPP) Checklist (SB 553)
+Version: 2.0 (Updated with Legal Cross-References) Effective Date: July 1, 2024 (Enforceable Now) Applicability: ALL California Employers
+1. Written Plan Requirements (Cal. Lab. Code § 6401.9)
+* [ ] Plan Format: Standalone document OR section in IIPP.
+* [ ] Responsible Persons: Designate specific individuals.
+* [ ] Employee Involvement: Procedures for active employee participation in plan development.
+* [ ] Emergency Response: Protocols for alerting employees and law enforcement.
+* [ ] Communication: How to report incidents without fear of retaliation.
+2. Violent Incident Log (Mandatory)
+Must be separate from OSHA 300 log.
+* [ ] Content: Date, time, location, description, perpetrator type (1-4), circumstances, consequences.
+* [ ] Privacy: NO personal identifying information of any person involved.
+* [ ] Retention: 5 years.
+3. Training Requirements
+* [ ] Initial & Annual: Training provided when plan established and annually thereafter.
+* [ ] Content: How to report, hazard identification, specific hazards of the job, the Log.
+* [ ] Interactive: Must offer Q&A opportunity.
+4. Hazard Identification
+* [ ] Inspections: Periodic inspections to identify unsafe conditions (lighting, escape routes).
+* [ ] Correction: Tracking of when hazards were fixed.
+5. CROSS-REFERENCE: HOW OTHER LAWS IMPACT WORKPLACE VIOLENCE
+5.1 HARASSMENT PREVENTION → WORKPLACE VIOLENCE
+Legal Principle: Overlapping reporting channels. Compliance Impact:
+* [ ] Combined Training: Allowed if distinct requirements met.
+* [ ] Escalation: "Abusive conduct" complaints may escalate to violence threats. Cross-Reference: → [Harassment Prevention Checklist]
+5.2 WORKERS' COMPENSATION → WORKPLACE VIOLENCE
+Legal Principle: Violence injuries are work injuries. Compliance Impact:
+* [ ] Claim Filing: Provide DWC-1 form within 1 day of injury from violence. Statutory Basis: Cal. Lab. Code § 3200. Cross-Reference: → [Workers' Comp Checklist]
+5.3 CAL/OSHA IIPP → WORKPLACE VIOLENCE
+Legal Principle: WVPP is a safety program. Compliance Impact:
+* [ ] Integration: IIPP must reference the WVPP.
+* [ ] Safety Meetings: Include violence topics in safety committee agendas. Cross-Reference: → [Cal/OSHA Safety Checklist]
+5.4 SB 513 (TRAINING RECORDS) → WORKPLACE VIOLENCE
+Legal Principle: Training records require metadata. Compliance Impact:
+* [ ] Log Fields: Name, Provider, Date, Core Competencies ("De-escalation, Reporting"), Certification. Cross-Reference: → [Personnel Records Checklist]
+5.5 PERSONNEL RECORDS → WORKPLACE VIOLENCE
+Legal Principle: Privacy of safety logs. Compliance Impact:
+* [ ] Log Separation: Violent Incident Log must be kept SEPARATE from personnel files and anonymized. Cross-Reference: → [Personnel Records Checklist]
+6. Penalties
+* Cal/OSHA Citations: Serious violations up to $25,000.
+* Willful Violations: Up to $158,760.
