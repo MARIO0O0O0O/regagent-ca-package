@@ -3,7 +3,8 @@
 
 **Effective Date:** [DATE]
 **Policy Number:** HR-001
-**Compliance:** AB 1825, SB 1343, California Fair Employment and Housing Act (FEHA)
+**Compliance:** AB 1825, SB 1343, SB 396 (Gender Identity), AB 2053 (Reproductive Rights), Gov. Code § 12940 et seq. (FEHA)
+**Last Updated:** February 2026
 
 ---
 
@@ -416,22 +417,23 @@ You can be sued **personally** even if company is also sued.
 
 You may also file complaints with government agencies:
 
-### California Department of Fair Employment and Housing (DFEH)
+### California Civil Rights Department (CRD) - Formerly DFEH
 - **Deadline:** 3 years from last incident
-- **Phone:** 1-[PHONE]
-- **Website:** www.dfeh.ca.gov
+- **Phone:** 1-800-884-1684
+- **Website:** www.calcivilrights.ca.gov
 - **File Online:** Available on website
 - **What They Do:** Investigate, mediate, or file lawsuit on your behalf
+- **Note:** CRD replaced DFEH on July 1, 2022 (AB 1003)
 
 ### Equal Employment Opportunity Commission (EEOC)
 - **Deadline:** 300 days from last incident
-- **Phone:** 1-[PHONE]
+- **Phone:** 1-800-669-4000
 - **Website:** www.eeoc.gov
-- **Note:** Filing with DFEH automatically cross-files with EEOC
+- **Note:** Filing with CRD automatically cross-files with EEOC
 
 ### You Do NOT Need to Use Internal Process First
-- Can file with DFEH/EEOC instead of or in addition to internal complaint
-- Internal reporting does not start DFEH/EEOC deadline clock
+- Can file with CRD/EEOC instead of or in addition to internal complaint
+- Internal reporting does not start CRD/EEOC deadline clock
 - We encourage internal reporting for faster resolution
 
 ---
@@ -561,20 +563,20 @@ Policy applies to remote workers:
 
 ### External Resources
 
-**California Department of Fair Employment and Housing (DFEH)**
-- Phone: 1-[PHONE]
-- Website: www.dfeh.ca.gov
+**California Civil Rights Department (CRD)** - Formerly DFEH
+- Phone: 1-800-884-1684
+- Website: www.calcivilrights.ca.gov
 
 **Equal Employment Opportunity Commission (EEOC)**
-- Phone: 1-[PHONE]
+- Phone: 1-800-669-4000
 - Website: www.eeoc.gov
 
 **RAINN National Sexual Assault Hotline**
-- Phone: 1-[PHONE]
+- Phone: 1-800-656-4673
 - Website: www.rainn.org
 
 **National Domestic Violence Hotline**
-- Phone: 1-[PHONE]
+- Phone: 1-800-799-7233
 - Website: www.thehotline.org
 
 ---
