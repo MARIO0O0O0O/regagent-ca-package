@@ -1,5 +1,0 @@
-### 
-- From:: 
-- Date:: 
-- Attachments:: 
-- Tasks:: 

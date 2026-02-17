@@ -1,0 +1,369 @@
+Perplexity Reconnaissance - CHUNK 3 of 3: Integration Intelligence
+MISSION: Intelligence gathering ONLY. Find information about system integration, APIs, no-code tools, and effort estimation. Report facts. NO strategy, NO recommendations. Just raw intelligence for Gemini to synthesize.
+
+CONTEXT: This is Chunk 3 of 3. You already gathered intelligence on:
+- Chunk 1: Modules 1-5 systems
+- Chunk 2: Modules 6-10 systems
+Now: Gather intelligence on HOW to connect them.
+
+---
+
+## PART 1: GUSTO API INTELLIGENCE
+
+**Intelligence Needed:**
+Document exactly what Gusto's API can do.
+
+**Research:**
+1. Go to Gusto API documentation: https://docs.gusto.com/
+2. List ALL available endpoints
+3. Document rate limits
+4. Document authentication method
+5. Find code examples (Python preferred)
+
+**Report:**
+GUSTO API CAPABILITIES:
+AUTHENTICATION:
+Method: [OAuth 2.0, API Key, etc.]
+Setup process: [Summary from docs]
+AVAILABLE ENDPOINTS (GET):
+/v1/companies/{company_id}/employees
+Returns: [What data fields?]
+/v1/employees/{employee_id}
+Returns: [What data fields?]
+[List ALL other GET endpoints with what they return]
+AVAILABLE ENDPOINTS (POST/PUT):
+/v1/companies/{company_id}/time_activities
+Accepts: [What data fields?]
+[List ALL other POST/PUT endpoints with what they accept]
+RATE LIMITS:
+[Requests per minute/hour/day]
+WEBHOOKS:
+Available: [Yes/No]
+Events: [List webhook events if available]
+SANDBOX:
+Available: [Yes/No]
+How to access: [URL or process]
+PYTHON SDK:
+Official SDK: [Yes/No - URL if exists]
+Community libraries: [List any found on GitHub]
+CODE EXAMPLES FOUND:
+[Link to examples in Gusto docs]
+[Links to GitHub repos with Gusto integration examples]
+
+**Search Terms:**
+- "Gusto API Python example"
+- "Gusto API integration GitHub"
+- "Gusto webhook implementation"
+
+---
+
+## PART 2: NO-CODE INTEGRATION TOOLS
+
+**Intelligence Needed:**
+Find no-code/low-code tools that can connect systems.
+
+**For Each Tool Found, Report:**
+
+### n8n
+- Repo: https://github.com/n8n-io/n8n
+- License: [Type]
+- What it does: [From README]
+- Available integrations: [List HR-relevant ones: email, webhooks, databases, HTTP requests]
+- Gusto integration: [Built-in node? Custom HTTP node needed?]
+- Python script support: [Can it run Python code?]
+- Self-hosted: [Yes/No - Docker?]
+- Pricing: [Open source license terms]
+
+### Other Tools to Investigate:
+- Zapier alternatives (self-hosted): Activepieces, Automatisch
+- Workflow engines: Temporal.io, Apache Airflow
+- API gateways: Kong, Tyk, KrakenD
+
+**For each, report:**
+- Name
+- Repo URL
+- License
+- Self-hosted capability
+- API orchestration features
+- Python/code execution capability
+- Docker support
+- Last commit date
+
+**Search Terms:**
+- "n8n open source"
+- "Zapier alternative self-hosted"
+- "workflow automation open source"
+- "API gateway open source"
+
+---
+
+## PART 3: INTEGRATION PATTERNS RESEARCH
+
+**Intelligence Needed:**
+Find real-world examples of multi-system HRIS integrations.
+
+**Research:**
+1. Search for blog posts, case studies, GitHub repos showing HRIS integrations
+2. Look for "how we built our HRIS" posts from small companies
+3. Find integration architecture diagrams
+
+**Report:**
+REAL-WORLD EXAMPLES FOUND:
+EXAMPLE 1:
+Source: [Blog post URL or GitHub repo]
+Company size: [If mentioned]
+Systems integrated: [List]
+Integration method: [API, webhooks, database sync, etc.]
+Tech stack: [Languages, tools used]
+Lessons learned: [Any tips, pitfalls mentioned]
+EXAMPLE 2: [Same format]
+[List 3-5 examples if found]
+
+**Search Terms:**
+- "building custom HRIS integration"
+- "connecting multiple HR systems"
+- "HRIS architecture small business"
+- "open source HRIS stack"
+- "self-hosted HR system integration"
+
+---
+
+## PART 4: API QUALITY ASSESSMENT
+
+**Intelligence Needed:**
+For the systems you found in Chunks 1 & 2, which have the BEST APIs?
+
+**Check Top 5 Systems from Each Category:**
+(Based on popularity, recent updates, or Docker support)
+
+**For each system, report:**
+SYSTEM: [Name] API DOCUMENTATION:
+URL: [Link to API docs]
+Quality: [Excellent/Good/Fair/Poor/None]
+Format: [REST, GraphQL, SOAP]
+Authentication: [Method]
+Versioned: [Yes/No]
+Code examples: [Languages covered]
+Webhook support: [Yes/No]
+PYTHON SDK/CLIENT:
+Official: [Yes/No - URL]
+Community: [Any community libraries found]
+INTEGRATION EXAMPLES:
+[Links to example code on GitHub showing this API in use]
+
+**Priority Systems to Check:**
+- Top 2 from timekeeping
+- Top 2 from LMS
+- Top 2 from document management
+- ERPNext, OrangeHRM, Odoo
+- Snipe-IT (asset management)
+
+---
+
+## PART 5: DEPLOYMENT COMPLEXITY ASSESSMENT
+
+**Intelligence Needed:**
+How hard is it to actually deploy these systems?
+
+**For Top 10 Systems (across all modules), Report:**
+SYSTEM: [Name]
+DOCKER DEPLOYMENT:
+Docker Compose file: [Yes/No - URL if yes]
+Official Docker image: [Yes/No - Docker Hub URL]
+Environment variables needed: [Count or "many" or "few"]
+Database setup: [PostgreSQL, MySQL, SQLite - auto-setup or manual?]
+Estimated deploy time: [From README or community reports]
+INSTALLATION COMPLEXITY:
+Prerequisites: [List: Python version, database, Redis, etc.]
+Installation steps: [Count of steps from README]
+Configuration files: [How many to configure?]
+COMMUNITY SUPPORT:
+Discord/Slack: [Yes/No - URL]
+Forum: [Yes/No - URL]
+Active issues: [Count of open issues, recent activity]
+Documentation site: [URL]
+Video tutorials: [Any found on YouTube?]
+
+---
+
+## PART 6: GAP ANALYSIS - CALIFORNIA COMPLIANCE
+
+**Intelligence Needed:**
+Which systems explicitly mention California labor law compliance?
+
+**Search For:**
+1. Systems that mention "California," "CFRA," "PDL," "AB 1825," "SB 1343"
+2. Labor law posting features
+3. State leave tracking
+
+**Report:**
+CALIFORNIA COMPLIANCE MENTIONS:
+LEAVE TRACKING SYSTEMS:
+[System name]: [What CA laws mentioned? Quote from docs/README]
+[System name]: [What CA laws mentioned?]
+TRAINING/LMS SYSTEMS:
+[System name]: [Mentions harassment training? AB 1825/SB 1343?]
+[System name]: [Any mentions?]
+LABOR LAW POSTING:
+[System name]: [Digital posting board with CA labor posters?]
+[System name]: [Any solution found?]
+SUMMARY:
+Systems with CA-specific features: [Count]
+Systems mentioning CFRA/PDL: [Count]
+Systems with harassment training content: [Count]
+Systems with digital posting boards: [Count]
+
+**Search Terms:**
+- "California CFRA leave tracking"
+- "PDL pregnancy disability leave software"
+- "AB 1825 harassment training"
+- "labor law poster digital compliance"
+
+---
+
+## PART 7: EFFORT ESTIMATION RESEARCH
+
+**Intelligence Needed:**
+Find evidence of how long these systems take to deploy/integrate.
+
+**Research:**
+1. Look for blog posts: "How long to implement [system]"
+2. Check GitHub issues/discussions for deployment questions
+3. Look for Reddit/forums discussing implementation time
+4. Find case studies with timelines
+
+**Report:**
+IMPLEMENTATION TIME ESTIMATES FOUND:
+SYSTEM: [Name]
+Source: [Blog post, GitHub issue, forum]
+Deployment time: [Hours/days reported]
+Customization time: [Hours/days reported]
+Integration time: [Hours/days reported]
+Total: [If mentioned]
+Team size: [Solo dev or team?]
+[Repeat for each system where you find evidence]
+NO-CODE TOOL LEARNING CURVES:
+n8n: [Hours to learn, based on community reports]
+Other tools: [Learning curve estimates]
+API INTEGRATION TYPICAL TIMES:
+[Any blog posts about "how long to integrate via API"]
+
+**Search Terms:**
+- "[System name] implementation time"
+- "[System name] deployment how long"
+- "self-hosted HRIS setup time"
+
+---
+
+## PART 8: LICENSING COMPATIBILITY
+
+**Intelligence Needed:**
+Can these systems legally be used together?
+
+**Create License Matrix:**
+LICENSES FOUND:
+PERMISSIVE (Can fork, modify, combine):
+MIT: [List systems]
+Apache 2.0: [List systems]
+BSD: [List systems]
+COPYLEFT (Must share modifications if distributed):
+GPL v2: [List systems]
+GPL v3: [List systems]
+AGPL: [List systems]
+LGPL: [List systems]
+LICENSE COMPATIBILITY:
+Can MIT + GPL systems be used together? [Research answer]
+Can AGPL + Apache systems be used together? [Research answer]
+Any license conflicts found? [Note them]
+
+---
+
+## DELIVERABLE
+
+Produce a structured report with:
+
+### SECTION 1: GUSTO API FACTS
+[Complete documentation of Gusto's capabilities]
+
+### SECTION 2: NO-CODE/LOW-CODE TOOLS
+[List of integration tools with capabilities]
+
+### SECTION 3: REAL-WORLD INTEGRATION EXAMPLES
+[Case studies, blog posts, GitHub examples]
+
+### SECTION 4: API QUALITY RANKINGS
+[Which systems have the best APIs for integration]
+
+### SECTION 5: DEPLOYMENT COMPLEXITY
+[How hard is each system to actually deploy]
+
+### SECTION 6: CALIFORNIA COMPLIANCE GAP
+[Which systems handle CA law, which don't]
+
+### SECTION 7: TIME ESTIMATES
+[Evidence-based estimates for deployment/integration]
+
+### SECTION 8: LICENSE MATRIX
+[Compatibility check for combining systems]
+
+---
+
+## CONSTRAINTS
+
+- Report facts only - do NOT strategize or recommend
+- Cite sources (URLs to docs, blog posts, GitHub repos)
+- If you can't find information, say "No information found"
+- Focus on evidence (not speculation)
+- Prioritize recent information (2023-2025)
+
+---
+
+END OF CHUNK 3. Proceed with intelligence gathering. This is raw data for Gemini to synthesize into strategy, which Claude will then use to create a 40-hour implementation blueprint.
+
+
+USAGE INSTRUCTIONS FOR MARIO:
+Step 1: Run Chunk 1 in Perplexity
+Copy full Chunk 1 prompt
+Paste into Perplexity
+Save results as perplexity_chunk1_modules1-5.md
+Step 2: Run Chunk 2 in Perplexity
+Copy full Chunk 2 prompt
+Paste into Perplexity
+Save results as perplexity_chunk2_modules6-10.md
+Step 3: Run Chunk 3 in Perplexity
+Copy full Chunk 3 prompt
+Paste into Perplexity
+Save results as perplexity_chunk3_integration.md
+Step 4: Send ALL 3 results to Gemini with this prompt:
+I have reconnaissance data on 10 HRIS modules from Perplexity. Synthesize this into:
+1. Top 3 architectural options (with specific systems for each module)
+2. Integration approach for each option (how systems connect)
+3. Gap analysis (what must be custom-built)
+4. Effort estimate for each option (aim for 40-hour implementation)
+5. California compliance assessment (federal/state/local)
+6. Recommended option with rationale
+
+Context: 47-employee environmental consulting firm, Gusto is payroll system of truth, need compliant HRIS using cloned repos + no-code tools.
+
+[Paste all 3 Perplexity reports]
+Step 5: Send Gemini's synthesis to Claude (me) with:
+Create a 40-hour implementation blueprint based on Gemini's recommended architecture:
+1. Exact repos to clone
+2. Docker Compose configuration
+3. n8n workflows needed
+4. Gusto API integration steps
+5. Compliance checklist (CA + federal)
+6. Week-by-week implementation plan
+7. Testing strategy
+8. Go-live checklist
+
+Make it actionable: commands to run, files to configure, step-by-step.
+This three-stage approach:
+Perplexity = Scout (gather intelligence)
+Gemini = Strategist (synthesize options)
+Claude = Architect (build blueprint)
+Total time: 2-3 hours of prompt work → 40-hour implementation plan.
+Claude is AI and can make mistakes.
+Please double-check responses.
+
+Sonnet 4.5

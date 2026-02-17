@@ -1,0 +1,319 @@
+﻿2026 Comprehensive Forensic Audit & Record Governance Report: [COMPANY NAME]
+Prepared For: Forensic Audit Team, [COMPANY NAME] (Pasadena, CA) Prepared By: Specialized Compliance Assistant Date: [EFFECTIVE DATE] Subject: 2026 Policy, Program, & Documentation Audit (IIPP/WVPP, Professional Standards, Onboarding, & Contractual Governance)
+1. Executive Governance Summary & 2026 Regulatory Landscape
+The regulatory architecture governing California employers has undergone a seismic shift as the state transitions into the 2026 fiscal and compliance calendar. For a specialized environmental consulting firm such as [COMPANY NAME], headquartered in Pasadena, the compliance burden is not merely cumulative but exponential, driven by the intersection of rigid state labor mandates, evolving professional licensing standards for geologists and engineers, and aggressive local municipal ordinances. This report serves as the primary forensic audit instrument for the 2026 Comprehensive Policy, Program, & Documentation Audit, designed to systematically identify, isolate, and remediate governance gaps before they metastasize into liability.
+The 2026 regulatory landscape is defined by a pivot from passive record retention to active metadata management and the prohibition of retention-based financial instruments. Senate Bill (SB) 513 has fundamentally altered the definition of personnel records, requiring forensic granularity in training logs that previously required only cursory documentation. Simultaneously, Assembly Bill (AB) 692 has effectively dismantled the traditional "stay-or-pay" contract mechanism, rendering void widespread retention strategies involving training repayment unless strict, narrow safe harbors are utilized. Furthermore, the maturation of Senate Bill (SB) 553 regarding Workplace Violence Prevention Plans (WVPP) moves the obligation from initial implementation to an annual cycle of forensic review and effectiveness testing.
+This audit report is structured to provide an exhaustive, module-based analysis of [COMPANY NAME]'s compliance posture. It synthesizes the requirements of the California Labor Code, the Business and Professions Code, and the specific regulatory frameworks of the Board for Professional Engineers, Land Surveyors, and Geologists (BPELSG) and the State Water Resources Control Board (SWRCB). The objective is not merely compliance verification but the establishment of a defensible governance posture that can withstand scrutiny from the Department of Industrial Relations (DIR), the Civil Rights Department (CRD), and professional licensing boards.
+1.1 Strategic Compliance Objectives and Audit Scope
+The 2026 audit is predicated on five strategic pillars, each representing a distinct vector of regulatory risk and operational necessity. These objectives guide the forensic testing procedures detailed in subsequent sections.
+1. Safety Governance and WVPP Efficacy (Labor Code § 6401.9) The audit must validate the active implementation of the Workplace Violence Prevention Plan (WVPP). While the initial deadline for plan establishment was [EFFECTIVE DATE], the 2026 focus is on the effectiveness of the annual review cycle. The auditor must verify that the plan is not a static document but a living operational safety system. This involves examining the "Violent Incident Log" for redaction compliance, ensuring employee involvement in the review process, and verifying that the plan addresses site-specific hazards relevant to environmental field consulting, such as interactions with the public during controversial environmental impact assessments or work in remote locations.
+2. Recordkeeping Metadata Integrity (SB 513 / Labor Code § 1198.5) The definition of "personnel records" has been expanded to include granular metadata for all training and education records. The audit must verify that every training record—from mandatory sexual harassment training to technical GIS software workshops—now includes the five mandatory data fields: employee name, provider name, date/duration, core competencies, and resulting certification. The absence of "core competencies" or "duration" constitutes a violation of Labor Code § 1198.5, exposing the firm to penalties and inspection failures.
+3. Professional Credential Reconciliation (BPELSG / CASQA) [COMPANY NAME] relies on the licensure of its staff to legally offer services. The audit must reconcile professional licensures (Professional Geologists - PG, Professional Engineers - PE) against the BPELSG Connect verification system. Crucially, the audit must distinguish between the lack of mandatory continuing education (CE) for pure PG/PE licenses in California and the strict CE requirements for the Qualified SWPPP Developer/Practitioner (QSD/QSP) certifications governed by the Construction General Permit. A lapse in the underlying PG/PE license invalidates the QSD certification, creating a cascading compliance failure that could jeopardize project permits.
+4. Contractual Hygiene and AB 692 Compliance The audit must identify and excise "Stay-or-Pay" provisions in employment agreements that violate AB 692. Any clause requiring an employee to repay training costs, recruiting fees, or "liquidated damages" upon resignation is now presumptively void unless it meets the rigorous new exemption criteria (e.g., separate agreement, 5-day attorney review period, prorated repayment). The forensic review of offer letter templates and existing contracts is essential to prevent the enforcement of illegal debt clauses, which carries significant penalties.
+5. Onboarding and Statutory Notice Updates (SB 294 / Labor Code § 2810.5) The audit must verify the deployment of the "Workplace Know Your Rights" notice by [EFFECTIVE DATE], and the updated Labor Code § 2810.5 "Wage Theft Notice" reflecting new disaster declaration disclosures. Given [COMPANY NAME]'s location in Southern California, where wildfire disaster declarations are common, the accurate completion of the disaster declaration field in the § 2810.5 notice is a critical compliance check.
+2. Module 1: Workplace Violence Prevention (WVPP) & Safety (IIPP) Audit
+The enforcement of workplace safety standards in California has evolved significantly with the full operationalization of Senate Bill 553, codified as Labor Code § 6401.9. For the 2026 audit cycle, the forensic focus shifts from the establishment of the Workplace Violence Prevention Plan (WVPP) to the verification of its maintenance, annual review, and training effectiveness. [COMPANY NAME], operating in a hybrid model of office-based analysis in Pasadena and field-based environmental surveying, must demonstrate that the WVPP is an active, functioning safety management system.
+2.1 WVPP Annual Review and Effectiveness Audit
+Labor Code § 6401.9 mandates that the WVPP be reviewed at least annually, or immediately when a deficiency is observed or an incident occurs. This is not a passive requirement; it demands active engagement and documentation. The forensic auditor must execute a rigorous testing protocol to verify that the annual review for the preceding 12 months was conducted effectively and compliantly.
+2.1.1 Forensic Testing Protocol: Annual Review Verification
+The auditor must request and inspect the following documentation to validate the annual review process:
+* Review Certification: Locate meeting minutes, signed certifications, or a change log indicating the date and participants of the annual review.
+* Employee Involvement: Verify that employees and their authorized representatives were "actively involved" in the review process. Section 6401.9 explicitly requires employer-employee collaboration in identifying, evaluating, and correcting hazards. The audit should look for evidence of safety committee meetings, surveys, or feedback forms where employees provided input on the plan's effectiveness.
+   * Indicator of Non-Compliance: A review signed off solely by the HR [POSITION] or Safety [POSITION] without documented input from field staff or general employees constitutes a procedural failure.
+* Hazard Assessment Re-evaluation: The audit must confirm that [COMPANY NAME] re-assessed workplace violence hazards specific to its operations. This includes evaluating risks associated with:
+   * Field Operations: Working in remote or isolated locations, interactions with hostile property owners or the public during site surveys.
+   * Office Operations: Security of the Pasadena headquarters, visitor access controls, and parking lot safety.
+   * Emergency Response: Effectiveness of communication protocols during a violent incident.
+* Plan Effectiveness: Check for records detailing any changes made to the plan based on the review or incident investigations. If no changes were made, a justification should be documented confirming the existing plan's sufficiency.
+2.2 Violent Incident Log Governance
+The "Violent Incident Log" is a sensitive and critical record that must be maintained separately from the WVPP itself to protect personally identifiable information (PII), yet it must be available to employees and their representatives upon request (with PII redacted). The log serves as the historical record of violence in the workplace and drives the hazard correction process.
+Audit Checklist for Incident Logs: The forensic auditor must physically or digitally inspect the log to ensure it meets the strict content requirements of Labor Code § 6401.9:
+1. Existence: Confirm a log exists and is being maintained, even if no incidents occurred (a "nil" return). A missing log is a citation.
+2. Content Requirements: For any recorded incident, the log must include detailed information:
+   * Date, Time, and Location: Specifics of when and where the incident occurred.
+   * Incident Type: Detailed description of the violence (e.g., physical attack, verbal threat, animal attack in the field).
+   * Perpetrator Classification: Classification of who committed the violence (e.g., client, customer, stranger, co-worker, intimate partner of an employee).
+   * Circumstances: What the employee was doing at the time (e.g., performing a biological survey, working late in the office).
+   * Consequences: Actions taken by security or law enforcement, and any injuries sustained.
+   * Crucial Exclusion (Redaction): Ensure that no personal identifying information (names, addresses, phone numbers) of the victim or witnesses is present in the public-facing version of the log. The log must be anonymized to protect privacy while adhering to transparency requirements.
+3. Post-Incident Investigation: Verify that every entry in the log has a corresponding investigation report that details the root cause analysis and corrective actions taken to prevent recurrence. The investigation report is an internal document, while the log is the employee-facing record.
+2.3 Training Compliance (SB 553/LC 6401.9)
+Training must be provided annually to all employees. The 2026 audit must reconcile the training roster against the active employee list to ensure 100% coverage.
+Validation Criteria:
+* Specificity: Did the training cover the specific WVPP of [COMPANY NAME]? Generic, off-the-shelf training that does not reference the firm's specific hazards, reporting procedures, and emergency exits is insufficient. The law requires training on the employer's specific plan.
+* Interactive Element: Was there an opportunity for Q&A with a person knowledgeable about the plan? The training cannot be a passive video without a mechanism for employees to ask questions and receive answers regarding the firm's specific protocols.
+* Documentation: SB 513 (discussed in Module 2) now imposes stricter metadata requirements on these training records, requiring the documentation of "core competencies" and duration.
+2.4 Integration with IIPP
+While the WVPP can be a standalone document or incorporated into the Injury and Illness Prevention Program (IIPP), it is critical that the IIPP (Labor Code § 3203) effectively cross-references the WVPP for violence-specific hazards. The auditor must check the 2026 IIPP update to ensure it does not contradict the WVPP and that the "Responsible Person" designated in both plans is current and consistent. If the WVPP is a separate document, the IIPP should explicitly reference it as the controlling document for workplace violence hazards.
+3. Module 2: Workforce Training & Recordkeeping (SB 513)
+Effective [EFFECTIVE DATE], Senate Bill 513 has amended Labor Code § 1198.5, significantly expanding the employer's recordkeeping obligations related to education and training. This legislation closes the "metadata gap" in personnel files, transforming training records from simple receipts into comprehensive data sets that must be retrievable and verifiable. This creates a new liability vector for forensic auditing, as incomplete records now constitute a violation of personnel file statutes.
+3.1 The New Training Metadata Standard
+Previously, maintaining a certificate of completion or a sign-in sheet was often sufficient for compliance. Under SB 513, employers who maintain education or training records must ensure these records include specific, granular data points. This applies to all documented training, whether mandatory (like Sexual Harassment or WVPP) or employer-specific technical training (e.g., "Advanced CEQA Compliance," "Wetland Delineation Protocols").
+3.1.1 Required Data Fields
+The 2026 Policy Adoption Register must mandate that all training records (digital or physical) contain the following five distinct elements :
+1. Employee's Name: clearly identified on the record.
+2. Training Provider's Name: This could be an external entity (e.g., "CASQA," "Law Firm LLP") or an internal designation (e.g., "Sapphos Internal Safety Team").
+3. Date and Duration: The specific date of the training and the length of the session (e.g., "[EFFECTIVE DATE], 2.5 hours"). The duration field is critical for verifying compliance with time-based training mandates (e.g., the 1-hour vs. 2-hour sexual harassment training requirement).
+4. Core Competencies Covered: This is the most complex and novel requirement. The record must list the specific skills, topics, or "core competencies" covered, including any specific equipment or software skills (e.g., "Stormwater sampling techniques," "ArcGIS Pro v3.1 usage," "Defensive Driving in off-road conditions"). A generic title like "Safety Training" is likely insufficient; the record must detail what was taught.
+5. Resulting Certification or Qualification: If the training resulted in a certificate, license, or specific qualification (e.g., "QSP Certificate," "First Aid Certified"), this must be explicitly noted.
+3.2 Audit Protocol for Personnel Files
+The forensic auditor must execute a targeted sampling of personnel files to test for SB 513 compliance. The sample should focus on technical staff (Geologists, Planners, Biologists) whose training records are most likely to be scrutinized during professional licensing audits or litigation.
+Test Procedure:
+* Sample Selection: Select a random sample of 5-10 personnel files, ensuring a mix of administrative and technical staff.
+* Record Retrieval: Locate the record for the most recent technical seminar or mandatory training session (e.g., "Groundwater Modeling" or "2026 WVPP Training").
+* Metadata Verification: Verify if the record contains all five required fields.
+   * Pass Criteria: The record states: "Training: Groundwater Modeling; Provider: National Ground Water Association; Date: Feb 12, 2026; Duration: 4 hours; Core Competencies: MODFLOW software usage, contaminant transport analysis, aquifer testing; Result: Certificate of Completion."
+   * Fail Criteria: The record contains only a receipt or a certificate that says "Training Completed" without listing the duration or the specific competencies/skills covered.
+* Retention Verification: Ensure that these records are flagged for retention for at least three years after the employee's termination. SB 513 explicitly aligns the retention of these expanded records with the general personnel file retention period.
+3.3 SB 464: Demographic Data Segregation
+Concurrently, Senate Bill 464 imposes strict requirements on the handling of employee demographic data. Effective [EFFECTIVE DATE], employers must store demographic information (race, ethnicity, sex) collected for pay data reporting separately from the main personnel records. This is a data privacy and anti-bias measure designed to prevent this sensitive data from influencing employment decisions.
+Forensic Check:
+* Storage Inspection: Inspect the physical personnel file folders or the digital HRIS permission structures.
+* Segregation Verification: Ensure that the EEO-1 / SB 464 demographic data sheets are not located in the general personnel file accessible to supervisors or general HR staff. They must be in a segregated, access-controlled repository or a restricted module within the HRIS.
+* Usage Limitation: Verify that this data is collected solely for the purpose of submitting pay data reports to the California Civil Rights Department (CRD) and is not utilized for any other personnel management function.
+4. Module 3: Labor Code & Onboarding Compliance (SB 294 & LC 2810.5)
+The onboarding and employee notification process for 2026 is governed by two major legislative updates that require immediate attention: The "Workplace Know Your Rights Act" (SB 294) and amendments to the Wage Theft Prevention Act (Labor Code § 2810.5). These laws impose strict deadlines and content requirements that must be reflected in the firm's 2026 onboarding packets.
+4.1 SB 294: Workplace Know Your Rights Act
+Senate Bill 294 introduces the "Workplace Know Your Rights Act," which creates two distinct obligations for employers: a mandatory written notice and an emergency contact protocol for detentions.
+4.1.1 Written Notice (Deadline: [EFFECTIVE DATE])
+[COMPANY NAME] must provide a standalone written notice to all employees explaining their workplace rights. This notice is distinct from the standard workplace posters and must be individually distributed.
+Content Requirements: The notice must clearly explain the employee's rights regarding:
+* Workers' Compensation: Benefits, medical care, and the right to file a claim.
+* Immigration Enforcement: The right to receive notice of immigration inspections (Labor Code § 90.2) and protections against unfair immigration-related practices (Labor Code § 1019).
+* Unionization: The right to organize a union or engage in protected concerted activity.
+* Law Enforcement Interactions: Constitutional rights during interactions with law enforcement at the workplace, including 4th and 5th Amendment protections against unreasonable searches and self-incrimination.
+* Emergency Contact: The right to designate an emergency contact for notification in the event of arrest or detention.
+Audit Requirement:
+* Distribution Verification: Verify that the Labor Commissioner’s template (or a compliant equivalent) was distributed to all current employees by [EFFECTIVE DATE]. Failure to do so carries a penalty of up to [AMOUNT] per employee.
+* Onboarding Integration: Verify that this notice has been added to the "New Hire Packet" for any employee starting on or after [EFFECTIVE DATE].
+* Language Compliance: If 10% or more of the workforce speaks a language other than English (e.g., Spanish), the notice must be provided in that language. The Labor Commissioner is required to provide templates in multiple languages (Spanish, Chinese, Tagalog, etc.).
+4.1.2 Emergency Contact for Detention (Deadline: [EFFECTIVE DATE])
+By [EFFECTIVE DATE], the firm must implement a system allowing employees to voluntarily designate a specific emergency contact to be notified if the employee is arrested or detained while performing job duties.
+Operational Protocol:
+* Form Creation: A new form or HRIS field must be created: "Emergency Contact for Arrest/Detention."
+* Voluntary Nature: The designation must be strictly voluntary (opt-in). The employer cannot mandate that an employee provide this contact.
+* Notification Trigger: The employer is obligated to notify this contact only if the arrest/detention occurs at the worksite OR if the employer has actual knowledge of the detention while the employee is working off-site (e.g., a field biologist detained while surveying a property).
+* Penalty Risk: The penalty for failure to allow this designation or failure to notify the contact is up to [AMOUNT] per employee per day, capped at [AMOUNT] per employee.
+4.2 Labor Code § 2810.5 (Wage Theft Notice) Updates
+The template for Labor Code § 2810.5 (Notice to Employee) has been updated to include critical disclosures regarding emergency and disaster declarations. This update is particularly relevant for environmental consulting firms operating in California's fire-prone regions.
+Audit Checklist for LC 2810.5 Form:
+1. Disaster Declaration Field: Does the form include the new checkbox/field for "State or federal emergency or disaster declaration applicable to the county... issued within 30 days before the employee's first day"?.
+   * Context: Given the wildfire risks in Southern California (specifically Los Angeles and Ventura counties, where Sapphos likely operates), this field is critical. If a Governor's State of Emergency is in effect for wildfires in the county where the new hire will work, this box must be checked.
+2. Paid Sick Leave: Ensure the form reflects the correct paid sick leave entitlement. While SB 616 increased the minimum to 40 hours/5 days previously, the form used in 2026 must accurately reflect this current standard.
+3. Pasadena Minimum Wage: The form must accurately reflect the local minimum wage ([AMOUNT]+) for any work performed in Pasadena, rather than just the lower state minimum wage ([AMOUNT]). The notice must specify the rate applicable to the employee's primary work location.
+5. Module 4: Professional Credential Governance (BPELSG & CASQA)
+[COMPANY NAME]'s operational capability relies heavily on the credentials of its professional staff (Professional Geologists - PG, Professional Engineers - PE) and certified stormwater practitioners (QSP/QSD). The governance of these credentials involves distinct regulatory bodies (BPELSG vs. State Water Board/CASQA) with widely differing continuing education (CE) requirements. The audit must ensure that these credentials are valid, active, and properly documented to support the firm's project deliverables.
+5.1 BPELSG License Verification (PG & PE)
+The Board for Professional Engineers, Land Surveyors, and Geologists (BPELSG) regulates the licensure of PGs and PEs in California.
+5.1.1 Continuing Education Status
+Critical Finding: California does not currently mandate continuing education (professional development hours - PDH) for the renewal of standard PG or PE licenses, unlike many other states.
+* Audit Implication: Auditors should not issue findings or non-compliance reports for the lack of CE logs for employees holding only a PG or PE license. Documentation of CE for these licenses is voluntary and "best practice," not a statutory requirement for renewal in California.
+* Exception: If the PE/PG license serves as the prerequisite for a QSD certification (see Section 5.2), then CE is required for the QSD component, though not for the underlying PE/PG renewal itself.
+5.1.2 Verification Protocol (BPELSG Connect)
+The "Professional Licensing Credential Ledger" must be updated using the BPELSG Connect portal, which is the official system of record.
+* Verification Frequency: Annual (recommended) or immediately upon license expiration date.
+* Mechanism: Use the "License Lookup" feature or the employee's individual portal to verify that the license status is "Clear" and "Active".
+* Renewal: PGs and PEs renew their licenses every two years. Renewal must be processed via BPELSG Connect. The auditor should verify that renewal fees were paid and the license was not allowed to lapse into delinquency.
+5.2 QSP/QSD Certification (State Water Board/CASQA)
+The Qualified SWPPP Developer (QSD) and Qualified SWPPP Practitioner (QSP) certifications are governed by the Construction General Permit (CGP) and managed via the SMARTS system and CASQA. These certifications have significantly more rigorous maintenance requirements than standard professional licenses.
+5.2.1 Underlying Prerequisite Logic
+A QSD certification is not a standalone degree; it requires the holder to possess an underlying professional registration (e.g., CA PE, CA PG, CA Landscape Architect).
+* Audit Check: This creates a dependency chain. If a QSD allows their underlying PE or PG license to lapse or become delinquent/suspended, their QSD certification is legally invalid immediately. The auditor must cross-reference the BPELSG status with the QSD status. A valid QSD certificate with an expired PG license is a major compliance finding.
+5.2.2 Mandatory Continuing Education (QSP/QSD)
+Unlike the underlying PE/PG, the QSP/QSD certification does require mandatory Continuing Education.
+* Requirement: QSDs and QSPs must complete 6 hours of continuing education every two years (renewal cycle).
+* Verification: Review the CASQA or SMARTS profile for the individual. The system requires the submission of proof of CE. The auditor should request the "Continuing Education Log" or certificates that prove these hours were met.
+* ToR Training: Ensure that any new QSP/QSD candidates took their initial training from a specific "Trainer of Record" (ToR) approved by CASQA.
+5.2.3 QSP Delegate Training
+The 2022 CGP introduced the concept of "QSP Delegates"—individuals authorized to perform visual inspections and sampling under the supervision of a QSP. If Sapphos utilizes QSP Delegates for field monitoring, the QSP must provide training based on CASQA guidelines and document it thoroughly.
+* Forensic Test: Request the "QSP Delegate Training Log." Verify that it includes the delegate's name, the date of training, the specific tasks delegated (e.g., "pH sampling," "visual inspection"), and the name of the supervising QSP. Failure to document this training invalidates the inspections performed by the delegate, potentially risking CGP violations for the client.
+6. Module 5: Financial Compliance & Contract Governance (AB 692 & Wages)
+6.1 AB 692: The "Stay-or-Pay" Ban
+Effective [EFFECTIVE DATE], Assembly Bill 692 (adding Business & Professions Code § 16608) fundamentally changes the landscape of employment contracts by rendering void and unenforceable any provision that requires an employee to repay debts if they leave employment, unless strict exceptions are met. This law targets "TRAPs" (Training Repayment Agreement Provisions) and other debt-based retention mechanisms.
+6.1.1 Prohibited Clauses
+The following clauses are now illegal in any employment contract entered into on or after [EFFECTIVE DATE]:
+* Training Repayment: Clauses requiring repayment of training or education expenses if the employee quits before a certain date (unless the exception below is met).
+* Recruiting/Hiring Fees: Clauses requiring reimbursement for replacement hire fees, recruiting costs, or headhunter fees.
+* Visa/Immigration Costs: Clauses requiring repayment of visa processing or immigration-related fees.
+* Liquidated Damages: Any fee or penalty framed as "liquidated damages" for resignation.
+* Lost Profits: Clauses demanding payment for "lost profits" or "lost goodwill" due to the employee's departure.
+6.1.2 The Exceptions (Safe Harbor)
+To retain a valid repayment clause for advanced tuition or sign-on bonuses, the contract must meet all of the following rigorous criteria :
+1. Separate Agreement: The repayment term must be in a standalone document, separate from the primary employment contract/offer letter.
+2. Attorney Consultation: The employee must be explicitly informed of their right to consult an attorney and given at least 5 business days to do so before signing the agreement.
+3. Cost Cap: The repayment amount must be specified upfront and cannot exceed the actual cost incurred by the employer (no markup or administrative fees).
+4. Proration: The repayment obligation must be prorated based on the length of service (e.g., declining balance) and the retention period cannot exceed two years.
+5. No Interest: The debt cannot accrue interest.
+6. Termination Trigger: No repayment can be required if the employer terminates the employee without cause. Repayment is only triggered by voluntary resignation or termination for misconduct.
+7. Deferral Option: Crucially, the employee must have the option to defer receipt of the bonus or tuition payment until the end of the retention period to avoid the risk of debt entirely.
+Forensic Action Item: The auditor must review all 2026 offer letter templates and "Sign-On Bonus" agreements. If a repayment clause exists, verify it is in a separate document with the "5-day review" and "Deferral Option" language. If these elements are missing, the clause is void, and attempting to enforce it could lead to penalties under the new law and potentially PAGA litigation.
+6.2 Pasadena Minimum Wage & Exempt Status
+[COMPANY NAME] must navigate the discrepancy between local municipal wage ordinances and state law, particularly regarding the Pasadena Minimum Wage Ordinance (PMC 4.65).
+6.2.1 Hourly Minimum Wage
+* Pasadena (PMC 4.65): The minimum wage in Pasadena is [AMOUNT] per hour (effective [EFFECTIVE DATE]). This rate applies to any employee who works two or more hours per week within the geographic boundaries of Pasadena. This rate will be adjusted again on [EFFECTIVE DATE], based on the Consumer Price Index (CPI).
+* State Minimum Wage: The California state minimum wage is [AMOUNT] per hour (effective [EFFECTIVE DATE]).
+* Compliance: Hourly staff must be paid the higher Pasadena rate ([AMOUNT]+) for hours worked in the city. Field staff working outside Pasadena may be subject to the state rate ([AMOUNT]) or other local ordinances (e.g., West Hollywood is [AMOUNT]+). The payroll system must be capable of tracking work location to apply the correct rate.
+6.2.2 Exempt Salary Threshold
+Exempt status (Professional, Administrative, Executive exemptions) is tied to the State minimum wage, not the local Pasadena wage.
+* Calculation: The minimum salary for exempt status is two times the state minimum wage for full-time employment: [AMOUNT] x 2 x 40 hours x 52 weeks.
+* 2026 Threshold: [AMOUNT] per year (or [AMOUNT] per month).
+* Forensic Check: Review payroll for all employees classified as "Exempt." Any exempt employee with an annual salary below [AMOUNT] is misclassified and must be raised to the new threshold or reclassified as non-exempt (eligible for overtime). This is a strict threshold; pro-ration for part-time exempt work is generally not permitted under California law.
+7. Forensic Testing Procedures for 2026
+The following procedures are to be executed by the forensic auditor to certify compliance with the modules discussed above. These tests are designed to provide evidentiary support for the audit findings.
+7.1 Test 26-A: Training Metadata Integrity
+* Objective: Verify compliance with SB 513 expanded personnel record requirements.
+* Sample: 5 Personnel Files (Targeting 2 Geologists, 2 Planners, 1 Administrative Staff).
+* Procedure: Extract training logs for the current year (2026).
+* Criteria: Examine the logs for the five mandatory fields. specifically checking for "Core Competencies" and "Duration."
+* Pass/Fail: If any record lacks the "Core Competencies" description (e.g., lists only "Training"), the test is a FAIL.
+* Action: Issue a Non-Compliance Report (NCR) and require retroactive data entry from training providers to populate the missing metadata.
+7.2 Test 26-B: AB 692 Contract Review
+* Objective: Prevent invalid debt enforcement and remove void clauses.
+* Sample: All offer letters and employment agreements issued from [EFFECTIVE DATE], to present.
+* Procedure: Search the documents for keywords: "repayment," "reimbursement," "clawback," "bonus," "liquidated damages."
+* Criteria: If a repayment clause is found:
+   1. Is it in a separate document?
+   2. Is there documentation that the employee was given 5 days to review with counsel?
+   3. Does the agreement explicitly offer the "Deferral Option"?
+* Pass/Fail: If any of these three elements are missing, the test is a FAIL.
+* Action: Draft a contract addendum to void the invalid clause or replace it with a compliant "Safe Harbor" agreement.
+7.3 Test 26-C: Onboarding Form Validation
+* Objective: Ensure SB 294 and Labor Code § 2810.5 compliance in new hire packets.
+* Sample: New hire packets for January/February 2026.
+* Procedure:
+   1. Locate the "Workplace Know Your Rights" notice. Check the revision date. Ensure it covers immigration, union, and police interaction rights.
+   2. Locate the "Wage Theft Notice" (LC 2810.5). Check specifically for the "Disaster Declaration" checkbox.
+   3. Locate the "Emergency Contact for Detention" form (or verify the HRIS field exists).
+* Pass/Fail: If the Know Your Rights notice is missing or the 2810.5 form lacks the disaster field, the test is a FAIL.
+* Action: Immediate corrective distribution of updated forms to all affected employees.
+8. Deliverables
+8.1 2026 Policy Adoption Register
+This register tracks the status of required policy updates for the 2026 fiscal year. It serves as a dashboard for the compliance team.
+Policy ID
+	Policy Name
+	Governing Statute
+	Implementation Deadline
+	Status
+	Responsible Role
+	Audit Notes
+	POL-26-01
+	Workplace Violence Prevention Plan (Update)
+	SB 553 / LC 6401.9
+	Annual Review (Pre-Audit)
+	Pending
+	Safety Officer / HR
+	Must verify employee involvement in review.
+	POL-26-02
+	Training Record Metadata Standard
+	SB 513 / LC 1198.5
+	Jan 1, 2026
+	Pending
+	HR [POSITION]
+	"Core Competencies" field required in LMS.
+	POL-26-03
+	Employee Rights Notification Protocol
+	SB 294
+	Feb 1, 2026
+	Pending
+	Compliance Mgr
+	Distribute "Know Your Rights" notice.
+	POL-26-04
+	Detention Emergency Contact Protocol
+	SB 294
+	Mar 30, 2026
+	Pending
+	HR [POSITION]
+	Create opt-in form for arrest notification.
+	POL-26-05
+	Pay Data Segregation Policy
+	SB 464
+	Jan 1, 2026
+	Pending
+	HR / Payroll
+	Segregate EEO-1 data from personnel files.
+	POL-26-06
+	Contract Repayment Clause Prohibition
+	AB 692
+	Jan 1, 2026
+	Pending
+	Legal / HR
+	Void non-compliant "Stay-or-Pay" clauses.
+	8.2 Mandated Forms Catalog
+The following forms must be active, current, and legally sufficient in the [COMPANY NAME] onboarding and HRIS systems.
+Form ID
+	Form Title
+	Statutory Basis
+	Key 2026 Update/Feature
+	FORM-2810.5
+	Notice to Employee (Wage Theft)
+	LC § 2810.5
+	Must include Disaster Declaration checkbox & 2026 Paid Sick Leave (40hr/5day). Must show Pasadena Min Wage ([AMOUNT]) if applicable.
+	FORM-KYR-26
+	Workplace Know Your Rights Notice
+	SB 294
+	New standalone notice. Must cover immigration, union, and police interaction rights.
+	FORM-DET-CONTACT
+	Emergency Contact Designation (Detention)
+	SB 294
+	Optional opt-in for employees. Specific to arrest/detention notification.
+	FORM-WVPP-LOG
+	Violent Incident Log
+	LC § 6401.9
+	Must allow for redaction of PII. Must map to internal investigation reports.
+	FORM-TRN-META
+	Training Record Input Sheet
+	SB 513
+	Fields for: Provider, Duration, Core Competencies, Certification.
+	8.3 Professional Licensing Credential Ledger
+Use this template to audit and track professional staff credentials. This ledger is critical for maintaining the QSD/QSP dependency chain.
+Employee Name
+	License Type (PG/PE/QSD)
+	License #
+	Prerequisite License #
+	CE Required?
+	Verification Source
+	Expiration/Renewed
+	Status (Active/Delinquent)
+	Example: [EMPLOYEE NAME]
+	PG (Geologist)
+	12345
+	N/A
+	No (CA)
+	BPELSG Connect
+	**
+	Active
+	Example: [EMPLOYEE NAME]
+	PE (Civil)
+	67890
+	N/A
+	No (CA)
+	BPELSG Connect
+	**
+	Active
+	Example: [EMPLOYEE NAME]
+	QSD (Developer)
+	23456
+	PG 12345
+	Yes (CASQA)
+	SMARTS / CASQA
+	**
+	Active
+	Example: Bob Lee
+	QSP (Practitioner)
+	34567
+	CESSWI
+	Yes (CASQA)
+	SMARTS / CASQA
+	**
+	Active
+	Note: Ensure that for every QSD listed, the "Prerequisite License" is also verified as active in the same audit cycle. A lapse in the PG/PE automatically invalidates the QSD.
+9. Conclusion
+The 2026 compliance landscape requires [COMPANY NAME] to transition from a posture of static recordkeeping to one of dynamic data management and active governance. The primary risks identified in this forensic report are:
+1. Contractual Voidance: Continued use of legacy "Stay-or-Pay" clauses will render contracts partially void and invite penalties under AB 692.
+2. Metadata Deficiency: Failure to capture "Core Competencies" in training records will violate SB 513, creating a systemic documentation failure in personnel files.
+3. Onboarding Gaps: Missing the [EFFECTIVE DATE] deadline for the SB 294 notice exposes the firm to per-employee penalties.
+4. Credential Dependencies: The link between PG/PE licensure and QSD certification represents a critical failure point if not actively managed.
+It is recommended that the Forensic Audit Team immediately utilize the Testing Procedures (Section 7) to baseline current compliance and deploy the Deliverables (Section 8) to close any identified gaps by the end of Q1 2026. The implementation of these protocols will ensure that [COMPANY NAME] remains compliant, defensible, and operational in the face of California's evolving regulatory environment.
+End of Report
+Works cited
+1. SB 513 Expands Employers' Recordkeeping Requirements for Education and Training Records: Atkinson, Andelson, Loya, Ruud & Romo, https://www.aalrr.com/Labor-Employment-Law-Blog/sb-513-expands-employers-recordkeeping-requirements-for-education-and-training-records 2. California Employers, Heads Up: Senate Bill 513 Just Changed the Rules on Personnel Files | Littler, https://www.littler.com/news-analysis/asap/california-employers-heads-senate-bill-513-just-changed-rules-personnel-files 3. AB 692 and Its Possible Impact on California Public Employers, https://www.calpublicagencylaboremploymentblog.com/employment/ab-692-and-its-possible-impact-on-california-public-employers/ 4. California's Assembly Bill 692, Restricting Many So-Called “Stay-or-Pay” Employment Contract Terms, Set to Take Effect [EFFECTIVE DATE] - Akin Gump, https://www.akingump.com/en/insights/alerts/californias-assembly-bill-692-restricting-many-so-called-stay-or-pay-employment-contract-terms-set-to-take-effect-january-1-2026 5. Cal/OSHA Workplace Violence Prevention for General Industry (Non-health Care Settings), https://www.dir.ca.gov/dosh/Workplace-Violence/General-Industry.html 6. California SB 553 Compliance Checklist for Employers, https://compliancetraininggroup.com/wp-content/uploads/2025/11/CTG_California_SB553_Compliance_Checklist.pdf 7. California's new workplace violence prevention mandate - DLA Piper GENIE, https://knowledge.dlapiper.com/dlapiperknowledge/globalemploymentlatestdevelopments/2024/californias-new-workplace-violence-prevention-mandate 8. New Year, New Compliance Duties: SB 513 Expands Personnel Record Requests - Insights, https://insights.ropers.com/post/102lz6q/new-year-new-compliance-duties-sb-513-expands-personnel-record-requests 9. QSD And QSP Qualification | California Stormwater Quality Association, https://www.casqa.org/training/cgp-training/qsd-qsp-overview 10. California Professional Engineer License Renewal Requirements - PDH Now, https://www.pdhnow.com/licensing/california 11. AB 692: Preparing for California's 2026 restrictions on “stay-or-pay” provisions, https://www.aoshearman.com/en/insights/ab-692-preparing-for-californias-2026-restrictions-on-stay-or-pay-provisions 12. California Publishes New Wage Theft Notice Reflecting Requirement to Notify Employees of Disaster Declarations - Ogletree, https://ogletree.com/insights-resources/blog-posts/california-publishes-new-wage-theft-notice-reflecting-requirement-to-notify-employees-of-disaster-declarations/ 13. California Employers: Time-Sensitive Compliance Note for Hiring During Southern California Wildfires, https://www.dwt.com/blogs/employment-labor-and-benefits/2025/01/california-labor-code-wage-notice-amid-wildfires 14. Cal/OSHA's Model written Workplace Violence Prevention Plan for General Industry (Non, https://www.dir.ca.gov/dosh/dosh_publications/Model-WPV-Plan-General-Industry.docx 15. California Labor Code § 6401.9 (2024) - Justia Law, https://law.justia.com/codes/california/code-lab/division-5/part-1/chapter-3/section-6401-9/ 16. Workplace Violence Plan Solutions - California Chamber of Commerce, https://info.calchamber.com/wvpsolutions 17. Training Goes on File: SB 513 Expands Personnel File Requirements - Articles, https://articles.jmbm.com/2025/12/17/training-goes-on-file-sb-513-expands-personnel-file-requirements/ 18. Senate Bill 513: California Expands Personnel File Requirements, https://www.californiaworkplacelawblog.com/2025/10/articles/california/senate-bill-513-california-expands-personnel-file-requirements/ 19. California Amends Its Pay Data Reporting Requirements | Seyfarth Shaw LLP, https://www.seyfarth.com/news-insights/california-amends-its-pay-data-reporting-requirements.html 20. California Senate Bill 464 Sharpens State's Pay Reporting Teeth - Ogletree Deakins, https://ogletree.com/insights-resources/blog-posts/california-senate-bill-464-sharpens-states-pay-reporting-teeth/ 21. California Expands Pay Data Reporting Obligations Under SB 464 - Payne & Fears LLP, https://www.paynefears.com/california-expands-pay-data-reporting-obligations-under-sb-464/ 22. Legislative Update: Changes to Employer Pay Data Reporting (SB 464), http://www.rosascolawgroup.com/2025/10/22/22675/legislative-update-changes-to-employer-pay-data-reporting-sb-464/ 23. Workplace Know Your Rights Act Notices, Effective [EFFECTIVE DATE] | CDF Labor Law LLP, https://www.cdflaborlaw.com/blog/workplace-know-your-rights-act-notices-effective-february-1-2026 24. New California Law Will Require Immigration-Related Rights Notification and Emergency Contacts: Employers' Action Plan for Compliance | Fisher Phillips, https://www.fisherphillips.com/en/news-insights/new-california-law-will-require-immigration-related-rights-notification-and-emergency-contacts.html 25. California Workplace - Know Your Rights, https://www.dir.ca.gov/dlse/Know-Your-Rights-Notice/Know-Your-Rights-Notice-English.pdf 26. The Workplace Know Your Rights Act Adds a New Notice Requirement and Creates an Emergency Contact Option Related to Arrests and Detentions During Work Hours | By: Tanner Hosfield, https://www.ecjlaw.com/ecj-blog/the-workplace-know-your-rights-act-adds-a-new-notice-requirement-and-creates-an-emergency-contact-option-related-to-arrests-and-detentions-during-work-hours-by-tanner-hosfield 27. Bill Text: CA SB294 | 2025-2026 | Regular Session | Chaptered - LegiScan, https://legiscan.com/CA/text/SB294/id/3272955 28. Update Your California Wage Theft Prevention Notices by Jan. 1, 2024, https://www.dwt.com/blogs/employment-labor-and-benefits/2023/12/update-california-wage-theft-notices-by-2024 29. Minimum Wage Rate - City of Pasadena, https://www.cityofpasadena.net/planning/wp-content/uploads/sites/30/OFFICIAL-NOTICE-EFFECTIVE-JULY-1-2025-ENGLISH.pdf 30. BPELSG Survey on Requiring Continuing Education - Board for Professional Engineers, Land Surveyors, and Geologists, https://www.bpelsg.ca.gov/about_us/meetings/materials/20240509_meeting_materials_addendum.pdf 31. State Licensure - American Institute of Professional Geologists, https://aipg.org/page/statelicensure 32. Continuing Education Requirements - American Geosciences Institute, https://www.americangeosciences.org/licensure/continuing_education/ 33. Professional Engineer (PE) Application Instructions, https://www.bpelsg.ca.gov/applicants/appinstpe.shtml 34. License Renewal Information - Board for Professional Engineers, Land Surveyors, and Geologists, https://www.bpelsg.ca.gov/licensees/renewal_info.shtml 35. 2022 CGP QSD and QSP Prerequisite Criteria - California State Water Resources Control Board, https://www.waterboards.ca.gov/water_issues/programs/stormwater/construction/docs/2024/2022-cgp-qsdqsp-prereq.pdf 36. FINAL - Guidelines on the QSD and QSP Continuing Education Requirement - California Stormwater Quality Association, https://www.casqa.org/wp-content/uploads/2024/09/FINAL-Guidelines-on-the-QSD-and-QSP-Continuing-Education-Requirement-09-20-2024.pdf 37. QSD And QSP Resources | California Stormwater Quality Association, https://www.casqa.org/training/cgp-training/qsd-qsp-resources 38. Qualified SWPPP Practitioner (QSP) Delegate Training Guidelines, https://www.casqa.org/wp-content/uploads/2024/02/FINAL-QSP-Delegate-Training-Guidelines-02-12-2024.pdf 39. California Bans Most “Stay-or-Pay” Provisions in Employment Contracts, Effective Jan. 1, 2026 - Mitchell Silberberg & Knupp LLP, https://www.msk.com/newsroom-alerts-3110 40. California Minimum Wage Increases for 2026 | By: Kelly O. Scott: Ervin Cohen & Jessup LLP, https://www.ecjlaw.com/ecj-blog/california-minimum-wage-increases-for-2026-by-kelly-o-scott 41. Local Minimum Wage Set to Increase - Pasadena Now, https://pasadenanow.com/main/local-minimum-wage-set-to-increase-2 42. Minimum Wage - California Department of Industrial Relations, https://www.dir.ca.gov/dlse/minimum_wage.htm 43. California's minimum wage set to increase to [AMOUNT] per hour on [EFFECTIVE DATE], https://www.dir.ca.gov/DIRNews/2025/2025-118.html 44. California's Minimum Wage to Increase to [AMOUNT] Per Hour on [EFFECTIVE DATE], https://www.aalrr.com/Labor-Employment-Law-Blog/californias-minimum-wage-to-increase-to-16-90-per-hour-on-january-1-2026

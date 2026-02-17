@@ -1,0 +1,109 @@
+<#
+.SYNOPSIS
+    Installs Ollama and lightweight versions of specific LLMs for resource-constrained Windows 11 systems.
+    (Non-[POSITION] / User-Scope Version)
+
+.DESCRIPTION
+    This script performs the following:
+    1. Installs Ollama using Windows Package [POSITION] (winget) in User Scope.
+    2. Initializes the Ollama service.
+    3. Pulls specific lightweight model variants (Gemma 2B, DeepSeek R1 1.5B, etc.) to save RAM.
+
+.NOTES
+    Model Selection for Low Resources:
+    - Gemma: defaults to 'gemma:2b' (approx 1.7GB VRAM/RAM) instead of 7B.
+    - DeepSeek: defaults to 'deepseek-r1:1.5b' (approx 1.1GB VRAM/RAM).
+    - Mistral: defaults to 'mistral:latest' (approx 4.1GB - standard 7B is the smallest efficient mistral).
+    - CodeLlama: defaults to 'codellama:7b' (approx 4GB - smallest official CodeLlama).
+#>
+
+$ErrorActionPreference = "Stop"
+
+function Write-Log {
+    param([string]$Message, [string]$Color = "White")
+    Write-Host "[$((Get-Date).ToString('HH:mm:ss'))] $Message" -ForegroundColor $Color
+}
+
+# 1. Installation Setup
+Write-Log "Starting installation (User Scope)..." "Cyan"
+
+# 2. Install Ollama via Winget (User Scope)
+Write-Log "Checking for existing Ollama installation..." "Cyan"
+if (Get-Command "ollama" -ErrorAction SilentlyContinue) {
+    Write-Log "Ollama is already installed." "Green"
+} else {
+    Write-Log "Installing Ollama via Winget (User Scope)..." "Yellow"
+    try {
+        # Added --scope user to attempt installation without escalation
+        winget install Ollama.Ollama --silent --accept-package-agreements --accept-source-agreements --scope user
+        Write-Log "Ollama installed successfully." "Green"
+    } catch {
+        Write-Log "Winget install failed. You may need to download the installer manually from ollama.com." "Red"
+        Write-Log "Error details: $_" "Red"
+        Exit
+    }
+}
+
+# Refresh environment variables to ensure 'ollama' command is found in current session
+# We read both Machine and User paths to construct the full path for this session
+$env:Path = [System.Environment]::GetEnvironmentVariable("Path","Machine") + ";" + [System.Environment]::GetEnvironmentVariable("Path","User")
+
+# 3. Start Ollama Service/App
+Write-Log "Starting Ollama service..." "Cyan"
+$ollamaProcess = Get-Process "ollama app" -ErrorAction SilentlyContinue
+if (!$ollamaProcess) {
+    # Start the app in the background
+    Start-Process "ollama" -ArgumentList "serve" -WindowStyle Hidden
+    Write-Log "Waiting for Ollama API to become responsive..." "Yellow"
+    
+    # Loop until the local API is responding
+    $retries = 0
+    do {
+        Start-Sleep -Seconds 2
+        $retries++
+        try {
+            $response = Invoke-WebRequest -Uri "http://localhost:11434" -UseBasicParsing -Method Head -ErrorAction SilentlyContinue
+            if ($response.StatusCode -eq 200) { $running = $true }
+        } catch {
+            # Connection failed, keep waiting
+        }
+        if ($retries -gt 15) {
+            Write-Log "Timed out waiting for Ollama to start. Please start Ollama manually from the Start Menu." "Red"
+            break
+        }
+    } until ($running)
+} else {
+    Write-Log "Ollama service is already running." "Green"
+}
+
+# 4. Pull Lightweight Models
+# We select specific tags for low-resource environments
+$models = @(
+    @{ Name = "gemma:2b"; Desc = "Google Gemma (Lightweight 2B version)" },
+    @{ Name = "deepseek-r1:1.5b"; Desc = "DeepSeek R1 Distill (Ultra-light 1.5B)" },
+    @{ Name = "mistral"; Desc = "Mistral 7B (Standard, approx 4GB RAM required)" },
+    @{ Name = "codellama:7b"; Desc = "CodeLlama 7B (Smallest coding variant)" }
+)
+
+Write-Log "Starting model downloads. This depends on your internet speed." "Cyan"
+
+foreach ($model in $models) {
+    Write-Log "------------------------------------------------" "Gray"
+    Write-Log "Pulling $($model.Name) - $($model.Desc)..." "Yellow"
+    
+    # We use Start-Process to allow seeing the progress bar in the console
+    # or just run it directly. Running directly allows capturing exit code easily.
+    ollama pull $model.Name
+    
+    if ($LASTEXITCODE -eq 0) {
+        Write-Log "Successfully installed $($model.Name)." "Green"
+    } else {
+        Write-Log "Failed to install $($model.Name)." "Red"
+    }
+}
+
+Write-Log "------------------------------------------------" "Gray"
+Write-Log "Installation complete!" "Green"
+Write-Log "You can now run models using: ollama run gemma:2b" "Cyan"
+Write-Log "Press any key to exit..."
+$null = $Host.UI.RawUI.ReadKey("NoEcho,IncludeKeyDown")
