@@ -1,235 +1,375 @@
-# IIPP SAFETY — FORMS PACKAGE
-## [COMPANY NAME] | IIPP-FORMS v1.0 | Cal/OSHA 8 CCR 3203 | February 2026
+# IIPP FORMS PACKAGE
+## Injury and Illness Prevention Program
+### [COMPANY NAME]
+
+**Forms Included:**
+- IIPP-FORM-001: IIPP Annual Review Checklist
+- IIPP-FORM-002: Workplace Safety Inspection Report
+- IIPP-FORM-003: Hazard Report Form
+- IIPP-FORM-004: Accident / Incident / Near-Miss Report
+- IIPP-FORM-005: Hazard Correction Log
+- IIPP-FORM-006: Safety Training Sign-In Roster
+
+**Retention:** All forms — 5 years minimum  
+**Access:** Cal/OSHA may request any of these during an inspection  
+**SB 513 Note:** IIPP-FORM-006 training records are personnel records effective January 1, 2026 — file in employee personnel records
 
 ---
 
-# FORM IIPP-FORM-001: IIPP ACKNOWLEDGMENT
+## IIPP-FORM-001: IIPP ANNUAL REVIEW CHECKLIST
 
-Employee Name (Print): ________________________________________________
-Job Title: ________________________________________________
-Department: ________________________________________________
-Hire Date: ________________________________________________
+**Review Period:** _______________ to _______________  
+**Reviewed By:** _______________  
+**Date Completed:** _______________
 
-I acknowledge that:
-[ ] I received and reviewed [COMPANY NAME]'s Injury and Illness Prevention Program (IIPP)
-[ ] I understand the safety rules that apply to my position
-[ ] I know how to report a workplace hazard, injury, or near-miss
-[ ] I know the locations of emergency exits, fire extinguishers, and first aid equipment
-[ ] I understand I am protected from retaliation for reporting safety concerns
-[ ] I will comply with all safety policies and procedures in this IIPP
+### Section A: Program Administrator
 
-Employee Signature: _________________________________ Date: ___________
+- [ ] Program Administrator name and contact info is current
+- [ ] Backup/alternate is designated and current
+- [ ] Administrator has completed required safety training
 
-FOR HR USE: Received by: _________________________ Date: ___________
+### Section B: Written IIPP
 
----
+- [ ] IIPP has been reviewed for accuracy
+- [ ] All regulatory changes since last review have been incorporated
+- [ ] Worksite locations section is current
+- [ ] Emergency contacts in Appendix B are current
+- [ ] Version number and date updated
 
-# FORM IIPP-FORM-002: HAZARD REPORT
+### Section C: Hazard Assessment
 
-**Instructions:** Complete and submit to your supervisor or Program Administrator immediately upon identifying an unsafe condition.
+- [ ] Workplace inspections were conducted on schedule
+- [ ] All inspection reports are filed and retained
+- [ ] All identified hazards were corrected and documented
+- [ ] No open hazards remain unresolved
 
-Date: ___________________ Time: ___________________ Location: ___________________________________
-Reported By: ________________________________________________ Job Title: ________________________
+### Section D: Incidents
 
-Description of Hazard:
-_____________________________________________________________
-_____________________________________________________________
+- [ ] All incidents, injuries, and near-misses from this period were investigated
+- [ ] Cal/OSHA 300 Log is current and accurate
+- [ ] Cal/OSHA 300A summary was posted Feb 1 – Apr 30
+- [ ] Any Cal/OSHA reportable incidents (fatality/serious injury) were reported within 8 hours
+- [ ] Root causes were identified and corrective actions implemented
 
-Was anyone injured or exposed? [ ] Yes [ ] No
-If yes, describe: _____________________________________________________________
+### Section E: Training
 
-Is this an imminent danger (could cause death or serious injury immediately)?  [ ] Yes [ ] No
-If yes — notify Program Administrator IMMEDIATELY at [PHONE]
+- [ ] All required initial training was completed for new hires
+- [ ] Annual training requirements were met:
+  - [ ] General Safety Orientation: ___/___/___ completed for all employees
+  - [ ] Heat Illness Prevention: ___/___/___ completed for all exposed employees
+  - [ ] Emergency Action Plan: ___/___/___ completed for all employees
+  - [ ] [OTHER REQUIRED TRAINING]: ___/___/___ 
+- [ ] Training records are in employee personnel files (SB 513 compliance)
 
-Suggested Correction (optional): _____________________________________________________________
+### Section F: Communication
 
-Reporter Signature: _________________________________ Date: ___________
+- [ ] Required Cal/OSHA postings are current and displayed
+- [ ] SDS binder is current and accessible
+- [ ] Employees know how to report hazards and injuries
+- [ ] No retaliation complaints received; if so, investigated
 
---- FOR PROGRAM ADMINISTRATOR USE ---
-Date Received: ___________________ Log # Assigned: ___________________
-Risk Level: [ ] Imminent [ ] High [ ] Medium [ ] Low
-Corrective Action Assigned To: _________________________ Due Date: ___________________
-Corrective Action Taken: _____________________________________________________________
-Date Corrected: ___________________ Verified By: _________________________
+### Section G: Next Review
 
----
+Next annual review scheduled: _______________  
+Issues identified for improvement: 
+_______________________________________
 
-# FORM IIPP-FORM-003: WORKPLACE HAZARD ASSESSMENT
+**Signatures:**
 
-Assessment Date: ___________________ Location(s): ___________________________________
-Conducted By: ________________________________________________ Title: ________________________
-Next Scheduled Assessment: ___________________
-
-| # | Hazard Description | Location | Risk (H/M/L) | Current Controls | Additional Controls Needed | Priority | Assigned To | Due Date |
-|---|-------------------|----------|-------------|-----------------|---------------------------|----------|------------|---------|
-| 1 | | | | | | | | |
-| 2 | | | | | | | | |
-| 3 | | | | | | | | |
-| 4 | | | | | | | | |
-| 5 | | | | | | | | |
-
-Assessment Summary:
-_____________________________________________________________
-
-Submitted to Management: _________________________________ Date: ___________
-Management Acknowledgment: _________________________________ Date: ___________
-
-Retain 3 years.
+Program Administrator: _______________ Date: ___________  
+Management Approval: _______________ Date: ___________
 
 ---
 
-# FORM IIPP-FORM-004: INCIDENT / ACCIDENT INVESTIGATION REPORT
-## CONFIDENTIAL — Cal/OSHA May Request This Record
+## IIPP-FORM-002: WORKPLACE SAFETY INSPECTION REPORT
 
-**Type:** [ ] Injury  [ ] Illness  [ ] Near-Miss  [ ] Hazardous Exposure  [ ] Property Damage
+**Location Inspected:** _______________  
+**Date of Inspection:** _______________  
+**Inspector Name / Title:** _______________  
+**Inspection Type:** [ ] Scheduled routine  [ ] Post-incident  [ ] New equipment/process  [ ] Annual comprehensive
 
-**Date of Incident:** ___________________ **Time:** _______________ **Location:** ___________________________________
-**Date Reported:** ___________________ **Reported By:** ________________________________________________
+---
 
-**Injured / Affected Employee(s):**
+### Physical Environment
 
-| Name | Job Title | Dept | Days Away from Work |
-|------|-----------|------|---------------------|
-| | | | |
+| Item | ✔ OK | ✘ Needs Correction | N/A | Notes |
+|------|------|--------------------|-----|-------|
+| Floors and walkways — clear, good condition | | | | |
+| Stairways — clear, handrails secure | | | | |
+| Emergency exits — unobstructed, marked | | | | |
+| Lighting — adequate in all areas | | | | |
+| Fire extinguishers — mounted, inspected | | | | |
+| Electrical — no exposed wiring, cords intact | | | | |
+| Housekeeping — no tripping hazards | | | | |
+| Storage — materials properly secured | | | | |
+| Restrooms — adequate, hygienic | | | | |
 
-**Nature of Injury/Illness** (describe body part and nature — e.g., "laceration, right index finger"):
-_____________________________________________________________
+### Equipment and Tools
 
-**Description of Incident:**
-_____________________________________________________________
-_____________________________________________________________
+| Item | ✔ OK | ✘ Needs Correction | N/A | Notes |
+|------|------|--------------------|-----|-------|
+| Equipment in safe working condition | | | | |
+| Guards and safety devices in place | | | | |
+| Tools properly stored | | | | |
+| PPE available and in good condition | | | | |
+| Lockout/tagout materials available (if applicable) | | | | |
 
-**What was the employee doing immediately before the incident?**
-_____________________________________________________________
+### Hazardous Materials
 
-**Sequence of events leading to the incident:**
-_____________________________________________________________
-_____________________________________________________________
+| Item | ✔ OK | ✘ Needs Correction | N/A | Notes |
+|------|------|--------------------|-----|-------|
+| SDS present for all chemicals | | | | |
+| Containers properly labeled | | | | |
+| Storage meets requirements | | | | |
+| Disposal procedures followed | | | | |
+| PPE requirements posted where applicable | | | | |
 
-**Witnesses:**
-| Name | Job Title | Contact |
-|------|-----------|---------|
+### Emergency Preparedness
+
+| Item | ✔ OK | ✘ Needs Correction | N/A | Notes |
+|------|------|--------------------|-----|-------|
+| Emergency numbers posted | | | | |
+| First aid kits stocked | | | | |
+| AED accessible and inspected | | | | |
+| Evacuation map current and posted | | | | |
+| Assembly point marked/communicated | | | | |
+
+### Heat (if applicable)
+
+| Item | ✔ OK | ✘ Needs Correction | N/A | Notes |
+|------|------|--------------------|-----|-------|
+| Cool water available | | | | |
+| Shade accessible | | | | |
+| High-heat protocol communicated to supervisors | | | | |
+
+---
+
+**Hazards Identified:**
+
+| # | Location | Hazard Description | Risk Level | Corrective Action Required |
+|---|---------|-------------------|-----------|--------------------------|
+| 1 | | | | |
+| 2 | | | | |
+| 3 | | | | |
+
+**Inspector Signature:** _______________ Date: ___________  
+**Reviewed By (Program Admin):** _______________ Date: ___________
+
+*Transfer unresolved items to IIPP-FORM-005 (Hazard Correction Log)*
+
+---
+
+## IIPP-FORM-003: HAZARD REPORT FORM
+
+*Employees may submit this form to their supervisor or the Program Administrator. Anonymous reports are accepted — leave name fields blank.*
+
+**Date of Report:** _______________  
+**Reporter Name (optional):** _______________  
+**Reporter Department (optional):** _______________
+
+**Location of Hazard:**  
+Building/Area: _______________  
+Specific location: _______________
+
+**Description of Hazard:**  
+*(What is the unsafe condition or behavior? Be as specific as possible.)*
+
+_______________________________________________  
+_______________________________________________
+
+**How long has this hazard existed?** _______________  
+**Has this been reported before?** [ ] Yes  [ ] No  [ ] Unknown  
+**Has anyone been injured or nearly injured because of this?** [ ] Yes — describe: _______________  [ ] No
+
+**Suggested Correction (if any):**  
+_______________________________________________
+
+---
+
+**FOR PROGRAM ADMINISTRATOR USE ONLY:**
+
+Date Received: _______________  
+Received By: _______________  
+Risk Level Assigned: [ ] Imminent  [ ] Serious  [ ] Moderate  [ ] Low  
+Target Correction Date: _______________  
+Assigned To: _______________  
+Follow-up to Reporter: [ ] Yes — Date: _______________  [ ] Anonymous — no follow-up possible  
+Transfer to Hazard Correction Log (IIPP-FORM-005): [ ] Yes  [ ] No — Reason: _______________
+
+---
+
+## IIPP-FORM-004: ACCIDENT / INCIDENT / NEAR-MISS REPORT
+
+**IMPORTANT:** This form must be completed within 24 hours of the incident.  
+For **serious injury, hospitalization, amputation, or fatality** — call Cal/OSHA at **1-800-963-9424** immediately (within 8 hours).
+
+---
+
+**SECTION 1: INCIDENT INFORMATION**
+
+Date of Incident: _______________  Time: _______________  
+Date Reported: _______________ Time: _______________  
+Location (building, area, exact spot): _______________  
+Type: [ ] Injury  [ ] Illness  [ ] Near-miss  [ ] Property damage  [ ] Hazardous exposure
+
+---
+
+**SECTION 2: EMPLOYEE INFORMATION** *(if injury/illness)*
+
+Employee Name: _______________  
+Job Title: _______________  
+Department: _______________  
+Date of Hire: _______________  
+Time on this task today before incident: _______________  
+New to task? [ ] Yes (less than 1 year)  [ ] No
+
+---
+
+**SECTION 3: INCIDENT DESCRIPTION**
+
+*(In plain language: what happened? Include what the employee was doing, what went wrong, and what the immediate result was.)*
+
+_______________________________________________  
+_______________________________________________  
+_______________________________________________
+
+**Body Part(s) Affected:** _______________  
+**Nature of Injury/Illness:** _______________  
+**Equipment / Materials Involved:** _______________
+
+---
+
+**SECTION 4: WITNESSES**
+
+| Name | Department | Phone |
+|------|-----------|-------|
+| | | |
 | | | |
 
-**Root Cause Analysis:**
+---
 
-Immediate Cause (what directly caused the incident): _____________________________________________________________
+**SECTION 5: IMMEDIATE RESPONSE**
 
-Contributing Causes (check all that apply):
-[ ] Unsafe condition: _____________________________________________________________
-[ ] Inadequate training: _____________________________________________________________
-[ ] Inadequate procedures: _____________________________________________________________
-[ ] Equipment failure: _____________________________________________________________
-[ ] Environmental factor: _____________________________________________________________
-[ ] Human factors: _____________________________________________________________
-[ ] Other: _____________________________________________________________
-
-Underlying / System Cause (what allowed the contributing cause to exist):
-_____________________________________________________________
-
-**Was this injury/illness OSHA 300 recordable?**  [ ] Yes  [ ] No  Logged on OSHA 300: [ ] Yes  Date: ___________
-
-**Cal/OSHA Reporting Required?**  [ ] Yes (fatality/hospitalization/amputation)  [ ] No
-If yes — Called Cal/OSHA at 1-800-963-9424:  [ ] Yes  Date/Time: ___________________
-
-**Corrective Actions:**
-
-| Action | Responsible Party | Due Date | Completed |
-|--------|------------------|----------|-----------|
-| | | | [ ] |
-| | | | [ ] |
-| | | | [ ] |
-
-**Interim Controls in place while corrections are implemented:**
-_____________________________________________________________
-
-Investigation Conducted By: _________________________________ Date: ___________
-Reviewed By (Program Administrator): _________________________________ Date: ___________
-Reviewed By (Management): _________________________________ Date: ___________
-
-Retain 5 years.
+First aid provided: [ ] Yes — describe: _______________  [ ] No  
+911 called: [ ] Yes  [ ] No  
+Employee transported: [ ] ER  [ ] Urgent Care  [ ] [COMPANY CLINIC]  [ ] No transport  
+Medical treatment beyond first aid: [ ] Yes  [ ] No  
+Lost work time expected: [ ] Yes  [ ] No  [ ] Unknown
 
 ---
 
-# FORM IIPP-FORM-005: HAZARD CORRECTION LOG (ONGOING)
+**SECTION 6: ROOT CAUSE ANALYSIS**
 
-**[COMPANY NAME] — Maintained by Program Administrator — Review Monthly**
+*(Check all that apply and describe)*
 
-| Log # | Date Identified | Hazard Description | Location | Risk Level | Corrective Action | Assigned To | Due Date | Completed | Verified By |
-|-------|----------------|-------------------|----------|------------|-------------------|------------|---------|-----------|------------|
-| | | | | H/M/L | | | | [ ] | |
-| | | | | H/M/L | | | | [ ] | |
-| | | | | H/M/L | | | | [ ] | |
-| | | | | H/M/L | | | | [ ] | |
-| | | | | H/M/L | | | | [ ] | |
+- [ ] Unsafe physical condition: _______________
+- [ ] Unsafe behavior / work practice: _______________
+- [ ] Inadequate training or instruction: _______________
+- [ ] Inadequate supervision: _______________
+- [ ] Equipment failure or deficiency: _______________
+- [ ] Environmental factor (weather, lighting, noise): _______________
+- [ ] Policy/procedure missing or not followed: _______________
+- [ ] Unknown at this time
 
-Retain 3 years.
-
----
-
-# FORM IIPP-FORM-006: SAFETY TRAINING LOG (MASTER)
-
-**Purpose:** Master record of all safety training completions.
-**Retention:** 3 years general; 30 years for chemical/exposure-related training
-
-| Employee Name | ID | Dept | Hire Date | TRAIN-001 IIPP | TRAIN-002 HazCom | TRAIN-003 EAP | TRAIN-004 Fire | TRAIN-005 Ergonomics | TRAIN-006 Heat | Other | Notes |
-|---------------|----|----|----------|---------------|-----------------|--------------|---------------|---------------------|----------------|-------|-------|
-| | | | | Date: | Date: | Date: | Date: | Date: | Date: | | |
-| | | | | Date: | Date: | Date: | Date: | Date: | Date: | | |
-| | | | | Date: | Date: | Date: | Date: | Date: | Date: | | |
+**Primary root cause:** _______________
 
 ---
 
-# FORM IIPP-FORM-007: ANNUAL IIPP REVIEW CHECKLIST
+**SECTION 7: CORRECTIVE ACTIONS**
 
-Review Date: ___________________ Conducted By: ________________________________________________
-Review Period: From ___________________ to ___________________
-
-**IIPP Document:**
-[ ] IIPP is current and accurately reflects operations
-[ ] All locations and work activities covered
-[ ] Program Administrator contact information current
-[ ] Emergency contacts verified
-
-**Training:**
-[ ] All employees completed annual required training
-[ ] Training records complete for all employees
-[ ] Any missed training scheduled for makeup
-
-**Hazard Assessment:**
-[ ] Annual workplace inspection completed
-[ ] Hazard assessment documentation current
-[ ] All previously identified hazards corrected or tracked
-
-**Incident Review:**
-[ ] All incident investigation reports complete
-[ ] OSHA 300 log current
-[ ] OSHA 300A posted Feb 1 - Apr 30 of current year
-[ ] Cal/OSHA reportable incidents reported within 8 hours (if applicable)
-[ ] All corrective actions completed
-
-**Changes Required:**
-[ ] IIPP update needed?  [ ] Yes  [ ] No
-If yes: _____________________________________________________________
-
-Findings: _____________________________________________________________
-
-Reviewed By: _________________________________ Date: ___________
-Approved By (Management): _________________________________ Date: ___________
-Next Annual Review: ___________________
+| Action | Assigned To | Target Date | Completed Date |
+|--------|------------|-------------|----------------|
+| | | | |
+| | | | |
+| | | | |
 
 ---
 
-## FORM CONTROL INDEX
+**SECTION 8: CAL/OSHA RECORDABILITY**
 
-| Form | Name | Retention |
-|------|------|-----------|
-| IIPP-FORM-001 | IIPP Acknowledgment | Duration of employment + 3 yrs |
-| IIPP-FORM-002 | Hazard Report | 3 years |
-| IIPP-FORM-003 | Hazard Assessment | 3 years |
-| IIPP-FORM-004 | Incident Investigation Report | 5 years |
-| IIPP-FORM-005 | Hazard Correction Log | 3 years |
-| IIPP-FORM-006 | Safety Training Log | 3 yrs general; 30 yrs chemical |
-| IIPP-FORM-007 | Annual IIPP Review Checklist | 3 years |
+Is this a Cal/OSHA recordable incident? [ ] Yes  [ ] No  [ ] Under review  
+Entered in Cal/OSHA 300 Log: [ ] Yes — Date: _______________  [ ] No — Reason: _______________  
+Cal/OSHA reported (if serious injury/fatality): [ ] Yes — Date/Time: _______________  [ ] N/A
 
-*IIPP-FORMS v1.0 | Cal/OSHA 8 CCR 3203 | Copyright [YEAR] [COMPANY NAME] | February 2026*
+---
+
+**Supervisor Signature:** _______________ Date: ___________  
+**Program Administrator Signature:** _______________ Date: ___________  
+**Employee Signature (if able):** _______________ Date: ___________
+
+*Retain 5 years. Keep confidential — restricted to HR, Program Administrator, and management with need to know.*
+
+---
+
+## IIPP-FORM-005: HAZARD CORRECTION LOG
+
+**Log Maintained By:** _______________  
+**Review Frequency:** Weekly by Program Administrator
+
+| # | Date Identified | Source (Inspection / Report / Incident) | Location | Hazard Description | Risk Level | Interim Protection Taken | Assigned To | Target Date | Date Corrected | Verified By |
+|---|----------------|----------------------------------------|---------|-------------------|-----------|------------------------|------------|------------|---------------|------------|
+| 1 | | | | | | | | | | |
+| 2 | | | | | | | | | | |
+| 3 | | | | | | | | | | |
+| 4 | | | | | | | | | | |
+| 5 | | | | | | | | | | |
+
+**Risk Level Key:** I = Imminent (same day) | S = Serious (24 hrs) | M = Moderate (7 days) | L = Low (30 days)
+
+---
+
+## IIPP-FORM-006: SAFETY TRAINING SIGN-IN ROSTER
+
+> **SB 513 Notice (Effective January 1, 2026):** Training records are personnel records. A copy of each employee's completed training must be filed in their personnel record. Produce within the same timeframe as other personnel records upon request.
+
+**Training Title:** _______________  
+**Legal Basis / Required By:** _______________  
+**Date:** _______________  
+**Time:** _______________  Start ___ End ___  
+**Location / Platform:** _______________  
+**Facilitator Name:** _______________  
+**Facilitator Credentials / Qualification:** _______________  
+**Training Method:** [ ] In-person  [ ] Webinar — Platform: _______________
+
+---
+
+| # | Employee Name (Print) | Job Title | Department | Signature | Date |
+|---|----------------------|-----------|-----------|-----------|------|
+| 1 | | | | | |
+| 2 | | | | | |
+| 3 | | | | | |
+| 4 | | | | | |
+| 5 | | | | | |
+| 6 | | | | | |
+| 7 | | | | | |
+| 8 | | | | | |
+| 9 | | | | | |
+| 10 | | | | | |
+| 11 | | | | | |
+| 12 | | | | | |
+| 13 | | | | | |
+| 14 | | | | | |
+| 15 | | | | | |
+| 16 | | | | | |
+| 17 | | | | | |
+| 18 | | | | | |
+| 19 | | | | | |
+| 20 | | | | | |
+
+**For webinar attendees:** Attach attendance report from platform (Zoom, Teams, etc.) as supplement to this roster.
+
+**Training Summary:**  
+Topics Covered: _______________  
+Materials Distributed: _______________  
+Questions / Issues Raised: _______________  
+Follow-up Required: [ ] Yes — describe: _______________  [ ] No
+
+**Facilitator Certification:** I certify that the above-listed individuals attended and completed this training as described.
+
+**Facilitator Signature:** _______________ Date: ___________
+
+---
+
+*IIPP Forms Package v1.0 | February 2026 | [COMPANY NAME]*  
+*Cal/OSHA Authority: California Labor Code § 6401.7 | 8 CCR § 3203*  
+*All forms: retain 5 years minimum*

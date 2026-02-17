@@ -1,146 +1,213 @@
-# IIPP SAFETY — RECORDKEEPING GUIDE
-## [COMPANY NAME] | IIPP-RECORDS v1.0 | Cal/OSHA 8 CCR 3203 | February 2026
+# IIPP RECORDKEEPING GUIDE
+## Injury and Illness Prevention Program
+### [COMPANY NAME]
+
+**Version:** 1.0  
+**Authority:** California Labor Code § 6401.7 | 8 CCR § 3203 | 8 CCR § 14300 (Cal/OSHA Recordkeeping)  
+**SB 513 Update:** Effective January 1, 2026 — training records are personnel records  
 
 ---
 
-## 1. OVERVIEW
+## RETENTION SCHEDULE
 
-Cal/OSHA can inspect your workplace at any time without advance notice. Your IIPP must be written, current, and accessible. Training and incident records must be organized and immediately available. This guide tells you exactly what to keep, for how long, and how to survive an inspection.
+| Record Type | Form | Minimum Retention | Recommended |
+|-------------|------|-------------------|-------------|
+| IIPP document (current + prior versions) | — | Current + 5 years prior | Indefinite |
+| Workplace safety inspection reports | IIPP-FORM-002 | 5 years | 7 years |
+| Hazard reports | IIPP-FORM-003 | 5 years | 7 years |
+| Accident/incident reports | IIPP-FORM-004 | 5 years | 7 years |
+| Hazard correction logs | IIPP-FORM-005 | 5 years | 7 years |
+| Training records / sign-in rosters | IIPP-FORM-006 | 5 years | 7 years |
+| Cal/OSHA 300 Log | — | 5 years after end of calendar year | 7 years |
+| Cal/OSHA 301 Incident Report | — | 5 years after end of calendar year | 7 years |
+| Cal/OSHA 300A Summary | — | 5 years after posting period | 7 years |
+| SDS (Safety Data Sheets) | — | Duration of use + **30 years** (chemical exposure) | Permanent |
+| Serious injury reports to Cal/OSHA | — | 5 years | Permanent |
 
----
-
-## 2. RECORD RETENTION SCHEDULE
-
-| Record | Form | Minimum Retention | Recommended |
-|--------|------|------------------|-------------|
-| IIPP document (all versions) | — | Indefinite | Indefinite |
-| IIPP acknowledgments | IIPP-FORM-001 | Employment + 1 yr | Employment + 3 yrs |
-| Hazard reports | IIPP-FORM-002 | 3 years | 5 years |
-| Hazard assessments | IIPP-FORM-003 | 3 years | 5 years |
-| Incident investigation reports | IIPP-FORM-004 | 5 years | 7 years |
-| Hazard correction log | IIPP-FORM-005 | 3 years | 5 years |
-| OSHA 300 Injury/Illness Log | OSHA 300 | 5 years | 5 years |
-| OSHA 300A Annual Summary | OSHA 300A | 5 years | 5 years |
-| OSHA 301 Incident Report | OSHA 301 | 5 years | 5 years |
-| Safety training records | IIPP-FORM-006 | 3 years | 5 years |
-| Chemical/exposure training records | IIPP-FORM-006 | 30 years | 30 years |
-| Safety Data Sheets (SDS) | — | Duration of use + 30 yrs | Same |
-| Employee medical/exposure records | — | 30 years | 30 years |
-| Annual IIPP review records | IIPP-FORM-007 | 3 years | 5 years |
-| Cal/OSHA inspection records, citations | — | 5 years | Indefinite |
+> **SB 513 (Effective January 1, 2026):** Training records — including IIPP-FORM-006 rosters — are now legally considered **personnel records** under Labor Code § 1198.5. They must be:
+> - Filed in or linked to the employee's personnel file
+> - Produced within 30 days of a request by the employee or their representative
+> - Retained as long as other personnel records (at minimum, duration of employment + 3 years)
+>
+> Practical impact: Use 5-year retention for all safety training records to satisfy both the IIPP and SB 513 requirements simultaneously.
 
 ---
 
-## 3. OSHA RECORDKEEPING — 300/300A/301
+## CAL/OSHA 300 LOG — WHAT IT IS AND WHO MUST MAINTAIN IT
 
-### Who Must Keep OSHA 300 Logs
-Employers with 10 or more employees in most industries must keep OSHA 300 logs. Certain low-hazard industries are partially exempt — verify your NAICS code at www.osha.gov.
+### Who Must Keep the 300 Log
 
-### OSHA 300 — Log of Work-Related Injuries and Illnesses
-Record every work-related injury or illness that results in: days away from work; restricted work or job transfer; medical treatment beyond first aid; loss of consciousness; diagnosis of a significant injury or illness by a healthcare professional.
+Employers with **11 or more employees** in most industries must keep the Cal/OSHA 300 Log. Some industries are partially exempt — check with Cal/OSHA if unsure. All employers must report serious injuries/fatalities regardless of size.
 
-Enter each case within 7 calendar days of receiving information that a recordable case occurred.
-Retain 5 years. Make available to employees, former employees, and their representatives.
+### Three Required Forms
 
-### OSHA 300A — Annual Summary
-- Total up the OSHA 300 log at year end
-- Complete the 300A summary form
-- Have a company executive certify it
-- POST in a visible workplace location from **February 1 through April 30** each year
-- Zero-injury years still require posting
+| Form | Purpose |
+|------|---------|
+| **Cal/OSHA 300** | Running log of all recordable work-related injuries and illnesses during the year |
+| **Cal/OSHA 301** | Individual incident report for each entry on the 300 Log |
+| **Cal/OSHA 300A** | Annual summary — posted February 1 through April 30 each year |
 
-### OSHA 301 — Incident Report
-Complete for each recordable case logged on the 300. Contains details about the case.
-Retain 5 years. Provide to employees, former employees, and authorized representatives within 7 days of request (with privacy protections for sensitive cases).
+### What Is Recordable
+
+A work-related injury or illness is recordable if it results in:
+- Death
+- Days away from work
+- Restricted work or job transfer
+- Medical treatment beyond first aid
+- Loss of consciousness
+- Significant diagnosis by a healthcare professional (e.g., hearing loss, needle stick, tuberculosis)
+
+**Not recordable (first aid only):** Bandages, OTC medication at nonprescription strength, non-rigid means of support, temporary immobilization, removal of splinters/foreign bodies from skin/eye, drinking fluids to relieve heat stress.
+
+### Annual Posting Requirement
+
+The **Cal/OSHA 300A Summary** must be:
+- Signed by a company executive (owner, officer, or highest-ranking manager at the establishment)
+- Posted in a visible location at the workplace **from February 1 through April 30** every year
+- Posted even if there were **zero** recordable incidents (a zero summary still must be signed and posted)
+
+### Employee Access to 300 Log
+
+Current and former employees (and their representatives) may request a copy of the 300 Log at any time. Provide within **7 days** of the request. You may withhold the employee's name if they were involved in a sensitive case (e.g., sexual assault, mental illness), but not other information.
 
 ---
 
-## 4. FILING STRUCTURE
+## CAL/OSHA SERIOUS INJURY REPORTING
+
+**Any of the following must be reported to Cal/OSHA within 8 hours:**
+- Work-related **fatality**
+- **Inpatient hospitalization** of one or more employees for more than 24 hours (not for observation)
+- **Amputation** of any body part
+- **Loss of an eye**
+
+**How to report:**  
+Call Cal/OSHA 24-hour hotline: **1-800-963-9424**  
+Or contact your local Cal/OSHA district office: **[DISTRICT OFFICE PHONE]**
+
+**What to report:** Employer name, location, time of incident, nature of injury, number of employees affected, contact person and phone.
+
+**Do not:**
+- Alter the scene before Cal/OSHA inspection (except to prevent further injury)
+- Fail to report to avoid scrutiny — the penalty for non-reporting is severe
+
+---
+
+## FILING STRUCTURE
 
 ```
-IIPP COMPLIANCE FILES
-|
-+-- IIPP_DOCUMENTS/
-|   +-- Current IIPP (active version)
-|   +-- Prior Versions (by date)
-|   +-- Annual Review Records (IIPP-FORM-007)
-|
-+-- TRAINING/
-|   +-- Training Log Master (IIPP-FORM-006)
-|   +-- Sign-In Rosters (by date)
-|   +-- Acknowledgments (by employee name)
-|
-+-- INCIDENTS/
-|   +-- OSHA_300_LOGS/ (by year)
-|   +-- Investigation Reports (IIPP-FORM-004 by date)
-|   +-- Hazard Reports (IIPP-FORM-002 by date)
-|
-+-- HAZARD_ASSESSMENTS/
-    +-- Assessments (IIPP-FORM-003 by date)
-    +-- Hazard Correction Log (IIPP-FORM-005 ongoing)
+IIPP Records/
+├── IIPP_Policy/
+│   ├── IIPP_v1.0_[DATE].md              (current)
+│   └── ARCHIVE/
+│       └── prior versions (5-year retention)
+│
+├── Inspections/
+│   ├── [YEAR]/
+│   │   ├── IIPP-FORM-002_[DATE]_[SITE].pdf
+│   │   └── ...
+│
+├── Hazard_Reports/
+│   ├── [YEAR]/
+│   │   ├── IIPP-FORM-003_[DATE].pdf
+│   │   └── IIPP-FORM-005_Hazard_Correction_Log_[YEAR].pdf
+│
+├── Incidents/
+│   ├── [YEAR]/
+│   │   ├── IIPP-FORM-004_[DATE]_[EMPLOYEE_ID].pdf  ← use ID not name for privacy
+│   │   ├── CalOSHA_300_Log_[YEAR].pdf
+│   │   ├── CalOSHA_301_[DATE].pdf
+│   │   └── CalOSHA_300A_Summary_[YEAR].pdf
+│
+└── Training/
+    ├── [YEAR]/
+    │   ├── IIPP-FORM-006_GeneralSafety_[DATE].pdf
+    │   ├── IIPP-FORM-006_HeatIllness_[DATE].pdf
+    │   └── IIPP-FORM-006_EAP_[DATE].pdf
+    └── [See also: employee personnel files — SB 513]
 ```
 
----
-
-## 5. CAL/OSHA INSPECTION READINESS
-
-### If Cal/OSHA Arrives
-1. Greet the inspector professionally. Ask to see their credentials.
-2. Notify management and legal counsel immediately.
-3. You have the right to have a representative present during the inspection.
-4. Do not obstruct — this results in additional citations.
-
-### What to Have Immediately Available
-[ ] Current written IIPP
-[ ] OSHA 300 logs — current year and prior 4 years
-[ ] OSHA 300A annual summaries
-[ ] Training records for all current employees
-[ ] SDS for all hazardous chemicals currently in use
-[ ] Most recent hazard assessment
-[ ] Any recent incident investigation reports
-
-### Cal/OSHA Citation Response
-If a citation is issued:
-- You have 15 business days to contest the citation
-- Abatement (correction) deadlines are specified in the citation and must be met
-- Notify your legal counsel before responding to Cal/OSHA about citations
-- Document all corrective actions taken
+**Access Controls:**
+- Incident reports: Restrict to HR, Program Administrator, and management with need-to-know
+- 300 Log: Must be available to employees on request — do not restrict employee access
+- Training records: HR and Program Administrator access; available to employee on request (SB 513)
 
 ---
 
-## 6. EMPLOYEE ACCESS TO RECORDS
+## TRAINING COMPLIANCE TRACKER
 
-Employees have the right to access:
-- The IIPP — must be provided upon request, same business day
-- OSHA 300 log — current year and prior 4 years, within 7 calendar days of request (names included for the employee's own records; names redacted for other cases on request)
-- Their own medical and exposure records — within 15 working days
-- SDS for chemicals they work with — must be accessible at all times during the shift, no request required
+Use this tracker to ensure all employees complete required training:
+
+| Employee Name | Hire Date | General Safety (Initial) | General Safety (Annual) | Heat Illness | EAP | [OTHER] |
+|---------------|-----------|--------------------------|------------------------|--------------|-----|---------|
+| | | | | | | |
+| | | | | | | |
+
+**Annual Training Deadlines:**
+- Heat Illness Prevention: Complete before heat season (target: April 1)
+- General Safety Orientation: Annual refresh — calendar by hire anniversary or set a cohort date for all staff
+- EAP: Annual — tie to annual review schedule
+
+**New Hire:**
+- General Safety Orientation: Before independent work begins (Day 1 if possible; Day 2 at absolute latest)
+- Heat Illness: Before first exposure to heat environment
+- EAP: Day 1 or within first week
+
+**Trigger-Based Retraining:**
+- Post-incident involving training gap: Within 5 business days
+- New hazard or procedure: Before employee works with it
+- Return from 7+ days absence (heat): Before returning to heat work
 
 ---
 
-## 7. ANNUAL COMPLIANCE CHECKLIST
+## CAL/OSHA INSPECTION READINESS CHECKLIST
 
-Complete at each annual IIPP review (IIPP-FORM-007):
+If a Cal/OSHA inspector arrives, you have the right to:
+- Request to see their credentials
+- Have a management representative present during inspection
+- Have an employee representative present (if applicable)
+- Take notes and photos alongside the inspector
+- Request a closing conference
 
-OSHA Logs:
-[ ] OSHA 300 current for all recordable cases
-[ ] OSHA 300A completed, certified, and posted Feb 1 - Apr 30
-[ ] OSHA 301 completed for all 300 recordable cases
-[ ] All reportable incidents (fatality, hospitalization, amputation) reported to Cal/OSHA within 8 hours
+Have immediately available:
+- [ ] Current IIPP document
+- [ ] Workplace inspection reports — last 5 years (IIPP-FORM-002)
+- [ ] Hazard correction logs — last 5 years (IIPP-FORM-005)
+- [ ] All accident/incident reports — last 5 years (IIPP-FORM-004)
+- [ ] Cal/OSHA 300 Log — current year + last 5 years
+- [ ] Cal/OSHA 301 reports
+- [ ] Cal/OSHA 300A summaries (posted copies and retained copies)
+- [ ] Training records — last 5 years (IIPP-FORM-006)
+- [ ] SDS binder — current
+- [ ] Emergency Action Plan (current)
+- [ ] Heat Illness Prevention Plan / procedures (current)
 
-Training:
-[ ] All employees trained on all applicable programs
-[ ] Chemical/exposure training records flagged for 30-year retention
-[ ] New employee training deadline tracking current
+---
 
-Incident Records:
-[ ] All incident investigation reports complete
-[ ] All corrective actions documented and verified
-[ ] Patterns reviewed for systemic issues
+## ANNUAL COMPLIANCE AUDIT
 
-SDS:
-[ ] SDS on file for every hazardous chemical currently in use
-[ ] SDS updated when chemical formulations change
-[ ] Obsolete SDS retained for 30 years after last use
+Conduct this audit each [MONTH]:
 
-*IIPP-RECORDS v1.0 | Cal/OSHA 8 CCR 3203 | Copyright [YEAR] [COMPANY NAME] | February 2026*
+**Policy:**
+- [ ] IIPP reviewed and updated
+- [ ] All names, phone numbers, and locations current
+- [ ] 300A summary signed and posted on time (Feb 1 – Apr 30)
+
+**Inspections:**
+- [ ] All scheduled inspections completed on time
+- [ ] No open hazards on IIPP-FORM-005 past their target date
+
+**Incidents:**
+- [ ] All incidents documented and investigated
+- [ ] Cal/OSHA 300 Log current and accurate
+- [ ] All serious injuries reported to Cal/OSHA within 8 hours
+
+**Training:**
+- [ ] Heat Illness Prevention completed for all exposed employees
+- [ ] General Safety Orientation completed for all employees hired this year
+- [ ] Annual refreshers completed for all employees
+- [ ] Training records filed in personnel files (SB 513 compliance)
+
+---
+
+*IIPP-RK-001 v1.0 | IIPP Recordkeeping Guide | February 2026*  
+*Authority: California Labor Code § 6401.7 | 8 CCR § 3203 | 8 CCR § 14300 | SB 513*
