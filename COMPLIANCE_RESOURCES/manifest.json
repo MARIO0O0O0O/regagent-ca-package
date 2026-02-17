@@ -1,0 +1,193 @@
+{
+  "section": "compliance_resources",
+  "title": "Compliance Resources",
+  "description": "Structured California employer compliance packages. Not legal advice.",
+  "version_schema": "1.0",
+  "last_updated": "2026-02-17",
+  "packages": [
+    {
+      "id": "harassment-prevention",
+      "number": 1,
+      "title": "Harassment Prevention Program",
+      "slug": "harassment-prevention",
+      "version": "2.0",
+      "effective_date": "2026-01-01",
+      "last_reviewed": "2026-02-01",
+      "status": "current",
+      "applicable_employer_sizes": {
+        "policy_required": "1+",
+        "training_required": "5+",
+        "notes": "AB 1825 requires 2-hour supervisor training for 5+ employers; SB 1343 adds 1-hour employee training"
+      },
+      "primary_laws": ["AB 1825", "SB 1343", "Gov. Code § 12940", "FEHA"],
+      "enforcement_agency": "CA Civil Rights Department",
+      "enforcement_contact": "1-800-884-1684",
+      "tags": ["harassment", "discrimination", "training-required", "feha", "civil-rights"],
+      "assets": {
+        "policy": "POLICY/harassment_prevention_policy_v2.0.md",
+        "forms": "FORMS/forms_package.md",
+        "training": [
+          "TRAINING/SUPERVISOR/supervisor_facilitator_guide.md",
+          "TRAINING/EMPLOYEE/employee_facilitator_guide.md",
+          "TRAINING/EMPLOYEE/employee_participant_handout.md",
+          "TRAINING/SHARED/scenario_bank.md"
+        ],
+        "tools": [],
+        "recordkeeping": "RECORDKEEPING/recordkeeping_guide.md"
+      },
+      "path": "COMPLIANCE_RESOURCES/1_HARASSMENT_PREVENTION"
+    },
+    {
+      "id": "workplace-violence-prevention",
+      "number": 2,
+      "title": "Workplace Violence Prevention",
+      "slug": "workplace-violence-prevention",
+      "version": "1.0",
+      "effective_date": "2024-07-01",
+      "last_reviewed": "2026-02-01",
+      "status": "current",
+      "applicable_employer_sizes": {
+        "policy_required": "all",
+        "notes": "SB 553 effective July 1, 2024; applies to all California employers with limited exceptions"
+      },
+      "primary_laws": ["SB 553", "Labor Code § 6401.9"],
+      "enforcement_agency": "Cal/OSHA",
+      "enforcement_contact": "1-800-963-9424",
+      "tags": ["workplace-violence", "wvpp", "safety", "cal-osha", "sb553"],
+      "assets": {
+        "policy": "POLICY/wvpp_v1.0.md",
+        "forms": "FORMS/forms_package.md",
+        "training": [
+          "TRAINING/wvp_facilitator_guide.md",
+          "TRAINING/wvp_participant_handout.md"
+        ],
+        "tools": [],
+        "recordkeeping": "RECORDKEEPING/recordkeeping_guide.md"
+      },
+      "path": "COMPLIANCE_RESOURCES/2_WORKPLACE_VIOLENCE_PREVENTION"
+    },
+    {
+      "id": "iipp-safety",
+      "number": 3,
+      "title": "IIPP & Required Safety Training",
+      "slug": "iipp-safety",
+      "version": "1.0",
+      "effective_date": "2026-01-01",
+      "last_reviewed": "2026-02-01",
+      "status": "current",
+      "applicable_employer_sizes": {
+        "policy_required": "all",
+        "notes": "Cal/OSHA IIPP required for all California employers"
+      },
+      "primary_laws": ["8 CCR § 3203", "Labor Code § 6401.7", "8 CCR § 3395 (heat illness)"],
+      "enforcement_agency": "Cal/OSHA",
+      "enforcement_contact": "1-800-963-9424",
+      "tags": ["iipp", "safety", "cal-osha", "heat-illness", "hazcom", "emergency-action"],
+      "assets": {
+        "policy": "POLICY/iipp_v1.0.md",
+        "forms": "FORMS/forms_package.md",
+        "training": [
+          "TRAINING/IIPP-TRAIN-001_iipp_overview.md",
+          "TRAINING/IIPP-TRAIN-002_hazcom_ghs.md",
+          "TRAINING/IIPP-TRAIN-003_emergency_action_plan.md",
+          "TRAINING/IIPP-TRAIN-004_fire_prevention.md",
+          "TRAINING/IIPP-TRAIN-005_ergonomics.md",
+          "TRAINING/IIPP-TRAIN-006_heat_illness.md"
+        ],
+        "tools": [],
+        "recordkeeping": "RECORDKEEPING/recordkeeping_guide.md"
+      },
+      "path": "COMPLIANCE_RESOURCES/3_IIPP_SAFETY"
+    },
+    {
+      "id": "leave-management",
+      "number": 4,
+      "title": "Leave Management",
+      "slug": "leave-management",
+      "version": "1.0",
+      "effective_date": "2026-01-01",
+      "last_reviewed": "2026-02-01",
+      "status": "current",
+      "applicable_employer_sizes": {
+        "cfra": "5+",
+        "fmla": "50+",
+        "pdl": "5+",
+        "psl": "all",
+        "notes": "SB 848 reproductive loss leave effective January 1, 2024"
+      },
+      "primary_laws": ["CFRA Gov. Code § 12945.2", "FMLA 29 U.S.C. § 2601", "PDL Gov. Code § 12945", "SB 848", "Labor Code § 246"],
+      "enforcement_agency": "CA Civil Rights Department / U.S. DOL",
+      "enforcement_contact": "CRD: 1-800-884-1684 | DOL: 1-866-487-9243",
+      "tags": ["leave", "cfra", "fmla", "pdl", "sick-leave", "reproductive-loss", "sb848"],
+      "assets": {
+        "policy": "POLICY/leave_policy_v1.0.md",
+        "forms": "FORMS/forms_package.md",
+        "training": ["TRAINING/leave_supervisor_training.md"],
+        "tools": ["TOOLS/leave_chaining_decision_tool.md"],
+        "recordkeeping": "RECORDKEEPING/recordkeeping_guide.md"
+      },
+      "path": "COMPLIANCE_RESOURCES/4_LEAVE_MANAGEMENT"
+    },
+    {
+      "id": "wage-hour",
+      "number": 5,
+      "title": "Wage & Hour Compliance",
+      "slug": "wage-hour",
+      "version": "1.0",
+      "effective_date": "2026-01-01",
+      "last_reviewed": "2026-02-01",
+      "status": "current",
+      "applicable_employer_sizes": {
+        "policy_required": "all",
+        "pay_transparency": "15+",
+        "notes": "2026 minimum wage $16.90/hr statewide; exempt threshold $70,304/yr"
+      },
+      "primary_laws": ["Labor Code §§ 204, 226, 510, 512, 1197, 2802", "IWC Wage Orders", "FLSA 29 U.S.C. § 201", "PAGA Labor Code § 2698"],
+      "enforcement_agency": "CA Labor Commissioner / DLSE",
+      "enforcement_contact": "1-844-522-6734",
+      "key_rates_2026": {
+        "minimum_wage_statewide": 16.90,
+        "exempt_salary_threshold_annual": 70304,
+        "fast_food_ab1228": 20.00,
+        "la_county_unincorporated": 17.81
+      },
+      "tags": ["wage-hour", "overtime", "minimum-wage", "meal-periods", "rest-periods", "paga", "pay-stubs"],
+      "assets": {
+        "policy": "POLICY/wage_hour_policy_v1.0.md",
+        "forms": "FORMS/forms_package.md",
+        "training": ["TRAINING/wage_hour_supervisor_training.md"],
+        "tools": ["TOOLS/wage_hour_quick_reference.md"],
+        "recordkeeping": "RECORDKEEPING/recordkeeping_guide.md"
+      },
+      "path": "COMPLIANCE_RESOURCES/5_WAGE_HOUR"
+    },
+    {
+      "id": "required-postings",
+      "number": 6,
+      "title": "Required Workplace Postings",
+      "slug": "required-postings",
+      "version": "1.0",
+      "effective_date": "2026-01-01",
+      "last_reviewed": "2026-02-17",
+      "status": "current",
+      "applicable_employer_sizes": {
+        "core_postings": "all",
+        "eeoc_postings": "15+",
+        "fmla_posting": "50+",
+        "notes": "SB 294 annual notice required by February 1, 2026 for all employers"
+      },
+      "primary_laws": ["Labor Code posting requirements throughout", "SB 294", "Cal/OSHA 8 CCR", "29 CFR § 825.300"],
+      "enforcement_agency": "CA Labor Commissioner / Cal/OSHA / EEOC",
+      "enforcement_contact": "Labor Commissioner: 1-844-522-6734 | Cal/OSHA: 1-800-963-9424",
+      "tags": ["postings", "sb294", "minimum-wage-poster", "cal-osha", "fmla", "remote-workers"],
+      "assets": {
+        "policy": "POLICY/posting_policy_v1.0.md",
+        "forms": "FORMS/forms_package.md",
+        "training": [],
+        "tools": [],
+        "recordkeeping": ""
+      },
+      "path": "COMPLIANCE_RESOURCES/6_REQUIRED_POSTINGS"
+    }
+  ]
+}

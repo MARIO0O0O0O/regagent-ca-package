@@ -1,0 +1,177 @@
+{
+  "section": "additional_resources",
+  "title": "Additional Resources",
+  "description": "Customer-facing educational and marketing content library. Not legal advice.",
+  "version_schema": "1.0",
+  "last_updated": "2026-02-17",
+  "content_sections": [
+    {
+      "id": "blog",
+      "number": 1,
+      "title": "Blog",
+      "slug": "blog",
+      "path": "ADDITIONAL_RESOURCES/1_BLOG",
+      "description": "Educational articles, law updates, compliance commentary",
+      "audience": ["employers", "hr-professionals", "business-owners"],
+      "seo_priority": "high",
+      "update_frequency": "weekly",
+      "file_naming": "YYYY-MM_slug-title.md",
+      "tags": ["blog", "articles", "law-updates"]
+    },
+    {
+      "id": "how-to-guides",
+      "number": 2,
+      "title": "How-To Guides",
+      "slug": "how-to-guides",
+      "path": "ADDITIONAL_RESOURCES/2_HOW_TO_GUIDES",
+      "description": "Step-by-step implementation walkthroughs for employers",
+      "audience": ["hr-staff", "office-managers", "small-business-owners"],
+      "seo_priority": "high",
+      "update_frequency": "per-package-release",
+      "file_naming": "YYYY-MM_how-to-slug.md",
+      "tags": ["how-to", "implementation", "step-by-step"]
+    },
+    {
+      "id": "compliance-alerts",
+      "number": 3,
+      "title": "Compliance Alerts",
+      "slug": "compliance-alerts",
+      "path": "ADDITIONAL_RESOURCES/3_COMPLIANCE_ALERTS",
+      "description": "Time-sensitive regulatory updates and deadline notices",
+      "audience": ["all-employers", "hr-professionals"],
+      "seo_priority": "medium",
+      "update_frequency": "as-needed",
+      "file_naming": "YYYY-MM_alert-slug.md",
+      "tags": ["alerts", "deadlines", "regulatory-updates"],
+      "display": {
+        "show_as_banner": true,
+        "expiry_field": true
+      }
+    },
+    {
+      "id": "checklists",
+      "number": 4,
+      "title": "Checklists",
+      "slug": "checklists",
+      "path": "ADDITIONAL_RESOURCES/4_CHECKLISTS",
+      "description": "Standalone self-assessment and audit checklists",
+      "audience": ["hr-auditors", "business-owners", "hr-professionals"],
+      "seo_priority": "high",
+      "update_frequency": "annually",
+      "file_naming": "YYYY_checklist-slug.md",
+      "tags": ["checklists", "audit", "self-assessment"],
+      "display": {
+        "downloadable": true,
+        "interactive_web_version": true
+      }
+    },
+    {
+      "id": "case-studies",
+      "number": 5,
+      "title": "Case Studies",
+      "slug": "case-studies",
+      "path": "ADDITIONAL_RESOURCES/5_CASE_STUDIES",
+      "description": "Anonymized real-world compliance scenarios and resolutions",
+      "audience": ["hr-professionals", "business-owners", "managers"],
+      "seo_priority": "medium",
+      "update_frequency": "quarterly",
+      "file_naming": "YYYY-QN_case-study-slug.md",
+      "tags": ["case-studies", "real-world", "paga", "enforcement"],
+      "note": "Always anonymized. Never identify clients. Use 'a Southern California employer with N employees...'"
+    },
+    {
+      "id": "faq",
+      "number": 6,
+      "title": "FAQ",
+      "slug": "faq",
+      "path": "ADDITIONAL_RESOURCES/6_FAQ",
+      "description": "Plain-language answers organized by topic and law",
+      "audience": ["all-employers"],
+      "seo_priority": "high",
+      "update_frequency": "ongoing",
+      "file_naming": "faq-[topic-slug].md",
+      "tags": ["faq", "questions", "plain-language"],
+      "display": {
+        "schema_markup": "FAQPage",
+        "searchable": true
+      }
+    },
+    {
+      "id": "glossary",
+      "number": 7,
+      "title": "Glossary",
+      "slug": "glossary",
+      "path": "ADDITIONAL_RESOURCES/7_GLOSSARY",
+      "description": "Plain-language definitions of legal and HR compliance terms",
+      "audience": ["all-employers", "new-to-compliance"],
+      "seo_priority": "high",
+      "update_frequency": "annually",
+      "file_naming": "glossary-[letter-or-topic].md",
+      "tags": ["glossary", "definitions", "plain-language"],
+      "display": {
+        "schema_markup": "DefinedTerm",
+        "cross_link_to_packages": true
+      }
+    },
+    {
+      "id": "webinar-content",
+      "number": 8,
+      "title": "Webinar Content",
+      "slug": "webinar-content",
+      "path": "ADDITIONAL_RESOURCES/8_WEBINAR_CONTENT",
+      "description": "Scripts, slide outlines, and handouts for live and recorded events",
+      "audience": ["training-facilitators", "hr-professionals"],
+      "seo_priority": "low",
+      "update_frequency": "per-event",
+      "file_naming": "YYYY-MM_webinar-slug/",
+      "tags": ["webinar", "training", "events", "live"],
+      "display": {
+        "registration_gated": true,
+        "recording_available": true
+      }
+    },
+    {
+      "id": "employer-guides",
+      "number": 9,
+      "title": "Employer Guides",
+      "slug": "employer-guides",
+      "path": "ADDITIONAL_RESOURCES/9_EMPLOYER_GUIDES",
+      "description": "Industry-specific or size-specific compiled compliance guides",
+      "audience": ["specific-employer-segments"],
+      "seo_priority": "high",
+      "update_frequency": "annually",
+      "file_naming": "YYYY_guide-slug.md",
+      "tags": ["employer-guides", "industry-specific", "size-specific", "lead-magnet"],
+      "planned_titles": [
+        "California Compliance Guide for Employers Under 50 Employees",
+        "California Restaurant & Food Service Compliance Guide",
+        "California Healthcare Employer Compliance Guide",
+        "California Construction Employer Compliance Guide",
+        "HR Compliance for Nonprofit Organizations in California",
+        "Remote Workforce Compliance Guide for California Employers"
+      ],
+      "display": {
+        "downloadable": true,
+        "lead_magnet": true,
+        "email_gate": true
+      }
+    },
+    {
+      "id": "templates",
+      "number": 10,
+      "title": "Templates",
+      "slug": "templates",
+      "path": "ADDITIONAL_RESOURCES/10_TEMPLATES",
+      "description": "Standalone reusable templates not tied to a specific compliance package",
+      "audience": ["hr-professionals", "business-owners"],
+      "seo_priority": "medium",
+      "update_frequency": "as-needed",
+      "file_naming": "template-[slug].md",
+      "tags": ["templates", "reusable", "standalone"],
+      "display": {
+        "downloadable": true,
+        "fillable": true
+      }
+    }
+  ]
+}

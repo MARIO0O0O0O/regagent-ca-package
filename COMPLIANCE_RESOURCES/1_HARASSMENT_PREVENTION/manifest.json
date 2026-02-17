@@ -1,0 +1,22 @@
+{
+  "id": "harassment-prevention",
+  "number": 1,
+  "title": "Harassment Prevention Program",
+  "slug": "harassment-prevention",
+  "version": "2.0",
+  "effective_date": "2026-01-01",
+  "last_reviewed": "2026-02-01",
+  "status": "current",
+  "applicable_employer_sizes": { "policy_required": "1+", "training_required": "5+" },
+  "primary_laws": ["AB 1825", "SB 1343", "Gov. Code § 12940", "FEHA"],
+  "enforcement_agency": "CA Civil Rights Department",
+  "enforcement_contact": "1-800-884-1684",
+  "tags": ["harassment", "discrimination", "training-required", "feha"],
+  "assets": {
+    "policy": "POLICY/harassment_prevention_policy_v2.0.md",
+    "forms": "FORMS/forms_package.md",
+    "training": ["TRAINING/SUPERVISOR/supervisor_facilitator_guide.md","TRAINING/EMPLOYEE/employee_facilitator_guide.md","TRAINING/EMPLOYEE/employee_participant_handout.md","TRAINING/SHARED/scenario_bank.md"],
+    "tools": [],
+    "recordkeeping": "RECORDKEEPING/recordkeeping_guide.md"
+  }
+}
